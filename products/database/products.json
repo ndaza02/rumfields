@@ -1,0 +1,1297 @@
+{
+  "categories": [
+    {
+      "id": "passenger-vehicles",
+      "name": "Passenger Vehicles",
+      "description": "Engine oils for cars, 4x4s, and other light vehicles",
+      "icon": "car",
+      "subcategories": [
+        {
+          "id": "synthetic-semi-synthetic",
+          "name": "Synthetic & Semi-Synthetic Engine Oil",
+          "usedFor": "Synthetic Engine Oil for small Vehicles",
+          "products": [
+            {
+              "id": "quartz-7000-10w40",
+              "name": "QUARTZ 7000 10W40",
+              "description": "High-performance semi-synthetic engine oil providing excellent protection for modern gasoline and diesel engines. Ensures optimal engine cleanliness and wear protection under all driving conditions.",
+              "viscosity": "10W40",
+              "specifications": ["API SN", "ACEA A3/B4", "MB 229.3", "VW 502.00/505.00"],
+              "image": "products/passenger-vehicles/synthetic-semi-synthetic/quartz-7000-10w40/main.jpg",
+              "datasheet": "products/passenger-vehicles/synthetic-semi-synthetic/quartz-7000-10w40/datasheet.pdf",
+              "inStock": true,
+              "featured": true,
+              "packSizes": ["1L", "4L", "5L", "20L", "208L"],
+              "applications": ["Gasoline engines", "Diesel engines", "Turbocharged engines", "City & highway driving"]
+            },
+            {
+              "id": "quartz-7000-15w50",
+              "name": "QUARTZ 7000 15W50",
+              "description": "High-performance semi-synthetic engine oil providing excellent protection for modern gasoline and diesel engines in warmer climates.",
+              "viscosity": "15W50",
+              "specifications": ["API SN", "ACEA A3/B4"],
+              "image": "products/passenger-vehicles/synthetic-semi-synthetic/quartz-7000-15w50/main.jpg",
+              "datasheet": "products/passenger-vehicles/synthetic-semi-synthetic/quartz-7000-15w50/datasheet.pdf",
+              "inStock": true,
+              "featured": false,
+              "packSizes": ["1L", "4L", "5L", "20L", "208L"],
+              "applications": ["Gasoline engines", "Diesel engines", "Hot climate conditions", "Highway driving"]
+            },
+            {
+              "id": "quartz-9000-5w40",
+              "name": "QUARTZ 9000 5W40",
+              "description": "Premium fully synthetic engine oil offering superior protection and performance. Ideal for severe driving conditions, high-performance engines, and extended drain intervals.",
+              "viscosity": "5W40",
+              "specifications": ["API SN/CF", "ACEA A3/B4", "BMW LL-01", "MB 229.5", "Porsche A40"],
+              "image": "products/passenger-vehicles/synthetic-semi-synthetic/quartz-9000-5w40/main.jpg",
+              "datasheet": "products/passenger-vehicles/synthetic-semi-synthetic/quartz-9000-5w40/datasheet.pdf",
+              "inStock": true,
+              "featured": true,
+              "packSizes": ["1L", "4L", "5L", "20L", "208L"],
+              "applications": ["High-performance engines", "Turbocharged engines", "Extended drain intervals", "Severe driving conditions"]
+            }
+          ]
+        },
+        {
+          "id": "premier-synthetic",
+          "name": "Premier Synthetic Engine Oil",
+          "usedFor": "Premier Synthetic Oil for small vehicles especial for Benz",
+          "products": [
+            {
+              "id": "quartz-ineo-mc3-5w30",
+              "name": "QUARTZ INEO MC3 5W30",
+              "description": "Premium synthetic oil specially formulated for Mercedes-Benz vehicles. Low SAPS technology protects catalytic converters and particulate filters while delivering exceptional engine performance.",
+              "viscosity": "5W30",
+              "specifications": ["MB 229.51", "ACEA C3", "BMW LL-04", "VW 504.00/507.00"],
+              "image": "products/passenger-vehicles/premier-synthetic/quartz-ineo-mc3-5w30/main.jpg",
+              "datasheet": "products/passenger-vehicles/premier-synthetic/quartz-ineo-mc3-5w30/datasheet.pdf",
+              "inStock": true,
+              "featured": true,
+              "packSizes": ["1L", "5L", "20L", "208L"],
+              "applications": ["Mercedes-Benz", "BMW", "VW/Audi", "Modern diesel engines with DPF", "Low emission vehicles"]
+            }
+          ]
+        },
+        {
+          "id": "mineral-engine-oil",
+          "name": "Mineral Engine Oil",
+          "usedFor": "Engine for small Vehicles",
+          "products": [
+            {
+              "id": "quartz-3000-sg-20w50",
+              "name": "QUARTZ 3000 SG 20W50",
+              "description": "Quality mineral engine oil for everyday use",
+              "viscosity": "20W50",
+              "specifications": ["API SG", "ACEA A2"],
+              "image": "products/passenger-vehicles/mineral-engine-oil/quartz-3000-sg-20w50/main.jpg",
+              "datasheet": "products/passenger-vehicles/mineral-engine-oil/quartz-3000-sg-20w50/datasheet.pdf",
+              "inStock": true,
+              "featured": false
+            },
+            {
+              "id": "quartz-5000-20w50",
+              "name": "QUARTZ 5000 20W50",
+              "description": "Enhanced mineral engine oil",
+              "viscosity": "20W50",
+              "specifications": ["API SL", "ACEA A3/B3"],
+              "image": "products/passenger-vehicles/mineral-engine-oil/quartz-5000-20w50/main.jpg",
+              "datasheet": "products/passenger-vehicles/mineral-engine-oil/quartz-5000-20w50/datasheet.pdf",
+              "inStock": true,
+              "featured": false
+            }
+          ]
+        },
+        {
+          "id": "4x4-engine-oil",
+          "name": "4x4 Engine Oil",
+          "usedFor": "Engine for small Vehicles-4X4 trucks",
+          "products": [
+            {
+              "id": "quartz-4x4-15w40",
+              "name": "QUARTZ 4X4 15W40",
+              "description": "Specialized engine oil for 4x4 vehicles and light trucks",
+              "viscosity": "15W40",
+              "specifications": ["API SN", "ACEA A3/B4"],
+              "image": "products/passenger-vehicles/4x4-engine-oil/quartz-4x4-15w40/main.jpg",
+              "datasheet": "products/passenger-vehicles/4x4-engine-oil/quartz-4x4-15w40/datasheet.pdf",
+              "inStock": true,
+              "featured": false
+            }
+          ]
+        },
+        {
+          "id": "monograde-engine-oil",
+          "name": "Monograde Engine Oil",
+          "usedFor": "Monograde Engine Oil normal for Old Vehicles",
+          "products": [
+            {
+              "id": "motor-oil-sae-40",
+              "name": "MOTOR OIL SAE 40",
+              "description": "Traditional monograde oil for older engines",
+              "viscosity": "SAE 40",
+              "specifications": ["API CD"],
+              "image": "products/passenger-vehicles/monograde-engine-oil/motor-oil-sae-40/main.jpg",
+              "datasheet": "products/passenger-vehicles/monograde-engine-oil/motor-oil-sae-40/datasheet.pdf",
+              "inStock": true,
+              "featured": false
+            },
+            {
+              "id": "motor-oil-sf-sae-40",
+              "name": "MOTOR OIL SF SAE 40",
+              "description": "Enhanced monograde oil for classic vehicles",
+              "viscosity": "SAE 40",
+              "specifications": ["API SF"],
+              "image": "products/passenger-vehicles/monograde-engine-oil/motor-oil-sf-sae-40/main.jpg",
+              "datasheet": "products/passenger-vehicles/monograde-engine-oil/motor-oil-sf-sae-40/datasheet.pdf",
+              "inStock": true,
+              "featured": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "heavy-vehicles",
+      "name": "Heavy Vehicles",
+      "description": "Diesel engine oils for trucks and off-road equipment",
+      "icon": "truck",
+      "subcategories": [
+        {
+          "id": "diesel-engine-oil",
+          "name": "Diesel Engine Oil",
+          "usedFor": "Diesel Engine Oil",
+          "products": [
+            {
+              "id": "rubia-tir-7400-15w40",
+              "name": "RUBIA TIR 7400 15W40",
+              "description": "Premium diesel engine oil for heavy-duty trucks. Excellent soot handling and wear protection enables long drain intervals. Proven performance in mixed fleet operations.",
+              "viscosity": "15W40",
+              "specifications": ["API CI-4", "ACEA E7", "MB 228.3", "Volvo VDS-3", "Renault RLD-2", "Mack EO-M Plus"],
+              "image": "products/heavy-vehicles/diesel-engine-oil/rubia-tir-7400-15w40/main.jpg",
+              "datasheet": "products/heavy-vehicles/diesel-engine-oil/rubia-tir-7400-15w40/datasheet.pdf",
+              "inStock": true,
+              "featured": true,
+              "packSizes": ["20L", "208L", "1000L IBC"],
+              "applications": ["Long-haul trucks", "Heavy-duty diesel engines", "Mixed fleet operations", "On-highway transport"]
+            }
+          ]
+        },
+        {
+          "id": "synthetic-diesel-engine-oil",
+          "name": "Synthetic Diesel Engine Oil",
+          "usedFor": "Synthetic Diesel Engine Oil",
+          "products": [
+            {
+              "id": "rubia-tir-8600-10w40",
+              "name": "RUBIA TIR 8600 10W40",
+              "description": "Fully synthetic diesel engine oil for maximum protection. Superior performance in extreme temperatures with extended drain capability. Ideal for modern Euro 5/6 engines and fuel economy optimization.",
+              "viscosity": "10W40",
+              "specifications": ["API CJ-4", "ACEA E9", "MB 228.31", "Volvo VDS-4", "Mack EO-O Premium Plus", "Cummins CES 20081"],
+              "image": "products/heavy-vehicles/synthetic-diesel-engine-oil/rubia-tir-8600-10w40/main.jpg",
+              "datasheet": "products/heavy-vehicles/synthetic-diesel-engine-oil/rubia-tir-8600-10w40/datasheet.pdf",
+              "inStock": true,
+              "featured": true,
+              "packSizes": ["20L", "208L", "1000L IBC"],
+              "applications": ["Modern Euro 5/6 engines", "Extreme conditions", "Extended drain intervals", "Fuel economy", "Low emission engines"]
+            }
+          ]
+        },
+        {
+          "id": "specialized-diesel-engine-oil",
+          "name": "Specialized Diesel Engine Oil",
+          "usedFor": "Engine Oil for Trucks-CK4 specifications",
+          "products": [
+            {
+              "id": "rubia-opt-1100-15w40",
+              "name": "RUBIA OPT.1100 15W40",
+              "description": "Advanced CK-4 specification diesel oil for modern trucks",
+              "viscosity": "15W40",
+              "specifications": ["API CK-4", "ACEA E9"],
+              "image": "products/heavy-vehicles/specialized-diesel-engine-oil/rubia-opt-1100-15w40/main.jpg",
+              "datasheet": "products/heavy-vehicles/specialized-diesel-engine-oil/rubia-opt-1100-15w40/datasheet.pdf",
+              "inStock": true,
+              "featured": true
+            }
+          ]
+        },
+        {
+          "id": "low-saps-diesel-oil",
+          "name": "Low SAPS Diesel Oil",
+          "usedFor": "Engine Oil CK4-Low SAPS Diesel Oil",
+          "products": [
+            {
+              "id": "rubia-works-1000-15w40",
+              "name": "RUBIA WORKS 1000 15W40",
+              "description": "Low SAPS diesel oil for modern emission systems",
+              "viscosity": "15W40",
+              "specifications": ["API CK-4", "Low SAPS"],
+              "image": "products/heavy-vehicles/low-saps-diesel-oil/rubia-works-1000-15w40/main.jpg",
+              "datasheet": "products/heavy-vehicles/low-saps-diesel-oil/rubia-works-1000-15w40/datasheet.pdf",
+              "inStock": true,
+              "featured": false
+            }
+          ]
+        },
+        {
+          "id": "off-road-equipment-oil",
+          "name": "Off-Road Equipment Oil",
+          "usedFor": "Hydraulic/Transmission for Off Road Equipment/ Stationery Engines/Diesel Engine Oil",
+          "products": [
+            {
+              "id": "rubia-sx-10w",
+              "name": "RUBIA SX 10W",
+              "description": "Multi-purpose oil for off-road equipment",
+              "viscosity": "10W",
+              "specifications": ["API CD", "Hydraulic/Transmission"],
+              "image": "products/heavy-vehicles/off-road-equipment-oil/rubia-sx-10w/main.jpg",
+              "datasheet": "products/heavy-vehicles/off-road-equipment-oil/rubia-sx-10w/datasheet.pdf",
+              "inStock": true,
+              "featured": false
+            },
+            {
+              "id": "rubia-sx-40",
+              "name": "RUBIA SX 40",
+              "description": "Heavy-duty oil for stationary engines and equipment",
+              "viscosity": "SAE 40",
+              "specifications": ["API CD", "Hydraulic/Transmission"],
+              "image": "products/heavy-vehicles/off-road-equipment-oil/rubia-sx-40/main.jpg",
+              "datasheet": "products/heavy-vehicles/off-road-equipment-oil/rubia-sx-40/datasheet.pdf",
+              "inStock": true,
+              "featured": false
+            }
+          ]
+        },
+        {
+          "id": "truck-differential-oil",
+          "name": "Truck Differential Oil",
+          "usedFor": "Diff/Finale Drive Oil for Trucks",
+          "products": [
+            {
+              "id": "dynatrans-da-85w140",
+              "name": "DYNATRANS DA 85W140",
+              "description": "Heavy-duty differential oil for trucks",
+              "viscosity": "85W140",
+              "specifications": ["API GL-5"],
+              "image": "products/heavy-vehicles/truck-differential-oil/dynatrans-da-85w140/main.jpg",
+              "datasheet": "products/heavy-vehicles/truck-differential-oil/dynatrans-da-85w140/datasheet.pdf",
+              "inStock": true,
+              "featured": false
+            },
+            {
+              "id": "transtec-5-85w140",
+              "name": "TRANSTEC 5 85W140",
+              "description": "Premium differential oil for final drives",
+              "viscosity": "85W140",
+              "specifications": ["API GL-5", "MIL-PRF-2105E"],
+              "image": "products/heavy-vehicles/truck-differential-oil/transtec-5-85w140/main.jpg",
+              "datasheet": "products/heavy-vehicles/truck-differential-oil/transtec-5-85w140/datasheet.pdf",
+              "inStock": true,
+              "featured": false
+            },
+            {
+              "id": "trax-axle-7-85w140",
+              "name": "TRAX. AXLE 7 85W140",
+              "description": "High-performance axle oil for heavy trucks",
+              "viscosity": "85W140",
+              "specifications": ["API GL-5"],
+              "image": "products/heavy-vehicles/truck-differential-oil/trax-axle-7-85w140/main.jpg",
+              "datasheet": "products/heavy-vehicles/truck-differential-oil/trax-axle-7-85w140/datasheet.pdf",
+              "inStock": true,
+              "featured": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "farming-agriculture",
+      "name": "Farming & Agriculture",
+      "description": "Specialized oils for tractors and agricultural equipment",
+      "icon": "tractor",
+      "subcategories": [
+        {
+          "id": "tractor-engine-oil",
+          "name": "Tractor Engine Oil",
+          "usedFor": "Engine oil for agricultural tractors",
+          "products": [
+            {
+              "id": "tractagri-hdx-15w40",
+              "name": "TRACTAGRI HDX 15W40",
+              "description": "High-performance diesel engine oil specifically formulated for modern agricultural tractors. Provides excellent protection under severe operating conditions.",
+              "viscosity": "15W40",
+              "specifications": ["API CI-4", "ACEA E7"],
+              "image": "products/farming-agriculture/tractor-engine-oil/tractagri-hdx-15w40/main.jpg",
+              "datasheet": "products/farming-agriculture/tractor-engine-oil/tractagri-hdx-15w40/datasheet.pdf",
+              "inStock": true,
+              "featured": true,
+              "packSizes": ["5L", "20L", "208L"],
+              "applications": ["Agricultural tractors", "Farm equipment", "Diesel engines", "Heavy-duty applications"]
+            }
+          ]
+        },
+        {
+          "id": "universal-tractor-oil",
+          "name": "Universal Tractor Oil (STOU)",
+          "usedFor": "Super Tractor Oil Universal - Engine, transmission, hydraulics",
+          "products": [
+            {
+              "id": "multagri-ms-15w40",
+              "name": "MULTAGRI MS 15W40",
+              "description": "Multi-functional STOU (Super Tractor Oil Universal) for engine, transmission, hydraulic systems, and wet brakes. Simplifies inventory and reduces maintenance costs.",
+              "viscosity": "15W40",
+              "specifications": ["API GL-4", "ACEA E2"],
+              "image": "products/farming-agriculture/universal-tractor-oil/multagri-ms-15w40/main.jpg",
+              "datasheet": "products/farming-agriculture/universal-tractor-oil/multagri-ms-15w40/datasheet.pdf",
+              "inStock": true,
+              "featured": true,
+              "packSizes": ["20L", "208L"],
+              "applications": ["Engine lubrication", "Transmission", "Hydraulic systems", "Wet brakes", "All-in-one solution"]
+            }
+          ]
+        },
+        {
+          "id": "universal-tractor-transmission-oil",
+          "name": "Universal Tractor Transmission Oil (UTTO)",
+          "usedFor": "Universal Tractor Transmission Oil - Transmission, hydraulics, wet brakes",
+          "products": [
+            {
+              "id": "dynatrans-mpv",
+              "name": "DYNATRANS MPV",
+              "description": "Universal Tractor Transmission Oil (UTTO) for transmissions, hydraulics, and wet brakes. Excellent friction properties and thermal stability.",
+              "viscosity": "Multi-grade",
+              "specifications": ["API GL-4", "John Deere J20C", "Case MAT 3525"],
+              "image": "products/farming-agriculture/universal-tractor-transmission-oil/dynatrans-mpv/main.jpg",
+              "datasheet": "products/farming-agriculture/universal-tractor-transmission-oil/dynatrans-mpv/datasheet.pdf",
+              "inStock": true,
+              "featured": false,
+              "packSizes": ["20L", "208L"],
+              "applications": ["Tractor transmissions", "Hydraulic systems", "Wet brakes", "Power take-off"]
+            },
+            {
+              "id": "dynatrans-mpx",
+              "name": "DYNATRANS MPX",
+              "description": "Premium UTTO with enhanced performance for modern tractors. Superior protection for transmissions, hydraulics, and wet brake systems.",
+              "viscosity": "Multi-grade",
+              "specifications": ["API GL-4", "John Deere J20D", "Massey Ferguson M1145"],
+              "image": "products/farming-agriculture/universal-tractor-transmission-oil/dynatrans-mpx/main.jpg",
+              "datasheet": "products/farming-agriculture/universal-tractor-transmission-oil/dynatrans-mpx/datasheet.pdf",
+              "inStock": true,
+              "featured": false,
+              "packSizes": ["20L", "208L"],
+              "applications": ["Modern tractors", "Transmissions", "Hydraulics", "Wet brakes", "High-performance equipment"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gear-transmission-specialties",
+      "name": "Gear, Transmission & Specialties",
+      "description": "Fluids for transmissions, axles, and brake systems",
+      "icon": "gear",
+      "subcategories": [
+        {
+          "id": "automatic-transmission-fluid",
+          "name": "Automatic Transmission Fluid (ATF)",
+          "usedFor": "Automatic transmission fluids for various vehicle types",
+          "products": [
+            {
+              "id": "fluidmatic-cvt-mv",
+              "name": "FLUIDMATIC CVT MV",
+              "description": "Advanced CVT fluid for continuously variable transmissions. Provides smooth operation and excellent wear protection for modern CVT systems.",
+              "viscosity": "CVT",
+              "specifications": ["MB 236.20", "Toyota CVT", "Nissan NS-2"],
+              "image": "products/gear-transmission/automatic-transmission-fluid/fluidmatic-cvt-mv/main.jpg",
+              "datasheet": "products/gear-transmission/automatic-transmission-fluid/fluidmatic-cvt-mv/datasheet.pdf",
+              "inStock": true,
+              "featured": true,
+              "packSizes": ["1L", "20L", "208L"],
+              "applications": ["CVT transmissions", "Modern vehicles", "Fuel efficiency", "Smooth shifting"]
+            },
+            {
+              "id": "fluidmatic-diii-mv",
+              "name": "FLUIDMATIC DIII MV",
+              "description": "Premium ATF meeting Dexron III specifications. Suitable for most automatic transmissions requiring DIII fluid.",
+              "viscosity": "ATF",
+              "specifications": ["Dexron III", "Mercon", "Allison C-4"],
+              "image": "products/gear-transmission/automatic-transmission-fluid/fluidmatic-diii-mv/main.jpg",
+              "datasheet": "products/gear-transmission/automatic-transmission-fluid/fluidmatic-diii-mv/datasheet.pdf",
+              "inStock": true,
+              "featured": false,
+              "packSizes": ["1L", "20L", "208L"],
+              "applications": ["Automatic transmissions", "Power steering", "Hydraulic systems"]
+            },
+            {
+              "id": "fluidmatic-iiig",
+              "name": "FLUIDMATIC IIIG",
+              "description": "High-quality ATF for older automatic transmissions. Provides reliable performance and protection.",
+              "viscosity": "ATF",
+              "specifications": ["Dexron IIG", "Mercon"],
+              "image": "products/gear-transmission/automatic-transmission-fluid/fluidmatic-iiig/main.jpg",
+              "datasheet": "products/gear-transmission/automatic-transmission-fluid/fluidmatic-iiig/datasheet.pdf",
+              "inStock": true,
+              "featured": false,
+              "packSizes": ["1L", "20L", "208L"],
+              "applications": ["Older automatic transmissions", "Classic vehicles", "Power steering"]
+            },
+            {
+              "id": "fluidmatic-lv-mv",
+              "name": "FLUIDMATIC LV MV",
+              "description": "Low viscosity ATF for modern fuel-efficient transmissions. Reduces friction and improves fuel economy.",
+              "viscosity": "Low Viscosity ATF",
+              "specifications": ["Dexron VI", "Mercon LV", "Toyota WS"],
+              "image": "products/gear-transmission/automatic-transmission-fluid/fluidmatic-lv-mv/main.jpg",
+              "datasheet": "products/gear-transmission/automatic-transmission-fluid/fluidmatic-lv-mv/datasheet.pdf",
+              "inStock": true,
+              "featured": true,
+              "packSizes": ["1L", "20L", "208L"],
+              "applications": ["Modern 6+ speed transmissions", "Fuel economy", "Low temperature performance"]
+            },
+            {
+              "id": "fluidmatic-syn-t295",
+              "name": "FLUIDMATIC SYN T295",
+              "description": "Fully synthetic ATF for high-performance transmissions. Excellent thermal stability and oxidation resistance.",
+              "viscosity": "Synthetic ATF",
+              "specifications": ["ZF TE-ML 14B", "MB 236.14", "BMW 83 22 2 152 426"],
+              "image": "products/gear-transmission/automatic-transmission-fluid/fluidmatic-syn-t295/main.jpg",
+              "datasheet": "products/gear-transmission/automatic-transmission-fluid/fluidmatic-syn-t295/datasheet.pdf",
+              "inStock": true,
+              "featured": true,
+              "packSizes": ["1L", "20L", "208L"],
+              "applications": ["ZF transmissions", "High-performance vehicles", "Extended drain intervals"]
+            },
+            {
+              "id": "fluidmatic-xld-fe",
+              "name": "FLUIDMATIC XLD FE",
+              "description": "Fuel economy ATF for modern automatic transmissions. Low viscosity formula reduces friction and improves fuel efficiency.",
+              "viscosity": "Low Viscosity ATF",
+              "specifications": ["Dexron VI", "Ford Mercon LV", "JASO 1A-LV"],
+              "image": "products/gear-transmission/automatic-transmission-fluid/fluidmatic-xld-fe/main.jpg",
+              "datasheet": "products/gear-transmission/automatic-transmission-fluid/fluidmatic-xld-fe/datasheet.pdf",
+              "inStock": true,
+              "featured": false,
+              "packSizes": ["1L", "20L", "208L"],
+              "applications": ["Fuel-efficient transmissions", "Modern vehicles", "6+ speed automatics"]
+            }
+          ]
+        },
+        {
+          "id": "manual-gear-axle-oil",
+          "name": "Manual Gear & Axle Oil",
+          "usedFor": "Manual transmission and differential oils",
+          "products": [
+            {
+              "id": "trans-axle-7-80w90",
+              "name": "TRANS. AXLE 7 80W90",
+              "description": "High-performance gear oil for manual transmissions and axles. Excellent EP properties for heavy-duty applications.",
+              "viscosity": "80W90",
+              "specifications": ["API GL-5", "MIL-PRF-2105E"],
+              "image": "products/gear-transmission/manual-gear-axle-oil/trans-axle-7-80w90/main.jpg",
+              "datasheet": "products/gear-transmission/manual-gear-axle-oil/trans-axle-7-80w90/datasheet.pdf",
+              "inStock": true,
+              "featured": false,
+              "packSizes": ["1L", "20L", "208L"],
+              "applications": ["Manual transmissions", "Differentials", "Final drives", "Heavy-duty gears"]
+            },
+            {
+              "id": "transmission-tm-80w90",
+              "name": "TRANSMISSION TM 80W90",
+              "description": "Quality gear oil for manual transmissions. Provides reliable protection and smooth shifting.",
+              "viscosity": "80W90",
+              "specifications": ["API GL-4"],
+              "image": "products/gear-transmission/manual-gear-axle-oil/transmission-tm-80w90/main.jpg",
+              "datasheet": "products/gear-transmission/manual-gear-axle-oil/transmission-tm-80w90/datasheet.pdf",
+              "inStock": true,
+              "featured": false,
+              "packSizes": ["1L", "20L", "208L"],
+              "applications": ["Manual gearboxes", "Synchronized transmissions", "Light-duty applications"]
+            },
+            {
+              "id": "transmission-tm-85w140",
+              "name": "TRANSMISSION TM 85W140",
+              "description": "Heavy-duty gear oil for extreme pressure applications. Ideal for heavily loaded transmissions and differentials.",
+              "viscosity": "85W140",
+              "specifications": ["API GL-5"],
+              "image": "products/gear-transmission/manual-gear-axle-oil/transmission-tm-85w140/main.jpg",
+              "datasheet": "products/gear-transmission/manual-gear-axle-oil/transmission-tm-85w140/datasheet.pdf",
+              "inStock": true,
+              "featured": false,
+              "packSizes": ["1L", "20L", "208L"],
+              "applications": ["Heavy-duty differentials", "Final drives", "High-load applications"]
+            },
+            {
+              "id": "transtec-5-80w90",
+              "name": "TRANSTEC 5 80W90",
+              "description": "Premium gear oil with advanced additive technology. Excellent protection for manual transmissions and axles.",
+              "viscosity": "80W90",
+              "specifications": ["API GL-5", "MIL-PRF-2105E"],
+              "image": "products/gear-transmission/manual-gear-axle-oil/transtec-5-80w90/main.jpg",
+              "datasheet": "products/gear-transmission/manual-gear-axle-oil/transtec-5-80w90/datasheet.pdf",
+              "inStock": true,
+              "featured": true,
+              "packSizes": ["1L", "20L", "208L"],
+              "applications": ["Manual transmissions", "Differentials", "Hypoid gears", "Heavy-duty applications"]
+            },
+            {
+              "id": "trax-axle-7-80w90",
+              "name": "TRAX. AXLE 7 80W90",
+              "description": "High-performance axle oil for heavy-duty applications. Superior EP protection for differentials and final drives.",
+              "viscosity": "80W90",
+              "specifications": ["API GL-5"],
+              "image": "products/gear-transmission/manual-gear-axle-oil/trax-axle-7-80w90/main.jpg",
+              "datasheet": "products/gear-transmission/manual-gear-axle-oil/trax-axle-7-80w90/datasheet.pdf",
+              "inStock": true,
+              "featured": false,
+              "packSizes": ["1L", "20L", "208L"],
+              "applications": ["Differentials", "Final drives", "Axles", "Heavy-duty applications"]
+            }
+          ]
+        },
+        {
+          "id": "synthetic-gear-oil",
+          "name": "Synthetic Gear Oil",
+          "usedFor": "Fully synthetic gear oils for enhanced performance",
+          "products": [
+            {
+              "id": "transtec-4-75w90",
+              "name": "TRANSTEC 4 75W90",
+              "description": "Fully synthetic gear oil for superior protection. Excellent low-temperature fluidity and high-temperature stability.",
+              "viscosity": "75W90",
+              "specifications": ["API GL-4", "API GL-5"],
+              "image": "products/gear-transmission/synthetic-gear-oil/transtec-4-75w90/main.jpg",
+              "datasheet": "products/gear-transmission/synthetic-gear-oil/transtec-4-75w90/datasheet.pdf",
+              "inStock": true,
+              "featured": true,
+              "packSizes": ["1L", "20L", "208L"],
+              "applications": ["Manual transmissions", "Differentials", "Extreme temperatures", "High-performance vehicles"]
+            },
+            {
+              "id": "trax-dual-9-fe-75w90",
+              "name": "TRAX. DUAL 9 FE 75W90",
+              "description": "Fuel-efficient synthetic gear oil. Low friction formula improves fuel economy while providing excellent protection.",
+              "viscosity": "75W90",
+              "specifications": ["API GL-4", "API GL-5", "Fuel Economy"],
+              "image": "products/gear-transmission/synthetic-gear-oil/trax-dual-9-fe-75w90/main.jpg",
+              "datasheet": "products/gear-transmission/synthetic-gear-oil/trax-dual-9-fe-75w90/datasheet.pdf",
+              "inStock": true,
+              "featured": true,
+              "packSizes": ["1L", "20L", "208L"],
+              "applications": ["Fuel-efficient vehicles", "Manual transmissions", "Differentials", "Modern drivetrains"]
+            }
+          ]
+        },
+        {
+          "id": "brake-fluid",
+          "name": "Brake Fluid",
+          "usedFor": "High-performance brake fluids",
+          "products": [
+            {
+              "id": "racing-brakefluid-dot-4-plus",
+              "name": "RACING BRAKEFLUID DOT 4+",
+              "description": "High-performance brake fluid for racing and high-performance applications. Extremely high boiling point prevents vapor lock under extreme conditions.",
+              "viscosity": "DOT 4+",
+              "specifications": ["DOT 4", "DOT 5.1", "FMVSS 116"],
+              "image": "products/gear-transmission/brake-fluid/racing-brakefluid-dot-4-plus/main.jpg",
+              "datasheet": "products/gear-transmission/brake-fluid/racing-brakefluid-dot-4-plus/datasheet.pdf",
+              "inStock": true,
+              "featured": true,
+              "packSizes": ["500ml", "1L", "5L"],
+              "applications": ["Racing", "High-performance braking", "Track use", "Extreme conditions"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "motorcycle-small-engine",
+      "name": "Motorcycle & Small Engine Oils",
+      "description": "2-stroke oils for motorcycles, boats, and chainsaws",
+      "icon": "motorcycle",
+      "subcategories": [
+        {
+          "id": "2-stroke-oil",
+          "name": "2-Stroke Oil",
+          "usedFor": "2-stroke engine oils for motorcycles and small engines",
+          "products": [
+            {
+              "id": "neptuna-2t-super-sport",
+              "name": "NEPTUNA 2T SUPER SPORT",
+              "description": "High-performance 2-stroke oil for outboard motors and marine applications. Excellent lubrication and minimal smoke formation.",
+              "viscosity": "2T",
+              "specifications": ["NMMA TC-W3", "API TC"],
+              "image": "products/motorcycle-small-engine/2-stroke-oil/neptuna-2t-super-sport/main.jpg",
+              "datasheet": "products/motorcycle-small-engine/2-stroke-oil/neptuna-2t-super-sport/datasheet.pdf",
+              "inStock": true,
+              "featured": true,
+              "packSizes": ["1L", "5L", "20L"],
+              "applications": ["Outboard motors", "Marine engines", "Water-cooled 2-stroke", "Boats"]
+            },
+            {
+              "id": "prosylva-2tz",
+              "name": "PROSYLVA 2TZ",
+              "description": "Premium 2-stroke oil for chainsaws and forestry equipment. Low smoke, biodegradable formula protects the environment.",
+              "viscosity": "2T",
+              "specifications": ["JASO FD", "ISO-L-EGD", "Biodegradable"],
+              "image": "products/motorcycle-small-engine/2-stroke-oil/prosylva-2tz/main.jpg",
+              "datasheet": "products/motorcycle-small-engine/2-stroke-oil/prosylva-2tz/datasheet.pdf",
+              "inStock": true,
+              "featured": true,
+              "packSizes": ["1L", "5L", "20L"],
+              "applications": ["Chainsaws", "Brush cutters", "Forestry equipment", "Garden machinery"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "industrial",
+      "name": "Industrial",
+      "description": "Wide range of fluids for industrial machinery and processes",
+      "icon": "industry",
+      "subcategories": [
+        {
+          "id": "hydraulic-oil",
+          "name": "Hydraulic Oil",
+          "usedFor": "Hydraulic oils for industrial equipment",
+          "products": [
+            {
+              "id": "azolla-zs-32",
+              "name": "AZOLLA ZS 32",
+              "description": "Premium zinc-free hydraulic oil with excellent anti-wear properties. Ideal for industrial hydraulic systems requiring long service life.",
+              "viscosity": "ISO VG 32",
+              "specifications": ["ISO 6743-4 HM", "DIN 51524-2 HLP"],
+              "image": "products/industrial/hydraulic-oil/azolla-zs-32/main.jpg",
+              "datasheet": "products/industrial/hydraulic-oil/azolla-zs-32/datasheet.pdf",
+              "inStock": true,
+              "featured": true,
+              "packSizes": ["20L", "208L", "1000L IBC"],
+              "applications": ["Industrial hydraulics", "Machine tools", "Injection molding", "General manufacturing"]
+            },
+            {
+              "id": "azolla-zs-46",
+              "name": "AZOLLA ZS 46",
+              "description": "High-performance hydraulic oil for demanding applications. Excellent oxidation stability and water separation properties.",
+              "viscosity": "ISO VG 46",
+              "specifications": ["ISO 6743-4 HM", "DIN 51524-2 HLP"],
+              "image": "products/industrial/hydraulic-oil/azolla-zs-46/main.jpg",
+              "datasheet": "products/industrial/hydraulic-oil/azolla-zs-46/datasheet.pdf",
+              "inStock": true,
+              "featured": true,
+              "packSizes": ["20L", "208L", "1000L IBC"],
+              "applications": ["Industrial hydraulics", "Mobile equipment", "Press machines", "Heavy machinery"]
+            },
+            {
+              "id": "azolla-zs-68",
+              "name": "AZOLLA ZS 68",
+              "description": "Heavy-duty hydraulic oil for high-pressure systems. Superior wear protection and thermal stability.",
+              "viscosity": "ISO VG 68",
+              "specifications": ["ISO 6743-4 HM", "DIN 51524-2 HLP"],
+              "image": "products/industrial/hydraulic-oil/azolla-zs-68/main.jpg",
+              "datasheet": "products/industrial/hydraulic-oil/azolla-zs-68/datasheet.pdf",
+              "inStock": true,
+              "featured": false,
+              "packSizes": ["20L", "208L", "1000L IBC"],
+              "applications": ["High-pressure hydraulics", "Heavy-duty equipment", "Outdoor machinery", "Construction equipment"]
+            },
+            {
+              "id": "azolla-zs-100",
+              "name": "AZOLLA ZS 100",
+              "description": "Extra heavy-duty hydraulic oil for severe operating conditions. Excellent protection in high-temperature applications.",
+              "viscosity": "ISO VG 100",
+              "specifications": ["ISO 6743-4 HM", "DIN 51524-2 HLP"],
+              "image": "products/industrial/hydraulic-oil/azolla-zs-100/main.jpg",
+              "datasheet": "products/industrial/hydraulic-oil/azolla-zs-100/datasheet.pdf",
+              "inStock": true,
+              "featured": false,
+              "packSizes": ["20L", "208L", "1000L IBC"],
+              "applications": ["Heavy-duty hydraulics", "High-temperature applications", "Large presses", "Steel mills"]
+            }
+          ]
+        },
+        {
+          "id": "specialized-hydraulic-oil",
+          "name": "Specialized Hydraulic Oil",
+          "usedFor": "High-performance hydraulic oils for specific applications",
+          "products": [
+            {
+              "id": "equivis-zs-68",
+              "name": "EQUIVIS ZS 68",
+              "description": "Premium ashless hydraulic oil with exceptional anti-wear properties. Designed for the most demanding hydraulic systems.",
+              "viscosity": "ISO VG 68",
+              "specifications": ["ISO 6743-4 HM", "DIN 51524-2 HLP", "Zinc-free"],
+              "image": "products/industrial/specialized-hydraulic-oil/equivis-zs-68/main.jpg",
+              "datasheet": "products/industrial/specialized-hydraulic-oil/equivis-zs-68/datasheet.pdf",
+              "inStock": true,
+              "featured": true,
+              "packSizes": ["20L", "208L", "1000L IBC"],
+              "applications": ["Sensitive hydraulic systems", "Food industry", "Environmentally sensitive areas", "High-performance equipment"]
+            }
+          ]
+        },
+        {
+          "id": "industrial-gearbox-oil",
+          "name": "Industrial GearBox Oil",
+          "usedFor": "Gear oils for industrial gearboxes and reducers",
+          "products": [
+            {
+              "id": "carter-ep-150",
+              "name": "CARTER EP 150",
+              "description": "Extreme pressure gear oil for industrial gearboxes. Excellent load-carrying capacity and wear protection.",
+              "viscosity": "ISO VG 150",
+              "specifications": ["ISO 12925-1 CKC", "DIN 51517-3 CLP"],
+              "image": "products/industrial/industrial-gearbox-oil/carter-ep-150/main.jpg",
+              "datasheet": "products/industrial/industrial-gearbox-oil/carter-ep-150/datasheet.pdf",
+              "inStock": true,
+              "featured": false,
+              "packSizes": ["20L", "208L", "1000L IBC"],
+              "applications": ["Industrial gearboxes", "Reducers", "Heavy-duty gears", "Manufacturing equipment"]
+            },
+            {
+              "id": "carter-ep-220",
+              "name": "CARTER EP 220",
+              "description": "Heavy-duty EP gear oil for severe service conditions. Superior protection against wear and corrosion.",
+              "viscosity": "ISO VG 220",
+              "specifications": ["ISO 12925-1 CKC", "DIN 51517-3 CLP"],
+              "image": "products/industrial/industrial-gearbox-oil/carter-ep-220/main.jpg",
+              "datasheet": "products/industrial/industrial-gearbox-oil/carter-ep-220/datasheet.pdf",
+              "inStock": true,
+              "featured": true,
+              "packSizes": ["20L", "208L", "1000L IBC"],
+              "applications": ["Heavy-duty gearboxes", "Cement mills", "Mining equipment", "Steel industry"]
+            },
+            {
+              "id": "carter-ep-320",
+              "name": "CARTER EP 320",
+              "description": "Extra heavy-duty gear oil for extreme loads. Exceptional EP properties for the most demanding applications.",
+              "viscosity": "ISO VG 320",
+              "specifications": ["ISO 12925-1 CKC", "DIN 51517-3 CLP"],
+              "image": "products/industrial/industrial-gearbox-oil/carter-ep-320/main.jpg",
+              "datasheet": "products/industrial/industrial-gearbox-oil/carter-ep-320/datasheet.pdf",
+              "inStock": true,
+              "featured": false,
+              "packSizes": ["20L", "208L", "1000L IBC"],
+              "applications": ["Extreme load gearboxes", "Large reducers", "Heavy industry", "Mining crushers"]
+            },
+            {
+              "id": "carter-ep-460",
+              "name": "CARTER EP 460",
+              "description": "Ultra heavy-duty gear oil for the most severe conditions. Maximum protection for heavily loaded gears.",
+              "viscosity": "ISO VG 460",
+              "specifications": ["ISO 12925-1 CKC", "DIN 51517-3 CLP"],
+              "image": "products/industrial/industrial-gearbox-oil/carter-ep-460/main.jpg",
+              "datasheet": "products/industrial/industrial-gearbox-oil/carter-ep-460/datasheet.pdf",
+              "inStock": true,
+              "featured": false,
+              "packSizes": ["20L", "208L", "1000L IBC"],
+              "applications": ["Ultra heavy-duty gearboxes", "Open gears", "Slow-speed heavy loads", "Quarry equipment"]
+            },
+            {
+              "id": "carter-sh-320",
+              "name": "CARTER SH 320",
+              "description": "Synthetic gear oil for high-temperature applications. Excellent thermal and oxidation stability.",
+              "viscosity": "ISO VG 320",
+              "specifications": ["ISO 12925-1 CKC", "DIN 51517-3 CLP", "Synthetic"],
+              "image": "products/industrial/industrial-gearbox-oil/carter-sh-320/main.jpg",
+              "datasheet": "products/industrial/industrial-gearbox-oil/carter-sh-320/datasheet.pdf",
+              "inStock": true,
+              "featured": true,
+              "packSizes": ["20L", "208L"],
+              "applications": ["High-temperature gearboxes", "Extended drain intervals", "Severe conditions", "Energy efficiency"]
+            },
+            {
+              "id": "carter-sh-680",
+              "name": "CARTER SH 680",
+              "description": "Ultra-heavy synthetic gear oil for extreme high-temperature applications. Maximum protection and extended service life.",
+              "viscosity": "ISO VG 680",
+              "specifications": ["ISO 12925-1 CKC", "DIN 51517-3 CLP", "Synthetic"],
+              "image": "products/industrial/industrial-gearbox-oil/carter-sh-680/main.jpg",
+              "datasheet": "products/industrial/industrial-gearbox-oil/carter-sh-680/datasheet.pdf",
+              "inStock": true,
+              "featured": false,
+              "packSizes": ["20L", "208L"],
+              "applications": ["Very high-temperature gearboxes", "Kilns", "Dryers", "Extreme conditions"]
+            },
+            {
+              "id": "carter-sm-150",
+              "name": "CARTER SM 150",
+              "description": "Mineral gear oil for standard industrial gearboxes. Reliable performance for general applications.",
+              "viscosity": "ISO VG 150",
+              "specifications": ["ISO 12925-1 CKB", "DIN 51517-2 CL"],
+              "image": "products/industrial/industrial-gearbox-oil/carter-sm-150/main.jpg",
+              "datasheet": "products/industrial/industrial-gearbox-oil/carter-sm-150/datasheet.pdf",
+              "inStock": true,
+              "featured": false,
+              "packSizes": ["20L", "208L", "1000L IBC"],
+              "applications": ["Standard gearboxes", "Light to medium loads", "General industry", "Reducers"]
+            }
+          ]
+        },
+        {
+          "id": "compressor-oil",
+          "name": "Compressor Oil",
+          "usedFor": "Oils for air compressors and pneumatic systems",
+          "products": [
+            {
+              "id": "dacnis-68",
+              "name": "DACNIS 68",
+              "description": "Premium mineral compressor oil for rotary and reciprocating compressors. Excellent oxidation stability and water separation.",
+              "viscosity": "ISO VG 68",
+              "specifications": ["ISO 6743-3 DAB", "DIN 51506 VDL"],
+              "image": "products/industrial/compressor-oil/dacnis-68/main.jpg",
+              "datasheet": "products/industrial/compressor-oil/dacnis-68/datasheet.pdf",
+              "inStock": true,
+              "featured": true,
+              "packSizes": ["20L", "208L", "1000L IBC"],
+              "applications": ["Rotary compressors", "Reciprocating compressors", "Air tools", "Pneumatic systems"]
+            },
+            {
+              "id": "dacnis-100",
+              "name": "DACNIS 100",
+              "description": "Heavy-duty compressor oil for high-temperature applications. Superior protection and long service life.",
+              "viscosity": "ISO VG 100",
+              "specifications": ["ISO 6743-3 DAB", "DIN 51506 VDL"],
+              "image": "products/industrial/compressor-oil/dacnis-100/main.jpg",
+              "datasheet": "products/industrial/compressor-oil/dacnis-100/datasheet.pdf",
+              "inStock": true,
+              "featured": false,
+              "packSizes": ["20L", "208L", "1000L IBC"],
+              "applications": ["High-temperature compressors", "Heavy-duty applications", "Industrial air systems"]
+            },
+            {
+              "id": "dacnis-se-100",
+              "name": "DACNIS SE 100",
+              "description": "Synthetic ester compressor oil for extreme conditions. Exceptional thermal stability and low carbon formation.",
+              "viscosity": "ISO VG 100",
+              "specifications": ["ISO 6743-3 DAG", "Synthetic Ester"],
+              "image": "products/industrial/compressor-oil/dacnis-se-100/main.jpg",
+              "datasheet": "products/industrial/compressor-oil/dacnis-se-100/datasheet.pdf",
+              "inStock": true,
+              "featured": true,
+              "packSizes": ["20L", "208L"],
+              "applications": ["High-temperature compressors", "Extended drain intervals", "Severe conditions", "Food industry"]
+            },
+            {
+              "id": "dacnis-sh-46",
+              "name": "DACNIS SH 46",
+              "description": "Synthetic compressor oil for extended drain intervals. Superior oxidation resistance and thermal stability.",
+              "viscosity": "ISO VG 46",
+              "specifications": ["ISO 6743-3 DAH", "Synthetic"],
+              "image": "products/industrial/compressor-oil/dacnis-sh-46/main.jpg",
+              "datasheet": "products/industrial/compressor-oil/dacnis-sh-46/datasheet.pdf",
+              "inStock": true,
+              "featured": true,
+              "packSizes": ["20L", "208L"],
+              "applications": ["Screw compressors", "Extended drain", "Energy efficiency", "High-performance applications"]
+            },
+            {
+              "id": "dacnis-sh-68",
+              "name": "DACNIS SH 68",
+              "description": "Premium synthetic compressor oil for demanding applications. Excellent performance and long service life.",
+              "viscosity": "ISO VG 68",
+              "specifications": ["ISO 6743-3 DAH", "Synthetic"],
+              "image": "products/industrial/compressor-oil/dacnis-sh-68/main.jpg",
+              "datasheet": "products/industrial/compressor-oil/dacnis-sh-68/datasheet.pdf",
+              "inStock": true,
+              "featured": false,
+              "packSizes": ["20L", "208L"],
+              "applications": ["Rotary screw compressors", "High-temperature", "Extended service", "Industrial applications"]
+            }
+          ]
+        },
+        {
+          "id": "yellow-machine-fluids",
+          "name": "Yellow Machine Fluids (Industrial Application)",
+          "usedFor": "Multi-functional fluids for construction and earth-moving equipment",
+          "products": [
+            {
+              "id": "dynatrans-acx-10w",
+              "name": "DYNATRANS ACX 10W",
+              "description": "Multi-functional transmission and hydraulic fluid for construction equipment. Excellent all-season performance.",
+              "viscosity": "10W",
+              "specifications": ["Caterpillar TO-4", "Allison C-4", "ZF TE-ML 03C"],
+              "image": "products/industrial/yellow-machine-fluids/dynatrans-acx-10w/main.jpg",
+              "datasheet": "products/industrial/yellow-machine-fluids/dynatrans-acx-10w/datasheet.pdf",
+              "inStock": true,
+              "featured": true,
+              "packSizes": ["20L", "208L", "1000L IBC"],
+              "applications": ["Construction equipment", "Transmissions", "Hydraulics", "Final drives", "Wet brakes"]
+            },
+            {
+              "id": "dynatrans-acx-30",
+              "name": "DYNATRANS ACX 30",
+              "description": "Universal tractor transmission oil for moderate climates. Versatile performance for multiple applications.",
+              "viscosity": "SAE 30",
+              "specifications": ["Caterpillar TO-4", "Allison C-4", "Komatsu KES 07.868.1"],
+              "image": "products/industrial/yellow-machine-fluids/dynatrans-acx-30/main.jpg",
+              "datasheet": "products/industrial/yellow-machine-fluids/dynatrans-acx-30/datasheet.pdf",
+              "inStock": true,
+              "featured": false,
+              "packSizes": ["20L", "208L", "1000L IBC"],
+              "applications": ["Earth-moving equipment", "Transmissions", "Hydraulics", "Power shift", "Torque converters"]
+            },
+            {
+              "id": "dynatrans-acx-50",
+              "name": "DYNATRANS ACX 50",
+              "description": "Heavy-duty transmission and hydraulic fluid for hot climates. Superior protection in extreme temperatures.",
+              "viscosity": "SAE 50",
+              "specifications": ["Caterpillar TO-4", "Allison C-4", "ZF TE-ML 03C"],
+              "image": "products/industrial/yellow-machine-fluids/dynatrans-acx-50/main.jpg",
+              "datasheet": "products/industrial/yellow-machine-fluids/dynatrans-acx-50/datasheet.pdf",
+              "inStock": true,
+              "featured": false,
+              "packSizes": ["20L", "208L", "1000L IBC"],
+              "applications": ["Hot climate operations", "Heavy-duty equipment", "Mining", "Construction"]
+            }
+          ]
+        },
+        {
+          "id": "turbine-oil",
+          "name": "Turbine Oil",
+          "usedFor": "High-quality oils for steam and gas turbines",
+          "products": [
+            {
+              "id": "preslia-32",
+              "name": "PRESLIA 32",
+              "description": "Premium turbine oil for steam and gas turbines. Excellent oxidation stability and water separation properties.",
+              "viscosity": "ISO VG 32",
+              "specifications": ["ISO 8068 L-TSA", "DIN 51515-1", "GE GEK 32568"],
+              "image": "products/industrial/turbine-oil/preslia-32/main.jpg",
+              "datasheet": "products/industrial/turbine-oil/preslia-32/datasheet.pdf",
+              "inStock": true,
+              "featured": true,
+              "packSizes": ["20L", "208L", "1000L IBC"],
+              "applications": ["Steam turbines", "Gas turbines", "Power generation", "Industrial turbines"]
+            },
+            {
+              "id": "preslia-46",
+              "name": "PRESLIA 46",
+              "description": "High-performance turbine oil for demanding applications. Superior protection and long service life.",
+              "viscosity": "ISO VG 46",
+              "specifications": ["ISO 8068 L-TSA", "DIN 51515-1", "Siemens TLV 9013 04"],
+              "image": "products/industrial/turbine-oil/preslia-46/main.jpg",
+              "datasheet": "products/industrial/turbine-oil/preslia-46/datasheet.pdf",
+              "inStock": true,
+              "featured": false,
+              "packSizes": ["20L", "208L", "1000L IBC"],
+              "applications": ["Steam turbines", "Hydro turbines", "Combined cycle", "Power plants"]
+            },
+            {
+              "id": "preslia-68",
+              "name": "PRESLIA 68",
+              "description": "Heavy-duty turbine oil for severe operating conditions. Excellent thermal and oxidation stability.",
+              "viscosity": "ISO VG 68",
+              "specifications": ["ISO 8068 L-TSA", "DIN 51515-1"],
+              "image": "products/industrial/turbine-oil/preslia-68/main.jpg",
+              "datasheet": "products/industrial/turbine-oil/preslia-68/datasheet.pdf",
+              "inStock": true,
+              "featured": false,
+              "packSizes": ["20L", "208L", "1000L IBC"],
+              "applications": ["Large steam turbines", "Industrial turbines", "High-load applications"]
+            }
+          ]
+        },
+        {
+          "id": "rockdrill-oil",
+          "name": "Rockdrill Oil",
+          "usedFor": "Oils for pneumatic rock drills and mining equipment",
+          "products": [
+            {
+              "id": "pneuma-100",
+              "name": "PNEUMA 100",
+              "description": "Premium rock drill oil for mining and quarrying. Excellent adhesion and water resistance.",
+              "viscosity": "ISO VG 100",
+              "specifications": ["ISO 6743-3 L-AN"],
+              "image": "products/industrial/rockdrill-oil/pneuma-100/main.jpg",
+              "datasheet": "products/industrial/rockdrill-oil/pneuma-100/datasheet.pdf",
+              "inStock": true,
+              "featured": true,
+              "packSizes": ["20L", "208L"],
+              "applications": ["Rock drills", "Pneumatic tools", "Mining", "Quarrying", "Tunneling"]
+            },
+            {
+              "id": "pneuma-150",
+              "name": "PNEUMA 150",
+              "description": "Heavy-duty rock drill oil for extreme conditions. Superior protection in wet and dusty environments.",
+              "viscosity": "ISO VG 150",
+              "specifications": ["ISO 6743-3 L-AN"],
+              "image": "products/industrial/rockdrill-oil/pneuma-150/main.jpg",
+              "datasheet": "products/industrial/rockdrill-oil/pneuma-150/datasheet.pdf",
+              "inStock": true,
+              "featured": false,
+              "packSizes": ["20L", "208L"],
+              "applications": ["Heavy rock drills", "Underground mining", "Wet drilling", "Severe conditions"]
+            }
+          ]
+        },
+        {
+          "id": "heat-transfer-oil",
+          "name": "Heat Transfer Oil",
+          "usedFor": "Thermal oils for heat transfer systems",
+          "products": [
+            {
+              "id": "seriola-32",
+              "name": "SERIOLA 32",
+              "description": "High-quality heat transfer oil for closed-loop systems. Excellent thermal stability and long service life.",
+              "viscosity": "ISO VG 32",
+              "specifications": ["ISO 6743-12 L-QB"],
+              "image": "products/industrial/heat-transfer-oil/seriola-32/main.jpg",
+              "datasheet": "products/industrial/heat-transfer-oil/seriola-32/datasheet.pdf",
+              "inStock": true,
+              "featured": true,
+              "packSizes": ["20L", "208L"],
+              "applications": ["Heat transfer systems", "Process heating", "Manufacturing", "Chemical industry"]
+            }
+          ]
+        },
+        {
+          "id": "transformer-oil",
+          "name": "Transformer Oil",
+          "usedFor": "Insulating oils for electrical transformers",
+          "products": [
+            {
+              "id": "isovoltine-ii",
+              "name": "ISOVOLTINE II",
+              "description": "High-quality transformer oil for electrical insulation. Excellent dielectric properties and oxidation stability.",
+              "viscosity": "ISO VG 10",
+              "specifications": ["IEC 60296", "ASTM D3487"],
+              "image": "products/industrial/transformer-oil/isovoltine-ii/main.jpg",
+              "datasheet": "products/industrial/transformer-oil/isovoltine-ii/datasheet.pdf",
+              "inStock": true,
+              "featured": true,
+              "packSizes": ["208L", "1000L IBC"],
+              "applications": ["Power transformers", "Distribution transformers", "Electrical insulation", "Switchgear"]
+            }
+          ]
+        },
+        {
+          "id": "soluble-cutting-oil",
+          "name": "Soluble Cutting Oil",
+          "usedFor": "Water-soluble metalworking fluids",
+          "products": [
+            {
+              "id": "csgp",
+              "name": "CSGP",
+              "description": "General purpose soluble cutting oil for machining operations. Excellent cooling and lubrication properties.",
+              "viscosity": "Soluble",
+              "specifications": ["ISO 6743-7"],
+              "image": "products/industrial/soluble-cutting-oil/csgp/main.jpg",
+              "datasheet": "products/industrial/soluble-cutting-oil/csgp/datasheet.pdf",
+              "inStock": true,
+              "featured": false,
+              "packSizes": ["20L", "208L"],
+              "applications": ["Machining", "Cutting", "Grinding", "Metal working", "General manufacturing"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "greases",
+      "name": "Greases",
+      "description": "Specialized greases for various applications",
+      "icon": "grease",
+      "subcategories": [
+        {
+          "id": "general-purpose-grease",
+          "name": "General Purpose Grease",
+          "usedFor": "Multi-purpose greases for general applications",
+          "products": [
+            {
+              "id": "multis-ep-2",
+              "name": "MULTIS EP 2",
+              "description": "Premium lithium complex EP grease for general industrial applications. Excellent mechanical stability and water resistance.",
+              "viscosity": "NLGI 2",
+              "specifications": ["ISO 6743-9 L-XCCEB 2", "DIN 51502 KP2K-30"],
+              "image": "products/greases/general-purpose-grease/multis-ep-2/main.jpg",
+              "datasheet": "products/greases/general-purpose-grease/multis-ep-2/datasheet.pdf",
+              "inStock": true,
+              "featured": true,
+              "packSizes": ["400g", "5kg", "18kg", "180kg"],
+              "applications": ["Bearings", "Chassis", "General lubrication", "Industrial equipment", "Automotive"]
+            },
+            {
+              "id": "multis-ep-3",
+              "name": "MULTIS EP 3",
+              "description": "Heavy-duty lithium complex EP grease for severe conditions. Superior protection under high loads and temperatures.",
+              "viscosity": "NLGI 3",
+              "specifications": ["ISO 6743-9 L-XCCEB 3", "DIN 51502 KP3K-30"],
+              "image": "products/greases/general-purpose-grease/multis-ep-3/main.jpg",
+              "datasheet": "products/greases/general-purpose-grease/multis-ep-3/datasheet.pdf",
+              "inStock": true,
+              "featured": false,
+              "packSizes": ["400g", "5kg", "18kg", "180kg"],
+              "applications": ["Heavy-duty bearings", "High-load applications", "Vibrating equipment", "Construction machinery"]
+            }
+          ]
+        },
+        {
+          "id": "yellow-machine-grease",
+          "name": "Yellow Machine & Earth Moving Grease",
+          "usedFor": "Heavy-duty greases for construction and mining equipment",
+          "products": [
+            {
+              "id": "multis-complex-xhv2-moly",
+              "name": "MULTIS COMPLEX XHV2 MOLY",
+              "description": "Premium molybdenum disulfide grease for extreme pressure applications. Exceptional protection for heavily loaded equipment.",
+              "viscosity": "NLGI 2",
+              "specifications": ["ISO 6743-9 L-XCEEB 2", "Moly additive"],
+              "image": "products/greases/yellow-machine-grease/multis-complex-xhv2-moly/main.jpg",
+              "datasheet": "products/greases/yellow-machine-grease/multis-complex-xhv2-moly/datasheet.pdf",
+              "inStock": true,
+              "featured": true,
+              "packSizes": ["400g", "5kg", "18kg", "180kg"],
+              "applications": ["Construction equipment", "Mining machinery", "Earth movers", "Extreme pressure", "Shock loads"]
+            },
+            {
+              "id": "multis-ms-2",
+              "name": "MULTIS MS 2",
+              "description": "Multi-service grease for construction and agricultural equipment. Excellent adhesion and water resistance.",
+              "viscosity": "NLGI 2",
+              "specifications": ["ISO 6743-9 L-XBCEB 2"],
+              "image": "products/greases/yellow-machine-grease/multis-ms-2/main.jpg",
+              "datasheet": "products/greases/yellow-machine-grease/multis-ms-2/datasheet.pdf",
+              "inStock": true,
+              "featured": false,
+              "packSizes": ["400g", "5kg", "18kg", "180kg"],
+              "applications": ["Construction machinery", "Agricultural equipment", "Pins and bushings", "Wet conditions"]
+            }
+          ]
+        },
+        {
+          "id": "bearing-grease",
+          "name": "Bearing Grease",
+          "usedFor": "Specialized greases for bearings",
+          "products": [
+            {
+              "id": "ceran-xm-220",
+              "name": "CERAN XM 220",
+              "description": "High-temperature calcium sulfonate complex grease for extreme conditions. Exceptional water resistance and load-carrying capacity.",
+              "viscosity": "NLGI 2",
+              "specifications": ["ISO 6743-9 L-XDDHB 2", "High temperature"],
+              "image": "products/greases/bearing-grease/ceran-xm-220/main.jpg",
+              "datasheet": "products/greases/bearing-grease/ceran-xm-220/datasheet.pdf",
+              "inStock": true,
+              "featured": true,
+              "packSizes": ["400g", "5kg", "18kg"],
+              "applications": ["High-temperature bearings", "Steel industry", "Kilns", "Dryers", "Wet environments"]
+            },
+            {
+              "id": "multis-complex-ep-2",
+              "name": "MULTIS COMPLEX EP 2",
+              "description": "Premium lithium complex EP grease for industrial bearings. Extended relubrication intervals and excellent performance.",
+              "viscosity": "NLGI 2",
+              "specifications": ["ISO 6743-9 L-XCEEB 2", "DIN 51502 KP2K-30"],
+              "image": "products/greases/bearing-grease/multis-complex-ep-2/main.jpg",
+              "datasheet": "products/greases/bearing-grease/multis-complex-ep-2/datasheet.pdf",
+              "inStock": true,
+              "featured": false,
+              "packSizes": ["400g", "5kg", "18kg", "180kg"],
+              "applications": ["Industrial bearings", "Rolling mills", "Paper machines", "Extended intervals"]
+            }
+          ]
+        },
+        {
+          "id": "specialized-grease",
+          "name": "Specialized Grease",
+          "usedFor": "Greases for specific applications",
+          "products": [
+            {
+              "id": "altis-em-2",
+              "name": "ALTIS EM 2",
+              "description": "Electric motor bearing grease with excellent electrical properties. Prevents bearing currents and extends motor life.",
+              "viscosity": "NLGI 2",
+              "specifications": ["ISO 6743-9 L-XBFHB 2", "Electric motor"],
+              "image": "products/greases/specialized-grease/altis-em-2/main.jpg",
+              "datasheet": "products/greases/specialized-grease/altis-em-2/datasheet.pdf",
+              "inStock": true,
+              "featured": true,
+              "packSizes": ["400g", "5kg"],
+              "applications": ["Electric motors", "Generators", "High-speed bearings", "Electrical equipment"]
+            },
+            {
+              "id": "ceran-ad-plus",
+              "name": "CERAN AD PLUS",
+              "description": "Premium adhesive grease for open gears and wire ropes. Excellent adhesion prevents throw-off and provides long-lasting protection.",
+              "viscosity": "NLGI 2",
+              "specifications": ["ISO 6743-9 L-XBCHB 2", "Adhesive"],
+              "image": "products/greases/specialized-grease/ceran-ad-plus/main.jpg",
+              "datasheet": "products/greases/specialized-grease/ceran-ad-plus/datasheet.pdf",
+              "inStock": true,
+              "featured": false,
+              "packSizes": ["5kg", "18kg", "180kg"],
+              "applications": ["Open gears", "Wire ropes", "Chains", "Slow-moving equipment", "Outdoor applications"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "coolants-additives",
+      "name": "Coolants & Additives",
+      "description": "Coolants and degreasers for maintenance",
+      "icon": "coolant",
+      "subcategories": [
+        {
+          "id": "coolant",
+          "name": "Coolant",
+          "usedFor": "Engine coolants and antifreeze",
+          "products": [
+            {
+              "id": "coolelf-auto-supra-minus37",
+              "name": "COOLELF AUTO SUPRA-37°C",
+              "description": "Premium long-life organic coolant concentrate. Provides excellent protection down to -37°C with extended service life.",
+              "viscosity": "Coolant",
+              "specifications": ["ASTM D3306", "BS 6580", "SAE J1034"],
+              "image": "products/coolants-additives/coolant/coolelf-auto-supra-minus37/main.jpg",
+              "datasheet": "products/coolants-additives/coolant/coolelf-auto-supra-minus37/datasheet.pdf",
+              "inStock": true,
+              "featured": true,
+              "packSizes": ["1L", "5L", "20L", "208L"],
+              "applications": ["Passenger vehicles", "Light commercial", "Heavy-duty engines", "All seasons", "Extended life"]
+            },
+            {
+              "id": "glacelf-auto-supra",
+              "name": "GLACELF AUTO SUPRA",
+              "description": "Universal long-life coolant with organic additive technology. Compatible with all engine types and provides superior protection.",
+              "viscosity": "Coolant",
+              "specifications": ["ASTM D3306", "ASTM D4985", "BS 6580"],
+              "image": "products/coolants-additives/coolant/glacelf-auto-supra/main.jpg",
+              "datasheet": "products/coolants-additives/coolant/glacelf-auto-supra/datasheet.pdf",
+              "inStock": true,
+              "featured": true,
+              "packSizes": ["1L", "5L", "20L", "208L"],
+              "applications": ["All vehicle types", "Mixed fleets", "Aluminum engines", "Cast iron engines", "Long service life"]
+            }
+          ]
+        },
+        {
+          "id": "degreaser",
+          "name": "Degreaser",
+          "usedFor": "Industrial cleaning and degreasing",
+          "products": [
+            {
+              "id": "finadet-mp",
+              "name": "FINADET MP",
+              "description": "Multi-purpose industrial degreaser for cleaning engines, parts, and equipment. Fast-acting formula removes oil, grease, and grime.",
+              "viscosity": "Liquid",
+              "specifications": ["Industrial cleaner"],
+              "image": "products/coolants-additives/degreaser/finadet-mp/main.jpg",
+              "datasheet": "products/coolants-additives/degreaser/finadet-mp/datasheet.pdf",
+              "inStock": true,
+              "featured": false,
+              "packSizes": ["5L", "20L", "208L"],
+              "applications": ["Engine cleaning", "Parts washing", "Equipment maintenance", "Workshop cleaning", "Industrial degreasing"]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "version": "1.0.0",
+    "lastUpdated": "2025-10-31",
+    "totalProducts": 73,
+    "totalCategories": 8,
+    "note": "Complete product catalog with all 73 products across 8 categories"
+  }
+}

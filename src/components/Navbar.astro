@@ -1,0 +1,154 @@
+---
+import { ViewTransitions } from 'astro:transitions';
+---
+
+<header class="fixed w-full bg-white/90 backdrop-blur-sm z-50 shadow-sm">
+  <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+    <!-- Logo -->
+    <a href="/" class="flex items-center space-x-2 group">
+      <div class="w-10 h-10 bg-primary rounded-full flex items-center justify-center">
+        <span class="text-white font-bold text-xl">L</span>
+      </div>
+      <span class="text-2xl font-bold text-dark group-hover:text-primary transition-colors">
+        Lubri<span class="text-primary">Tech</span>
+      </span>
+    </a>
+
+    <!-- Desktop Navigation -->
+    <div class="hidden md:flex items-center space-x-8">
+      <a href="/products" class="nav-link">Products</a>
+      <a href="/industries" class="nav-link">Industries</a>
+      <a href="/sustainability" class="nav-link">Sustainability</a>
+      <a href="/about" class="nav-link">About Us</a>
+      <a href="/contact" class="btn-primary">Contact Us</a>
+    </div>
+
+    <!-- Mobile Menu Button -->
+    <button id="mobile-menu-button" class="md:hidden text-dark hover:text-primary transition-colors">
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+      </svg>
+    </button>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div id="mobile-menu" class="md:hidden hidden bg-white shadow-lg">
+    <div class="px-6 py-4 space-y-4">
+      <a href="/products" class="block py-2 text-lg hover:text-primary transition-colors">Products</a>
+      <a href="/industries" class="block py-2 text-lg hover:text-primary transition-colors">Industries</a>
+      <a href="/sustainability" class="block py-2 text-lg hover:text-primary transition-colors">Sustainability</a>
+      <a href="/about" class="block py-2 text-lg hover:text-primary transition-colors">About Us</a>
+      <a href="/contact" class="btn-primary inline-block mt-2">Contact Us</a>
+    </div>
+  </div>
+</header>
+
+<!-- GSAP Animation Script -->
+<script is:inline>
+  // Load GSAP from CDN
+  const gsapScript = document.createElement('script');
+  gsapScript.src = 'https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js';
+  gsapScript.integrity = 'sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug==';
+  gsapScript.crossOrigin = 'anonymous';
+  gsapScript.referrerPolicy = 'no-referrer';
+  
+  // Load ScrollTrigger after GSAP
+  gsapScript.onload = () => {
+    const scrollTriggerScript = document.createElement('script');
+    scrollTriggerScript.src = 'https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js';
+    scrollTriggerScript.integrity = 'sha512-Ic9xkERzyZ1k4+fm6u0ZR/1xpDtaQ9XYtU+Q/3q9j8Jw0tV7s0o05mlCNw6T1O4yJ+Zt5+0gJ5b5V5F5SQQ==';
+    scrollTriggerScript.crossOrigin = 'anonymous';
+    scrollTriggerScript.referrerPolicy = 'no-referrer';
+    document.head.appendChild(scrollTriggerScript);
+    
+    // Initialize GSAP animations after ScrollTrigger is loaded
+    scrollTriggerScript.onload = initAnimations;
+  };
+  
+  document.head.appendChild(gsapScript);
+  
+  // Mobile menu toggle
+  const mobileMenuButton = document.getElementById('mobile-menu-button');
+  const mobileMenu = document.getElementById('mobile-menu');
+  
+  if (mobileMenuButton && mobileMenu) {
+    mobileMenuButton.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+      mobileMenuButton.classList.toggle('text-primary');
+    });
+  }
+  
+  // Initialize animations function
+  function initAnimations() {
+    // Navbar scroll effect
+    const header = document.querySelector('header');
+    let lastScroll = 0;
+    
+    window.addEventListener('scroll', () => {
+      const currentScroll = window.pageYOffset;
+      
+      if (currentScroll <= 0) {
+        header.classList.remove('shadow-md');
+        header.classList.add('shadow-sm');
+        return;
+      }
+      
+      if (currentScroll > lastScroll && !header.classList.contains('scroll-down')) {
+        // Scroll down
+        header.classList.add('scroll-down');
+        header.classList.remove('scroll-up');
+      } else if (currentScroll < lastScroll && header.classList.contains('scroll-down')) {
+        // Scroll up
+        header.classList.remove('scroll-down');
+        header.classList.add('scroll-up');
+        header.classList.add('shadow-md');
+      }
+      
+      lastScroll = currentScroll;
+    });
+    
+    // Register ScrollTrigger plugin
+    gsap.registerPlugin(ScrollTrigger);
+    
+    // Animate nav links on page load
+    gsap.from('.nav-link', {
+      duration: 0.8,
+      y: -20,
+      opacity: 0,
+      stagger: 0.1,
+      ease: 'power3.out',
+      delay: 0.5
+    });
+  }
+</script>
+
+<style>
+  .nav-link {
+    @apply text-dark hover:text-primary font-medium transition-colors relative;
+  }
+  
+  .nav-link::after {
+    content: '';
+    @apply absolute bottom-0 left-0 w-0 h-0.5 bg-primary transition-all duration-300;
+  }
+  
+  .nav-link:hover::after {
+    @apply w-full;
+  }
+  
+  .btn-primary {
+    @apply bg-primary text-white px-6 py-2 rounded-md font-medium hover:bg-opacity-90 transition-colors;
+  }
+  
+  header.scroll-down {
+    transform: translateY(-100%);
+  }
+  
+  header.scroll-up {
+    transform: translateY(0);
+  }
+  
+  header {
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+</style>

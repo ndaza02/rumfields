@@ -1,0 +1,45 @@
+---
+import '../styles/global.css';
+import Navbar from '../components/Navbar.astro';
+import Footer from '../components/Footer.astro';
+
+const { title = 'Premium Oils & Lubricants' } = Astro.props;
+---
+
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Premium quality oils, lubricants, and fuels for automotive and industrial applications" />
+    
+    <title>{title} | Premium Lubricants</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Preload critical resources -->
+    <link rel="preload" as="style" href="/styles/global.css" />
+  </head>
+  
+  <body class="bg-white text-gray-900 font-sans antialiased">
+    <Navbar />
+    
+    <main class="min-h-screen">
+      <slot />
+    </main>
+    
+    <Footer />
+    
+    <!-- GSAP -->
+    <script>
+      // GSAP will be loaded from CDN in the Navbar component
+      // This ensures smooth animations across the site
+    </script>
+  </body>
+</html>

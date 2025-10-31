@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leading Industrial Lubricants Supplier</title>
+    <link rel="icon" type="image/png" href="assets/images/logo.png">
+    <link rel="apple-touch-icon" href="assets/images/logo.png">
+    <link rel="stylesheet" href="styles.css">
+    <!-- GSAP Library with Free Plugins Only -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/ScrollToPlugin.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/TextPlugin.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/MotionPathPlugin.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/Flip.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/Observer.min.js"></script>
+</head>
+<body>
+    <!-- Navigation (Fixed - Outside smooth content) -->
+    <header class="site-header" id="navbar">
+        <div class="site-header__row inner-frame">
+            <!-- Left Column - Logo -->
+            <div class="site-header__col -left">
+                <div class="site-header__widget">
+                    <a href="#home" class="site-header__logo">
+                        <span class="sr-only">Site Logo - Redirects to Homepage</span>
+                        <img src="assets/images/logo.png" alt="Industrial Lubricants Logo" class="logo-image">
+                    </a>
+                </div>
+            </div>
+
+            <!-- Center Column - Main Navigation -->
+            <div class="site-header__col -center">
+                <nav class="nav-primary" aria-label="Main Navigation">
+                    <ul class="nav-primary__links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="news.html">News</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <!-- Right Column - Action Buttons -->
+            <div class="site-header__col -right">
+                <!-- Search Button -->
+                <div class="site-header__widget">
+                    <div class="site-search -toggle">
+                        <button role="button" class="site-search__toggle" data-js="search-trigger">
+                            <span class="sr-only">Open Search</span>
+                            <svg width="30" height="30" class="icon icon-search site-search__icon" aria-hidden="true" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="11" cy="11" r="8"></circle>
+                                <path d="m21 21-4.35-4.35"></path>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Mobile Menu Toggle -->
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Search Modal -->
+    <div class="search-modal" id="searchModal">
+        <div class="search-modal-overlay" id="searchOverlay"></div>
+        <div class="search-modal-content">
+            <button class="search-close" id="searchClose">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="18" y1="6" x2="6" y2="18"></line>
+                    <line x1="6" y1="6" x2="18" y2="18"></line>
+                </svg>
+            </button>
+            <div class="search-input-wrapper">
+                <svg class="search-input-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="11" cy="11" r="8"></circle>
+                    <path d="M21 21l-4.35-4.35"></path>
+                </svg>
+                <input type="text" class="search-input-field" id="searchInput" placeholder="Search products, industries, or content..." autocomplete="off">
+            </div>
+            <div class="search-results" id="searchResults">
+                <div class="search-suggestions">
+                    <h3>Popular Searches</h3>
+                    <div class="suggestion-tags">
+                        <span class="suggestion-tag">Engine Oil</span>
+                        <span class="suggestion-tag">Hydraulic Fluid</span>
+                        <span class="suggestion-tag">Marine Lubricants</span>
+                        <span class="suggestion-tag">Mining Solutions</span>
+                        <span class="suggestion-tag">Industrial Grease</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="smooth-wrapper">
+        <div id="smooth-content">
+            <!-- Hero Section -->
+    <section class="hero" id="home">
+        <video class="hero-video" autoplay muted loop playsinline data-speed="0.5">
+            <source src="assets/videos/hero-video.mov" type="video/mp4">
+        </video>
+        <div class="hero-overlay" data-speed="0.3"></div>
+        
+        <!-- Flowing Lines -->
+        <svg class="flowing-lines" viewBox="0 0 1920 1080" preserveAspectRatio="none">
+            <path class="flow-line-1" d="M0,540 Q480,400 960,540 T1920,540" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="2"/>
+            <path class="flow-line-2" d="M0,600 Q480,460 960,600 T1920,600" fill="none" stroke="rgba(255,255,255,0.05)" stroke-width="2"/>
+            <path class="flow-line-3" d="M0,480 Q480,340 960,480 T1920,480" fill="none" stroke="rgba(0,75,155,0.2)" stroke-width="3"/>
+        </svg>
+        
+        <!-- Live Oil Prices Ticker - Top Left Corner -->
+        <div class="oil-prices-ticker" id="oilPricesTicker">
+            <div class="ticker-prices" id="tickerPrices">
+                <div class="price-loading">
+                    <span>Loading...</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="hero-content" data-lag="0.1">
+            <h1 class="hero-title">Your Total Solutions Partner in Lubrication</h1>
+            <p class="hero-subtitle">Welcome to Rumfields Enterprises, trading as Mining Industrial Lubricant Suppliers (MILS). We are a registered, professional lubricant and oil company headquartered in Bulawayo, Zimbabwe. As a proud TotalEnergies Authorised Distributor, we are committed to providing world-class lubricant solutions for every sector. From heavy-duty mining and industrial applications to passenger vehicles and agriculture, MILS is your trusted source for quality, reliability, and performance.</p>
+            
+            <a href="products.html" class="cta-button">
+                <span class="btn-text">Browse Product Catalog</span>
+                <span class="btn-icon">→</span>
+            </a>
+        </div>
+        <!-- Infinite Logo Carousel -->
+        <div class="logo-carousel-container">
+            <div class="logo-carousel">
+                <div class="logo-track">
+                    <!-- First set of logos -->
+                    <div class="logo-item">
+                        <img src="assets/images/clients/ppc.png" alt="Pretoria Portland Cement">
+                    </div>
+                    <div class="logo-item">
+                        <img src="assets/images/clients/delta.png" alt="Delta">
+                    </div>
+                    <div class="logo-item">
+                        <img src="assets/images/clients/holdings.png" alt="Holdings">
+                    </div>
+                    <div class="logo-item">
+                        <img src="assets/images/clients/jrg.png" alt="JRG">
+                    </div>
+                    <div class="logo-item">
+                        <img src="assets/images/clients/stallion.png" alt="Stallion Cruise">
+                    </div>
+                    <div class="logo-item">
+                        <img src="assets/images/clients/zetdc.png" alt="ZETDC">
+                    </div>
+                    <div class="logo-item">
+                        <img src="assets/images/clients/client9.png" alt="Client">
+                    </div>
+                    <div class="logo-item">
+                        <img src="assets/images/clients/jena-mines.png" alt="Jena Mines">
+                    </div>
+                    <div class="logo-item">
+                        <img src="assets/images/clients/logo1.png" alt="Client Logo">
+                    </div>
+                    <div class="logo-item">
+                        <img src="assets/images/clients/picture1.png" alt="Client">
+                    </div>
+                    
+                    <!-- Duplicate set for seamless loop -->
+                    <div class="logo-item">
+                        <img src="assets/images/clients/ppc.png" alt="Pretoria Portland Cement">
+                    </div>
+                    <div class="logo-item">
+                        <img src="assets/images/clients/delta.png" alt="Delta">
+                    </div>
+                    <div class="logo-item">
+                        <img src="assets/images/clients/holdings.png" alt="Holdings">
+                    </div>
+                    <div class="logo-item">
+                        <img src="assets/images/clients/jrg.png" alt="JRG">
+                    </div>
+                    <div class="logo-item">
+                        <img src="assets/images/clients/stallion.png" alt="Stallion Cruise">
+                    </div>
+                    <div class="logo-item">
+                        <img src="assets/images/clients/zetdc.png" alt="ZETDC">
+                    </div>
+                    <div class="logo-item">
+                        <img src="assets/images/clients/client9.png" alt="Client">
+                    </div>
+                    <div class="logo-item">
+                        <img src="assets/images/clients/jena-mines.png" alt="Jena Mines">
+                    </div>
+                    <div class="logo-item">
+                        <img src="assets/images/clients/logo1.png" alt="Client Logo">
+                    </div>
+                    <div class="logo-item">
+                        <img src="assets/images/clients/picture1.png" alt="Client">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About/Intro Section -->
+    <section class="about-section" id="about">
+        <div class="about-container">
+            <div class="about-content">
+                <h2>About Mining Industrial Lubricant Suppliers (MILS)</h2>
+                <div class="about-divider"></div>
+                <p><span class="highlight">MILS</span> is a registered lubricant and oil company headquartered in <span class="highlight">Bulawayo, Zimbabwe</span>. We are involved in the supply of petroleum-based lubricants and grease products, including blended Motor oils, Brake fluids, and Lubricating grease.</p>
+                <p>As a proud <span class="highlight">TotalEnergies Authorised Distributor</span>, we are committed to providing world-class lubricant solutions for every sector. From heavy-duty mining and industrial applications to passenger vehicles and agriculture, MILS is your trusted source for quality, reliability, and performance.</p>
+                <p>We are set to service a wide range of clientele not only in and around Zimbabwe but also throughout the <span class="highlight">SADC region</span>.</p>
+                <p><strong>Our Mission:</strong> To establish a world-class Oil and lubricant Supplies Company whose products will not only be retailed in Zimbabwe, but also exported to other parts of Africa.</p>
+                <p><strong>Our Vision:</strong> To become one of the leading brands in the lubricant oil business in Zimbabwe.</p>
+                <a href="products.html" class="about-cta-button">
+                    <span>Explore Our Products</span>
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M5 12h14M12 5l7 7-7 7"/>
+                    </svg>
+                </a>
+            </div>
+            <div class="about-image">
+                <img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Industrial Operations" data-speed="auto" />
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section class="process-section" id="process">
+        <div class="container">
+            <h2 class="section-title">Your Trusted TotalEnergies Partner in Zimbabwe</h2>
+            <div class="process-grid">
+                <div class="process-card" data-step="1" data-speed="0.8">
+                    <div class="process-number">1</div>
+                    <div class="process-content">
+                        <h3>Consultation & Assessment</h3>
+                        <p>We understand your industry, equipment specifications, and operational challenges to identify the perfect lubricant solution for your needs.</p>
+                    </div>
+                    <div class="process-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/>
+                        </svg>
+                    </div>
+                </div>
+
+                <div class="process-card" data-step="2" data-speed="0.6">
+                    <div class="process-number">2</div>
+                    <div class="process-content">
+                        <h3>Expert Product Recommendation</h3>
+                        <p>Leveraging our expertise, we match your requirements with high-performance TotalEnergies lubricants—from Rubia for heavy vehicles to Azolla for hydraulics and Carter for gearboxes.</p>
+                    </div>
+                    <div class="process-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"/>
+                        </svg>
+                    </div>
+                </div>
+
+                <div class="process-card" data-step="3" data-speed="0.9">
+                    <div class="process-number">3</div>
+                    <div class="process-content">
+                        <h3>Formal Proposal</h3>
+                        <p>We provide a comprehensive proposal detailing the recommended TotalEnergies products, their performance benefits, and competitive pricing for your review.</p>
+                    </div>
+                    <div class="process-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+                        </svg>
+                    </div>
+                </div>
+
+                <div class="process-card" data-step="4">
+                    <div class="process-number">4</div>
+                    <div class="process-content">
+                        <h3>Reliable Supply & Delivery</h3>
+                        <p>As an Authorized TotalEnergies Distributor based in Bulawayo, we ensure consistent, timely delivery of genuine products across Zimbabwe's mining, industrial, and agricultural sectors.</p>
+                    </div>
+                    <div class="process-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"/>
+                            <path d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/>
+                        </svg>
+                    </div>
+                </div>
+
+                <div class="process-card" data-step="5">
+                    <div class="process-number">5</div>
+                    <div class="process-content">
+                        <h3>Ongoing Technical Support</h3>
+                        <p>We follow up to verify product performance, provide technical guidance, and ensure your equipment achieves maximum efficiency and protection.</p>
+                    </div>
+                    <div class="process-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products & Services Carousel Section -->
+    <section class="products-carousel-section">
+        <div class="container">
+            <h2 class="section-title">Our Products and Services</h2>
+            <p class="section-subtitle">Mining and Industrial Lubricant Suppliers (MILS) is dedicated to servicing a wide range of clients. As an Authorised Distributor for TotalEnergies, we supply a full portfolio of high-performance lubricants including Manufacturing Lubricating Oil and Grease, Brake Fluids, Petroleum Jelly, Petroleum Waxes, and All Engine Oils for On Road, Rail and Air Transportation.</p>
+            
+            <!-- Carousel Container -->
+            <div class="products-carousel">
+                <div class="carousel-track">
+                    <!-- Slide 1: Engine Oils -->
+                    <div class="carousel-slide">
+                        <div class="slide-image">
+                            <img src="https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=800&q=80" alt="Engine Oils">
+                            <div class="slide-overlay"></div>
+                        </div>
+                        <div class="slide-content">
+                            <div class="slide-icon">🛢️</div>
+                            <h3>Engine Oils</h3>
+                            <p>Premium synthetic and semi-synthetic engine oils for passenger vehicles, heavy-duty trucks, and industrial equipment. Ensuring optimal performance and protection.</p>
+                            <ul class="slide-features">
+                                <li>✓ Passenger Vehicle Oils</li>
+                                <li>✓ Heavy-Duty Diesel Oils</li>
+                                <li>✓ Synthetic & Semi-Synthetic</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Slide 2: Industrial Lubricants -->
+                    <div class="carousel-slide">
+                        <div class="slide-image">
+                            <img src="https://images.unsplash.com/photo-1565688534245-05d6b5be184a?w=800&q=80" alt="Industrial Lubricants">
+                            <div class="slide-overlay"></div>
+                        </div>
+                        <div class="slide-content">
+                            <div class="slide-icon">🏭</div>
+                            <h3>Industrial Lubricants</h3>
+                            <p>Comprehensive range of hydraulic oils, gear oils, and specialty lubricants for mining, manufacturing, and heavy industry applications.</p>
+                            <ul class="slide-features">
+                                <li>✓ Hydraulic Oils</li>
+                                <li>✓ Gear & Transmission Oils</li>
+                                <li>✓ Compressor Oils</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Slide 3: Greases -->
+                    <div class="carousel-slide">
+                        <div class="slide-image">
+                            <img src="https://images.unsplash.com/photo-1621905251189-08b45d6a269e?w=800&q=80" alt="Lubricating Greases">
+                            <div class="slide-overlay"></div>
+                        </div>
+                        <div class="slide-content">
+                            <div class="slide-icon">🧴</div>
+                            <h3>Lubricating Greases</h3>
+                            <p>High-performance greases for extreme conditions, from mining equipment to automotive applications. Superior protection against wear and corrosion.</p>
+                            <ul class="slide-features">
+                                <li>✓ Multi-Purpose Greases</li>
+                                <li>✓ High-Temperature Greases</li>
+                                <li>✓ Specialty Applications</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Slide 4: Agricultural Solutions -->
+                    <div class="carousel-slide">
+                        <div class="slide-image">
+                            <img src="https://images.unsplash.com/photo-1625246333195-78d9c38ad449?w=800&q=80" alt="Agricultural Lubricants">
+                            <div class="slide-overlay"></div>
+                        </div>
+                        <div class="slide-content">
+                            <div class="slide-icon">🚜</div>
+                            <h3>Agricultural Solutions</h3>
+                            <p>Specialized lubricants for tractors, harvesters, and farm equipment. Designed to withstand harsh agricultural environments and heavy workloads.</p>
+                            <ul class="slide-features">
+                                <li>✓ Tractor Oils</li>
+                                <li>✓ Universal Tractor Fluids</li>
+                                <li>✓ Farm Equipment Lubricants</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Slide 5: Specialty Products -->
+                    <div class="carousel-slide">
+                        <div class="slide-image">
+                            <img src="https://images.unsplash.com/photo-1530124566582-a618bc2615dc?w=800&q=80" alt="Specialty Products">
+                            <div class="slide-overlay"></div>
+                        </div>
+                        <div class="slide-content">
+                            <div class="slide-icon">⚙️</div>
+                            <h3>Specialty Products</h3>
+                            <p>Brake fluids, coolants, petroleum jelly, waxes, and other specialty products for diverse industrial and automotive applications.</p>
+                            <ul class="slide-features">
+                                <li>✓ Brake Fluids (DOT 3, 4, 5.1)</li>
+                                <li>✓ Coolants & Antifreeze</li>
+                                <li>✓ Petroleum Jelly & Waxes</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Navigation Arrows -->
+                <button class="carousel-btn prev-btn" onclick="moveCarousel(-1)">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M15 18l-6-6 6-6"/>
+                    </svg>
+                </button>
+                <button class="carousel-btn next-btn" onclick="moveCarousel(1)">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M9 18l6-6-6-6"/>
+                    </svg>
+                </button>
+
+                <!-- Dots Indicator -->
+                <div class="carousel-dots">
+                    <span class="dot active" onclick="goToSlide(0)"></span>
+                    <span class="dot" onclick="goToSlide(1)"></span>
+                    <span class="dot" onclick="goToSlide(2)"></span>
+                    <span class="dot" onclick="goToSlide(3)"></span>
+                    <span class="dot" onclick="goToSlide(4)"></span>
+                </div>
+            </div>
+
+            <a href="products.html" class="cta-button secondary">Explore Our Full Product Range</a>
+        </div>
+    </section>
+
+    <!-- Industries Section -->
+    <section class="industries-section" id="industries">
+        <div class="container">
+            <h2 class="section-title">Industries We Serve</h2>
+            <div class="industries-grid">
+                <div class="industry-card" data-industry="marine">
+                    <div class="industry-image">
+                        <div class="industry-overlay">
+                            <div class="industry-icon">⚓</div>
+                        </div>
+                    </div>
+                    <div class="industry-content">
+                        <h3>Marine</h3>
+                        <p>We work with marine customers to provide bespoke lubrication and cleaner engine technology solutions to help them run and maintain their operations smoothly and efficiently.</p>
+                        <button class="learn-more">
+                            <span>Learn More</span>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M5 12h14M12 5l7 7-7 7"/>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="industry-card" data-industry="power">
+                    <div class="industry-image">
+                        <div class="industry-overlay">
+                            <div class="industry-icon">⚡</div>
+                        </div>
+                    </div>
+                    <div class="industry-content">
+                        <h3>Power Generation</h3>
+                        <p>We work with Power Generators to provide high-performance lubrication solutions that reduce down-time, increase equipment lifespan and maximise efficiency.</p>
+                        <button class="learn-more">
+                            <span>Learn More</span>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M5 12h14M12 5l7 7-7 7"/>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="industry-card" data-industry="mining">
+                    <div class="industry-image">
+                        <div class="industry-overlay">
+                            <div class="industry-icon">⛏️</div>
+                        </div>
+                    </div>
+                    <div class="industry-content">
+                        <h3>Mining</h3>
+                        <p>It is vital you to keep your mines operating smoothly, efficiently and safely 24/7. From increasing the reliability and life of your machinery to reducing hazards – we can help.</p>
+                        <button class="learn-more">
+                            <span>Learn More</span>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M5 12h14M12 5l7 7-7 7"/>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="industry-card" data-industry="cement">
+                    <div class="industry-image">
+                        <div class="industry-overlay">
+                            <div class="industry-icon">🏭</div>
+                        </div>
+                    </div>
+                    <div class="industry-content">
+                        <h3>Cement</h3>
+                        <p>Making cement is a hard, hot business where your complex plant is under constant pressure to maximise performance 24/7. We can help develop a bespoke lubrication solution.</p>
+                        <button class="learn-more">
+                            <span>Learn More</span>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M5 12h14M12 5l7 7-7 7"/>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="industry-card" data-industry="sugar">
+                    <div class="industry-image">
+                        <div class="industry-overlay">
+                            <div class="industry-icon">🌾</div>
+                        </div>
+                    </div>
+                    <div class="industry-content">
+                        <h3>Sugar Mills</h3>
+                        <p>Making sure your sugar mill runs as efficiently as possible 24/7 is critical for your business, particularly during the peak season. We're here to help make sure you don't miss a minute.</p>
+                        <button class="learn-more">
+                            <span>Learn More</span>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M5 12h14M12 5l7 7-7 7"/>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section" id="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="section-subtitle">Contact Mining Industrial Lubricant Suppliers today for all your lubricant needs.</p>
+            
+            <div class="contact-info-grid">
+                <div class="contact-info-card">
+                    <div class="contact-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
+                            <path d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
+                        </svg>
+                    </div>
+                    <h3>Address</h3>
+                    <p>142 Amethyst Close, Burnside<br>Bulawayo, Zimbabwe</p>
+                </div>
+                
+                <div class="contact-info-card">
+                    <div class="contact-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/>
+                        </svg>
+                    </div>
+                    <h3>Phone</h3>
+                    <p>Office: 0292 247212<br>Mobile: 0773 456 846<br>Mobile: 0715 341 935</p>
+                </div>
+                
+                <div class="contact-info-card">
+                    <div class="contact-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+                        </svg>
+                    </div>
+                    <h3>Email</h3>
+                    <p>rumfieldsent@gmail.com</p>
+                </div>
+            </div>
+            
+            <form class="contact-form">
+                <div class="form-row">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-row">
+                    <input type="text" placeholder="Company Name" required>
+                    <select required>
+                        <option value="">Select Industry</option>
+                        <option value="mining">Mining</option>
+                        <option value="industrial">Industrial</option>
+                        <option value="agriculture">Agriculture</option>
+                        <option value="transport">Heavy Vehicles & Transport</option>
+                        <option value="passenger">Passenger Vehicles</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+                <textarea placeholder="Your Message" rows="5" required></textarea>
+                <button type="submit" class="cta-button">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>MILS - Mining Industrial Lubricant Suppliers</h4>
+                    <p>Rumfields Enterprises - Your trusted TotalEnergies Authorised Distributor in Zimbabwe, serving mining, industrial, agricultural, and transport sectors across the SADC region.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="#process">Our Process</a></li>
+                        <li><a href="#industries">Industries</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <p>📍 142 Amethyst Close, Burnside, Bulawayo</p>
+                    <p>📞 Office: 0292 247212</p>
+                    <p>📱 Mobile: 0773 456 846 / 0715 341 935</p>
+                    <p>✉️ Email: rumfieldsent@gmail.com</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Rumfields Enterprises (MILS). All rights reserved. | TotalEnergies Authorised Distributor</p>
+            </div>
+        </div>
+    </footer>
+        </div>
+    </div>
+
+    <script src="gsap-animations.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

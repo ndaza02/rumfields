@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Industry News - MILS | Mining Industrial Lubricant Suppliers</title>
+    <link rel="icon" type="image/png" href="assets/images/logo.png">
+    <link rel="apple-touch-icon" href="assets/images/logo.png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="news.css">
+</head>
+<body>
+    <!-- Site Header -->
+    <header class="site-header" id="navbar">
+        <div class="site-header__row inner-frame">
+            <!-- Left Column - Logo -->
+            <div class="site-header__col -left">
+                <div class="site-header__widget">
+                    <a href="index.html" class="site-header__logo">
+                        <span class="sr-only">Site Logo - Redirects to Homepage</span>
+                        <img src="assets/images/logo.png" alt="Industrial Lubricants Logo" class="logo-image">
+                    </a>
+                </div>
+            </div>
+
+            <!-- Center Column - Main Navigation -->
+            <div class="site-header__col -center">
+                <nav class="nav-primary" aria-label="Main Navigation">
+                    <ul class="nav-primary__links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="index.html#about">About</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="news.html" class="active">News</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="index.html#contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <!-- Right Column - Action Buttons -->
+            <div class="site-header__col -right">
+                <!-- Search Button -->
+                <div class="site-header__widget">
+                    <div class="site-search -toggle">
+                        <button role="button" class="site-search__toggle" data-js="search-trigger">
+                            <span class="sr-only">Open Search</span>
+                            <svg width="30" height="30" class="icon icon-search site-search__icon" aria-hidden="true" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="11" cy="11" r="8"></circle>
+                                <path d="m21 21-4.35-4.35"></path>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Mobile Menu Toggle -->
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- News Hero Section -->
+    <section class="news-hero">
+        <div class="news-hero-background">
+            <div class="hero-gradient"></div>
+        </div>
+        
+        <!-- Live Oil Prices Ticker - Top Left Corner -->
+        <div class="oil-prices-ticker" id="oilPricesTicker">
+            <div class="ticker-prices" id="tickerPrices">
+                <div class="price-loading">
+                    <span>Loading...</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="container">
+            <div class="news-hero-content">
+                <span class="hero-badge">Latest Updates</span>
+                <h1 class="news-hero-title">Industry News & Updates</h1>
+                <p class="news-hero-subtitle">Stay informed with the latest developments in lubricants, industrial solutions, and market trends</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- News Filter Section -->
+    <section class="news-filter-section">
+        <div class="container">
+            <div class="news-filters">
+                <button class="filter-btn active" data-category="all">All News</button>
+                <button class="filter-btn" data-category="industry">Industry</button>
+                <button class="filter-btn" data-category="products">Products</button>
+                <button class="filter-btn" data-category="company">Company</button>
+                <button class="filter-btn" data-category="technology">Technology</button>
+            </div>
+            <div class="news-search">
+                <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="11" cy="11" r="8"/>
+                    <path d="M21 21l-4.35-4.35"/>
+                </svg>
+                <input type="text" placeholder="Search news..." class="search-input" id="newsSearch">
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured News -->
+    <section class="featured-news-section">
+        <div class="container">
+            <h2 class="section-title">Featured Story</h2>
+            <div class="featured-news-card">
+                <div class="featured-news-image">
+                    <span class="news-badge featured-badge">Featured</span>
+                    <img src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=1200&h=600&fit=crop" alt="Featured News">
+                </div>
+                <div class="featured-news-content">
+                    <div class="news-meta">
+                        <span class="news-category industry">Industry</span>
+                        <span class="news-date">October 30, 2025</span>
+                    </div>
+                    <h3>TotalEnergies Launches Revolutionary Bio-Based Lubricant Line</h3>
+                    <p>In a groundbreaking move towards sustainability, TotalEnergies has unveiled a new range of bio-based lubricants that promise to reduce carbon emissions by up to 50% while maintaining superior performance standards.</p>
+                    <a href="#" class="read-more-link">
+                        <span>Read Full Story</span>
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M5 12h14M12 5l7 7-7 7"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Latest News Grid -->
+    <section class="news-grid-section">
+        <div class="container">
+            <h2 class="section-title">Latest News</h2>
+            <div class="news-grid" id="newsGrid">
+                <!-- News Card 1 -->
+                <article class="news-card" data-category="products">
+                    <div class="news-card-image">
+                        <span class="news-badge">Products</span>
+                        <img src="https://images.unsplash.com/photo-1621905251189-08b45d6a269e?w=600&h=400&fit=crop" alt="Mining Equipment">
+                    </div>
+                    <div class="news-card-content">
+                        <div class="news-meta">
+                            <span class="news-category products">Products</span>
+                            <span class="news-date">October 28, 2025</span>
+                        </div>
+                        <h3>New Heavy-Duty Mining Lubricants Now Available</h3>
+                        <p>MILS introduces advanced lubricant solutions specifically designed for extreme mining conditions, offering enhanced protection and extended equipment life.</p>
+                        <a href="#" class="read-more-link">
+                            <span>Read More</span>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M5 12h14M12 5l7 7-7 7"/>
+                            </svg>
+                        </a>
+                    </div>
+                </article>
+
+                <!-- News Card 2 -->
+                <article class="news-card" data-category="company">
+                    <div class="news-card-image">
+                        <span class="news-badge">Company</span>
+                        <img src="https://images.unsplash.com/photo-1560179707-f14e90ef3623?w=600&h=400&fit=crop" alt="Team Meeting">
+                    </div>
+                    <div class="news-card-content">
+                        <div class="news-meta">
+                            <span class="news-category company">Company</span>
+                            <span class="news-date">October 25, 2025</span>
+                        </div>
+                        <h3>MILS Expands Distribution Network Across Zimbabwe</h3>
+                        <p>Strategic expansion brings world-class lubricant solutions closer to customers with new distribution centers in Harare and Mutare.</p>
+                        <a href="#" class="read-more-link">
+                            <span>Read More</span>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M5 12h14M12 5l7 7-7 7"/>
+                            </svg>
+                        </a>
+                    </div>
+                </article>
+
+                <!-- News Card 3 -->
+                <article class="news-card" data-category="technology">
+                    <div class="news-card-image">
+                        <span class="news-badge">Technology</span>
+                        <img src="https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=600&h=400&fit=crop" alt="Technology">
+                    </div>
+                    <div class="news-card-content">
+                        <div class="news-meta">
+                            <span class="news-category technology">Technology</span>
+                            <span class="news-date">October 22, 2025</span>
+                        </div>
+                        <h3>AI-Powered Predictive Maintenance Solutions</h3>
+                        <p>New technology integration helps customers predict equipment maintenance needs, reducing downtime and operational costs significantly.</p>
+                        <a href="#" class="read-more-link">
+                            <span>Read More</span>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M5 12h14M12 5l7 7-7 7"/>
+                            </svg>
+                        </a>
+                    </div>
+                </article>
+
+                <!-- News Card 4 -->
+                <article class="news-card" data-category="industry">
+                    <div class="news-card-image">
+                        <span class="news-badge">Industry</span>
+                        <img src="https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=600&h=400&fit=crop" alt="Marine Industry">
+                    </div>
+                    <div class="news-card-content">
+                        <div class="news-meta">
+                            <span class="news-category industry">Industry</span>
+                            <span class="news-date">October 20, 2025</span>
+                        </div>
+                        <h3>Marine Industry Adopts Eco-Friendly Lubricants</h3>
+                        <p>Global shipping companies transition to environmentally sustainable lubricant solutions, setting new industry standards for marine operations.</p>
+                        <a href="#" class="read-more-link">
+                            <span>Read More</span>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M5 12h14M12 5l7 7-7 7"/>
+                            </svg>
+                        </a>
+                    </div>
+                </article>
+
+                <!-- News Card 5 -->
+                <article class="news-card" data-category="products">
+                    <div class="news-card-image">
+                        <span class="news-badge">Products</span>
+                        <img src="https://images.unsplash.com/photo-1513828583688-c52646db42da?w=600&h=400&fit=crop" alt="Industrial Equipment">
+                    </div>
+                    <div class="news-card-content">
+                        <div class="news-meta">
+                            <span class="news-category products">Products</span>
+                            <span class="news-date">October 18, 2025</span>
+                        </div>
+                        <h3>High-Performance Hydraulic Fluids Launch</h3>
+                        <p>New hydraulic fluid range delivers exceptional performance in extreme temperatures, perfect for Zimbabwe's diverse industrial applications.</p>
+                        <a href="#" class="read-more-link">
+                            <span>Read More</span>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M5 12h14M12 5l7 7-7 7"/>
+                            </svg>
+                        </a>
+                    </div>
+                </article>
+
+                <!-- News Card 6 -->
+                <article class="news-card" data-category="company">
+                    <div class="news-card-image">
+                        <span class="news-badge">Company</span>
+                        <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=600&h=400&fit=crop" alt="Training">
+                    </div>
+                    <div class="news-card-content">
+                        <div class="news-meta">
+                            <span class="news-category company">Company</span>
+                            <span class="news-date">October 15, 2025</span>
+                        </div>
+                        <h3>Technical Training Programs for Industrial Clients</h3>
+                        <p>MILS launches comprehensive training initiatives to help customers optimize lubricant usage and maintenance procedures.</p>
+                        <a href="#" class="read-more-link">
+                            <span>Read More</span>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M5 12h14M12 5l7 7-7 7"/>
+                            </svg>
+                        </a>
+                    </div>
+                </article>
+            </div>
+
+            <!-- Load More Button -->
+            <div class="load-more-container">
+                <button class="load-more-btn">
+                    <span>Load More News</span>
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M19 9l-7 7-7-7"/>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter-section">
+        <div class="container">
+            <div class="newsletter-card">
+                <div class="newsletter-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+                    </svg>
+                </div>
+                <h2>Stay Updated</h2>
+                <p>Subscribe to our newsletter and never miss important industry news and updates</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Enter your email address" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <h3>MILS</h3>
+                    <p>Mining Industrial Lubricant Suppliers - Your trusted partner for world-class lubricant solutions.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="news.html">News</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact</h4>
+                    <p>142 Amethyst Close, Burnside<br>Bulawayo, Zimbabwe</p>
+                    <p>Phone: 0292 247212</p>
+                    <p>Email: rumfieldsent@gmail.com</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Mining Industrial Lubricant Suppliers. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="news.js"></script>
+</body>
+</html>

@@ -1,0 +1,225 @@
+{
+  "categories": [
+    {
+      "id": "passenger-vehicles",
+      "name": "Passenger Vehicles",
+      "description": "Engine oils for cars, 4x4s, and other light vehicles",
+      "icon": "car",
+      "subcategories": [
+        {
+          "id": "synthetic-semi-synthetic",
+          "name": "Synthetic & Semi-Synthetic Engine Oil",
+          "usedFor": "Synthetic Engine Oil for small Vehicles",
+          "products": [
+            {
+              "id": "quartz-7000-10w40",
+              "name": "QUARTZ 7000 10W40",
+              "description": "High-performance semi-synthetic engine oil providing excellent protection for modern gasoline and diesel engines. Ensures optimal engine cleanliness and wear protection.",
+              "viscosity": "10W40",
+              "specifications": ["API SN", "ACEA A3/B4", "MB 229.3", "VW 502.00/505.00"],
+              "image": "products/passenger-vehicles/synthetic-semi-synthetic/quartz-7000-10w40/main.jpg",
+              "datasheet": "products/passenger-vehicles/synthetic-semi-synthetic/quartz-7000-10w40/datasheet.pdf",
+              "inStock": true,
+              "featured": true,
+              "packSizes": ["1L", "4L", "5L", "20L", "208L"],
+              "applications": ["Gasoline engines", "Diesel engines", "Turbocharged engines"]
+            },
+            {
+              "id": "quartz-9000-5w40",
+              "name": "QUARTZ 9000 5W40",
+              "description": "Premium fully synthetic engine oil offering superior protection and performance. Ideal for severe driving conditions and extended drain intervals.",
+              "viscosity": "5W40",
+              "specifications": ["API SN/CF", "ACEA A3/B4", "BMW LL-01", "MB 229.5", "Porsche A40"],
+              "image": "products/passenger-vehicles/synthetic-semi-synthetic/quartz-9000-5w40/main.jpg",
+              "datasheet": "products/passenger-vehicles/synthetic-semi-synthetic/quartz-9000-5w40/datasheet.pdf",
+              "inStock": true,
+              "featured": true,
+              "packSizes": ["1L", "4L", "5L", "20L", "208L"],
+              "applications": ["High-performance engines", "Turbocharged engines", "Extended drain intervals"]
+            }
+          ]
+        },
+        {
+          "id": "premier-synthetic",
+          "name": "Premier Synthetic Engine Oil",
+          "usedFor": "Premier Synthetic Oil for small vehicles especially for Mercedes-Benz",
+          "products": [
+            {
+              "id": "quartz-ineo-mc3-5w30",
+              "name": "QUARTZ INEO MC3 5W30",
+              "description": "Premium synthetic oil specially formulated for Mercedes-Benz vehicles. Low SAPS technology for extended catalyst and particulate filter life.",
+              "viscosity": "5W30",
+              "specifications": ["MB 229.51", "ACEA C3", "BMW LL-04", "VW 504.00/507.00"],
+              "image": "products/passenger-vehicles/premier-synthetic/quartz-ineo-mc3-5w30/main.jpg",
+              "datasheet": "products/passenger-vehicles/premier-synthetic/quartz-ineo-mc3-5w30/datasheet.pdf",
+              "inStock": true,
+              "featured": true,
+              "packSizes": ["1L", "5L", "20L", "208L"],
+              "applications": ["Mercedes-Benz", "BMW", "VW/Audi", "Modern diesel engines with DPF"]
+            }
+          ]
+        },
+        {
+          "id": "mineral-engine-oil",
+          "name": "Mineral Engine Oil",
+          "usedFor": "Engine oil for small Vehicles",
+          "products": [
+            {
+              "id": "quartz-3000-sg-20w50",
+              "name": "QUARTZ 3000 SG 20W50",
+              "description": "Quality mineral engine oil for everyday use. Provides reliable protection for older gasoline engines.",
+              "viscosity": "20W50",
+              "specifications": ["API SG", "ACEA A2"],
+              "image": "products/passenger-vehicles/mineral-engine-oil/quartz-3000-sg-20w50/main.jpg",
+              "datasheet": "products/passenger-vehicles/mineral-engine-oil/quartz-3000-sg-20w50/datasheet.pdf",
+              "inStock": true,
+              "featured": false,
+              "packSizes": ["1L", "4L", "5L", "20L", "208L"],
+              "applications": ["Older gasoline engines", "High mileage vehicles", "Standard driving conditions"]
+            },
+            {
+              "id": "quartz-5000-20w50",
+              "name": "QUARTZ 5000 20W50",
+              "description": "Enhanced mineral engine oil with improved detergent properties. Excellent value for money.",
+              "viscosity": "20W50",
+              "specifications": ["API SL", "ACEA A3/B3"],
+              "image": "products/passenger-vehicles/mineral-engine-oil/quartz-5000-20w50/main.jpg",
+              "datasheet": "products/passenger-vehicles/mineral-engine-oil/quartz-5000-20w50/datasheet.pdf",
+              "inStock": true,
+              "featured": false,
+              "packSizes": ["1L", "4L", "5L", "20L", "208L"],
+              "applications": ["Gasoline engines", "Light diesel engines", "Normal to severe conditions"]
+            }
+          ]
+        },
+        {
+          "id": "4x4-engine-oil",
+          "name": "4x4 Engine Oil",
+          "usedFor": "Engine oil for small Vehicles - 4X4 trucks",
+          "products": [
+            {
+              "id": "quartz-4x4-15w40",
+              "name": "QUARTZ 4X4 15W40",
+              "description": "Specialized engine oil for 4x4 vehicles and light trucks. Formulated for severe off-road conditions and heavy loads.",
+              "viscosity": "15W40",
+              "specifications": ["API SN", "ACEA A3/B4", "MB 229.1"],
+              "image": "products/passenger-vehicles/4x4-engine-oil/quartz-4x4-15w40/main.jpg",
+              "datasheet": "products/passenger-vehicles/4x4-engine-oil/quartz-4x4-15w40/datasheet.pdf",
+              "inStock": true,
+              "featured": false,
+              "packSizes": ["4L", "5L", "20L", "208L"],
+              "applications": ["4x4 vehicles", "Light trucks", "Off-road conditions", "Towing applications"]
+            }
+          ]
+        },
+        {
+          "id": "monograde-engine-oil",
+          "name": "Monograde Engine Oil",
+          "usedFor": "Monograde Engine Oil for Old Vehicles",
+          "products": [
+            {
+              "id": "motor-oil-sae-40",
+              "name": "MOTOR OIL SAE 40",
+              "description": "Traditional monograde oil for older engines. Provides basic protection in warm climates.",
+              "viscosity": "SAE 40",
+              "specifications": ["API CD"],
+              "image": "products/passenger-vehicles/monograde-engine-oil/motor-oil-sae-40/main.jpg",
+              "datasheet": "products/passenger-vehicles/monograde-engine-oil/motor-oil-sae-40/datasheet.pdf",
+              "inStock": true,
+              "featured": false,
+              "packSizes": ["5L", "20L", "208L"],
+              "applications": ["Vintage vehicles", "Classic cars", "Warm climate operation"]
+            },
+            {
+              "id": "motor-oil-sf-sae-40",
+              "name": "MOTOR OIL SF SAE 40",
+              "description": "Enhanced monograde oil for classic vehicles with improved additives.",
+              "viscosity": "SAE 40",
+              "specifications": ["API SF"],
+              "image": "products/passenger-vehicles/monograde-engine-oil/motor-oil-sf-sae-40/main.jpg",
+              "datasheet": "products/passenger-vehicles/monograde-engine-oil/motor-oil-sf-sae-40/datasheet.pdf",
+              "inStock": true,
+              "featured": false,
+              "packSizes": ["5L", "20L", "208L"],
+              "applications": ["Classic vehicles", "Older engines", "Collector cars"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "heavy-vehicles",
+      "name": "Heavy Vehicles",
+      "description": "Diesel engine oils for trucks and off-road equipment",
+      "icon": "truck",
+      "subcategories": [
+        {
+          "id": "diesel-engine-oil",
+          "name": "Diesel Engine Oil",
+          "usedFor": "Diesel Engine Oil for heavy-duty trucks",
+          "products": [
+            {
+              "id": "rubia-tir-7400-15w40",
+              "name": "RUBIA TIR 7400 15W40",
+              "description": "Premium diesel engine oil for heavy-duty trucks. Excellent soot handling and wear protection for long drain intervals.",
+              "viscosity": "15W40",
+              "specifications": ["API CI-4", "ACEA E7", "MB 228.3", "Volvo VDS-3", "Renault RLD-2"],
+              "image": "products/heavy-vehicles/diesel-engine-oil/rubia-tir-7400-15w40/main.jpg",
+              "datasheet": "products/heavy-vehicles/diesel-engine-oil/rubia-tir-7400-15w40/datasheet.pdf",
+              "inStock": true,
+              "featured": true,
+              "packSizes": ["20L", "208L", "1000L IBC"],
+              "applications": ["Long-haul trucks", "Heavy-duty diesel engines", "Mixed fleet operations"]
+            }
+          ]
+        },
+        {
+          "id": "synthetic-diesel-engine-oil",
+          "name": "Synthetic Diesel Engine Oil",
+          "usedFor": "Synthetic Diesel Engine Oil for maximum protection",
+          "products": [
+            {
+              "id": "rubia-tir-8600-10w40",
+              "name": "RUBIA TIR 8600 10W40",
+              "description": "Fully synthetic diesel engine oil for maximum protection. Superior performance in extreme temperatures and extended drain capability.",
+              "viscosity": "10W40",
+              "specifications": ["API CJ-4", "ACEA E9", "MB 228.31", "Volvo VDS-4", "Mack EO-O Premium Plus"],
+              "image": "products/heavy-vehicles/synthetic-diesel-engine-oil/rubia-tir-8600-10w40/main.jpg",
+              "datasheet": "products/heavy-vehicles/synthetic-diesel-engine-oil/rubia-tir-8600-10w40/datasheet.pdf",
+              "inStock": true,
+              "featured": true,
+              "packSizes": ["20L", "208L", "1000L IBC"],
+              "applications": ["Modern Euro 5/6 engines", "Extreme conditions", "Extended drain intervals", "Fuel economy"]
+            }
+          ]
+        },
+        {
+          "id": "specialized-diesel-engine-oil",
+          "name": "Specialized Diesel Engine Oil",
+          "usedFor": "Engine Oil for Trucks - CK-4 specifications",
+          "products": [
+            {
+              "id": "rubia-opt-1100-15w40",
+              "name": "RUBIA OPT.1100 15W40",
+              "description": "Advanced CK-4 specification diesel oil for modern trucks. Optimized for latest emission standards.",
+              "viscosity": "15W40",
+              "specifications": ["API CK-4", "ACEA E9", "Cummins CES 20086", "Detroit Diesel DFS 93K222"],
+              "image": "products/heavy-vehicles/specialized-diesel-engine-oil/rubia-opt-1100-15w40/main.jpg",
+              "datasheet": "products/heavy-vehicles/specialized-diesel-engine-oil/rubia-opt-1100-15w40/datasheet.pdf",
+              "inStock": true,
+              "featured": true,
+              "packSizes": ["20L", "208L", "1000L IBC"],
+              "applications": ["Latest emission engines", "CK-4 required engines", "Mixed fleet compatibility"]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "version": "1.0.0",
+    "lastUpdated": "2025-10-30",
+    "totalProducts": 13,
+    "totalCategories": 2
+  }
+}
