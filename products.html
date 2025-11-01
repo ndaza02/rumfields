@@ -1433,7 +1433,10 @@
         }
 
         function createProductCard(product) {
-            const mockImage = getMockProductImage(product);
+            // Use actual product image if available, fallback to mock icon
+            const imageHtml = product.image 
+                ? `<img src="${product.image}" alt="${product.name}" onerror="this.style.display='none'; this.parentElement.innerHTML='${getMockProductImage(product)}';">`
+                : getMockProductImage(product);
             
             // Get key specifications for display
             const keySpecs = [];
@@ -1448,7 +1451,7 @@
             return `
                 <div class="product-card" onclick="viewProduct('${product.id}')">
                     <div class="product-image">
-                        ${mockImage}
+                        ${imageHtml}
                     </div>
                     <div class="product-info">
                         <h4 class="product-name">${product.name}</h4>
@@ -1537,8 +1540,11 @@
                 <h2 style="color: var(--primary-color); margin-bottom: 1rem;">${product.name}</h2>
                 
                 <div style="display: grid; grid-template-columns: 1fr 2fr; gap: 2rem; margin-bottom: 2rem;">
-                    <div style="background: #f9f9f9; padding: 2rem; border-radius: 8px; display: flex; align-items: center; justify-content: center; font-size: 5rem;">
-                        ${getMockProductImage(product)}
+                    <div style="background: linear-gradient(135deg, #f9f9f9 0%, #ffffff 100%); padding: 2rem; border-radius: 12px; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
+                        ${product.image 
+                            ? `<img src="${product.image}" alt="${product.name}" style="width: 100%; height: auto; max-height: 300px; object-fit: contain;" onerror="this.style.display='none'; this.parentElement.innerHTML='<div style=\\'font-size: 5rem;\\'>${getMockProductImage(product)}</div>';">` 
+                            : `<div style="font-size: 5rem;">${getMockProductImage(product)}</div>`
+                        }
                     </div>
                     <div>
                         <p style="font-size: 1.1rem; line-height: 1.8; color: #333;">${product.description}</p>

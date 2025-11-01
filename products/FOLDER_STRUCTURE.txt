@@ -1,0 +1,62 @@
+Folder PATH listing
+Volume serial number is 1E6C-6D8E
+C:\USERS\NDAZA\CASCADEPROJECTS\LUBRICANTS-WEBSITE\PRODUCTS
+¦   FOLDER_STRUCTURE.txt
+¦   MOCK-DATA-INFO.md
+¦   QUICK-START.md
+¦   README.md
+¦   
++---database
+¦       products-complete.json
+¦       products.json
+¦       
++---heavy-vehicles
+¦   +---diesel-engine-oil
+¦   ¦   +---rubia-tir-7400-15w40
+¦   +---low-saps-diesel-oil
+¦   ¦   +---rubia-works-1000-15w40
+¦   +---off-road-equipment-oil
+¦   ¦   +---rubia-sx-10w
+¦   ¦   +---rubia-sx-40
+¦   +---specialized-diesel-engine-oil
+¦   ¦   +---rubia-opt-1100-15w40
+¦   +---synthetic-diesel-engine-oil
+¦   ¦   +---rubia-tir-8600-10w40
+¦   +---truck-differential-oil
+¦       +---dynatrans-da-85w140
+¦       +---transtec-5-85w140
+¦       +---trax-axle-7-85w140
++---passenger-vehicles
+¦   +---4x4-engine-oil
+¦   ¦   +---quartz-4x4-15w40
+¦   +---mineral-engine-oil
+¦   ¦   +---quartz-3000-sg-20w50
+¦   ¦   ¦       main.png
+¦   ¦   ¦       
+¦   ¦   +---quartz-5000-20w50
+¦   ¦           main.png
+¦   ¦           
+¦   +---monograde-engine-oil
+¦   ¦   +---motor-oil-sae-40
+¦   ¦   ¦       main.png
+¦   ¦   ¦       
+¦   ¦   +---motor-oil-sf-sae-40
+¦   +---premier-synthetic
+¦   ¦   +---quartz-ineo-mc3-5w30
+¦   ¦           main.png
+¦   ¦           
+¦   +---synthetic-semi-synthetic
+¦       +---quartz-7000-10w40
+¦       ¦       main.png
+¦       ¦       
+¦       +---quartz-7000-15w50
+¦       ¦       main.png
+¦       ¦       
+¦       +---quartz-9000-5w40
+¦               main.png
+¦               
++---scripts
+        product-manager.js
+        product-manager.py
+        quick-add-product.bat
+        

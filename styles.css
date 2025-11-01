@@ -133,8 +133,15 @@ button,
 
 .container {
     max-width: 1200px;
+    width: 100%;
     margin: 0 auto;
     padding: 0 20px;
+}
+
+@media (max-width: 1280px) {
+    .container {
+        max-width: 95%;
+    }
 }
 
 /* Site Header - Floating Pill */
@@ -506,6 +513,7 @@ button,
     align-items: center;
     justify-content: center;
     overflow: hidden;
+    padding-top: 100px;
 }
 
 /* Flowing Lines */
@@ -594,6 +602,7 @@ button,
     color: var(--text-light);
     max-width: 1100px;
     margin: 0 auto;
+    margin-bottom: 180px;
 }
 
 .hero-title {
@@ -1373,12 +1382,15 @@ button,
     margin: 60px auto 40px;
     overflow: hidden;
     border-radius: 20px;
-    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15),
+                0 0 0 1px rgba(0, 0, 0, 0.05);
+    background: white;
 }
 
 .carousel-track {
     display: flex;
-    transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+    transition: transform 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+    will-change: transform;
 }
 
 .carousel-slide {
@@ -1412,8 +1424,13 @@ button,
     left: 0;
     right: 0;
     bottom: 0;
-    background: linear-gradient(135deg, rgba(0, 32, 96, 0.7) 0%, rgba(225, 36, 42, 0.6) 100%);
-    opacity: 0.8;
+    background: linear-gradient(135deg, rgba(0, 32, 96, 0.85) 0%, rgba(225, 36, 42, 0.75) 100%);
+    opacity: 0.9;
+    transition: opacity 0.4s ease;
+}
+
+.carousel-slide:hover .slide-overlay {
+    opacity: 0.95;
 }
 
 .slide-content {
@@ -1422,7 +1439,8 @@ button,
     flex-direction: column;
     justify-content: center;
     position: relative;
-    background: white;
+    background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
+    border-left: 3px solid var(--accent-color);
 }
 
 .slide-icon {
@@ -1488,24 +1506,35 @@ button,
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    background: white;
-    border: none;
-    width: 50px;
-    height: 50px;
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    width: 55px;
+    height: 55px;
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
     cursor: pointer;
     z-index: 10;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-    transition: all 0.3s ease;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15),
+                0 0 0 1px rgba(255, 255, 255, 0.5) inset;
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    opacity: 0.9;
 }
 
 .carousel-btn:hover {
     background: var(--accent-color);
     color: white;
-    transform: translateY(-50%) scale(1.1);
+    border-color: var(--accent-color);
+    transform: translateY(-50%) scale(1.15);
+    opacity: 1;
+    box-shadow: 0 12px 35px rgba(225, 36, 42, 0.4),
+                0 0 0 1px rgba(255, 255, 255, 0.3) inset;
+}
+
+.carousel-btn:active {
+    transform: translateY(-50%) scale(1.05);
 }
 
 .carousel-btn svg {
@@ -1525,29 +1554,56 @@ button,
 .carousel-dots {
     display: flex;
     justify-content: center;
-    gap: 12px;
-    margin-top: 30px;
+    align-items: center;
+    gap: 10px;
+    margin-top: 35px;
     padding: 20px 0;
 }
 
 .dot {
-    width: 12px;
-    height: 12px;
+    width: 10px;
+    height: 10px;
     border-radius: 50%;
-    background: #ccc;
+    background: rgba(0, 0, 0, 0.2);
     cursor: pointer;
-    transition: all 0.3s ease;
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    position: relative;
+    border: 2px solid transparent;
+}
+
+.dot::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: transparent;
+    transition: all 0.4s ease;
 }
 
 .dot:hover {
-    background: #999;
-    transform: scale(1.2);
+    background: rgba(0, 0, 0, 0.4);
+    transform: scale(1.3);
+}
+
+.dot:hover::before {
+    background: rgba(225, 36, 42, 0.1);
 }
 
 .dot.active {
     background: var(--accent-color);
-    width: 30px;
-    border-radius: 6px;
+    width: 32px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(225, 36, 42, 0.4);
+}
+
+.dot.active::before {
+    background: rgba(225, 36, 42, 0.15);
+    width: 40px;
+    border-radius: 12px;
 }
 
 .about-image:hover img {
@@ -2196,14 +2252,17 @@ button,
 
 @media (max-width: 768px) {
     .oil-prices-ticker {
-        top: 10px;
-        left: 15px;
+        top: 75px;
+        left: 50%;
+        transform: translateX(-50%);
         padding: 0.5rem 0.7rem;
         font-size: 0.8rem;
+        max-width: 92%;
+        width: auto;
     }
     
     .oil-prices-ticker.scrolled {
-        top: 8px;
+        top: 70px;
     }
     
     .price-label {
@@ -2219,6 +2278,7 @@ button,
     .site-header {
         max-width: 92%;
         top: 10px;
+        z-index: 1001;
     }
     
     .site-header__row {
@@ -2255,6 +2315,7 @@ button,
     .hero {
         height: 100vh;
         min-height: 600px;
+        padding-top: 120px;
     }
     
     .hero-title {
@@ -2271,6 +2332,7 @@ button,
     
     .hero-content {
         padding: 2rem 1rem;
+        margin-bottom: 200px;
     }
 
     /* Typography */
@@ -2701,22 +2763,41 @@ button,
 
 /* Extra Small Mobile Devices */
 @media (max-width: 480px) {
+    .hero {
+        padding-top: 110px;
+    }
+    
+    .hero-content {
+        margin-bottom: 180px;
+    }
+    
     .hero-title {
         font-size: 1.8rem;
+        line-height: 1.2;
     }
     
     .hero-subtitle {
         font-size: 0.9rem;
+        line-height: 1.5;
     }
     
     .section-title {
         font-size: 1.5rem;
+        line-height: 1.3;
+    }
+    
+    .section-subtitle {
+        font-size: 0.9rem;
+        line-height: 1.6;
     }
     
     .oil-prices-ticker {
-        top: 8px;
-        left: 10px;
+        top: 70px;
+        left: 50%;
+        transform: translateX(-50%);
         padding: 0.4rem 0.6rem;
+        gap: 0.5rem;
+        max-width: 90%;
     }
     
     .price-label {
@@ -2742,6 +2823,202 @@ button,
     .learn-more {
         font-size: 0.9rem;
         padding: 0.7rem 1.2rem;
+    }
+    
+    /* Carousel adjustments */
+    .slide-content {
+        padding: 30px 20px;
+    }
+    
+    .slide-icon {
+        font-size: 2.5rem;
+    }
+    
+    .slide-content h3 {
+        font-size: 1.5rem;
+    }
+    
+    .slide-features li {
+        font-size: 0.9rem;
+        padding: 6px 0;
+    }
+    
+    /* About section */
+    .about-content {
+        padding: 50px 30px;
+    }
+    
+    .about-content h2 {
+        font-size: 1.6rem;
+    }
+    
+    .about-content p {
+        font-size: 0.95rem;
+    }
+}
+
+/* Large Desktop Screens (1440px+) */
+@media (min-width: 1440px) {
+    .container {
+        max-width: 1400px;
+    }
+    
+    .hero-title {
+        font-size: 4.5rem;
+    }
+    
+    .hero-subtitle {
+        font-size: 1.4rem;
+        max-width: 700px;
+    }
+    
+    .section-title {
+        font-size: 3rem;
+    }
+    
+    .section-subtitle {
+        font-size: 1.2rem;
+        max-width: 900px;
+    }
+    
+    .products-carousel {
+        max-width: 1400px;
+    }
+    
+    .slide-content {
+        padding: 80px;
+    }
+    
+    .slide-content h3 {
+        font-size: 2.5rem;
+    }
+    
+    .slide-content p {
+        font-size: 1.15rem;
+    }
+}
+
+/* Ultra-wide Screens (1920px+) */
+@media (min-width: 1920px) {
+    .container {
+        max-width: 1600px;
+    }
+    
+    .hero-title {
+        font-size: 5rem;
+    }
+    
+    .products-carousel {
+        max-width: 1600px;
+    }
+    
+    .carousel-slide {
+        height: 600px;
+    }
+    
+    .slide-image {
+        height: 600px;
+    }
+}
+
+/* Tablet Landscape (1024px - 1199px) */
+@media (min-width: 1024px) and (max-width: 1199px) {
+    .hero-title {
+        font-size: 3.2rem;
+    }
+    
+    .section-title {
+        font-size: 2.2rem;
+    }
+    
+    .carousel-slide {
+        grid-template-columns: 45% 55%;
+    }
+    
+    .slide-content {
+        padding: 50px 40px;
+    }
+}
+
+/* Small Tablets (600px - 767px) */
+@media (min-width: 600px) and (max-width: 767px) {
+    .hero-title {
+        font-size: 2.5rem;
+    }
+    
+    .hero-subtitle {
+        font-size: 1.05rem;
+    }
+    
+    .section-title {
+        font-size: 2rem;
+    }
+    
+    .carousel-slide {
+        grid-template-columns: 1fr;
+    }
+    
+    .slide-image {
+        height: 350px;
+    }
+    
+    .slide-content {
+        padding: 40px 35px;
+    }
+    
+    .process-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Fix for very small screens (320px) */
+@media (max-width: 360px) {
+    .hero {
+        padding-top: 100px;
+    }
+    
+    .hero-content {
+        margin-bottom: 160px;
+    }
+    
+    .hero-title {
+        font-size: 1.6rem;
+    }
+    
+    .hero-subtitle {
+        font-size: 0.85rem;
+    }
+    
+    .section-title {
+        font-size: 1.4rem;
+    }
+    
+    .oil-prices-ticker {
+        flex-direction: column;
+        gap: 0.3rem;
+        padding: 0.3rem 0.5rem;
+        top: 65px;
+        left: 50%;
+        transform: translateX(-50%);
+        max-width: 88%;
+    }
+    
+    .price-item {
+        width: 100%;
+        justify-content: space-between;
+    }
+    
+    .cta-button {
+        width: 100%;
+        text-align: center;
+    }
+    
+    .about-content {
+        padding: 40px 20px;
+    }
+    
+    .slide-content {
+        padding: 25px 15px;
     }
 }
 

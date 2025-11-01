@@ -922,87 +922,200 @@ document.head.appendChild(particleStyle);
 createParticles();
 
 // ========================================
-// Products Carousel Functionality
+// Products Carousel - Infinite & Beautiful
 // ========================================
-let currentSlide = 0;
-const totalSlides = 5;
-
-function moveCarousel(direction) {
-    const track = document.querySelector('.carousel-track');
-    const dots = document.querySelectorAll('.dot');
-    
-    // Update current slide
-    currentSlide += direction;
-    
-    // Loop around
-    if (currentSlide < 0) {
-        currentSlide = totalSlides - 1;
-    } else if (currentSlide >= totalSlides) {
-        currentSlide = 0;
+class InfiniteCarousel {
+    constructor() {
+        this.currentSlide = 0;
+        this.totalSlides = 5;
+        this.isTransitioning = false;
+        this.autoPlayInterval = null;
+        this.track = document.querySelector('.carousel-track');
+        this.dots = document.querySelectorAll('.dot');
+        this.slides = document.querySelectorAll('.carousel-slide');
+        
+        if (!this.track || !this.dots.length) return;
+        
+        this.init();
     }
     
-    // Move the track
-    const offset = -currentSlide * 100;
-    track.style.transform = `translateX(${offset}%)`;
+    init() {
+        // Clone first and last slides for infinite effect
+        this.cloneSlides();
+        
+        // Set initial position
+        this.updatePosition(false);
+        
+        // Start autoplay
+        this.startAutoPlay();
+        
+        // Add event listeners
+        this.addEventListeners();
+        
+        // Add entrance animation
+        this.animateSlideIn();
+    }
     
-    // Update dots
-    dots.forEach((dot, index) => {
-        dot.classList.toggle('active', index === currentSlide);
-    });
+    cloneSlides() {
+        const firstSlide = this.slides[0].cloneNode(true);
+        const lastSlide = this.slides[this.slides.length - 1].cloneNode(true);
+        
+        this.track.appendChild(firstSlide);
+        this.track.insertBefore(lastSlide, this.slides[0]);
+        
+        // Update slides reference
+        this.slides = document.querySelectorAll('.carousel-slide');
+        this.currentSlide = 1; // Start at first real slide
+    }
+    
+    updatePosition(animate = true) {
+        if (animate) {
+            this.track.style.transition = 'transform 0.8s cubic-bezier(0.4, 0, 0.2, 1)';
+        } else {
+            this.track.style.transition = 'none';
+        }
+        
+        const offset = -this.currentSlide * 100;
+        this.track.style.transform = `translateX(${offset}%)`;
+        
+        // Update dots (accounting for cloned slides)
+        const realIndex = (this.currentSlide - 1 + this.totalSlides) % this.totalSlides;
+        this.dots.forEach((dot, index) => {
+            dot.classList.toggle('active', index === realIndex);
+        });
+    }
+    
+    moveCarousel(direction) {
+        if (this.isTransitioning) return;
+        
+        this.isTransitioning = true;
+        this.currentSlide += direction;
+        
+        this.updatePosition(true);
+        
+        // Handle infinite loop
+        setTimeout(() => {
+            if (this.currentSlide === 0) {
+                this.currentSlide = this.totalSlides;
+                this.updatePosition(false);
+            } else if (this.currentSlide === this.totalSlides + 1) {
+                this.currentSlide = 1;
+                this.updatePosition(false);
+            }
+            this.isTransitioning = false;
+        }, 800);
+        
+        // Reset autoplay
+        this.resetAutoPlay();
+    }
+    
+    goToSlide(slideIndex) {
+        if (this.isTransitioning) return;
+        
+        this.isTransitioning = true;
+        this.currentSlide = slideIndex + 1; // +1 for cloned slide
+        
+        this.updatePosition(true);
+        
+        setTimeout(() => {
+            this.isTransitioning = false;
+        }, 800);
+        
+        this.resetAutoPlay();
+    }
+    
+    startAutoPlay() {
+        this.autoPlayInterval = setInterval(() => {
+            this.moveCarousel(1);
+        }, 6000);
+    }
+    
+    resetAutoPlay() {
+        clearInterval(this.autoPlayInterval);
+        this.startAutoPlay();
+    }
+    
+    addEventListeners() {
+        // Navigation buttons
+        const prevBtn = document.querySelector('.prev-btn');
+        const nextBtn = document.querySelector('.next-btn');
+        
+        if (prevBtn) prevBtn.addEventListener('click', () => this.moveCarousel(-1));
+        if (nextBtn) nextBtn.addEventListener('click', () => this.moveCarousel(1));
+        
+        // Dots
+        this.dots.forEach((dot, index) => {
+            dot.addEventListener('click', () => this.goToSlide(index));
+        });
+        
+        // Keyboard navigation
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'ArrowLeft') this.moveCarousel(-1);
+            if (e.key === 'ArrowRight') this.moveCarousel(1);
+        });
+        
+        // Touch/swipe support
+        let touchStartX = 0;
+        let touchEndX = 0;
+        
+        const carousel = document.querySelector('.products-carousel');
+        if (carousel) {
+            carousel.addEventListener('touchstart', (e) => {
+                touchStartX = e.changedTouches[0].screenX;
+            });
+            
+            carousel.addEventListener('touchend', (e) => {
+                touchEndX = e.changedTouches[0].screenX;
+                const diff = touchStartX - touchEndX;
+                
+                if (Math.abs(diff) > 50) {
+                    this.moveCarousel(diff > 0 ? 1 : -1);
+                }
+            });
+        }
+        
+        // Pause on hover
+        if (carousel) {
+            carousel.addEventListener('mouseenter', () => {
+                clearInterval(this.autoPlayInterval);
+            });
+            
+            carousel.addEventListener('mouseleave', () => {
+                this.startAutoPlay();
+            });
+        }
+    }
+    
+    animateSlideIn() {
+        // Animate current slide content
+        const currentSlideEl = this.slides[this.currentSlide];
+        const content = currentSlideEl.querySelector('.slide-content');
+        const image = currentSlideEl.querySelector('.slide-image img');
+        
+        if (content) {
+            content.style.opacity = '0';
+            content.style.transform = 'translateX(50px)';
+            
+            setTimeout(() => {
+                content.style.transition = 'all 0.8s cubic-bezier(0.4, 0, 0.2, 1)';
+                content.style.opacity = '1';
+                content.style.transform = 'translateX(0)';
+            }, 100);
+        }
+        
+        if (image) {
+            image.style.transform = 'scale(1.1)';
+            setTimeout(() => {
+                image.style.transition = 'transform 0.8s ease';
+                image.style.transform = 'scale(1)';
+            }, 100);
+        }
+    }
 }
 
-function goToSlide(slideIndex) {
-    const track = document.querySelector('.carousel-track');
-    const dots = document.querySelectorAll('.dot');
-    
-    currentSlide = slideIndex;
-    
-    // Move the track
-    const offset = -currentSlide * 100;
-    track.style.transform = `translateX(${offset}%)`;
-    
-    // Update dots
-    dots.forEach((dot, index) => {
-        dot.classList.toggle('active', index === currentSlide);
-    });
-}
-
-// Auto-advance carousel every 5 seconds
-setInterval(() => {
-    moveCarousel(1);
-}, 5000);
-
-// Keyboard navigation
-document.addEventListener('keydown', (e) => {
-    if (e.key === 'ArrowLeft') {
-        moveCarousel(-1);
-    } else if (e.key === 'ArrowRight') {
-        moveCarousel(1);
-    }
-});
-
-// Touch/swipe support for mobile
-let touchStartX = 0;
-let touchEndX = 0;
-
-document.querySelector('.products-carousel')?.addEventListener('touchstart', (e) => {
-    touchStartX = e.changedTouches[0].screenX;
-});
-
-document.querySelector('.products-carousel')?.addEventListener('touchend', (e) => {
-    touchEndX = e.changedTouches[0].screenX;
-    handleSwipe();
-});
-
-function handleSwipe() {
-    if (touchEndX < touchStartX - 50) {
-        // Swipe left
-        moveCarousel(1);
-    }
-    if (touchEndX > touchStartX + 50) {
-        // Swipe right
-        moveCarousel(-1);
-    }
+// Initialize carousel when DOM is ready
+if (document.querySelector('.products-carousel')) {
+    new InfiniteCarousel();
 }
 
 console.log('Industrial Lubricants Website - Loaded Successfully! 🚀');

@@ -1,0 +1,60 @@
+# Netlify Configuration for MILS Lubricants Website
+# This is a static HTML/CSS/JS site (not Astro build)
+
+[build]
+  # No build command needed - deploy static files directly
+  command = ""
+  
+  # Publish the root directory (where index.html is)
+  publish = "."
+  
+  # Ignore Astro files - we're using static HTML
+  ignore = "git diff --quiet $CACHED_COMMIT_REF $COMMIT_REF"
+
+# Redirect rules
+[[redirects]]
+  from = "/products"
+  to = "/products.html"
+  status = 200
+
+[[redirects]]
+  from = "/blog"
+  to = "/blog.html"
+  status = 200
+
+[[redirects]]
+  from = "/news"
+  to = "/news.html"
+  status = 200
+
+# Headers for security and performance
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-XSS-Protection = "1; mode=block"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+
+[[headers]]
+  for = "/*.css"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*.js"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/images/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# Environment variables (add your API key in Netlify dashboard)
+# OIL_PRICE_API_KEY = "your-api-key-here"
