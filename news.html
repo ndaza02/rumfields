@@ -39,28 +39,32 @@
 
             <!-- Right Column - Action Buttons -->
             <div class="site-header__col -right">
-                <!-- Search Button -->
-                <div class="site-header__widget">
-                    <div class="site-search -toggle">
-                        <button role="button" class="site-search__toggle" data-js="search-trigger">
-                            <span class="sr-only">Open Search</span>
-                            <svg width="30" height="30" class="icon icon-search site-search__icon" aria-hidden="true" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <circle cx="11" cy="11" r="8"></circle>
-                                <path d="m21 21-4.35-4.35"></path>
-                            </svg>
-                        </button>
-                    </div>
-                </div>
-
                 <!-- Mobile Menu Toggle -->
-                <div class="hamburger">
+                <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle Menu">
                     <span></span>
                     <span></span>
                     <span></span>
-                </div>
+                </button>
             </div>
         </div>
     </header>
+
+    <!-- Mobile Navigation Menu (Full Screen Overlay) -->
+    <div class="mobile-menu" id="mobileMenu">
+        <div class="mobile-menu-overlay" id="mobileMenuOverlay"></div>
+        <div class="mobile-menu-content">
+            <nav class="mobile-nav">
+                <ul class="mobile-nav-list">
+                    <li><a href="index.html" class="mobile-nav-link">Home</a></li>
+                    <li><a href="index.html#about" class="mobile-nav-link">About</a></li>
+                    <li><a href="products.html" class="mobile-nav-link">Products</a></li>
+                    <li><a href="news.html" class="mobile-nav-link">News</a></li>
+                    <li><a href="blog.html" class="mobile-nav-link">Blog</a></li>
+                    <li><a href="index.html#contact" class="mobile-nav-link">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
 
     <!-- News Hero Section -->
     <section class="news-hero">

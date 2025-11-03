@@ -811,65 +811,20 @@ gsap.from('.about-image', {
 }
 
 // ============================================
-// MOBILE MENU ANIMATIONS
+// MOBILE MENU ANIMATIONS - DISABLED (using script.js instead)
 // ============================================
 
+// Commented out to prevent conflicts with script.js
+// The simple version in script.js handles the hamburger menu
+
+/*
 const hamburger = document.querySelector('.hamburger');
 const navMenu = document.querySelector('.nav-primary__links');
 
 if (hamburger && navMenu) {
-    hamburger.addEventListener('click', () => {
-        const isActive = navMenu.classList.contains('active');
-        
-        if (!isActive) {
-            navMenu.classList.add('active');
-            hamburger.classList.add('active');
-            
-            // Beautiful staggered entrance animation
-            gsap.from('.nav-primary__links li', {
-                y: 30,
-                opacity: 0,
-                scale: 0.8,
-                duration: 0.6,
-                stagger: 0.1,
-                ease: 'back.out(1.5)',
-                clearProps: 'all'
-            });
-        } else {
-            // Smooth exit animation
-            gsap.to('.nav-primary__links li', {
-                y: -20,
-                opacity: 0,
-                scale: 0.9,
-                duration: 0.4,
-                stagger: 0.05,
-                ease: 'power3.in',
-                onComplete: () => {
-                    navMenu.classList.remove('active');
-                    hamburger.classList.remove('active');
-                }
-            });
-        }
-    });
-    
-    // Close menu when clicking on links with animation
-    document.querySelectorAll('.nav-primary__links a').forEach(link => {
-        link.addEventListener('click', () => {
-            gsap.to('.nav-primary__links li', {
-                y: -20,
-                opacity: 0,
-                scale: 0.9,
-                duration: 0.4,
-                stagger: 0.05,
-                ease: 'power3.in',
-                onComplete: () => {
-                    navMenu.classList.remove('active');
-                    hamburger.classList.remove('active');
-                }
-            });
-        });
-    });
+    // GSAP animations code here...
 }
+*/
 
 // ============================================
 // FORM SUBMISSION ANIMATION
@@ -934,13 +889,13 @@ scrollProgress.style.cssText = `
     transform: scaleX(0);
     width: 100%;
 `;
-    document.body.appendChild(scrollProgress);
+document.body.appendChild(scrollProgress);
 
-    console.log('🚀 GSAP Animations Initialized Successfully!');
+console.log('🚀 GSAP Animations Initialized Successfully!');
 
 } // End of initGSAPAnimations function
 
-    // Call the initialization function
-    initGSAPAnimations();
+// Call the initialization function
+initGSAPAnimations();
 
-});
+}); // End of DOMContentLoaded

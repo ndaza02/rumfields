@@ -525,26 +525,86 @@ if (siteHeader && typeof gsap === 'undefined') {
     });
 }
 
-// Mobile menu toggle (fallback if GSAP not loaded)
-if (typeof gsap === 'undefined') {
-    const hamburger = document.querySelector('.hamburger');
-    const navMenu = document.querySelector('.nav-primary__links');
+// ============================================
+// MOBILE MENU - BRAND NEW SIMPLE VERSION
+// ============================================
 
-    if (hamburger && navMenu) {
-        hamburger.addEventListener('click', () => {
-            hamburger.classList.toggle('active');
-            navMenu.classList.toggle('active');
-        });
+(function() {
+    const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+    const mobileMenu = document.getElementById('mobileMenu');
+    const mobileMenuOverlay = document.getElementById('mobileMenuOverlay');
+    const mobileNavLinks = document.querySelectorAll('.mobile-nav-link');
+    const body = document.body;
 
-        // Close mobile menu when clicking on a link
-        document.querySelectorAll('.nav-primary__links a').forEach(link => {
-            link.addEventListener('click', () => {
-                hamburger.classList.remove('active');
-                navMenu.classList.remove('active');
-            });
+    console.log('📱 NEW Mobile Menu Elements:');
+    console.log('Button:', mobileMenuBtn);
+    console.log('Menu:', mobileMenu);
+    console.log('Links:', mobileNavLinks.length);
+
+    if (!mobileMenuBtn || !mobileMenu) {
+        console.error('❌ Mobile menu elements not found!');
+        return;
+    }
+
+    // Open/Close menu
+    function toggleMenu() {
+        const isActive = mobileMenu.classList.contains('active');
+        
+        if (isActive) {
+            closeMenu();
+        } else {
+            openMenu();
+        }
+    }
+
+    function openMenu() {
+        mobileMenu.classList.add('active');
+        mobileMenuBtn.classList.add('active');
+        body.style.overflow = 'hidden';
+        console.log('✅ MOBILE MENU OPENED');
+    }
+
+    function closeMenu() {
+        mobileMenu.classList.remove('active');
+        mobileMenuBtn.classList.remove('active');
+        body.style.overflow = '';
+        console.log('✅ MOBILE MENU CLOSED');
+    }
+
+    // Button click
+    mobileMenuBtn.addEventListener('click', function(e) {
+        e.preventDefault();
+        e.stopPropagation();
+        console.log('🍔 Mobile menu button clicked!');
+        toggleMenu();
+    });
+
+    // Overlay click
+    if (mobileMenuOverlay) {
+        mobileMenuOverlay.addEventListener('click', function() {
+            console.log('🖱️ Overlay clicked');
+            closeMenu();
         });
     }
-}
+
+    // Link clicks
+    mobileNavLinks.forEach(function(link) {
+        link.addEventListener('click', function() {
+            console.log('📍 Link clicked:', link.textContent);
+            closeMenu();
+        });
+    });
+
+    // ESC key
+    document.addEventListener('keydown', function(e) {
+        if (e.key === 'Escape' && mobileMenu.classList.contains('active')) {
+            console.log('⌨️ ESC pressed');
+            closeMenu();
+        }
+    });
+
+    console.log('✅ NEW Mobile menu initialized!');
+})();
 
 // Intersection Observer for scroll animations
 const observerOptions = {
