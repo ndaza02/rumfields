@@ -742,7 +742,7 @@ button,
     color: var(--text-light);
     max-width: 1100px;
     margin: 0 auto;
-    margin-bottom: 180px;
+    margin-bottom: 200px;
 }
 
 .hero-title {
@@ -783,6 +783,7 @@ button,
 /* Remove scrolled state - ticker stays stationary */
 .oil-prices-ticker.scrolled {
     /* No changes on scroll - stays in same position */
+    top: 20px;
 }
 
 @keyframes slideInLeft {
@@ -1526,7 +1527,7 @@ button,
 
 .carousel-track {
     display: flex;
-    transition: transform 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+    transition: transform 0.7s ease-in-out;
     will-change: transform;
 }
 
@@ -1904,32 +1905,42 @@ button,
 
 .industry-card[data-industry="marine"] .industry-image {
     background: linear-gradient(135deg, rgba(0, 119, 182, 0.8), rgba(0, 180, 216, 0.8)),
-                url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="%23ffffff" fill-opacity="0.1" d="M0,96L48,112C96,128,192,160,288,160C384,160,480,128,576,122.7C672,117,768,139,864,138.7C960,139,1056,117,1152,106.7C1248,96,1344,96,1392,96L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>');
+                url('assets/images/industries/marine.jpg');
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .industry-card[data-industry="power"] .industry-image {
     background: linear-gradient(135deg, rgba(255, 152, 0, 0.8), rgba(255, 193, 7, 0.8)),
-                url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="%23ffffff" fill-opacity="0.1" d="M0,160L48,144C96,128,192,96,288,90.7C384,85,480,107,576,128C672,149,768,171,864,165.3C960,160,1056,128,1152,128C1248,128,1344,160,1392,176L1440,192L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>');
+                url('assets/images/industries/power-generation.jpg');
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .industry-card[data-industry="mining"] .industry-image {
     background: linear-gradient(135deg, rgba(121, 85, 72, 0.8), rgba(93, 64, 55, 0.8)),
-                url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="%23ffffff" fill-opacity="0.1" d="M0,224L48,213.3C96,203,192,181,288,181.3C384,181,480,203,576,208C672,213,768,203,864,181.3C960,160,1056,128,1152,128C1248,128,1344,160,1392,176L1440,192L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>');
+                url('assets/images/industries/mining.jpg');
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .industry-card[data-industry="cement"] .industry-image {
     background: linear-gradient(135deg, rgba(96, 125, 139, 0.8), rgba(69, 90, 100, 0.8)),
-                url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="%23ffffff" fill-opacity="0.1" d="M0,64L48,80C96,96,192,128,288,128C384,128,480,96,576,90.7C672,85,768,107,864,112C960,117,1056,107,1152,90.7C1248,75,1344,53,1392,42.7L1440,32L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>');
+                url('assets/images/industries/cement.jpg');
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .industry-card[data-industry="sugar"] .industry-image {
     background: linear-gradient(135deg, rgba(139, 195, 74, 0.8), rgba(104, 159, 56, 0.8)),
-                url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="%23ffffff" fill-opacity="0.1" d="M0,192L48,197.3C96,203,192,213,288,197.3C384,181,480,139,576,133.3C672,128,768,160,864,165.3C960,171,1056,149,1152,133.3C1248,117,1344,107,1392,101.3L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>');
+                url('assets/images/industries/sugar-milling.jpg');
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .industry-image::before {
@@ -2255,6 +2266,7 @@ button,
     
     .oil-prices-ticker.scrolled {
         /* Stays stationary */
+        top: 15px;
     }
     
     .site-header {
@@ -2415,6 +2427,7 @@ button,
     
     .oil-prices-ticker.scrolled {
         /* Stays stationary at top */
+        top: 10px;
     }
     
     .price-label {
@@ -3056,6 +3069,17 @@ button,
     }
 }
 
+/* Large Desktop Screens (1440px - 1919px) */
+@media (min-width: 1440px) and (max-width: 1919px) {
+    .hero-content {
+        margin-bottom: 220px;
+    }
+    
+    .hero-title {
+        font-size: 4.5rem;
+    }
+}
+
 /* Ultra-wide Screens (1920px+) */
 @media (min-width: 1920px) {
     .container {
@@ -3064,6 +3088,10 @@ button,
     
     .hero-title {
         font-size: 5rem;
+    }
+    
+    .hero-content {
+        margin-bottom: 250px;
     }
     
     .products-carousel {

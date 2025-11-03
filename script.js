@@ -1030,7 +1030,8 @@ class InfiniteCarousel {
     
     updatePosition(animate = true) {
         if (animate) {
-            this.track.style.transition = 'transform 0.8s cubic-bezier(0.4, 0, 0.2, 1)';
+            // Consistent smooth transition across all screen sizes
+            this.track.style.transition = 'transform 0.7s ease-in-out';
         } else {
             this.track.style.transition = 'none';
         }
@@ -1063,7 +1064,7 @@ class InfiniteCarousel {
                 this.updatePosition(false);
             }
             this.isTransitioning = false;
-        }, 800);
+        }, 700);
         
         // Reset autoplay
         this.resetAutoPlay();
@@ -1079,7 +1080,7 @@ class InfiniteCarousel {
         
         setTimeout(() => {
             this.isTransitioning = false;
-        }, 800);
+        }, 700);
         
         this.resetAutoPlay();
     }

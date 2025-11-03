@@ -872,26 +872,26 @@ if (contactForm) {
 gsap.from('body', {
     opacity: 0,
     duration: 0.5,
-    ease: 'power2.out'
-});
+        ease: 'power2.out'
+    });
 
-// Add scroll progress bar element
-const scrollProgress = document.createElement('div');
-scrollProgress.className = 'scroll-progress';
-scrollProgress.style.cssText = `
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 3px;
-    background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
-    z-index: 10000;
-    transform-origin: left;
-    transform: scaleX(0);
-    width: 100%;
-`;
-document.body.appendChild(scrollProgress);
+    // Add scroll progress bar element
+    const scrollProgress = document.createElement('div');
+    scrollProgress.className = 'scroll-progress';
+    scrollProgress.style.cssText = `
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 3px;
+        background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+        z-index: 10000;
+        transform-origin: left;
+        transform: scaleX(0);
+        width: 100%;
+    `;
+    document.body.appendChild(scrollProgress);
 
-console.log('🚀 GSAP Animations Initialized Successfully!');
+    console.log('🚀 GSAP Animations Initialized Successfully!');
 
 } // End of initGSAPAnimations function
 
