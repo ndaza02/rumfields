@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Innovative Lubrication Solutions for Medical Metalworking - MILS</title>
+    <link rel="icon" type="image/png" href="assets/images/logo.png">
+    <link rel="apple-touch-icon" href="assets/images/logo.png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="news.css">
+    <style>
+        body {
+            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+        }
+        
+        .article-wrapper {
+            padding-top: 120px;
+            min-height: 100vh;
+        }
+        
+        .article-container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 0 20px 80px;
+        }
+        
+        .article-hero {
+            background: white;
+            border-radius: 24px;
+            padding: 60px;
+            margin-bottom: 40px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.08);
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .article-hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 6px;
+            background: linear-gradient(90deg, var(--accent-color), #ff4757);
+        }
+        
+        .article-header {
+            margin-bottom: 0;
+        }
+        
+        .article-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 10px 20px;
+            background: linear-gradient(135deg, var(--accent-color), #ff4757);
+            color: white;
+            border-radius: 30px;
+            font-size: 0.875rem;
+            font-weight: 600;
+            margin-bottom: 24px;
+            box-shadow: 0 4px 12px rgba(231, 29, 54, 0.3);
+        }
+        
+        .article-badge::before {
+            content: '📰';
+            font-size: 1rem;
+        }
+        
+        .article-title {
+            font-size: clamp(1.75rem, 4vw, 3rem);
+            font-weight: 800;
+            color: var(--text-primary);
+            line-height: 1.2;
+            margin-bottom: 24px;
+            letter-spacing: -0.02em;
+        }
+        
+        .article-meta {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 24px;
+            padding: 20px 0;
+            border-top: 2px solid #f1f3f5;
+            margin-top: 24px;
+        }
+        
+        .meta-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            color: #6b7280;
+            font-size: 0.95rem;
+            font-weight: 500;
+        }
+        
+        .article-body {
+            background: white;
+            border-radius: 24px;
+            padding: 60px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.08);
+        }
+        
+        .article-content {
+            font-size: 1.125rem;
+            line-height: 1.9;
+            color: #374151;
+        }
+        
+        .article-content p {
+            margin-bottom: 28px;
+        }
+        
+        .article-content p:first-of-type {
+            font-size: 1.25rem;
+            font-weight: 500;
+            color: var(--text-primary);
+            line-height: 1.8;
+        }
+        
+        .article-content h2 {
+            font-size: 2rem;
+            font-weight: 700;
+            color: var(--text-primary);
+            margin: 60px 0 24px;
+            padding-bottom: 16px;
+            border-bottom: 3px solid var(--accent-color);
+            display: inline-block;
+        }
+        
+        .article-content h3 {
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: var(--text-primary);
+            margin: 40px 0 20px;
+            position: relative;
+            padding-left: 20px;
+        }
+        
+        .article-content h3::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 4px;
+            height: 70%;
+            background: var(--accent-color);
+            border-radius: 2px;
+        }
+        
+        .article-content ul {
+            margin: 28px 0;
+            padding-left: 0;
+            list-style: none;
+        }
+        
+        .article-content li {
+            margin-bottom: 16px;
+            padding-left: 32px;
+            position: relative;
+            line-height: 1.8;
+        }
+        
+        .article-content li::before {
+            content: '✓';
+            position: absolute;
+            left: 0;
+            color: var(--accent-color);
+            font-weight: bold;
+            font-size: 1.1rem;
+        }
+        
+        .article-content strong {
+            color: var(--text-primary);
+            font-weight: 600;
+        }
+        
+        .article-image {
+            width: 100%;
+            margin: 50px 0;
+            border-radius: 16px;
+            overflow: hidden;
+            box-shadow: 0 20px 50px rgba(0,0,0,0.15);
+            transform: translateZ(0);
+            transition: transform 0.4s ease, box-shadow 0.4s ease;
+        }
+        
+        .article-image:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 25px 60px rgba(0,0,0,0.2);
+        }
+        
+        .article-image img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        
+        .back-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            padding: 12px 24px;
+            background: white;
+            color: var(--accent-color);
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 0.95rem;
+            border-radius: 30px;
+            margin-bottom: 40px;
+            box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+            transition: all 0.3s ease;
+        }
+        
+        .back-link:hover {
+            gap: 14px;
+            background: var(--accent-color);
+            color: white;
+            box-shadow: 0 8px 24px rgba(231, 29, 54, 0.3);
+            transform: translateX(-4px);
+        }
+        
+        .back-link svg {
+            width: 18px;
+            height: 18px;
+            transition: transform 0.3s ease;
+        }
+        
+        .back-link:hover svg {
+            transform: translateX(-2px);
+        }
+        
+        @media (max-width: 768px) {
+            .article-wrapper {
+                padding-top: 100px;
+            }
+            
+            .article-hero,
+            .article-body {
+                padding: 40px 30px;
+                border-radius: 16px;
+            }
+            
+            .article-title {
+                font-size: 1.75rem;
+            }
+            
+            .article-content {
+                font-size: 1.05rem;
+            }
+            
+            .article-meta {
+                gap: 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Site Header -->
+    <header class="site-header" id="navbar">
+        <div class="site-header__row inner-frame">
+            <div class="site-header__col -left">
+                <div class="site-header__widget">
+                    <a href="index.html" class="site-header__logo">
+                        <span class="sr-only">Site Logo - Redirects to Homepage</span>
+                        <img src="assets/images/logo.png" alt="Industrial Lubricants Logo" class="logo-image">
+                    </a>
+                </div>
+            </div>
+            <div class="site-header__col -center">
+                <nav class="nav-primary" aria-label="Main Navigation">
+                    <ul class="nav-primary__links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="index.html#about">About</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="news.html" class="active">News</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="index.html#contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="site-header__col -right">
+                <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle Menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Navigation Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+        <div class="mobile-menu-overlay" id="mobileMenuOverlay"></div>
+        <div class="mobile-menu-content">
+            <nav class="mobile-nav">
+                <ul class="mobile-nav-list">
+                    <li><a href="index.html" class="mobile-nav-link">Home</a></li>
+                    <li><a href="index.html#about" class="mobile-nav-link">About</a></li>
+                    <li><a href="products.html" class="mobile-nav-link">Products</a></li>
+                    <li><a href="news.html" class="mobile-nav-link">News</a></li>
+                    <li><a href="blog.html" class="mobile-nav-link">Blog</a></li>
+                    <li><a href="index.html#contact" class="mobile-nav-link">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <!-- Article Content -->
+    <div class="article-wrapper">
+        <div class="article-container">
+            <a href="news.html" class="back-link">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M19 12H5M12 19l-7-7 7-7"/>
+                </svg>
+                Back to News
+            </a>
+
+            <article>
+                <div class="article-hero">
+                    <div class="article-header">
+                        <span class="article-badge">Press Release</span>
+                        <h1 class="article-title">Innovative lubrication solutions for the evolving medical metalworking industry</h1>
+                        <div class="article-meta">
+                            <span class="meta-item">📅 August 26, 2025</span>
+                            <span class="meta-item">⏱️ 1 min reading time</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="article-body">
+                    <div class="article-content">
+                <p>The medical manufacturing industry is undergoing a significant transformation, driven by rapid technological advancements, stringent regulatory standards, and a growing emphasis on sustainability and workplace safety. Among the many factors influencing this evolution, metalworking fluids play a critical yet often underappreciated role. These fluids play a vital role in achieving the high levels of precision, hygiene, and biocompatibility required in manufacturing surgical tools, diagnostic equipment, and medical implants.</p>
+
+                <h2>Meeting the demands of modern medical machining</h2>
+                <p>With the adoption of more advanced materials and the need for greater machining precision, the performance requirements for metalworking fluids have become increasingly demanding. Today's metalworking fluids are expected to deliver not only technical excellence in machining but also comply with strict medical, environmental, and health regulations. This dual challenge has spurred innovation in fluid formulation, leading to the development of solutions that are both high-performing and sustainable.</p>
+
+                <h2>Key requirements in medical metalworking</h2>
+                <p>In the highly regulated and precision-driven world of medical device production, metalworking fluids must meet a unique set of stringent criteria. These requirements ensure not only the safety and performance of the final product but also the protection of both operators and patients.</p>
+
+                <p><strong>Key requirements include:</strong></p>
+                <ul>
+                    <li><strong>Biocompatibility – Non-cytotoxicity compliance:</strong> Fluids must not induce cytotoxic or allergic reactions, particularly for components that come into contact with the human body.</li>
+                    <li><strong>Cleanroom compatibility:</strong> Fluids must be free of harmful vapours or residues that could compromise sterile environments.</li>
+                    <li><strong>Adherence to mandatory standards:</strong> Compliance with ISO standards and other regulatory frameworks is essential to ensure product safety and traceability.</li>
+                    <li><strong>Traceability and documentation:</strong> Full transparency in sourcing, formulation, and usage is required to meet audit and regulatory demands.</li>
+                </ul>
+
+                <div class="article-image">
+                    <img src="https://images.unsplash.com/photo-1579154204601-01588f351e67?w=1200&h=600&fit=crop" alt="Medical Manufacturing">
+                </div>
+
+                <h2>Materials commonly used in medical manufacturing</h2>
+                <p>Medical-grade materials such as stainless steel, titanium, cobalt-chrome alloys, aluminium, and Nitinol each bring distinct machining complexities. These challenges demand specialised lubrication approaches tailored to the physical and chemical properties of each substrate to ensure precision, safety, and efficiency in production.</p>
+
+                <ul>
+                    <li><strong>Stainless steel</strong> is preferred for surgical instruments and structural components due to their corrosion resistance and mechanical strength.</li>
+                    <li><strong>Titanium and titanium alloys</strong> are widely used in implants for their excellent biocompatibility and lightweight properties.</li>
+                    <li><strong>Cobalt-chrome alloys</strong> are ideal for orthopaedic and dental implants thanks to their wear resistance and durability.</li>
+                    <li><strong>Aluminium</strong> is favoured for non-implantable medical devices due to its ease of machining and lightweight properties.</li>
+                    <li><strong>Nitinol (nickel-titanium)</strong> is known for its shape memory and flexibility, it is suitable for stents and guidewires.</li>
+                    <li><strong>Ceramics</strong> are employed in joint implants and other applications requiring high wear resistance and smooth articulation between components.</li>
+                </ul>
+
+                <h2>Preferred metalworking techniques and fluid technologies</h2>
+                <p>Medical manufacturing relies on a variety of metalworking processes, each with specific lubrication needs.</p>
+
+                <ul>
+                    <li><strong>CNC machining and milling</strong> requires fluids with high cooling capacity and lubricity to maintain tight tolerances, enhance surface finishes and as well increase the tool lifespan.</li>
+                    <li><strong>Laser cutting and EDM (electrical discharge machining)</strong> demand clean, residue-free fluids that do not interfere with precision or leave contaminants.</li>
+                    <li><strong>Broaching and deep hole drilling</strong> often still require neat oils due to the high mechanical loads involved.</li>
+                    <li><strong>Post-processing for 3D Printing (Additive Manufacturing)</strong> often involves machining, requiring compatible fluids.</li>
+                    <li><strong>For grinding and polishing,</strong> fluids must be transparent and non-foaming to ensure visibility and surface quality.</li>
+                </ul>
+
+                <h2>Emerging trends and technologies</h2>
+                <p>In terms of fluid types, water-based fluids are increasingly favoured for their cooling efficiency, environmental profile, and operator safety.</p>
+
+                <p>Selecting solutions built on advanced lubrication technology can greatly enhance operational performance. These advanced formulations are designed to maximise cooling efficiency and lubrication, resulting in enhanced surface quality and prolonged tool durability. Such improvements lead to lower production costs and reduced downtime—key advantages in the demanding landscape of medical manufacturing.</p>
+
+                <p>One such innovation is the introduction of biocompatible, water-based metalworking fluids that reduce exposure to harmful substances and improve workplace safety. These non-mineral oil bio sourced fluids are designed to minimise skin irritation and respiratory issues, making them more suitable for environments where operator health is paramount.</p>
+
+                <p>Moreover, their compatibility with medical-grade materials ensures that the final products meet the highest quality standards. A new wave of eco-conscious metalworking fluids (such as TotalEnergies' Folia Series) is currently coming into play, offering a substantial reduction in the carbon emissions typically associated with machining processes. Its fast separation from tramp oils allows efficient skimming through its technology that limits bacterial and fungal development – which leads to the use of no or less biocide.</p>
+
+                <p>Meanwhile, neat oils are still essential for high-load applications like broaching, with a trend toward low-viscosity, non-hazardous formulations. One key criterion when selecting lubricants for maximum safety is flammability which creates a great fire risk, especially in pure cutting and solvent-based products. Choosing products with high flash points can not only minimise the risk of high evaporation but also prevent dirty and greasy workshops, reduce the fluid consumption.</p>
+
+                <p>Materials produced from the hydro cracked base oils provide high flash point, and are a great example to this type of fluids. There are also a range of innovative environmentally solutions available, formulated from carefully selected bio-sourced-based oils and high-performance additives lubricants that have also very high flash point.</p>
+
+                <p>Compared to standard mineral-oil-based cutting oil, these types of technology have no labelling in the SDS, even at the lowest viscosities. Additionally, the high content of polar molecules allows a strong lubricant film with a low friction coefficient. This contributes to extended tool longevity, reduced lubricant usage, and overall improvements in manufacturing efficiency.</p>
+
+                <h2>Evolving toward smarter, safer, and environmentally acceptable metalworking</h2>
+                <p>Companies are increasingly seeking partners and technologies that align with their environmental and operational goals. In this landscape, solutions that combine technical excellence with sustainability credentials are particularly valuable.</p>
+
+                <ul>
+                    <li><strong>Interactive Fluid Maintenance Applications:</strong> Automation systems that enable real-time fluid monitoring and take the necessary adjustments to optimise your soluble fluid baths.</li>
+                    <li><strong>Sustainable Manufacturing:</strong> Push toward energy-efficient processes and biodegradable, safer fluids. Reducing carbon emissions and environmental impact is becoming a priority for manufacturers.</li>
+                    <li><strong>Advanced Filtration and Recycling:</strong> Systems that extend fluid life and reduce waste are becoming standard.</li>
+                </ul>
+
+                <h3>Next-Generation Metalworking Fluids</h3>
+                <ul>
+                    <li><strong>Mineral Oil-Free and Emulsifier-Free:</strong> Enhances biodegradability and reduces misting.</li>
+                    <li><strong>Non-Hazardous Labeling:</strong> Simplifies handling and disposal while supporting workplace safety.</li>
+                    <li><strong>High Lubricity and Cooling Power:</strong> Ensures dimensional accuracy and extends tool life.</li>
+                    <li><strong>Bacteria and Fungi Resistance:</strong> Increases fluid longevity and reduces maintenance frequency.</li>
+                    <li><strong>Transparent and Non-Foaming:</strong> Improves visibility during machining, aiding in quality control.</li>
+                </ul>
+
+                <h2>Conclusion</h2>
+                <p>As medical manufacturing advances, the adoption of innovative, safer, and more sustainable metalworking fluids has become a necessity rather than a choice. These fluids are essential for maintaining high product standards, meeting regulatory requirements, and optimising operational performance. By tailoring lubrication solutions to meet the specific challenges of medical machining, the industry can drive innovation while improving safety, precision, and environmental sustainability.</p>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <h3>MILS</h3>
+                    <p>Mining Industrial Lubricant Suppliers - Your trusted partner for world-class lubricant solutions.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="news.html">News</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact</h4>
+                    <p>142 Amethyst Close, Burnside<br>Bulawayo, Zimbabwe</p>
+                    <p>Phone: 0292 247212</p>
+                    <p>Email: rumfieldsent@gmail.com</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Mining Industrial Lubricant Suppliers. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

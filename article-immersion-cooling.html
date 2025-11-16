@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TotalEnergies and XING Mobility Join Forces - MILS</title>
+    <link rel="icon" type="image/png" href="assets/images/logo.png">
+    <link rel="apple-touch-icon" href="assets/images/logo.png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="news.css">
+    <style>
+        body {
+            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+        }
+        
+        .article-wrapper {
+            padding-top: 120px;
+            min-height: 100vh;
+        }
+        
+        .article-container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 0 20px 80px;
+        }
+        
+        .article-hero {
+            background: white;
+            border-radius: 24px;
+            padding: 60px;
+            margin-bottom: 40px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.08);
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .article-hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 6px;
+            background: linear-gradient(90deg, var(--accent-color), #ff4757);
+        }
+        
+        .article-header {
+            margin-bottom: 0;
+        }
+        
+        .article-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 10px 20px;
+            background: linear-gradient(135deg, var(--accent-color), #ff4757);
+            color: white;
+            border-radius: 30px;
+            font-size: 0.875rem;
+            font-weight: 600;
+            margin-bottom: 24px;
+            box-shadow: 0 4px 12px rgba(231, 29, 54, 0.3);
+        }
+        
+        .article-badge::before {
+            content: '📰';
+            font-size: 1rem;
+        }
+        
+        .article-title {
+            font-size: clamp(1.75rem, 4vw, 3rem);
+            font-weight: 800;
+            color: var(--text-primary);
+            line-height: 1.2;
+            margin-bottom: 24px;
+            letter-spacing: -0.02em;
+        }
+        
+        .article-meta {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 24px;
+            padding: 20px 0;
+            border-top: 2px solid #f1f3f5;
+            margin-top: 24px;
+        }
+        
+        .meta-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            color: #6b7280;
+            font-size: 0.95rem;
+            font-weight: 500;
+        }
+        
+        .article-body {
+            background: white;
+            border-radius: 24px;
+            padding: 60px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.08);
+        }
+        
+        .article-content {
+            font-size: 1.125rem;
+            line-height: 1.9;
+            color: #374151;
+        }
+        
+        .article-content p {
+            margin-bottom: 28px;
+        }
+        
+        .article-content p:first-of-type {
+            font-size: 1.25rem;
+            font-weight: 500;
+            color: var(--text-primary);
+            line-height: 1.8;
+        }
+        
+        .article-content h2 {
+            font-size: 2rem;
+            font-weight: 700;
+            color: var(--text-primary);
+            margin: 60px 0 24px;
+            padding-bottom: 16px;
+            border-bottom: 3px solid var(--accent-color);
+            display: inline-block;
+        }
+        
+        .article-content h3 {
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: var(--text-primary);
+            margin: 40px 0 20px;
+            position: relative;
+            padding-left: 20px;
+        }
+        
+        .article-content h3::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 4px;
+            height: 70%;
+            background: var(--accent-color);
+            border-radius: 2px;
+        }
+        
+        .article-content strong {
+            color: var(--text-primary);
+            font-weight: 600;
+        }
+        
+        .article-image {
+            width: 100%;
+            margin: 50px 0;
+            border-radius: 16px;
+            overflow: hidden;
+            box-shadow: 0 20px 50px rgba(0,0,0,0.15);
+            transform: translateZ(0);
+            transition: transform 0.4s ease, box-shadow 0.4s ease;
+        }
+        
+        .article-image:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 25px 60px rgba(0,0,0,0.2);
+        }
+        
+        .article-image img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        
+        .back-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            padding: 12px 24px;
+            background: white;
+            color: var(--accent-color);
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 0.95rem;
+            border-radius: 30px;
+            margin-bottom: 40px;
+            box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+            transition: all 0.3s ease;
+        }
+        
+        .back-link:hover {
+            gap: 14px;
+            background: var(--accent-color);
+            color: white;
+            box-shadow: 0 8px 24px rgba(231, 29, 54, 0.3);
+            transform: translateX(-4px);
+        }
+        
+        .back-link svg {
+            width: 18px;
+            height: 18px;
+            transition: transform 0.3s ease;
+        }
+        
+        .back-link:hover svg {
+            transform: translateX(-2px);
+        }
+        
+        @media (max-width: 768px) {
+            .article-wrapper {
+                padding-top: 100px;
+            }
+            
+            .article-hero,
+            .article-body {
+                padding: 40px 30px;
+                border-radius: 16px;
+            }
+            
+            .article-title {
+                font-size: 1.75rem;
+            }
+            
+            .article-content {
+                font-size: 1.05rem;
+            }
+            
+            .article-meta {
+                gap: 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Site Header -->
+    <header class="site-header" id="navbar">
+        <div class="site-header__row inner-frame">
+            <div class="site-header__col -left">
+                <div class="site-header__widget">
+                    <a href="index.html" class="site-header__logo">
+                        <span class="sr-only">Site Logo - Redirects to Homepage</span>
+                        <img src="assets/images/logo.png" alt="Industrial Lubricants Logo" class="logo-image">
+                    </a>
+                </div>
+            </div>
+            <div class="site-header__col -center">
+                <nav class="nav-primary" aria-label="Main Navigation">
+                    <ul class="nav-primary__links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="index.html#about">About</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="news.html" class="active">News</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="index.html#contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="site-header__col -right">
+                <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle Menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Navigation Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+        <div class="mobile-menu-overlay" id="mobileMenuOverlay"></div>
+        <div class="mobile-menu-content">
+            <nav class="mobile-nav">
+                <ul class="mobile-nav-list">
+                    <li><a href="index.html" class="mobile-nav-link">Home</a></li>
+                    <li><a href="index.html#about" class="mobile-nav-link">About</a></li>
+                    <li><a href="products.html" class="mobile-nav-link">Products</a></li>
+                    <li><a href="news.html" class="mobile-nav-link">News</a></li>
+                    <li><a href="blog.html" class="mobile-nav-link">Blog</a></li>
+                    <li><a href="index.html#contact" class="mobile-nav-link">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <!-- Article Content -->
+    <div class="article-wrapper">
+        <div class="article-container">
+            <a href="news.html" class="back-link">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M19 12H5M12 19l-7-7 7-7"/>
+                </svg>
+                Back to News
+            </a>
+
+            <article>
+                <div class="article-hero">
+                    <div class="article-header">
+                        <span class="article-badge">Press Release</span>
+                        <h1 class="article-title">TotalEnergies and XING Mobility join forces to scale advanced immersion cooling battery technologies across electrification markets</h1>
+                        <div class="article-meta">
+                            <span class="meta-item">📅 July 2025</span>
+                            <span class="meta-item">📍 Taipei, Taiwan / Paris, France</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="article-body">
+                    <div class="article-content">
+                <p><strong>Taipei, Taiwan / Paris, France – July 2025</strong> – TotalEnergies Lubrifiants and XING Mobility, a global pioneer in immersion cooling battery technologies, announced the signing of a Memorandum of Understanding (MOU) to jointly promote cutting-edge immersion cooling battery systems. The collaboration will begin with the optimization and promotion of electrified marine applications, followed by the expansion into energy storage solutions, mobility, and backup power for AI data centers.</p>
+
+                <p>This strategic partnership brings together TotalEnergies' expertise in advanced fluids and global energy solutions with XING Mobility's innovative immersion cooling battery system, originally developed for high performance electric sports cars and now commercialized for broader electric mobility and energy storage system markets.</p>
+
+                <div class="article-image">
+                    <img src="https://images.unsplash.com/photo-1558346490-a72e53ae2d4f?w=1200&h=600&fit=crop" alt="Battery Technology Partnership">
+                </div>
+
+                <p>By combining TotalEnergies' high-performance dielectric fluids with XING Mobility's advanced immersion cooling battery architecture, the partnership aims to accelerate the adoption of next-generation battery cooling technologies in European-certified marine solutions as well as high-safety, high-power energy storage systems. The collaboration will further extend to critical applications such as sportscar, electrified underground mining machinery and aviation. Together, the two companies are driving the global transition toward cleaner, safer, and more sustainable electrification across diverse industries.</p>
+
+                <h3>Industry Leaders Speak</h3>
+
+                <p><strong>Jean Parizot, Vice President Automotive at TotalEnergies Lubrifiants</strong>, said: "This collaboration sets the stage for joint market development efforts, leveraging TotalEnergies' international network and XING Mobility's technical leadership to expand the global reach of direct immersion cooling technology. This partnership underscores both companies' mission to drive innovation and support a cleaner, electrified future."</p>
+
+                <p><strong>Royce Hong, Founder and CEO of XING Mobility</strong> said: "We're delighted to partner with TotalEnergies to promote immersion cooling battery technology. By combining our strengths, we're delivering next-generation solutions for diverse electrification markets and advancing the shift toward a more sustainable energy future."</p>
+
+                <h3>About TotalEnergies</h3>
+                <p>TotalEnergies is a global multi-energy company that produces and markets energies on a global scale: oil and biofuels, natural gas and green gases, renewables and electricity. Our 105,000 employees are committed to energy that is ever more affordable, cleaner, more reliable and accessible to as many people as possible. Active in more than 130 countries, TotalEnergies puts sustainable development in all its dimensions at the heart of its projects and operations to contribute to the well-being of people.</p>
+
+                <h3>About TotalEnergies Lubrifiants</h3>
+                <p>TotalEnergies is a leading global manufacturer and marketer of lubricants, with 42 production sites around the world and more than 5,800 employees in 160 countries. TotalEnergies' Lubricants division offers innovative, high-performance, and environmentally friendly products and services, developed by its R&D centers, which employ over 130 researchers. TotalEnergies' lubricants division is a key partner for players in the automotive, industrial, and marine markets.</p>
+
+                <h3>About XING Mobility</h3>
+                <p>Founded in 2015, XING Mobility is a global leader in immersion cooling battery technology, with a production facility in Taiwan. Over a decade, XING has perfected its immersion cooling system, enabling superior thermal efficiency, unmatched fire safety, and reliable performance in extreme climates. XING's innovations are driving the global transition to electrification, proven across a wide range of applications, including supercar, passenger and commercial vehicles, agricultural and industrial machinery, energy storage systems, and the world's first immersion-cooled ESS for wind farms. XING Mobility continuously drives the global transition to electrification with strategic partner alliances.</p>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <h3>MILS</h3>
+                    <p>Mining Industrial Lubricant Suppliers - Your trusted partner for world-class lubricant solutions.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="news.html">News</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact</h4>
+                    <p>142 Amethyst Close, Burnside<br>Bulawayo, Zimbabwe</p>
+                    <p>Phone: 0292 247212</p>
+                    <p>Email: rumfieldsent@gmail.com</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Mining Industrial Lubricant Suppliers. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

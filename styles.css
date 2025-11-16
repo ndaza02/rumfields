@@ -151,8 +151,8 @@ button,
     left: 50%;
     transform: translateX(-50%);
     width: auto;
-    max-width: 95%;
-    background: rgba(0, 0, 0, 0.4);
+    max-width: calc(100% - 40px);
+    background: rgba(0, 0, 0, 0.5);
     backdrop-filter: blur(20px) saturate(180%);
     -webkit-backdrop-filter: blur(20px) saturate(180%);
     z-index: 1000;
@@ -182,11 +182,11 @@ button,
 
 .site-header__row {
     margin: 0 auto;
-    padding: 0.6rem 1.5rem;
+    padding: 0.5rem 1.2rem;
     display: grid;
-    grid-template-columns: minmax(auto, 200px) 1fr minmax(auto, 300px);
+    grid-template-columns: minmax(auto, 180px) 1fr minmax(auto, 250px);
     align-items: center;
-    gap: 2rem;
+    gap: 1.5rem;
     transition: padding 0.6s cubic-bezier(0.4, 0, 0.2, 1), gap 0.6s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -216,6 +216,7 @@ button,
     gap: 1rem;
     flex-shrink: 0;
     min-width: fit-content;
+    margin-left: auto;
 }
 
 /* Logo */
@@ -239,10 +240,10 @@ button,
 }
 
 .site-header__logo .logo-image {
-    height: 65px;
+    height: 55px;
     width: auto;
     object-fit: contain;
-    max-width: 250px;
+    max-width: 200px;
     filter: drop-shadow(0 2px 8px rgba(0, 0, 0, 0.3));
     transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -253,7 +254,7 @@ button,
 }
 
 .site-header.scrolled .site-header__logo .logo-image {
-    height: 50px;
+    height: 45px;
 }
 
 .sr-only {
@@ -272,7 +273,7 @@ button,
 .nav-primary__links {
     display: flex;
     list-style: none;
-    gap: 1.5rem;
+    gap: 1rem;
     margin: 0;
     padding: 0;
 }
@@ -286,10 +287,10 @@ button,
     color: rgba(255, 255, 255, 0.9);
     text-decoration: none;
     font-weight: 500;
-    font-size: 1rem;
+    font-size: 0.95rem;
     transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
     position: relative;
-    padding: 0.5rem 0.8rem;
+    padding: 0.4rem 0.7rem;
     text-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
     opacity: 1 !important;
     visibility: visible !important;
@@ -367,6 +368,7 @@ button,
     transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
     border: 2px solid transparent;
     position: relative;
+    backface-visibility: hidden;
     overflow: hidden;
 }
 
@@ -647,13 +649,15 @@ button,
 /* Hero Section */
 .hero {
     height: 100vh;
+    min-height: 600px;
     background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
     position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
     overflow: hidden;
-    padding-top: 100px;
+    padding-top: 160px;
+    padding-bottom: 40px;
 }
 
 /* Flowing Lines */
@@ -740,44 +744,56 @@ button,
     z-index: 2;
     text-align: center;
     color: var(--text-light);
-    max-width: 1100px;
+    width: 100%;
     margin: 0 auto;
-    margin-bottom: 200px;
+    margin-top: 60px;
+    margin-bottom: 160px;
+    padding: 0 20px;
 }
 
 .hero-title {
-    font-size: 4rem;
+    font-size: clamp(1.8rem, 4.2vw, 3.2rem);
     font-weight: 800;
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
-    letter-spacing: -0.02em;
+    letter-spacing: -0.01em;
+    line-height: 1.15;
+    white-space: nowrap;
+    text-align: center;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: fit-content;
+    max-width: 95%;
 }
 
 .hero-subtitle {
-    font-size: 1.5rem;
-    margin-bottom: 2rem;
-    opacity: 0.9;
+    font-size: clamp(0.95rem, 2.2vw, 1.35rem);
+    margin-bottom: 3rem;
+    opacity: 0.95;
+    line-height: 1.7;
     font-weight: 300;
-    max-width: 900px;
+    max-width: 800px;
     margin-left: auto;
     margin-right: auto;
-    line-height: 1.7;
+    padding: 0 2rem;
 }
 
 /* Oil Prices Ticker - Stationary at Top */
 .oil-prices-ticker {
     position: fixed;
     top: 20px;
-    left: 30px;
+    left: 20px;
     z-index: 999;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.6);
     backdrop-filter: blur(15px) saturate(180%);
     -webkit-backdrop-filter: blur(15px) saturate(180%);
     border-left: 3px solid var(--accent-color);
-    padding: 0.75rem 1rem;
-    border-radius: 4px;
+    padding: 0.6rem 0.9rem;
+    border-radius: 6px;
     animation: slideInLeft 0.6s ease forwards;
     opacity: 0;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
 }
 
 /* Remove scrolled state - ticker stays stationary */
@@ -817,20 +833,20 @@ button,
 }
 
 .price-label {
-    font-size: 0.75rem;
+    font-size: 0.7rem;
     color: rgba(255, 255, 255, 0.7);
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 0.5px;
-    min-width: 70px;
+    min-width: 65px;
 }
 
 .price-value {
-    font-size: 0.9rem;
+    font-size: 0.85rem;
     font-weight: 700;
     color: white;
     text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
-    min-width: 55px;
+    min-width: 50px;
 }
 
 .price-change {
@@ -868,7 +884,7 @@ button,
 }
 
 .cta-button {
-    padding: 1rem 2.5rem;
+    padding: 1.1rem 2.8rem;
     font-size: 1.1rem;
     font-weight: 600;
     color: var(--text-light);
@@ -883,9 +899,10 @@ button,
     gap: 0.5rem;
     opacity: 1 !important;
     visibility: visible !important;
-    box-shadow: 0 4px 15px rgba(225, 36, 42, 0.4);
+    box-shadow: 0 6px 20px rgba(225, 36, 42, 0.5);
     position: relative;
     overflow: hidden;
+    margin-bottom: 3rem;
 }
 
 .cta-button::before {
@@ -928,12 +945,14 @@ button,
 }
 
 .cta-button.secondary {
-    background: transparent;
+    background: var(--accent-color);
+    color: white;
     border: 2px solid var(--accent-color);
 }
 
 .cta-button.secondary:hover {
-    background: var(--accent-color);
+    background: #c91e23;
+    border-color: #c91e23;
 }
 
 /* Scroll Indicator */
@@ -985,21 +1004,21 @@ button,
 /* Infinite Logo Carousel */
 .logo-carousel-container {
     position: absolute;
-    bottom: 1.5rem;
+    bottom: 0.5rem;
     left: 0;
     width: 100%;
-    padding: 3rem 0 2rem 0;
+    padding: 1rem 0 0.5rem 0;
     z-index: 10;
 }
 
 .carousel-label {
     text-align: center;
-    font-size: 0.85rem;
+    font-size: 0.8rem;
     font-weight: 600;
-    color: rgba(255, 255, 255, 0.9);
+    color: rgba(255, 255, 255, 0.85);
     text-transform: uppercase;
-    letter-spacing: 3px;
-    margin-bottom: 2rem;
+    letter-spacing: 2.5px;
+    margin-bottom: 1.2rem;
     padding: 0 2rem;
     text-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
 }
@@ -1008,7 +1027,7 @@ button,
     overflow: visible;
     position: relative;
     width: 100%;
-    padding: 1rem 0;
+    padding: 1.5rem 0; /* add top clearance to avoid hover clipping */
     mask-image: linear-gradient(
         to right,
         transparent,
@@ -1027,37 +1046,52 @@ button,
 
 .logo-track {
     display: flex;
-    gap: 4rem;
-    animation: scroll-logos 40s linear infinite;
+    gap: 0; /* IMPORTANT: no gap between the two groups to keep 50% loop exact */
+    animation: scroll-logos var(--scroll-duration, 40s) linear infinite;
     will-change: transform;
+    backface-visibility: hidden;
+}
+
+/* Each group contains one full set of logos */
+.logo-group {
+    display: flex;
+    align-items: center;
+    gap: 0; /* spacing handled by item margins to include seam inside each group */
+}
+
+.logo-track:hover {
+    animation-play-state: running; /* keep running continuously */
 }
 
 @keyframes scroll-logos {
-    0% {
-        transform: translateX(0);
+    from {
+        transform: translate3d(0, 0, 0);
     }
-    100% {
-        transform: translateX(-50%);
+    to {
+        transform: translate3d(calc(-1 * var(--scroll-distance, 50%)), 0, 0);
     }
 }
 
 .logo-item {
-    flex-shrink: 0;
-    width: 180px;
-    height: 80px;
+    flex: 0 0 auto;
+    width: 250px;
+    height: 110px;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 1.5rem;
-    background: rgba(255, 255, 255, 0.1);
+    padding: 1.2rem;
+    margin-right: 48px; /* uniform spacing, including after last item to form the seam */
+    background: rgba(255, 255, 255, 0.08);
     backdrop-filter: blur(20px);
-    border-radius: 16px;
-    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 14px;
+    border: 1px solid rgba(255, 255, 255, 0.15);
     box-shadow: 
-        0 8px 32px rgba(0, 0, 0, 0.3),
-        inset 0 1px 0 rgba(255, 255, 255, 0.2);
+        0 6px 24px rgba(0, 0, 0, 0.3),
+        inset 0 1px 0 rgba(255, 255, 255, 0.15);
     transition: all 0.5s cubic-bezier(0.34, 1.56, 0.64, 1);
     position: relative;
+    transform-origin: center; /* stable scaling */
+    backface-visibility: hidden;
     overflow: hidden;
 }
 
@@ -1082,16 +1116,19 @@ button,
 }
 
 .logo-item:hover {
-    transform: translateY(-12px) scale(1.08);
+    transform: translateY(-8px) scale(1.06); /* gentler lift to prevent clipping */
     background: rgba(255, 255, 255, 0.15);
     border-color: rgba(255, 255, 255, 0.4);
     box-shadow: 
         0 16px 48px rgba(0, 0, 0, 0.4),
         0 0 0 1px rgba(255, 255, 255, 0.3),
         inset 0 1px 0 rgba(255, 255, 255, 0.3);
+    z-index: 2; /* ensure hovered card is above neighbors */
 }
 
 .logo-item img {
+    position: relative;
+    z-index: 1;
     max-width: 100%;
     max-height: 100%;
     object-fit: contain;
@@ -1103,6 +1140,80 @@ button,
     opacity: 1;
     transform: scale(1.05);
 }
+
+/* Jena Mines Logo - Background Image Fade Effect */
+.logo-item-jena::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('assets/images/clients/jena-mines-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0;
+    transition: opacity 0.6s ease;
+    z-index: 0;
+    border-radius: 16px;
+}
+
+.logo-item-jena:hover::after {
+    opacity: 0.6;
+}
+
+.logo-item-jena img {
+    position: relative;
+    z-index: 1;
+}
+
+/* Additional client background overlays (same pattern as Jena Mines) */
+.logo-item-zetdc::after,
+.logo-item-pote-holdings::after,
+.logo-item-hccl::after,
+.logo-item-jrg::after,
+.logo-item-zambezi-gas-coal-mine::after,
+.logo-item-stallion-cruise::after,
+.logo-item-bikita-minerals::after,
+.logo-item-cement-factory-plant::after,
+.logo-item-delta::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0;
+    transition: opacity 0.6s ease;
+    z-index: 0;
+    border-radius: 16px;
+}
+
+.logo-item-zetdc:hover::after,
+.logo-item-pote-holdings:hover::after,
+.logo-item-hccl:hover::after,
+.logo-item-jrg:hover::after,
+.logo-item-zambezi-gas-coal-mine:hover::after,
+.logo-item-stallion-cruise:hover::after,
+.logo-item-bikita-minerals:hover::after,
+.logo-item-cement-factory-plant:hover::after,
+.logo-item-delta:hover::after {
+    opacity: 0.6;
+}
+
+.logo-item-zetdc::after { background-image: url("assets/images/clients/zetdc-bg.jpg"); }
+.logo-item-pote-holdings::after { background-image: url("assets/images/clients/pote-holdings.jpg"); }
+.logo-item-hccl::after { background-image: url("assets/images/clients/HCCL.jpg"); }
+.logo-item-jrg::after { background-image: url("assets/images/clients/jrg.webp"); }
+.logo-item-zambezi-gas-coal-mine::after { background-image: url("assets/images/clients/zambezi-gas-coal-mine.jpg"); }
+.logo-item-stallion-cruise::after { background-image: url("assets/images/clients/stallion-cruise.avif"); }
+.logo-item-bikita-minerals::after { background-image: url("assets/images/clients/bikita-minerals.jpg"); }
+.logo-item-cement-factory-plant::after { background-image: url("assets/images/clients/cement-factory-plant-hills-of-gravel-2025-01-08-20-39-11-utc.jpg"); }
+.logo-item-delta::after { background-image: url("assets/images/clients/delta.jpg"); }
 
 /* Process Section */
 .process-section {
@@ -1226,8 +1337,18 @@ button,
     background: var(--bg-white);
     position: relative;
     overflow: hidden;
+    width: 100%;
 }
 
+.about-full-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+    max-width: 100%;
+}
+
+/* OLD ABOUT SECTION STYLES - NO LONGER USED
 .about-container {
     max-width: 100%;
     margin: 0;
@@ -1245,7 +1366,7 @@ button,
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-blend-mode: overlay;
+    background-blend-mode: normal;
     color: white;
     padding: 80px 60px;
     display: flex;
@@ -1255,279 +1376,47 @@ button,
     overflow: hidden;
 }
 
-/* Dark overlay for text readability */
 .about-content::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: linear-gradient(135deg, rgba(0, 32, 96, 0.85) 0%, rgba(225, 36, 42, 0.75) 100%);
-    z-index: 1;
+    content: none;
+    background: none;
 }
 
-.about-content h2 {
-    color: white;
-    font-size: 2.8rem;
-    font-weight: 700;
-    margin-bottom: 1.5rem;
-    letter-spacing: -0.01em;
-    line-height: 1.2;
-    position: relative;
-    z-index: 2;
-    opacity: 0;
-    transform: translateY(30px);
-    animation: fadeInUp 0.8s ease forwards;
-}
-
-.about-content p {
-    color: rgba(255, 255, 255, 0.95);
-    font-size: 1.05rem;
-    line-height: 1.8;
-    margin-bottom: 1.2rem;
-    font-weight: 400;
-    position: relative;
-    z-index: 2;
-    opacity: 0;
-    transform: translateY(20px);
-    animation: fadeInUp 0.8s ease forwards;
-}
-
-.about-content p:nth-of-type(1) { animation-delay: 0.2s; }
-.about-content p:nth-of-type(2) { animation-delay: 0.3s; }
-.about-content p:nth-of-type(3) { animation-delay: 0.4s; }
-.about-content p:nth-of-type(4) { animation-delay: 0.5s; }
-.about-content p:nth-of-type(5) { animation-delay: 0.6s; }
-
-.about-content p strong {
-    color: white;
-    font-weight: 700;
-    position: relative;
-    display: inline-block;
-}
-
-.about-content p strong::after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 2px;
-    background: var(--accent-color);
-    transform: scaleX(0);
-    transform-origin: left;
-    animation: expandLine 0.6s ease forwards;
-    animation-delay: 0.8s;
-}
-
-.about-content .highlight {
-    color: var(--accent-color);
-    font-weight: 700;
-    position: relative;
-    display: inline-block;
-    transition: all 0.3s ease;
-}
-
-.about-content .highlight::before {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 2px;
-    background: var(--accent-color);
-    transform: scaleX(0);
-    transition: transform 0.3s ease;
-}
-
-.about-content .highlight:hover::before {
-    transform: scaleX(1);
-}
-
-@keyframes fadeInUp {
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-
-@keyframes expandLine {
-    to {
-        transform: scaleX(1);
-    }
-}
-
-.about-divider {
-    width: 0;
-    height: 4px;
-    background: var(--accent-color);
-    margin: 1.5rem 0;
-    border-radius: 2px;
-    position: relative;
-    z-index: 2;
-    animation: expandWidth 0.8s ease forwards;
-    animation-delay: 0.1s;
-    box-shadow: 0 0 20px rgba(225, 36, 42, 0.5);
-}
-
-@keyframes expandWidth {
-    to {
-        width: 60px;
-    }
-}
-
-.about-cta-button {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.75rem;
-    padding: 14px 32px;
-    background: white;
-    color: var(--primary-color);
-    text-decoration: none;
-    font-weight: 600;
-    font-size: 1rem;
-    border-radius: 50px;
-    border: 2px solid white;
-    transition: all 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
-    margin-top: 1.5rem;
-    position: relative;
-    z-index: 2;
-    opacity: 0;
-    transform: translateY(20px);
-    animation: fadeInUp 0.8s ease forwards;
-    animation-delay: 0.7s;
-    overflow: hidden;
-}
-
-.about-cta-button::before {
-    content: '';
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 0;
-    height: 0;
-    border-radius: 50%;
-    background: rgba(0, 75, 155, 0.1);
-    transform: translate(-50%, -50%);
-    transition: width 0.6s ease, height 0.6s ease;
-}
-
-.about-cta-button:hover::before {
-    width: 300px;
-    height: 300px;
-}
-
-.about-cta-button:hover {
-    background: transparent;
-    color: white;
-    transform: translateY(-3px) translateX(5px);
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
-}
-
-.about-cta-button svg {
-    width: 20px;
-    height: 20px;
-    transition: transform 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
-}
-
-.about-cta-button:hover svg {
-    transform: translateX(8px);
-    animation: arrowBounce 0.6s ease infinite;
-}
-
-@keyframes arrowBounce {
-    0%, 100% {
-        transform: translateX(8px);
-    }
-    50% {
-        transform: translateX(12px);
-    }
-}
-
-.about-image {
-    position: relative;
-    overflow: hidden;
-    height: 100%;
-    min-height: 600px;
-}
-
-.about-image::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: -100%;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.3), transparent);
-    z-index: 2;
-    animation: shimmer 3s ease-in-out infinite;
-    animation-delay: 1s;
-}
-
-@keyframes shimmer {
-    0% {
-        left: -100%;
-    }
-    50%, 100% {
-        left: 100%;
-    }
-}
-
-.about-image img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    transition: transform 0.8s cubic-bezier(0.34, 1.56, 0.64, 1), filter 0.4s ease;
-    display: block;
-    animation: zoomIn 1.2s ease forwards;
-}
-
-@keyframes zoomIn {
-    from {
-        transform: scale(1.2);
-        opacity: 0;
-    }
-    to {
-        transform: scale(1);
-        opacity: 1;
-    }
-}
+END OF OLD ABOUT SECTION STYLES - ALL COMMENTED OUT */
 
 /* ========================================
    Products Carousel Section
    ======================================== */
 .products-carousel-section {
     padding: 100px 0;
-    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+    background: #f8fafc;
     position: relative;
     overflow: hidden;
 }
 
 .products-carousel-section::before {
-    content: '';
+    content: none;
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     height: 1px;
-    background: linear-gradient(90deg, transparent, var(--accent-color), transparent);
+    background: transparent;
 }
 
 .products-carousel {
     position: relative;
     max-width: 1200px;
-    margin: 60px auto 40px;
+    margin: 48px auto 40px;
     overflow: hidden;
-    border-radius: 20px;
-    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15),
-                0 0 0 1px rgba(0, 0, 0, 0.05);
-    background: white;
+    border-radius: 16px;
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+    background: #ffffff;
 }
 
 .carousel-track {
     display: flex;
-    transition: transform 0.7s ease-in-out;
+    transition: transform 0.6s ease;
     will-change: transform;
 }
 
@@ -1537,11 +1426,12 @@ button,
     grid-template-columns: 1fr 1fr;
     background: white;
     overflow: hidden;
+    align-items: stretch; /* ensure columns match height */
 }
 
 .slide-image {
     position: relative;
-    height: 500px;
+    height: 100%; /* fill full card height on desktop */
     overflow: hidden;
 }
 
@@ -1549,11 +1439,11 @@ button,
     width: 100%;
     height: 100%;
     object-fit: cover;
-    transition: transform 0.8s ease;
+    transition: transform 0.6s ease;
 }
 
 .carousel-slide:hover .slide-image img {
-    transform: scale(1.1);
+    transform: scale(1.04);
 }
 
 .slide-overlay {
@@ -1562,29 +1452,47 @@ button,
     left: 0;
     right: 0;
     bottom: 0;
-    background: linear-gradient(135deg, rgba(0, 32, 96, 0.85) 0%, rgba(225, 36, 42, 0.75) 100%);
-    opacity: 0.9;
-    transition: opacity 0.4s ease;
+    background: linear-gradient(135deg, rgba(0, 32, 96, 0.6) 0%, rgba(225, 36, 42, 0.5) 100%);
+    opacity: 0.6;
+    transition: opacity 0.3s ease;
 }
 
 .carousel-slide:hover .slide-overlay {
-    opacity: 0.95;
+    opacity: 0.65;
 }
 
 .slide-content {
-    padding: 60px;
+    padding: 48px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     position: relative;
-    background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
-    border-left: 3px solid var(--accent-color);
+    height: 100%; /* match image column height */
+    background: #ffffff;
+    border-left: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+/* Optional background image behind text panel */
+.slide-content::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image: var(--slide-content-bg, none);
+    background-size: cover;
+    background-position: center;
+    opacity: 0.5; /* increase visibility */
+    pointer-events: none;
+}
+
+.slide-content > * {
+    position: relative;
+    z-index: 1;
 }
 
 .slide-icon {
-    font-size: 3.5rem;
-    margin-bottom: 20px;
-    animation: bounceIn 0.8s ease;
+    font-size: 2.25rem;
+    margin-bottom: 12px;
+    color: var(--accent-color);
 }
 
 @keyframes bounceIn {
@@ -1602,17 +1510,17 @@ button,
 }
 
 .slide-content h3 {
-    font-size: 2.2rem;
+    font-size: 2rem;
     color: var(--primary-color);
-    margin-bottom: 15px;
-    font-weight: 700;
+    margin-bottom: 10px;
+    font-weight: 600;
 }
 
 .slide-content p {
-    font-size: 1.05rem;
-    color: #555;
-    line-height: 1.8;
-    margin-bottom: 25px;
+    font-size: 1rem;
+    color: #475569;
+    line-height: 1.7;
+    margin-bottom: 20px;
 }
 
 .slide-features {
@@ -1644,35 +1552,32 @@ button,
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    background: rgba(255, 255, 255, 0.95);
-    backdrop-filter: blur(10px);
-    border: 2px solid rgba(0, 0, 0, 0.1);
-    width: 55px;
-    height: 55px;
-    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.9);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    width: 48px;
+    height: 48px;
+    border-radius: 999px;
     display: flex;
     align-items: center;
     justify-content: center;
     cursor: pointer;
     z-index: 10;
-    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15),
-                0 0 0 1px rgba(255, 255, 255, 0.5) inset;
-    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-    opacity: 0.9;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+    transition: all 0.25s ease;
+    opacity: 0.92;
 }
 
 .carousel-btn:hover {
     background: var(--accent-color);
-    color: white;
+    color: #ffffff;
     border-color: var(--accent-color);
-    transform: translateY(-50%) scale(1.15);
+    transform: translateY(-50%) scale(1.06);
     opacity: 1;
-    box-shadow: 0 12px 35px rgba(225, 36, 42, 0.4),
-                0 0 0 1px rgba(255, 255, 255, 0.3) inset;
+    box-shadow: 0 10px 24px rgba(225, 36, 42, 0.35);
 }
 
 .carousel-btn:active {
-    transform: translateY(-50%) scale(1.05);
+    transform: translateY(-50%) scale(1.02);
 }
 
 .carousel-btn svg {
@@ -1693,80 +1598,58 @@ button,
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10px;
-    margin-top: 35px;
-    padding: 20px 0;
+    gap: 8px;
+    margin-top: 28px;
+    padding: 16px 0;
 }
 
 .dot {
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    background: rgba(0, 0, 0, 0.2);
+    width: 8px;
+    height: 8px;
+    border-radius: 999px;
+    background: rgba(0, 0, 0, 0.18);
     cursor: pointer;
-    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    transition: all 0.2s ease;
     position: relative;
-    border: 2px solid transparent;
+    border: 1px solid rgba(0, 0, 0, 0.12);
 }
 
-.dot::before {
-    content: '';
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    background: transparent;
-    transition: all 0.4s ease;
-}
+/* simplify: no halo ring */
 
 .dot:hover {
-    background: rgba(0, 0, 0, 0.4);
-    transform: scale(1.3);
+    background: rgba(0, 0, 0, 0.28);
+    transform: scale(1.15);
 }
 
 .dot:hover::before {
-    background: rgba(225, 36, 42, 0.1);
+    background: transparent;
 }
 
 .dot.active {
     background: var(--accent-color);
-    width: 32px;
-    border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(225, 36, 42, 0.4);
+    border-color: var(--accent-color);
+    width: 18px;
+    border-radius: 999px;
+    box-shadow: 0 2px 8px rgba(225, 36, 42, 0.25);
 }
 
-.dot.active::before {
-    background: rgba(225, 36, 42, 0.15);
-    width: 40px;
-    border-radius: 12px;
-}
+.dot.active::before { background: transparent; }
 
+/* OLD ABOUT SECTION RESPONSIVE STYLES - COMMENTED OUT
 .about-image:hover img {
     transform: scale(1.08);
     filter: brightness(1.1);
 }
 
 .about-image::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: linear-gradient(135deg, rgba(0, 75, 155, 0.15) 0%, rgba(225, 36, 42, 0.15) 100%);
-    z-index: 1;
-    opacity: 0;
-    transition: opacity 0.4s ease;
+    content: none;
+    background: none;
 }
 
 .about-image:hover::after {
-    opacity: 1;
+    opacity: 0;
 }
 
-/* Responsive About Section */
 @media (max-width: 968px) {
     .about-container {
         grid-template-columns: 1fr;
@@ -1785,23 +1668,8 @@ button,
         font-size: 2.2rem;
     }
 }
+*/
 
-.about-image::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: linear-gradient(135deg, rgba(0, 75, 155, 0.1) 0%, rgba(225, 36, 42, 0.1) 100%);
-    z-index: 1;
-    opacity: 0;
-    transition: opacity 0.6s ease;
-}
-
-.about-image:hover::before {
-    opacity: 1;
-}
 
 /* Quality Section */
 .quality-section {
@@ -1904,77 +1772,70 @@ button,
 }
 
 .industry-card[data-industry="marine"] .industry-image {
-    background: linear-gradient(135deg, rgba(0, 119, 182, 0.8), rgba(0, 180, 216, 0.8)),
-                url('assets/images/industries/marine.jpg');
+    background: url('assets/images/industries/marine.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .industry-card[data-industry="power"] .industry-image {
-    background: linear-gradient(135deg, rgba(255, 152, 0, 0.8), rgba(255, 193, 7, 0.8)),
-                url('assets/images/industries/power-generation.jpg');
+    background: url('assets/images/industries/power-generation.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .industry-card[data-industry="mining"] .industry-image {
-    background: linear-gradient(135deg, rgba(121, 85, 72, 0.8), rgba(93, 64, 55, 0.8)),
-                url('assets/images/industries/mining.jpg');
+    background: url('assets/images/industries/mining.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .industry-card[data-industry="cement"] .industry-image {
-    background: linear-gradient(135deg, rgba(96, 125, 139, 0.8), rgba(69, 90, 100, 0.8)),
-                url('assets/images/industries/cement.jpg');
+    background: url('assets/images/industries/cement.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .industry-card[data-industry="sugar"] .industry-image {
-    background: linear-gradient(135deg, rgba(139, 195, 74, 0.8), rgba(104, 159, 56, 0.8)),
-                url('assets/images/industries/sugar-milling.jpg');
+    background: url('assets/images/industries/sugar-milling.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* New industry backgrounds */
+.industry-card[data-industry="on-road"] .industry-image {
+    background: url('assets/images/industries/on-road-transport.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.industry-card[data-industry="rail"] .industry-image {
+    background: url('assets/images/industries/rail-transport.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .industry-image::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: linear-gradient(135deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6));
-    z-index: 1;
-    transition: all 0.4s ease;
+    content: none;
+    background: none;
 }
 
 .industry-card:hover .industry-image::before {
-    background: linear-gradient(135deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4));
+    background: none;
 }
 
 .industry-image::after {
-    content: '';
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 100px;
-    height: 100px;
-    background: rgba(255, 255, 255, 0.2);
-    border-radius: 50%;
-    transform: translate(-50%, -50%) scale(0);
-    transition: transform 0.6s ease;
-    z-index: 2;
+    content: none;
 }
 
 .industry-card:hover .industry-image::after {
-    transform: translate(-50%, -50%) scale(5);
+    transform: none;
 }
 
 .industry-overlay {
@@ -1983,7 +1844,7 @@ button,
     left: 0;
     right: 0;
     bottom: 0;
-    display: flex;
+    display: none;
     align-items: center;
     justify-content: center;
     z-index: 3;
@@ -2257,27 +2118,52 @@ button,
 }
 
 /* Responsive Design */
+/* ============================================
+   RESPONSIVE BREAKPOINTS - COMPREHENSIVE
+   ============================================ */
+
+/* Large Tablets & Small Laptops (1024px - 1279px) */
+@media (max-width: 1279px) {
+    .site-header {
+        max-width: calc(100% - 30px);
+    }
+    
+    .site-header__row {
+        padding: 0.5rem 1rem;
+        gap: 1rem;
+    }
+    
+    .nav-primary__links {
+        gap: 0.8rem;
+    }
+    
+    .nav-primary__links li a {
+        font-size: 0.9rem;
+        padding: 0.4rem 0.6rem;
+    }
+}
+
+/* Tablets & Mobile Landscape (768px - 1023px) */
 @media (max-width: 1024px) {
     .oil-prices-ticker {
         top: 15px;
-        left: 20px;
-        padding: 0.6rem 0.8rem;
+        left: 15px;
+        padding: 0.5rem 0.7rem;
     }
     
     .oil-prices-ticker.scrolled {
-        /* Stays stationary */
         top: 15px;
     }
     
     .site-header {
-        max-width: 90%;
+        max-width: calc(100% - 30px);
         top: 15px;
     }
     
     .site-header__row {
         grid-template-columns: auto auto;
-        padding: 0.6rem 1.2rem;
-        gap: 1rem;
+        padding: 0.5rem 1rem;
+        gap: 0.8rem;
     }
 
     .site-header__col.-center {
@@ -2298,6 +2184,40 @@ button,
     
     .hamburger {
         display: none;
+    }
+    
+    .hero {
+        padding-top: 140px;
+    }
+    
+    .hero-content {
+        margin-top: 50px;
+        margin-bottom: 150px;
+    }
+    
+    .hero-title {
+        font-size: clamp(1.6rem, 3.8vw, 2.8rem);
+        margin-bottom: 1.3rem;
+        white-space: normal;
+        max-width: 90%;
+    }
+    
+    .hero-subtitle {
+        font-size: clamp(0.9rem, 2vw, 1.25rem);
+        margin-bottom: 2.8rem;
+    }
+    
+    .cta-button {
+        margin-bottom: 2.8rem;
+    }
+    
+    .logo-carousel-container {
+        bottom: 0.5rem;
+        padding: 1.2rem 0 0.5rem 0;
+    }
+    
+    .carousel-label {
+        margin-bottom: 1rem;
     }
 
     .nav-primary__links {
@@ -2398,83 +2318,117 @@ button,
     }
 }
 
-/* About Section Responsive */
-@media (max-width: 1024px) {
-    .about-container {
-        gap: 3rem;
-    }
-    
-    .about-content h2 {
-        font-size: 2.2rem;
-    }
-}
-
+/* Mobile Devices (768px and below) */
 @media (max-width: 768px) {
     .oil-prices-ticker {
         top: 10px;
         left: 10px;
         right: auto;
-        transform: none;
+        max-width: calc(50% - 15px);
         padding: 0.4rem 0.6rem;
-        font-size: 0.7rem;
-        max-width: 45%;
-        width: auto;
-        flex-direction: column;
-        gap: 0.3rem;
-        z-index: 998;
         border-radius: 8px;
     }
     
-    .oil-prices-ticker.scrolled {
-        /* Stays stationary at top */
-        top: 10px;
+    .ticker-prices {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 0.4rem;
+    }
+    
+    .price-item {
+        font-size: 0.75rem;
+        gap: 0.5rem;
     }
     
     .price-label {
-        font-size: 0.7rem;
-        min-width: 60px;
-    }
-    
-    .price-value {
-        font-size: 0.85rem;
+        font-size: 0.65rem;
         min-width: 50px;
     }
     
+    .price-value {
+        font-size: 0.75rem;
+        min-width: 45px;
+    }
+    
+    .price-change {
+        font-size: 0.65rem;
+        padding: 0.1rem 0.3rem;
+    }
+    
+    .oil-prices-ticker.scrolled {
+        top: 10px;
+    }
+    
     .site-header {
-        max-width: 50%;
         top: 10px;
         left: auto;
         right: 10px;
         transform: none;
-        z-index: 997;
+        max-width: calc(50% - 15px);
     }
     
     .site-header__row {
-        padding: 0.5rem 1rem;
+        padding: 0.4rem 0.8rem;
+        grid-template-columns: auto auto;
+        justify-content: space-between;
     }
     
     .site-header__logo .logo-image {
-        height: 35px;
-        max-width: 120px;
-        padding: 3px 6px;
+        height: 45px;
+        max-width: 150px;
     }
     
-    .about-container {
-        grid-template-columns: 1fr;
-        gap: 2rem;
-        text-align: center;
+    .site-header.scrolled .site-header__logo .logo-image {
+        height: 40px;
     }
     
-    .about-content h2 {
-        font-size: 2rem;
+    .hero {
+        padding-top: 130px;
+        min-height: 500px;
     }
     
-    .about-image {
-        order: -1;
+    .hero-content {
+        margin-top: 40px;
+        margin-bottom: 120px;
+        width: 95%;
+        padding: 0 15px;
     }
     
-    .about-image img {
-        height: 300px;
+    .hero-title {
+        font-size: clamp(1.5rem, 3.6vw, 2.3rem);
+        margin-bottom: 1.2rem;
+        white-space: normal;
+        max-width: 85%;
+    }
+    
+    .hero-subtitle {
+        font-size: clamp(0.85rem, 1.8vw, 1.15rem);
+        margin-bottom: 2.5rem;
+        max-width: 95%;
+    }
+    
+    .cta-button {
+        padding: 1rem 2.2rem;
+        font-size: 1rem;
+        margin-bottom: 2.5rem;
+    }
+    
+    .logo-carousel-container {
+        bottom: 0.8rem;
+        padding: 1.5rem 0 0.8rem 0;
+    }
+    
+    .carousel-label {
+        font-size: 0.75rem;
+        letter-spacing: 2px;
+        margin-bottom: 1rem;
+    }
+    
+    .logo-item {
+        width: 220px;
+        height: 100px;
+        padding: 1rem;
+        margin-right: 40px;
     }
 }
 
@@ -2628,7 +2582,7 @@ button,
     }
     
     .logo-item {
-        min-width: 120px;
+        min-width: 180px;
     }
     
     /* Contact Section */
@@ -2674,11 +2628,12 @@ button,
         transition: all 0.3s ease;
     }
     
-    /* About Section */
+    /* OLD ABOUT SECTION - COMMENTED OUT
     .about-content p {
         font-size: 1rem;
         line-height: 1.7;
     }
+    */
     
     /* Quality Section */
     .quality-section {
@@ -2930,9 +2885,107 @@ button,
 }
 
 /* Extra Small Mobile Devices */
+/* Small Mobile Devices (480px and below) */
 @media (max-width: 480px) {
+    .oil-prices-ticker {
+        top: 8px;
+        left: 8px;
+        right: auto;
+        padding: 0.35rem 0.5rem;
+        max-width: calc(48% - 12px);
+    }
+    
+    .ticker-prices {
+        gap: 0.3rem;
+    }
+    
+    .price-item {
+        font-size: 0.7rem;
+        gap: 0.4rem;
+    }
+    
+    .price-label {
+        font-size: 0.6rem;
+        min-width: 45px;
+    }
+    
+    .price-value {
+        font-size: 0.7rem;
+        min-width: 40px;
+    }
+    
+    .price-change {
+        font-size: 0.6rem;
+        padding: 0.1rem 0.25rem;
+    }
+    
+    .site-header {
+        top: 8px;
+        left: auto;
+        right: 8px;
+        transform: none;
+        max-width: calc(48% - 12px);
+    }
+    
+    .site-header__row {
+        padding: 0.35rem 0.7rem;
+    }
+    
+    .site-header__logo .logo-image {
+        height: 40px;
+        max-width: 130px;
+    }
+    
+    .site-header.scrolled .site-header__logo .logo-image {
+        height: 35px;
+    }
+    
     .hero {
-        padding-top: 110px;
+        padding-top: 120px;
+        min-height: 450px;
+    }
+    
+    .hero-content {
+        margin-top: 35px;
+        margin-bottom: 100px;
+        padding: 0 10px;
+    }
+    
+    .hero-title {
+        font-size: clamp(1.4rem, 3.3vw, 2rem);
+        margin-bottom: 1rem;
+        white-space: normal;
+        max-width: 80%;
+    }
+    
+    .hero-subtitle {
+        font-size: clamp(0.8rem, 1.6vw, 1.05rem);
+        margin-bottom: 2rem;
+        max-width: 100%;
+    }
+    
+    .cta-button {
+        padding: 0.9rem 1.8rem;
+        font-size: 0.95rem;
+        margin-bottom: 2rem;
+    }
+    
+    .logo-carousel-container {
+        bottom: 0.5rem;
+        padding: 1rem 0 0.5rem 0;
+    }
+    
+    .carousel-label {
+        font-size: 0.7rem;
+        letter-spacing: 1.5px;
+        margin-bottom: 0.8rem;
+    }
+    
+    .logo-item {
+        width: 200px;
+        height: 90px;
+        padding: 0.9rem;
+        margin-right: 32px;
     }
     
     .hero-content {
@@ -3014,7 +3067,7 @@ button,
         padding: 6px 0;
     }
     
-    /* About section */
+    /* OLD ABOUT SECTION - COMMENTED OUT
     .about-content {
         padding: 50px 30px;
     }
@@ -3026,16 +3079,29 @@ button,
     .about-content p {
         font-size: 0.95rem;
     }
+    */
 }
 
-/* Large Desktop Screens (1440px+) */
-@media (min-width: 1440px) {
+/* Large Desktop Screens (1440px - 1919px) */
+@media (min-width: 1440px) and (max-width: 1919px) {
     .container {
         max-width: 1400px;
     }
     
+    .site-header {
+        max-width: 1300px;
+    }
+    
+    .oil-prices-ticker {
+        left: 30px;
+    }
+    
+    .hero-content {
+        margin-top: 70px;
+    }
+    
     .hero-title {
-        font-size: 4.5rem;
+        font-size: 3.5rem;
     }
     
     .hero-subtitle {
@@ -3086,12 +3152,40 @@ button,
         max-width: 1600px;
     }
     
-    .hero-title {
-        font-size: 5rem;
+    .site-header {
+        max-width: 1500px;
+    }
+    
+    .oil-prices-ticker {
+        left: 40px;
+        padding: 0.8rem 1.1rem;
+    }
+    
+    .price-label {
+        font-size: 0.8rem;
+        min-width: 75px;
+    }
+    
+    .price-value {
+        font-size: 0.95rem;
+        min-width: 60px;
+    }
+    
+    .price-change {
+        font-size: 0.75rem;
+    }
+    
+    .hero {
+        padding-top: 180px;
     }
     
     .hero-content {
-        margin-bottom: 250px;
+        margin-top: 80px;
+        margin-bottom: 200px;
+    }
+    
+    .hero-title {
+        font-size: 3.8rem;
     }
     
     .products-carousel {
@@ -3158,9 +3252,105 @@ button,
 }
 
 /* Fix for very small screens (320px) */
+/* Extra Small Mobile Devices (360px and below) */
 @media (max-width: 360px) {
+    .oil-prices-ticker {
+        top: 6px;
+        left: 6px;
+        right: auto;
+        padding: 0.3rem 0.4rem;
+        max-width: calc(46% - 10px);
+    }
+    
+    .ticker-prices {
+        gap: 0.25rem;
+    }
+    
+    .price-item {
+        font-size: 0.65rem;
+        gap: 0.3rem;
+    }
+    
+    .price-label {
+        font-size: 0.55rem;
+        min-width: 40px;
+    }
+    
+    .price-value {
+        font-size: 0.65rem;
+        min-width: 38px;
+    }
+    
+    .price-change {
+        font-size: 0.55rem;
+        padding: 0.08rem 0.2rem;
+    }
+    
+    .site-header {
+        top: 6px;
+        left: auto;
+        right: 6px;
+        transform: none;
+        max-width: calc(46% - 10px);
+    }
+    
+    .site-header__row {
+        padding: 0.3rem 0.6rem;
+    }
+    
+    .site-header__logo .logo-image {
+        height: 35px;
+        max-width: 120px;
+    }
+    
+    .site-header.scrolled .site-header__logo .logo-image {
+        height: 32px;
+    }
+    
     .hero {
-        padding-top: 100px;
+        padding-top: 110px;
+        min-height: 400px;
+    }
+    
+    .hero-content {
+        margin-top: 30px;
+        margin-bottom: 80px;
+    }
+    
+    .hero-title {
+        font-size: clamp(1.3rem, 3vw, 1.8rem);
+        margin-bottom: 0.9rem;
+        white-space: normal;
+        max-width: 75%;
+    }
+    
+    .hero-subtitle {
+        font-size: clamp(0.75rem, 1.5vw, 0.95rem);
+        margin-bottom: 1.8rem;
+    }
+    
+    .cta-button {
+        padding: 0.8rem 1.5rem;
+        font-size: 0.9rem;
+        margin-bottom: 1.8rem;
+    }
+    
+    .logo-carousel-container {
+        bottom: 0.3rem;
+        padding: 0.8rem 0 0.3rem 0;
+    }
+    
+    .carousel-label {
+        font-size: 0.65rem;
+        letter-spacing: 1.2px;
+        margin-bottom: 0.6rem;
+    }
+    
+    .logo-item {
+        width: 180px;
+        height: 80px;
+        padding: 0.8rem;
+        margin-right: 28px;
     }
     
     .hero-content {
@@ -3209,9 +3399,11 @@ button,
         text-align: center;
     }
     
+    /* OLD ABOUT SECTION - COMMENTED OUT
     .about-content {
         padding: 40px 20px;
     }
+    */
     
     .slide-content {
         padding: 25px 15px;

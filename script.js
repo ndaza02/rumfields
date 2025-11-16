@@ -1031,7 +1031,7 @@ class InfiniteCarousel {
     updatePosition(animate = true) {
         if (animate) {
             // Consistent smooth transition across all screen sizes
-            this.track.style.transition = 'transform 0.7s ease-in-out';
+            this.track.style.transition = 'transform 0.6s ease-in-out';
         } else {
             this.track.style.transition = 'none';
         }
@@ -1064,7 +1064,7 @@ class InfiniteCarousel {
                 this.updatePosition(false);
             }
             this.isTransitioning = false;
-        }, 700);
+        }, 600);
         
         // Reset autoplay
         this.resetAutoPlay();
@@ -1080,7 +1080,7 @@ class InfiniteCarousel {
         
         setTimeout(() => {
             this.isTransitioning = false;
-        }, 700);
+        }, 600);
         
         this.resetAutoPlay();
     }
@@ -1088,7 +1088,7 @@ class InfiniteCarousel {
     startAutoPlay() {
         this.autoPlayInterval = setInterval(() => {
             this.moveCarousel(1);
-        }, 6000);
+        }, 12000); // slower for readability
     }
     
     resetAutoPlay() {

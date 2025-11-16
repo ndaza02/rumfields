@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Understanding Viscosity Grades: A Technical Deep Dive - MILS Blog</title>
+    <link rel="icon" type="image/png" href="assets/images/logo.png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="blog-article.css">
+    <style>
+        .article-badge::before{content:'🔧'}
+    </style>
+</head>
+<body>
+    <header class="site-header" id="navbar">
+        <div class="site-header__row inner-frame">
+            <div class="site-header__col -left">
+                <div class="site-header__widget">
+                    <a href="index.html" class="site-header__logo">
+                        <img src="assets/images/logo.png" alt="MILS Logo" class="logo-image">
+                    </a>
+                </div>
+            </div>
+            <div class="site-header__col -center">
+                <nav class="nav-primary">
+                    <ul class="nav-primary__links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="index.html#about">About</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="news.html">News</a></li>
+                        <li><a href="blog.html" class="active">Blog</a></li>
+                        <li><a href="index.html#contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="site-header__col -right">
+                <button class="mobile-menu-btn" id="mobileMenuBtn"><span></span><span></span><span></span></button>
+            </div>
+        </div>
+    </header>
+    <div class="mobile-menu" id="mobileMenu">
+        <div class="mobile-menu-overlay" id="mobileMenuOverlay"></div>
+        <div class="mobile-menu-content">
+            <nav class="mobile-nav">
+                <ul class="mobile-nav-list">
+                    <li><a href="index.html" class="mobile-nav-link">Home</a></li>
+                    <li><a href="products.html" class="mobile-nav-link">Products</a></li>
+                    <li><a href="news.html" class="mobile-nav-link">News</a></li>
+                    <li><a href="blog.html" class="mobile-nav-link">Blog</a></li>
+                    <li><a href="index.html#contact" class="mobile-nav-link">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <div class="article-wrapper">
+        <div class="article-container">
+            <a href="blog.html" class="back-link">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+                Back to Blog
+            </a>
+            <article>
+                <div class="article-hero">
+                    <div class="article-header">
+                        <span class="article-badge">Technical</span>
+                        <h1 class="article-title">Understanding Viscosity Grades: A Technical Deep Dive</h1>
+                        <div class="article-meta">
+                            <span class="meta-item">📅 October 22, 2025</span>
+                            <span class="meta-item">⏱️ 7 min read</span>
+                        </div>
+                        <div class="author-info">
+                            <div class="author-avatar">
+                                <img src="https://ui-avatars.com/api/?name=Michael+Chen&background=004B9B&color=fff&size=80" alt="Michael Chen">
+                            </div>
+                            <div class="author-details">
+                                <h4>Michael Chen</h4>
+                                <p>Technical Engineer</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="article-body">
+                    <div class="article-content">
+                        <p>Viscosity is the single most important property of a lubricant, yet it remains one of the most misunderstood concepts in lubrication engineering. Understanding ISO VG classifications and how to choose the right viscosity for your application can mean the difference between optimal equipment performance and premature failure.</p>
+                        <div class="article-image">
+                            <img src="https://images.unsplash.com/photo-1621905251189-08b45d6a269e?w=1200&h=600&fit=crop" alt="Viscosity Testing">
+                        </div>
+                        <h2>What is Viscosity?</h2>
+                        <p>Viscosity is a fluid's resistance to flow. Think of it as the "thickness" of the oil—high viscosity oils flow slowly like honey, while low viscosity oils flow quickly like water. This property determines how effectively a lubricant can separate moving surfaces, maintain film strength under load, and flow to critical components.</p>
+                        <h3>Kinematic vs. Dynamic Viscosity</h3>
+                        <p>Two types of viscosity measurements are commonly used in lubrication:</p>
+                        <ul>
+                            <li><strong>Kinematic Viscosity:</strong> Measures how a fluid flows under gravity, expressed in centistokes (cSt) or mm²/s. This is the basis for ISO VG classifications.</li>
+                            <li><strong>Dynamic (Absolute) Viscosity:</strong> Measures a fluid's resistance to flow under an applied force, expressed in centipoise (cP). Important for calculating film thickness and pump requirements.</li>
+                        </ul>
+                        <h2>The ISO VG System Explained</h2>
+                        <p>The International Organization for Standardization (ISO) established a viscosity grading system (ISO 3448) that classifies industrial lubricants into 20 viscosity grades based on their kinematic viscosity at 40°C. Each grade represents the midpoint of a viscosity range.</p>
+                        <h3>ISO VG Grade Structure</h3>
+                        <p>The ISO VG number represents the nominal viscosity in cSt at 40°C. Each successive grade increases by approximately 50%, creating a geometric progression:</p>
+                        <ul>
+                            <li><strong>ISO VG 2:</strong> 2.2 cSt (±10%) - Ultra-light oils for precision instruments</li>
+                            <li><strong>ISO VG 5:</strong> 4.6 cSt - Air tool oils, low-temperature hydraulics</li>
+                            <li><strong>ISO VG 10:</strong> 10 cSt - Spindle oils, light hydraulic systems</li>
+                            <li><strong>ISO VG 22:</strong> 22 cSt - Turbine oils, light hydraulic oils</li>
+                            <li><strong>ISO VG 32:</strong> 32 cSt - General hydraulic systems, compressors</li>
+                            <li><strong>ISO VG 46:</strong> 46 cSt - Most common hydraulic oil grade</li>
+                            <li><strong>ISO VG 68:</strong> 68 cSt - Heavy-duty hydraulics, light gearboxes</li>
+                            <li><strong>ISO VG 100:</strong> 100 cSt - Enclosed gearboxes, bearings</li>
+                            <li><strong>ISO VG 150:</strong> 150 cSt - Heavily loaded gearboxes</li>
+                            <li><strong>ISO VG 220:</strong> 220 cSt - Industrial gearboxes, slow-speed bearings</li>
+                            <li><strong>ISO VG 320:</strong> 320 cSt - Heavy industrial gearboxes</li>
+                            <li><strong>ISO VG 460:</strong> 460 cSt - Extremely heavy-duty gearboxes</li>
+                            <li><strong>ISO VG 680:</strong> 680 cSt - Open gears, slow-moving equipment</li>
+                            <li><strong>ISO VG 1000:</strong> 1000 cSt - Very slow-moving gears</li>
+                            <li><strong>ISO VG 1500:</strong> 1500 cSt - Extremely slow equipment, open gears</li>
+                        </ul>
+                        <h2>Viscosity Index: Temperature Performance</h2>
+                        <p>Viscosity Index (VI) measures how much a lubricant's viscosity changes with temperature. A high VI means viscosity remains more stable across temperature ranges—critical for equipment operating in varying conditions.</p>
+                        <h3>VI Classifications</h3>
+                        <ul>
+                            <li><strong>Low VI (below 95):</strong> Significant viscosity change with temperature, typical of basic mineral oils</li>
+                            <li><strong>Medium VI (95-110):</strong> Moderate temperature stability, suitable for controlled environments</li>
+                            <li><strong>High VI (110-140):</strong> Good temperature stability, premium mineral oils and some synthetics</li>
+                            <li><strong>Very High VI (above 140):</strong> Excellent temperature stability, synthetic lubricants</li>
+                        </ul>
+                        <h2>Selecting the Right Viscosity</h2>
+                        <p>Choosing the correct viscosity grade requires balancing multiple factors that affect lubricant performance.</p>
+                        <h3>Operating Temperature</h3>
+                        <p>Temperature is the primary factor affecting viscosity selection. As temperature increases, viscosity decreases. The lubricant must maintain adequate viscosity at operating temperature while remaining fluid enough to flow at startup.</p>
+                        <ul>
+                            <li><strong>High-Temperature Operations:</strong> Select higher viscosity grades to maintain film strength</li>
+                            <li><strong>Low-Temperature Operations:</strong> Choose lower viscosity grades for adequate flow and pumpability</li>
+                            <li><strong>Wide Temperature Ranges:</strong> Use high VI lubricants or multi-grade products</li>
+                        </ul>
+                        <h3>Load and Speed Considerations</h3>
+                        <p>The relationship between load, speed, and viscosity follows the Stribeck curve, which describes three lubrication regimes:</p>
+                        <ul>
+                            <li><strong>Boundary Lubrication:</strong> High loads, low speeds require higher viscosity and EP additives</li>
+                            <li><strong>Mixed Lubrication:</strong> Moderate loads and speeds, transitional regime</li>
+                            <li><strong>Hydrodynamic Lubrication:</strong> Lower loads, higher speeds can use lower viscosity for reduced friction</li>
+                        </ul>
+                        <h3>Equipment Type Guidelines</h3>
+                        <p><strong>Hydraulic Systems:</strong> ISO VG 32, 46, or 68 depending on operating pressure, temperature, and pump type. VG 46 is the most common choice for general industrial hydraulics.</p>
+                        <p><strong>Gearboxes:</strong> ISO VG 150-460 based on gear type, load, and speed. Worm gears typically require VG 460 or higher, while helical gears may use VG 150-320.</p>
+                        <p><strong>Bearings:</strong> ISO VG 32-220 depending on bearing size, speed, and load. Rolling element bearings generally use VG 32-100, while plain bearings may require VG 68-220.</p>
+                        <p><strong>Compressors:</strong> ISO VG 32-100 for rotary screw compressors, VG 100-150 for reciprocating compressors.</p>
+                        <h2>Common Viscosity Selection Mistakes</h2>
+                        <h3>Over-Viscosity</h3>
+                        <p>Using oil that's too thick can cause:</p>
+                        <ul>
+                            <li>Increased energy consumption and heat generation</li>
+                            <li>Poor circulation and inadequate lubrication of distant components</li>
+                            <li>Cavitation in pumps and hydraulic systems</li>
+                            <li>Difficulty starting in cold conditions</li>
+                        </ul>
+                        <h3>Under-Viscosity</h3>
+                        <p>Using oil that's too thin results in:</p>
+                        <ul>
+                            <li>Insufficient film thickness leading to metal-to-metal contact</li>
+                            <li>Increased wear rates</li>
+                            <li>Higher oil consumption and leakage</li>
+                            <li>Reduced load-carrying capacity</li>
+                        </ul>
+                        <h2>Viscosity Testing and Monitoring</h2>
+                        <p>Regular viscosity testing through oil analysis programs helps verify that lubricants maintain proper viscosity in service. Significant viscosity changes indicate problems:</p>
+                        <ul>
+                            <li><strong>Viscosity Increase:</strong> May indicate oxidation, contamination, or incorrect product</li>
+                            <li><strong>Viscosity Decrease:</strong> Could signal fuel dilution, thermal breakdown, or shear degradation</li>
+                        </ul>
+                        <h2>Conclusion</h2>
+                        <p>Understanding viscosity grades and their proper application is fundamental to effective lubrication management. The ISO VG system provides a standardized framework for selecting lubricants, but successful application requires considering operating conditions, equipment requirements, and performance expectations. By carefully matching viscosity to application needs and monitoring performance through oil analysis, organizations can optimize equipment reliability, efficiency, and longevity.</p>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </div>
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <h3>MILS</h3>
+                    <p>Mining Industrial Lubricant Suppliers - Your trusted partner for world-class lubricant solutions.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="news.html">News</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact</h4>
+                    <p>142 Amethyst Close, Burnside<br>Bulawayo, Zimbabwe</p>
+                    <p>Phone: 0292 247212</p>
+                    <p>Email: rumfieldsent@gmail.com</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Mining Industrial Lubricant Suppliers. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
