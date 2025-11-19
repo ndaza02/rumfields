@@ -1533,18 +1533,12 @@ END OF OLD ABOUT SECTION STYLES - ALL COMMENTED OUT */
     font-size: 1rem;
     color: #333;
     padding: 8px 0;
-    padding-left: 30px;
     position: relative;
     font-weight: 500;
 }
 
 .slide-features li::before {
-    content: '✓';
-    position: absolute;
-    left: 0;
-    color: var(--accent-color);
-    font-weight: bold;
-    font-size: 1.2rem;
+    display: none;
 }
 
 /* Carousel Navigation Buttons */
