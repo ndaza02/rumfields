@@ -8,13 +8,6 @@
     <link rel="apple-touch-icon" href="assets/images/logo.png">
     <link rel="stylesheet" href="styles.css">
     <!-- GSAP Library with Free Plugins Only -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/ScrollTrigger.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/ScrollToPlugin.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/TextPlugin.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/MotionPathPlugin.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/Flip.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/Observer.min.js"></script>
 </head>
 <body>
     <!-- Navigation (Fixed - Outside smooth content) -->
@@ -109,7 +102,7 @@
         <div id="smooth-content">
             <!-- Hero Section -->
     <section class="hero" id="home">
-        <video class="hero-video" autoplay muted loop playsinline data-speed="0.5">
+        <video class="hero-video" autoplay muted loop playsinline data-speed="0.5" preload="metadata">
             <source src="assets/videos/hero-video.mov" type="video/mp4">
         </video>
         <div class="hero-overlay" data-speed="0.3"></div>
@@ -145,66 +138,66 @@
                 <div class="logo-track">
                     <!-- First set of logos -->
                     <div class="logo-item logo-item-cement-factory-plant">
-                        <img src="assets/images/clients/ppc.png" alt="Pretoria Portland Cement">
+                        <img src="assets/images/clients/ppc.png" alt="Pretoria Portland Cement" loading="lazy">
                     </div>
                     <div class="logo-item logo-item-delta">
-                        <img src="assets/images/clients/delta.png" alt="Delta">
+                        <img src="assets/images/clients/delta.png" alt="Delta" loading="lazy">
                     </div>
                     <div class="logo-item logo-item-pote-holdings">
-                        <img src="assets/images/clients/holdings.png" alt="Holdings">
+                        <img src="assets/images/clients/holdings.png" alt="Holdings" loading="lazy">
                     </div>
                     <div class="logo-item logo-item-jrg">
-                        <img src="assets/images/clients/jrg.png" alt="JRG">
+                        <img src="assets/images/clients/jrg.png" alt="JRG" loading="lazy">
                     </div>
                     <div class="logo-item logo-item-stallion-cruise">
-                        <img src="assets/images/clients/stallion.png" alt="Stallion Cruise">
+                        <img src="assets/images/clients/stallion.png" alt="Stallion Cruise" loading="lazy">
                     </div>
                     <div class="logo-item logo-item-zetdc">
-                        <img src="assets/images/clients/zetdc.png" alt="ZETDC">
+                        <img src="assets/images/clients/zetdc.png" alt="ZETDC" loading="lazy">
                     </div>
                     <div class="logo-item logo-item-hccl">
-                        <img src="assets/images/clients/client9.png" alt="HCCL">
+                        <img src="assets/images/clients/client9.png" alt="HCCL" loading="lazy">
                     </div>
                     <div class="logo-item logo-item-jena">
-                        <img src="assets/images/clients/jena-mines.png" alt="Jena Mines">
+                        <img src="assets/images/clients/jena-mines.png" alt="Jena Mines" loading="lazy">
                     </div>
                     <div class="logo-item logo-item-zambezi-gas-coal-mine">
-                        <img src="assets/images/clients/logo1.png" alt="Zambezi Gas & Coal Mine">
+                        <img src="assets/images/clients/logo1.png" alt="Zambezi Gas & Coal Mine" loading="lazy">
                     </div>
                     <div class="logo-item logo-item-bikita-minerals">
-                        <img src="assets/images/clients/picture1.png" alt="Bikita Minerals">
+                        <img src="assets/images/clients/picture1.png" alt="Bikita Minerals" loading="lazy">
                     </div>
                     
                     <!-- Duplicate set for seamless loop -->
                     <div class="logo-item">
-                        <img src="assets/images/clients/ppc.png" alt="Pretoria Portland Cement">
+                        <img src="assets/images/clients/ppc.png" alt="Pretoria Portland Cement" loading="lazy">
                     </div>
                     <div class="logo-item">
-                        <img src="assets/images/clients/delta.png" alt="Delta">
+                        <img src="assets/images/clients/delta.png" alt="Delta" loading="lazy">
                     </div>
                     <div class="logo-item">
-                        <img src="assets/images/clients/holdings.png" alt="Holdings">
+                        <img src="assets/images/clients/holdings.png" alt="Holdings" loading="lazy">
                     </div>
                     <div class="logo-item">
-                        <img src="assets/images/clients/jrg.png" alt="JRG">
+                        <img src="assets/images/clients/jrg.png" alt="JRG" loading="lazy">
                     </div>
                     <div class="logo-item">
-                        <img src="assets/images/clients/stallion.png" alt="Stallion Cruise">
+                        <img src="assets/images/clients/stallion.png" alt="Stallion Cruise" loading="lazy">
                     </div>
                     <div class="logo-item">
-                        <img src="assets/images/clients/zetdc.png" alt="ZETDC">
+                        <img src="assets/images/clients/zetdc.png" alt="ZETDC" loading="lazy">
                     </div>
                     <div class="logo-item">
-                        <img src="assets/images/clients/client9.png" alt="Client">
+                        <img src="assets/images/clients/client9.png" alt="Client" loading="lazy">
                     </div>
                     <div class="logo-item logo-item-jena">
-                        <img src="assets/images/clients/jena-mines.png" alt="Jena Mines">
+                        <img src="assets/images/clients/jena-mines.png" alt="Jena Mines" loading="lazy">
                     </div>
                     <div class="logo-item">
-                        <img src="assets/images/clients/logo1.png" alt="Client Logo">
+                        <img src="assets/images/clients/logo1.png" alt="Client Logo" loading="lazy">
                     </div>
                     <div class="logo-item">
-                        <img src="assets/images/clients/picture1.png" alt="Client">
+                        <img src="assets/images/clients/picture1.png" alt="Client" loading="lazy">
                     </div>
                     
                 </div>
@@ -214,7 +207,7 @@
 
     <!-- About/Intro Section -->
     <section class="about-section" id="about">
-        <img src="assets/images/about-section-bg.jpg" alt="About Mining Industrial Lubricant Suppliers (MILS)" class="about-full-image" />
+        <img src="assets/images/about-section-bg.jpg" alt="About Mining Industrial Lubricant Suppliers (MILS)" class="about-full-image" loading="lazy" />
     </section>
 
     <!-- Process Section -->
@@ -303,7 +296,7 @@
                     <!-- Slide 1: Engine Oils -->
                     <div class="carousel-slide">
                         <div class="slide-image">
-                            <img src="https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=800&q=80" alt="Engine Oils">
+                            <img src="https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=800&q=80" alt="Engine Oils" loading="lazy">
                             <div class="slide-overlay"></div>
                         </div>
                         <div class="slide-content" style="--slide-content-bg: url('assets/images/products/engine-oils-bg-image.jpg');">
@@ -321,7 +314,7 @@
                     <!-- Slide 2: Industrial Lubricants -->
                     <div class="carousel-slide">
                         <div class="slide-image">
-                            <img src="https://images.unsplash.com/photo-1565688534245-05d6b5be184a?w=800&q=80" alt="Industrial Lubricants">
+                            <img src="https://images.unsplash.com/photo-1565688534245-05d6b5be184a?w=800&q=80" alt="Industrial Lubricants" loading="lazy">
                             <div class="slide-overlay"></div>
                         </div>
                         <div class="slide-content" style="--slide-content-bg: url('assets/images/products/industrial-lubricants-bg-image.jpg');">
@@ -339,7 +332,7 @@
                     <!-- Slide 3: Greases -->
                     <div class="carousel-slide">
                         <div class="slide-image">
-                            <img src="https://images.unsplash.com/photo-1621905251189-08b45d6a269e?w=800&q=80" alt="Lubricating Greases">
+                            <img src="https://images.unsplash.com/photo-1621905251189-08b45d6a269e?w=800&q=80" alt="Lubricating Greases" loading="lazy">
                             <div class="slide-overlay"></div>
                         </div>
                         <div class="slide-content" style="--slide-content-bg: url('assets/images/products/grease.jpg');">
@@ -357,7 +350,7 @@
                     <!-- Slide 4: Agricultural Solutions -->
                     <div class="carousel-slide">
                         <div class="slide-image">
-                            <img src="https://images.unsplash.com/photo-1625246333195-78d9c38ad449?w=800&q=80" alt="Agricultural Lubricants">
+                            <img src="https://images.unsplash.com/photo-1625246333195-78d9c38ad449?w=800&q=80" alt="Agricultural Lubricants" loading="lazy">
                             <div class="slide-overlay"></div>
                         </div>
                         <div class="slide-content" style="--slide-content-bg: url('assets/images/products/agricultural-products-bg-image.jpg');">
@@ -375,7 +368,7 @@
                     <!-- Slide 5: Specialty Products -->
                     <div class="carousel-slide">
                         <div class="slide-image">
-                            <img src="https://images.unsplash.com/photo-1530124566582-a618bc2615dc?w=800&q=80" alt="Specialty Products">
+                            <img src="https://images.unsplash.com/photo-1530124566582-a618bc2615dc?w=800&q=80" alt="Specialty Products" loading="lazy">
                             <div class="slide-overlay"></div>
                         </div>
                         <div class="slide-content" style="--slide-content-bg: url('assets/images/products/Specialty-products-bg-image.jpg');">
