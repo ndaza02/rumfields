@@ -43,14 +43,14 @@
             {
               "id": "quartz-7000-15w50",
               "name": "QUARTZ 7000 15W50",
-              "description": "High-performance semi-synthetic engine oil providing excellent protection for modern gasoline and diesel engines in warmer climates.",
-              "viscosity": "15W50",
+              "description": "âSynthetic technology engine oil for gasoline and Diesel engines.This motor oil is particularly suited to turbocharged and multi-valve engines, and suitable for normal driving conditions. Ensures long term wear protection of engine parts and increases engine life. Satisfies the most demanding manufacturers standards, while guaranteeing perfect and constant quality. Its high viscosity helps the product to combat wear in high-temperature conditions. Ensures good engine cleanliness by draining engine particules and dust to the oil filter.",
+              "viscosity": "15W-50",
               "specifications": [
                 "API SN",
                 "ACEA A3/B4"
               ],
               "image": "products/passenger-vehicles/synthetic-semi-synthetic/quartz-7000-15w50/main.png",
-              "datasheet": "products/passenger-vehicles/synthetic-semi-synthetic/quartz-7000-15w50/datasheet.pdf",
+              "datasheet": "https://total-cdn-lmdb.afineo.io/tdsV2/TDS_TotalEnergies_Quartz-7000-15W-50_DKZ_EN.pdf",
               "inStock": true,
               "featured": false,
               "packSizes": [
@@ -64,14 +64,16 @@
                 "Gasoline engines",
                 "Diesel engines",
                 "Hot climate conditions",
-                "Highway driving"
+                "Highway driving",
+                "PCMO",
+                "Cars"
               ]
             },
             {
               "id": "quartz-9000-5w40",
               "name": "QUARTZ 9000 5W40",
-              "description": "Premium fully synthetic engine oil offering superior protection and performance. Ideal for severe driving conditions, high-performance engines, and extended drain intervals.",
-              "viscosity": "5W40",
+              "description": "Synthetic technology engine oil for gasoline and Diesel passengerâs cars engines, particularly suitable for turbo compressed, multi-valve and direct injection diesel engines. Antiwear protection: this synthetic engine oil ensures optimum engine longevity with its antiwear properties that protect the engineâs most sensitive parts.",
+              "viscosity": "5W-40",
               "specifications": [
                 "API SN/CF",
                 "ACEA A3/B4",
@@ -80,7 +82,7 @@
                 "Porsche A40"
               ],
               "image": "products/passenger-vehicles/synthetic-semi-synthetic/quartz-9000-5w40/main.png",
-              "datasheet": "products/passenger-vehicles/synthetic-semi-synthetic/quartz-9000-5w40/datasheet.pdf",
+              "datasheet": "https://total-cdn-lmdb.afineo.io/tdsV2/TDS_TotalEnergies_Quartz-9000-5W-40_714_EN.pdf",
               "inStock": true,
               "featured": true,
               "packSizes": [
@@ -94,7 +96,9 @@
                 "High-performance engines",
                 "Turbocharged engines",
                 "Extended drain intervals",
-                "Severe driving conditions"
+                "Severe driving conditions",
+                "PCMO",
+                "Cars"
               ]
             }
           ]
@@ -143,30 +147,38 @@
             {
               "id": "quartz-3000-sg-20w50",
               "name": "QUARTZ 3000 SG 20W50",
-              "description": "Quality mineral engine oil for everyday use",
-              "viscosity": "20W50",
+              "description": "Mineral technology engine oils designed for old gasoline and diesel passenger car engines. Contains detergent and dispersant additives for engines to operate under normal conditions.",
+              "viscosity": "20W-50",
               "specifications": [
                 "API SG",
                 "ACEA A2"
               ],
               "image": "products/passenger-vehicles/mineral-engine-oil/quartz-3000-sg-20w50/main.png",
-              "datasheet": "products/passenger-vehicles/mineral-engine-oil/quartz-3000-sg-20w50/datasheet.pdf",
+              "datasheet": "https://total-cdn-lmdb.afineo.io/tdsV2/TDS_TotalEnergies_Quartz-3000-SG-20W-50_8V8_EN.pdf",
               "inStock": true,
-              "featured": false
+              "featured": false,
+              "applications": [
+                "PCMO",
+                "Cars"
+              ]
             },
             {
               "id": "quartz-5000-20w50",
               "name": "QUARTZ 5000 20W50",
-              "description": "Enhanced mineral engine oil",
-              "viscosity": "20W50",
+              "description": "Engine oil suitable for use in gasoline and Diesel engines (passenger cars and light industrial vehicles). Satisfies rigorous manufacturers standards, while guaranteeing perfect and constant quality.",
+              "viscosity": "20W-50",
               "specifications": [
                 "API SL",
                 "ACEA A3/B3"
               ],
               "image": "products/passenger-vehicles/mineral-engine-oil/quartz-5000-20w50/main.png",
-              "datasheet": "products/passenger-vehicles/mineral-engine-oil/quartz-5000-20w50/datasheet.pdf",
+              "datasheet": "https://total-cdn-lmdb.afineo.io/tdsV2/TDS_TotalEnergies_Quartz-5000-20W-50_977_EN.pdf",
               "inStock": true,
-              "featured": false
+              "featured": false,
+              "applications": [
+                "PCMO",
+                "Cars"
+              ]
             }
           ]
         },
@@ -178,16 +190,20 @@
             {
               "id": "quartz-4x4-15w40",
               "name": "QUARTZ 4X4 15W40",
-              "description": "Specialized engine oil for 4x4 vehicles and light trucks",
-              "viscosity": "15W40",
+              "description": "Very high performance synthetic lubricant for diesel and gasoline engines â¢ Quartz 4x4 optimizes engine performance in short gear ratio and gives the driver more driving comfort. â¢ Long-lasting wear protection for sensitive engine components. â¢ Ensures good engine cleanliness â¢ Extends engine life (extended oil change intervals)",
+              "viscosity": "15W-40",
               "specifications": [
                 "API SN",
                 "ACEA A3/B4"
               ],
               "image": "products/passenger-vehicles/4x4-engine-oil/quartz-4x4-15w40/main.png",
-              "datasheet": "products/passenger-vehicles/4x4-engine-oil/quartz-4x4-15w40/datasheet.pdf",
+              "datasheet": "https://total-cdn-lmdb.afineo.io/tdsV2/TDS_TotalEnergies_Quartz-4X4-15W-40_OPY_EN.pdf",
               "inStock": true,
-              "featured": false
+              "featured": false,
+              "applications": [
+                "PCMO",
+                "Cars"
+              ]
             }
           ]
         },
@@ -199,28 +215,38 @@
             {
               "id": "motor-oil-sae-40",
               "name": "MOTOR OIL SAE 40",
-              "description": "Traditional monograde oil for older engines",
+              "description": "withContainer -",
               "viscosity": "SAE 40",
               "specifications": [
                 "API CD"
               ],
               "image": "products/passenger-vehicles/monograde-engine-oil/motor-oil-sae-40/main.png",
-              "datasheet": "products/passenger-vehicles/monograde-engine-oil/motor-oil-sae-40/datasheet.pdf",
+              "datasheet": "https://total-cdn-lmdb.afineo.io/tdsV2/TDS_TotalEnergies_Motor-Oil-SAE-40_8RB_EN.pdf",
               "inStock": true,
-              "featured": false
+              "featured": false,
+              "applications": [
+                "PCMO",
+                "Trucks and Buses",
+                "Cars"
+              ]
             },
             {
               "id": "motor-oil-sf-sae-40",
               "name": "MOTOR OIL SF SAE 40",
-              "description": "Enhanced monograde oil for classic vehicles",
+              "description": "withContainer -",
               "viscosity": "SAE 40",
               "specifications": [
                 "API SF"
               ],
               "image": "products/passenger-vehicles/monograde-engine-oil/motor-oil-sf-sae-40/main.png",
-              "datasheet": "products/passenger-vehicles/monograde-engine-oil/motor-oil-sf-sae-40/datasheet.pdf",
+              "datasheet": "https://total-cdn-lmdb.afineo.io/tdsV2/TDS_TotalEnergies_Motor-Oil-SF-SAE-40_TBM_EN.pdf",
               "inStock": true,
-              "featured": false
+              "featured": false,
+              "applications": [
+                "PCMO",
+                "Trucks and Buses",
+                "Cars"
+              ]
             }
           ]
         }
@@ -240,8 +266,8 @@
             {
               "id": "rubia-tir-7400-15w40",
               "name": "RUBIA TIR 7400 15W40",
-              "description": "Premium diesel engine oil for heavy-duty trucks. Excellent soot handling and wear protection enables long drain intervals. Proven performance in mixed fleet operations.",
-              "viscosity": "15W40",
+              "description": "Mineral lubricant suitable for on-road diesel engines recommended to Euro 3, and previous engines of most European and American manufacturers. It is also adapted to Euro 5 and previous engines of some manufacturers with appropriate oil drain intervals.",
+              "viscosity": "15W-40",
               "specifications": [
                 "API CI-4",
                 "ACEA E7",
@@ -251,7 +277,7 @@
                 "Mack EO-M Plus"
               ],
               "image": "products/heavy-vehicles/diesel-engine-oil/rubia-tir-7400-15w40/main.png",
-              "datasheet": "products/heavy-vehicles/diesel-engine-oil/rubia-tir-7400-15w40/datasheet.pdf",
+              "datasheet": "https://total-cdn-lmdb.afineo.io/tdsV2/TDS_TotalEnergies_Rubia-TIR-7400-15W-40_13T_EN.pdf",
               "inStock": true,
               "featured": true,
               "packSizes": [
@@ -263,7 +289,9 @@
                 "Long-haul trucks",
                 "Heavy-duty diesel engines",
                 "Mixed fleet operations",
-                "On-highway transport"
+                "On-highway transport",
+                "HDMO",
+                "Trucks and Buses"
               ]
             }
           ]
@@ -276,8 +304,8 @@
             {
               "id": "rubia-tir-8600-10w40",
               "name": "RUBIA TIR 8600 10W40",
-              "description": "Fully synthetic diesel engine oil for maximum protection. Superior performance in extreme temperatures with extended drain capability. Ideal for modern Euro 5/6 engines and fuel economy optimization.",
-              "viscosity": "10W40",
+              "description": "High-performance synthetic technology diesel-engine oil, used in on-road heavy-duty applications. This high-performance motor oil is approved by Scania for its last generation of Euro 6 engines with long oil drain intervals defined by the manufacturer.",
+              "viscosity": "10W-40",
               "specifications": [
                 "API CJ-4",
                 "ACEA E9",
@@ -287,7 +315,7 @@
                 "Cummins CES 20081"
               ],
               "image": "products/heavy-vehicles/synthetic-diesel-engine-oil/rubia-tir-8600-10w40/main.png",
-              "datasheet": "products/heavy-vehicles/synthetic-diesel-engine-oil/rubia-tir-8600-10w40/datasheet.pdf",
+              "datasheet": "https://total-cdn-lmdb.afineo.io/tdsV2/TDS_TotalEnergies_Rubia-TIR-8600-10W-40_06X_EN.pdf",
               "inStock": true,
               "featured": true,
               "packSizes": [
@@ -300,7 +328,9 @@
                 "Extreme conditions",
                 "Extended drain intervals",
                 "Fuel economy",
-                "Low emission engines"
+                "Low emission engines",
+                "HDMO",
+                "Trucks and Buses"
               ]
             }
           ]
@@ -334,16 +364,20 @@
             {
               "id": "rubia-works-1000-15w40",
               "name": "RUBIA WORKS 1000 15W40",
-              "description": "Low SAPS diesel oil for modern emission systems",
-              "viscosity": "15W40",
+              "description": "Very high performance, multi-grade engine oil dedicated to engines of Earthmoving, Construction or Mining machinery from worldwide origins. High thermal stability ensuring a very good lubrication of hot engine pieces, especially during severe and long working periods. Reinforced dispersivity, detergency and anti-wear powers for resisting against all attacks occurring to the engine during a long oil drain interval : dust, soots, water, gazole, combustion acid, etcâ¦ Suitable in all engine brands and types of old or recent technology.",
+              "viscosity": "15W-40",
               "specifications": [
                 "API CK-4",
                 "Low SAPS"
               ],
               "image": "products/heavy-vehicles/low-saps-diesel-oil/rubia-works-1000-15w40/main.png",
-              "datasheet": "products/heavy-vehicles/low-saps-diesel-oil/rubia-works-1000-15w40/datasheet.pdf",
+              "datasheet": "https://total-cdn-lmdb.afineo.io/tdsV2/TDS_TotalEnergies_Rubia-Works-1000-15W-40_QW3_EN.pdf",
               "inStock": true,
-              "featured": false
+              "featured": false,
+              "applications": [
+                "HDMO",
+                "Construction Equipment and Mining"
+              ]
             }
           ]
         },
@@ -355,30 +389,38 @@
             {
               "id": "rubia-sx-10w",
               "name": "RUBIA SX 10W",
-              "description": "Multi-purpose oil for off-road equipment",
-              "viscosity": "10W",
+              "description": "withContainer Mono grade mineral lubricant, suitable for hydraulic circuits and gearboxes of trucks, agricultural equipment, earthmoving or quarries machinery",
+              "viscosity": "SAE 10W",
               "specifications": [
                 "API CD",
                 "Hydraulic/Transmission"
               ],
               "image": "products/heavy-vehicles/off-road-equipment-oil/rubia-sx-10w/main.png",
-              "datasheet": "products/heavy-vehicles/off-road-equipment-oil/rubia-sx-10w/datasheet.pdf",
+              "datasheet": "https://total-cdn-lmdb.afineo.io/tdsV2/TDS_TotalEnergies_Rubia-SX-10W_G6B_EN.pdf",
               "inStock": true,
-              "featured": false
+              "featured": false,
+              "applications": [
+                "HDMO",
+                "Construction Equipment and Mining"
+              ]
             },
             {
               "id": "rubia-sx-40",
               "name": "RUBIA SX 40",
-              "description": "Heavy-duty oil for stationary engines and equipment",
+              "description": "Single grade mineral lubricants, suitable for hydraulic circuits, engines and gearboxes of trucks, agricultural equipment, earthmoving or quarries machinery. TOTAL RUBIA SX formulations exhibit good thermal stability ensuring efficient lubrication in normal working conditions, without any deposits or varnishes on Hydraulic valves, gears or hot engine parts. Thanks to the high quality of its components, TOTAL RUBIA SX series represent a very cost effective choice without compromising on the technical performances.",
               "viscosity": "SAE 40",
               "specifications": [
                 "API CD",
                 "Hydraulic/Transmission"
               ],
               "image": "products/heavy-vehicles/off-road-equipment-oil/rubia-sx-40/main.png",
-              "datasheet": "products/heavy-vehicles/off-road-equipment-oil/rubia-sx-40/datasheet.pdf",
+              "datasheet": "https://total-cdn-lmdb.afineo.io/tdsV2/TDS_TotalEnergies_Rubia-SX-40_G6E_EN.pdf",
               "inStock": true,
-              "featured": false
+              "featured": false,
+              "applications": [
+                "HDMO",
+                "Construction Equipment and Mining"
+              ]
             }
           ]
         },
@@ -407,16 +449,21 @@
             {
               "id": "transtec-5-85w140",
               "name": "TRANSTEC 5 85W140",
-              "description": "Premium differential oil for final drives",
-              "viscosity": "85W140",
+              "description": "withContainer TRANSTEC 5 is specifically designed for the lubrication of all gear boxes and axles requiring an API GL-5 level and a viscosity of SAE 75W-90 / 80W-90 / 85W-140.",
+              "viscosity": "85W-140",
               "specifications": [
                 "API GL-5",
                 "MIL-PRF-2105E"
               ],
               "image": "products/heavy-vehicles/truck-differential-oil/transtec-5-85w140/main.png",
-              "datasheet": "products/heavy-vehicles/truck-differential-oil/transtec-5-85w140/datasheet.pdf",
+              "datasheet": "https://total-cdn-lmdb.afineo.io/tdsV2/TDS_TotalEnergies_TRANSTEC-5-85W-140_DF7_EN.pdf",
               "inStock": true,
-              "featured": false
+              "featured": false,
+              "applications": [
+                "MTF",
+                "Trucks and Buses",
+                "Cars"
+              ]
             },
             {
               "id": "trax-axle-7-85w140",
@@ -449,14 +496,14 @@
             {
               "id": "tractagri-hdx-15w40",
               "name": "TRACTAGRI HDX 15W40",
-              "description": "High-performance diesel engine oil specifically formulated for modern agricultural tractors. Provides excellent protection under severe operating conditions.",
-              "viscosity": "15W40",
+              "description": "Mineral oil for naturally aspirated & turbocharged engines used in Agricultural machinery Tractagri HDX 15W-40 has high thermal stability ensuring efficient lubrication of hot engine pieces during severe and long working periods, especially in summer. Its excellent oxidation resistance guarantees proper lubrication during the oil life, particularly in recent engines with longer oil drain intervals.",
+              "viscosity": "15W-40",
               "specifications": [
                 "API CI-4",
                 "ACEA E7"
               ],
               "image": "products/farming-agriculture/tractor-engine-oil/tractagri-hdx-15w40/main.png",
-              "datasheet": "products/farming-agriculture/tractor-engine-oil/tractagri-hdx-15w40/datasheet.pdf",
+              "datasheet": "https://total-cdn-lmdb.afineo.io/tdsV2/TDS_TotalEnergies_Tractagri-HDX-15W-40_JI0_EN.pdf",
               "inStock": true,
               "featured": true,
               "packSizes": [
@@ -468,7 +515,9 @@
                 "Agricultural tractors",
                 "Farm equipment",
                 "Diesel engines",
-                "Heavy-duty applications"
+                "Heavy-duty applications",
+                "HDMO",
+                "Agriculture and Motoculture (Gardening)"
               ]
             }
           ]
@@ -481,14 +530,14 @@
             {
               "id": "multagri-ms-15w40",
               "name": "MULTAGRI MS 15W40",
-              "description": "Multi-functional STOU (Super Tractor Oil Universal) for engine, transmission, hydraulic systems, and wet brakes. Simplifies inventory and reduces maintenance costs.",
-              "viscosity": "15W40",
+              "description": "Super Tractor Oil Universal for diesel engines & transmissions of Agricultural machinery. Motor oil designed for turbocharged or naturally-aspirated Diesel engines. This lubricant is also adapted to mechanical transmissions, gearboxes, reduction drives, bevel gears requiring API GL-4 / MIL-L-2105 SAE 80W-90 performance. Lubricant recommended for mechanical transmissions fitted with oil bath brakes, hydraulic lift and assistance circuits, power take-offs and multidisc clutches operating in oil, and hydrostatic steering systems.",
+              "viscosity": "15W-40",
               "specifications": [
                 "API GL-4",
                 "ACEA E2"
               ],
               "image": "products/farming-agriculture/universal-tractor-oil/multagri-ms-15w40/main.png",
-              "datasheet": "products/farming-agriculture/universal-tractor-oil/multagri-ms-15w40/datasheet.pdf",
+              "datasheet": "https://total-cdn-lmdb.afineo.io/tdsV2/TDS_TotalEnergies_Multagri-MS-15W-40_08P_EN.pdf",
               "inStock": true,
               "featured": true,
               "packSizes": [
@@ -500,7 +549,9 @@
                 "Transmission",
                 "Hydraulic systems",
                 "Wet brakes",
-                "All-in-one solution"
+                "All-in-one solution",
+                "STOU",
+                "Agriculture and Motoculture (Gardening)"
               ]
             }
           ]
@@ -782,13 +833,13 @@
             {
               "id": "transmission-tm-80w90",
               "name": "TRANSMISSION TM 80W90",
-              "description": "Quality gear oil for manual transmissions. Provides reliable protection and smooth shifting.",
-              "viscosity": "80W90",
+              "description": "withContainer TRANSMISSION TM 80W-90 is extreme pressure mineral oil for the lubrication of highly loaded gears (axles, final drives, transfer cases, planetary gearboxes) when an API GL-5 level of performance is required. TRANSMISSION TM 80W-90 is specially recommended for ZF and MAN hypoid gears, with standard drain interval.",
+              "viscosity": "80W-90",
               "specifications": [
                 "API GL-4"
               ],
               "image": "products/gear-transmission/manual-gear-axle-oil/transmission-tm-80w90/main.png",
-              "datasheet": "products/gear-transmission/manual-gear-axle-oil/transmission-tm-80w90/datasheet.pdf",
+              "datasheet": "https://total-cdn-lmdb.afineo.io/tdsV2/TDS_TotalEnergies_TRANSMISSION-TM-80W-90_887_EN.pdf",
               "inStock": true,
               "featured": false,
               "packSizes": [
@@ -799,7 +850,10 @@
               "applications": [
                 "Manual gearboxes",
                 "Synchronized transmissions",
-                "Light-duty applications"
+                "Light-duty applications",
+                "MTF",
+                "Trucks and Buses",
+                "Cars"
               ]
             },
             {
@@ -828,14 +882,14 @@
             {
               "id": "transtec-5-80w90",
               "name": "TRANSTEC 5 80W90",
-              "description": "Premium gear oil with advanced additive technology. Excellent protection for manual transmissions and axles.",
-              "viscosity": "80W90",
+              "description": "withContainer TRANSTEC 5 is specifically designed for the lubrication of all gear boxes and axles requiring an API GL-5 level and a viscosity of SAE 80W-90.",
+              "viscosity": "80W-90",
               "specifications": [
                 "API GL-5",
                 "MIL-PRF-2105E"
               ],
               "image": "products/gear-transmission/manual-gear-axle-oil/transtec-5-80w90/main.png",
-              "datasheet": "products/gear-transmission/manual-gear-axle-oil/transtec-5-80w90/datasheet.pdf",
+              "datasheet": "https://total-cdn-lmdb.afineo.io/tdsV2/TDS_TotalEnergies_TRANSTEC-5-80W-90_D9M_EN.pdf",
               "inStock": true,
               "featured": true,
               "packSizes": [
@@ -847,7 +901,10 @@
                 "Manual transmissions",
                 "Differentials",
                 "Hypoid gears",
-                "Heavy-duty applications"
+                "Heavy-duty applications",
+                "MTF",
+                "Trucks and Buses",
+                "Cars"
               ]
             },
             {
@@ -884,14 +941,14 @@
             {
               "id": "transtec-4-75w90",
               "name": "TRANSTEC 4 75W90",
-              "description": "Fully synthetic gear oil for superior protection. Excellent low-temperature fluidity and high-temperature stability.",
-              "viscosity": "75W90",
+              "description": "TRANSTEC 4 is extreme-pressure lubricant for the lubrication of loaded gears for which an API GL-4 level of performance is required. TRANSTEC 4 is extreme-pressure lubricant for the lubrication of loaded gears for which an API GL-4 level of performance is required. TRANSTEC 4 is suitable for all manual transmissions, transaxles, transfer boxes and steering gears in automotive and agricultural equipment which require API GL-4 level of performance.",
+              "viscosity": "75W-90",
               "specifications": [
                 "API GL-4",
                 "API GL-5"
               ],
               "image": "products/gear-transmission/synthetic-gear-oil/transtec-4-75w90/main.png",
-              "datasheet": "products/gear-transmission/synthetic-gear-oil/transtec-4-75w90/datasheet.pdf",
+              "datasheet": "https://total-cdn-lmdb.afineo.io/tdsV2/TDS_TotalEnergies_TRANSTEC-4-75W-90_EEW_EN.pdf",
               "inStock": true,
               "featured": true,
               "packSizes": [
@@ -903,7 +960,10 @@
                 "Manual transmissions",
                 "Differentials",
                 "Extreme temperatures",
-                "High-performance vehicles"
+                "High-performance vehicles",
+                "MTF",
+                "Trucks and Buses",
+                "Cars"
               ]
             },
             {
@@ -1731,7 +1791,7 @@
             {
               "id": "preslia-32",
               "name": "PRESLIA 32",
-              "description": "Premium turbine oil for steam and gas turbines. Excellent oxidation stability and water separation properties.",
+              "description": "Mineral turbine oil for hydro, steam, gas turbines as well as centrifugal compressors Select base stocks delivering extended service life Excellent antiwear and extreme pressure properties allowing for use in both ungeared and geared turbines Outstanding rust and corrosion protection Very good stability and filterability in the presence of water",
               "viscosity": "ISO VG 32",
               "specifications": [
                 "ISO 8068 L-TSA",
@@ -1739,7 +1799,7 @@
                 "GE GEK 32568"
               ],
               "image": "products/industrial/turbine-oil/preslia-32/main.png",
-              "datasheet": "products/industrial/turbine-oil/preslia-32/datasheet.pdf",
+              "datasheet": "https://total-cdn-lmdb.afineo.io/tdsV2/TDS_TOTAL_PRESLIA-32_692_EN.pdf",
               "inStock": true,
               "featured": true,
               "packSizes": [
@@ -1751,13 +1811,15 @@
                 "Steam turbines",
                 "Gas turbines",
                 "Power generation",
-                "Industrial turbines"
+                "Industrial turbines",
+                "Turbine",
+                "Energy"
               ]
             },
             {
               "id": "preslia-46",
               "name": "PRESLIA 46",
-              "description": "High-performance turbine oil for demanding applications. Superior protection and long service life.",
+              "description": "Mineral turbine oil for hydro, steam, gas turbines as well as centrifugal compressors Select base stocks delivering extended service life Excellent antiwear and extreme pressure properties allowing for use in both ungeared and geared turbines Outstanding rust and corrosion protection Very good stability and filterability in the presence of water",
               "viscosity": "ISO VG 46",
               "specifications": [
                 "ISO 8068 L-TSA",
@@ -1765,7 +1827,7 @@
                 "Siemens TLV 9013 04"
               ],
               "image": "products/industrial/turbine-oil/preslia-46/main.png",
-              "datasheet": "products/industrial/turbine-oil/preslia-46/datasheet.pdf",
+              "datasheet": "https://total-cdn-lmdb.afineo.io/tdsV2/TDS_TOTAL_PRESLIA-46_693_EN.pdf",
               "inStock": true,
               "featured": false,
               "packSizes": [
@@ -1777,20 +1839,22 @@
                 "Steam turbines",
                 "Hydro turbines",
                 "Combined cycle",
-                "Power plants"
+                "Power plants",
+                "Turbine",
+                "Energy"
               ]
             },
             {
               "id": "preslia-68",
               "name": "PRESLIA 68",
-              "description": "Heavy-duty turbine oil for severe operating conditions. Excellent thermal and oxidation stability.",
+              "description": "Mineral turbine oil for hydro and steam turbines Select base stocks delivering extended service life Excellent antiwear and extreme pressure properties allowing for use in both ungeared and geared turbines Outstanding rust and corrosion protection Very good stability and filterability in the presence of water",
               "viscosity": "ISO VG 68",
               "specifications": [
                 "ISO 8068 L-TSA",
                 "DIN 51515-1"
               ],
               "image": "products/industrial/turbine-oil/preslia-68/main.png",
-              "datasheet": "products/industrial/turbine-oil/preslia-68/datasheet.pdf",
+              "datasheet": "https://total-cdn-lmdb.afineo.io/tdsV2/TDS_TOTAL_PRESLIA-68_694_EN.pdf",
               "inStock": true,
               "featured": false,
               "packSizes": [
@@ -1801,7 +1865,9 @@
               "applications": [
                 "Large steam turbines",
                 "Industrial turbines",
-                "High-load applications"
+                "High-load applications",
+                "Turbine",
+                "Energy"
               ]
             }
           ]
@@ -1814,13 +1880,13 @@
             {
               "id": "pneuma-100",
               "name": "PNEUMA 100",
-              "description": "Premium rock drill oil for mining and quarrying. Excellent adhesion and water resistance.",
+              "description": "Pneumatic tools: pneumatic shock engines, line Lubricators or pulverisers for hammer drills. High impact strenght due to the extreme pressure additivation preventing the equipment wear. Adhesive and emulsifiable properties to drain increase to tools lifetime water off and maintain continuous oil film. Antirust to protect the equipments and increase their lifetime. High tackiness reducing oil mist pollution and oil consumption.",
               "viscosity": "ISO VG 100",
               "specifications": [
                 "ISO 6743-3 L-AN"
               ],
               "image": "products/industrial/rockdrill-oil/pneuma-100/main.png",
-              "datasheet": "products/industrial/rockdrill-oil/pneuma-100/datasheet.pdf",
+              "datasheet": "https://total-cdn-lmdb.afineo.io/tdsV2/TDS_TOTAL_PNEUMA-100_688_EN.pdf",
               "inStock": true,
               "featured": true,
               "packSizes": [
@@ -1832,19 +1898,30 @@
                 "Pneumatic tools",
                 "Mining",
                 "Quarrying",
-                "Tunneling"
+                "Tunneling",
+                "Pneumatic Systems",
+                "Aviation",
+                "Steel",
+                "Metalworking",
+                "Energy",
+                "Chemicals",
+                "Food processing",
+                "Textile",
+                "Automotive Manufacturing",
+                "Wood and Paper",
+                "Cement and Materials"
               ]
             },
             {
               "id": "pneuma-150",
               "name": "PNEUMA 150",
-              "description": "Heavy-duty rock drill oil for extreme conditions. Superior protection in wet and dusty environments.",
+              "description": "Pneumatic tools: pneumatic shock engines, line Lubricators or pulverisers for hammer drills. High impact strenght due to the extreme pressure additivation preventing the equipment wear. Adhesive and emulsifiable properties to drain increase to tools lifetime water off and maintain continuous oil film. Antirust to protect the equipments and increase their lifetime. High tackiness reducing oil mist pollution and oil consumption.",
               "viscosity": "ISO VG 150",
               "specifications": [
                 "ISO 6743-3 L-AN"
               ],
               "image": "products/industrial/rockdrill-oil/pneuma-150/main.png",
-              "datasheet": "products/industrial/rockdrill-oil/pneuma-150/datasheet.pdf",
+              "datasheet": "https://total-cdn-lmdb.afineo.io/tdsV2/TDS_TOTAL_PNEUMA-150_D16_EN.pdf",
               "inStock": true,
               "featured": false,
               "packSizes": [
@@ -1855,7 +1932,19 @@
                 "Heavy rock drills",
                 "Underground mining",
                 "Wet drilling",
-                "Severe conditions"
+                "Severe conditions",
+                "Pneumatic Systems",
+                "Aviation",
+                "Steel",
+                "Metalworking",
+                "Energy",
+                "Chemicals",
+                "Food processing",
+                "Textile",
+                "Automotive Manufacturing",
+                "Wood and Paper",
+                "Cement and Materials",
+                "Mining"
               ]
             }
           ]
@@ -1868,13 +1957,13 @@
             {
               "id": "seriola-32",
               "name": "SERIOLA 32",
-              "description": "High-quality heat transfer oil for closed-loop systems. Excellent thermal stability and long service life.",
-              "viscosity": "ISO VG 32",
+              "description": "Closed circuits without air contact. SERIOLA 32 is recommended for heat transfer installations using thermal fluid circulation, in open and closed circuits. ï¬ SERIOLA 32 issuitable for heating and temperature control in all industries, and particularly for following manufacturing processes: â Steam production â Paper Industry â Timber Industry â Textile Industry â Oil & Gas",
+              "viscosity": "30",
               "specifications": [
                 "ISO 6743-12 L-QB"
               ],
               "image": "products/industrial/heat-transfer-oil/seriola-32/main.png",
-              "datasheet": "products/industrial/heat-transfer-oil/seriola-32/datasheet.pdf",
+              "datasheet": "https://total-cdn-lmdb.afineo.io/tdsV2/TDS_TOTAL_SERIOLA-32_KSE_EN.pdf",
               "inStock": true,
               "featured": true,
               "packSizes": [
@@ -1885,7 +1974,14 @@
                 "Heat transfer systems",
                 "Process heating",
                 "Manufacturing",
-                "Chemical industry"
+                "Chemical industry",
+                "Heat transfer",
+                "Energy",
+                "Chemicals",
+                "Food processing",
+                "Textile",
+                "Wood and Paper",
+                "Mining"
               ]
             }
           ]
@@ -1997,14 +2093,14 @@
             {
               "id": "multis-ep-3",
               "name": "MULTIS EP 3",
-              "description": "Heavy-duty lithium complex EP grease for severe conditions. Superior protection under high loads and temperatures.",
+              "description": "Multipurpose grease for lubrication of all applications under load. Because of its true Multi Purpose character MULTIS EP 3 may replace a wide range of greases, allowing stock rationalization and simplification of maintenance. Forms a durable lubrication film, resulting in reduction of maintenance and down-time costs. Miscible with most other conventional soap greases. Excellent mechanical stability avoiding ejection or loss of consistency during operation. Excellent adhesion to metal. Good thermal stability, leading to high resistance to temperature variations. MULTIS EP 3 does not contain lead, or other heavy metals considered harmful to human health and the environment.",
               "viscosity": "NLGI 3",
               "specifications": [
                 "ISO 6743-9 L-XCCEB 3",
                 "DIN 51502 KP3K-30"
               ],
               "image": "products/greases/general-purpose-grease/multis-ep-3/main.png",
-              "datasheet": "products/greases/general-purpose-grease/multis-ep-3/datasheet.pdf",
+              "datasheet": "https://total-cdn-lmdb.afineo.io/tdsV2/TDS_TOTALEnergies_MULTIS-EP-3_642_EN.pdf",
               "inStock": true,
               "featured": false,
               "packSizes": [
@@ -2017,7 +2113,19 @@
                 "Heavy-duty bearings",
                 "High-load applications",
                 "Vibrating equipment",
-                "Construction machinery"
+                "Construction machinery",
+                "Protection",
+                "General application",
+                "Slideway",
+                "Roller Bearings",
+                "Aviation",
+                "Steel",
+                "Energy",
+                "Chemicals",
+                "Textile",
+                "Wood and Paper",
+                "Cement and Materials",
+                "Mining"
               ]
             }
           ]
@@ -2030,14 +2138,14 @@
             {
               "id": "multis-complex-xhv2-moly",
               "name": "MULTIS COMPLEX XHV2 MOLY",
-              "description": "Premium molybdenum disulfide grease for extreme pressure applications. Exceptional protection for heavily loaded equipment.",
+              "description": "Extreme pressure grease containing 3% MoS2. Specially recommended for extreme loads and high temperatures in the mining industry. MULTIS COMPLEX XHV 2 Moly meets the lubrication requirements for very different types of equipment. Miscible with most conventional soap greases (consult TOTAL Lubrifiants). Very good resistance to water, variations in temperatuire and pollution. Permits longer lubrication intervals. MULTIS COMPLEX XHV 2 Moly contains no lead or any other heavy metal deemed harmful to human health or environment..",
               "viscosity": "NLGI 2",
               "specifications": [
                 "ISO 6743-9 L-XCEEB 2",
                 "Moly additive"
               ],
               "image": "products/greases/yellow-machine-grease/multis-complex-xhv2-moly/main.png",
-              "datasheet": "products/greases/yellow-machine-grease/multis-complex-xhv2-moly/datasheet.pdf",
+              "datasheet": "https://total-cdn-lmdb.afineo.io/tdsV2/TDS_TOTALEnergies_MULTIS-COMPLEX-XHV2-Moly_9MW_EN.pdf",
               "inStock": true,
               "featured": true,
               "packSizes": [
@@ -2051,19 +2159,33 @@
                 "Mining machinery",
                 "Earth movers",
                 "Extreme pressure",
-                "Shock loads"
+                "Shock loads",
+                "Protection",
+                "General application",
+                "Slideway",
+                "Roller Bearings",
+                "Aviation",
+                "Steel",
+                "Metalworking",
+                "Energy",
+                "Chemicals",
+                "Food processing",
+                "Textile",
+                "Wood and Paper",
+                "Cement and Materials",
+                "Mining"
               ]
             },
             {
               "id": "multis-ms-2",
               "name": "MULTIS MS 2",
-              "description": "Multi-service grease for construction and agricultural equipment. Excellent adhesion and water resistance.",
+              "description": "Extreme pressure multipurpose grease for applications under load, which may suffer shock and vibration. MULTIS MS 2 forms a durable lubrication film, resulting in reduction of maintenance and down-time costs. Miscible with most other conventional soap greases. Excellent mechanical stability avoiding ejection or loss of consistency during operation. Excellent adhesion to metal. Good thermal stability, leading to high resistance to temperature variations. MULTIS MS 2 does not contain lead, or other heavy metals considered harmful to human health and the environment.",
               "viscosity": "NLGI 2",
               "specifications": [
                 "ISO 6743-9 L-XBCEB 2"
               ],
               "image": "products/greases/yellow-machine-grease/multis-ms-2/main.png",
-              "datasheet": "products/greases/yellow-machine-grease/multis-ms-2/datasheet.pdf",
+              "datasheet": "https://total-cdn-lmdb.afineo.io/tdsV2/TDS_TOTALEnergies_MULTIS-MS-2_633_EN.pdf",
               "inStock": true,
               "featured": false,
               "packSizes": [
@@ -2076,7 +2198,19 @@
                 "Construction machinery",
                 "Agricultural equipment",
                 "Pins and bushings",
-                "Wet conditions"
+                "Wet conditions",
+                "Protection",
+                "General application",
+                "Slideway",
+                "Roller Bearings",
+                "Aviation",
+                "Steel",
+                "Energy",
+                "Chemicals",
+                "Textile",
+                "Wood and Paper",
+                "Cement and Materials",
+                "Mining"
               ]
             }
           ]
@@ -2120,14 +2254,14 @@
             {
               "id": "multis-complex-ep-2",
               "name": "MULTIS COMPLEX EP 2",
-              "description": "Premium lithium complex EP grease for industrial bearings. Extended relubrication intervals and excellent performance.",
+              "description": "Extreme pressure multipurpose greases, high speeds. For wheel bearings, ball bearings, roller bearings, plain bearings, sealsâ¦ Thanks to its sophisticated formulation MULTIS COMPLEX EP 2 meets a wide variety of requirements. Its range of applications is extensive, allowing stock rationalization and simplification of maintenance.. Fulfills the requirements of most automotive Original Equipment Manufacturers. Forms a lubricating film which is durable, and resistant to humidity, temperature variations and pollution, and hence reduces maintenance and costs. Miscible with most other conventional soap greases. MULTIS COMPLEX EP 2 does not contain lead, or other heavy metals considered harmful to human health and the environment.",
               "viscosity": "NLGI 2",
               "specifications": [
                 "ISO 6743-9 L-XCEEB 2",
                 "DIN 51502 KP2K-30"
               ],
               "image": "products/greases/bearing-grease/multis-complex-ep-2/main.png",
-              "datasheet": "products/greases/bearing-grease/multis-complex-ep-2/datasheet.pdf",
+              "datasheet": "https://total-cdn-lmdb.afineo.io/tdsV2/TDS_TOTALEnergies_MULTIS-COMPLEX-EP-2_B44_EN.pdf",
               "inStock": true,
               "featured": false,
               "packSizes": [
@@ -2140,7 +2274,18 @@
                 "Industrial bearings",
                 "Rolling mills",
                 "Paper machines",
-                "Extended intervals"
+                "Extended intervals",
+                "Protection",
+                "General application",
+                "Slideway",
+                "Roller Bearings",
+                "Steel",
+                "Energy",
+                "Chemicals",
+                "Textile",
+                "Wood and Paper",
+                "Cement and Materials",
+                "Mining"
               ]
             }
           ]
