@@ -4,6 +4,16 @@ document.addEventListener('DOMContentLoaded', () => {
     // Filter functionality
     const filterBtns = document.querySelectorAll('.filter-btn');
     const newsCards = document.querySelectorAll('.news-card');
+
+    const newsHeroVideo = document.querySelector('.news-hero-video');
+    if (newsHeroVideo) {
+        newsHeroVideo.addEventListener('ended', () => {
+            if (!isNaN(newsHeroVideo.duration) && isFinite(newsHeroVideo.duration) && newsHeroVideo.duration > 0.1) {
+                newsHeroVideo.currentTime = newsHeroVideo.duration - 0.05;
+            }
+            newsHeroVideo.pause();
+        });
+    }
     
     filterBtns.forEach(btn => {
         btn.addEventListener('click', () => {

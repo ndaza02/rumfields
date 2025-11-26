@@ -4,6 +4,16 @@ document.addEventListener('DOMContentLoaded', () => {
     // Category filtering
     const categoryCards = document.querySelectorAll('.category-card');
     const blogCards = document.querySelectorAll('.blog-card');
+
+    const blogHeroVideo = document.querySelector('.blog-hero-video');
+    if (blogHeroVideo) {
+        blogHeroVideo.addEventListener('ended', () => {
+            if (!isNaN(blogHeroVideo.duration) && isFinite(blogHeroVideo.duration) && blogHeroVideo.duration > 0.1) {
+                blogHeroVideo.currentTime = blogHeroVideo.duration - 0.05;
+            }
+            blogHeroVideo.pause();
+        });
+    }
     
     categoryCards.forEach(card => {
         card.addEventListener('click', () => {
