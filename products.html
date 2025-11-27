@@ -1616,7 +1616,7 @@
                 </div>
                 
                 <div style="margin-top: 2rem; display: flex; gap: 1rem;">
-                    <button onclick="alert('Contact sales for pricing and orders')" style="
+                    <button class="request-quote-btn" style="
                         flex: 1;
                         padding: 1rem;
                         background: var(--accent-color);
@@ -1640,7 +1640,34 @@
                     ">📄 Download Datasheet</button>
                 </div>
             `;
-            
+
+            const quoteBtn = content.querySelector('.request-quote-btn');
+            if (quoteBtn) {
+                quoteBtn.addEventListener('click', function () {
+                    const phone = '263773456846';
+                    const productName = product.name || '';
+                    const categoryName = product.categoryName || '';
+                    const subcategoryName = product.subcategoryName || '';
+
+                    let message = 'Good day,\n\n';
+                    message += 'I would like to request a quotation for the following product:\n\n';
+                    message += 'Product: ' + productName + '\n';
+                    if (categoryName || subcategoryName) {
+                        message += 'Category: ' + categoryName + (subcategoryName ? ' > ' + subcategoryName : '') + '\n';
+                    }
+                    message += '\nPlease provide:\n';
+                    message += '- Unit price\n';
+                    message += '- Available pack sizes\n';
+                    message += '- Lead time and delivery terms to [your location]\n\n';
+                    message += 'Company / Name:\n';
+                    message += 'Contact details:\n\n';
+                    message += 'Thank you.';
+
+                    const url = 'https://wa.me/' + phone + '?text=' + encodeURIComponent(message);
+                    window.open(url, '_blank');
+                });
+            }
+
             modal.appendChild(content);
             document.body.appendChild(modal);
             
