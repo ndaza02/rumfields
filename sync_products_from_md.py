@@ -15,6 +15,8 @@ def normalize_name(name: str) -> str:
     name = name.replace("\u00ae", "")  # drop registered symbol if present
     name = re.sub(r"^totalenergies\s+", "", name, flags=re.IGNORECASE)
     name = re.sub(r"\s*\([^)]*\)", "", name)
+    # Treat TRAXIUM and TRAX. as the same brand prefix so names match
+    name = re.sub(r"traxium", "trax", name, flags=re.IGNORECASE)
     name = name.lower()
     name = re.sub(r"[^a-z0-9]+", "", name)
     return name

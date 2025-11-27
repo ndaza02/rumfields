@@ -1,6 +1,6 @@
 # Rumfields Product Catalog - Full Details
 
-Total products: 68
+Total products: 72
 
 ## [TotalEnergies ALTIS EM 2](https://lubricants.catalog.totalenergies.com/corporate/en_UK/1jb_altis-em-2)
 ![TotalEnergies ALTIS EM 2](https://total-cdn-lmdb.afineo.io/PREVIEWS/visuels/HIGH/52000/52213_c0VTTWp4SkxvdjhKVk15WU5Odm5aUVBOaFUzMUwzZERJVzM2WTlheFc1bz0=.jpg?1662974178)
@@ -24,15 +24,15 @@ Excellent thermal stability linked with excellent reversibility.
 ALTIS EM 2 does not contain lead, or other heavy metals considered harmful to human health and the environment.
 
 ---
-## [TotalEnergies AZOLLA ZS 10](https://lubricants.catalog.totalenergies.com/corporate/en_UK/152_azolla-zs-10)
-![TotalEnergies AZOLLA ZS 10](https://total-cdn-lmdb.afineo.io/PREVIEWS/visuels/HIGH/52000/52213_c0VTTWp4SkxvdjhKVk15WU5Odm5aUVBOaFUzMUwzZERJVzM2WTlheFc1bz0=.jpg?1662974178)
+## [TotalEnergies AZOLLA ZS 100](https://lubricants.catalog.totalenergies.com/corporate/en_UK/150_azolla-zs-100)
+![TotalEnergies AZOLLA ZS 100](https://total-cdn-lmdb.afineo.io/PREVIEWS/visuels/HIGH/52000/52213_c0VTTWp4SkxvdjhKVk15WU5Odm5aUVBOaFUzMUwzZERJVzM2WTlheFc1bz0=.jpg?1662974178)
 
 **Market Segment:** Automotive Manufacturing, Mining  
 **Application:** Hydraulic Systems  
-**Viscosity:** ISO VG 10  
+**Viscosity:** ISO VG 100  
 **Range:** AZOLLA  
 **Available Packaging:** Drum  
-**[Technical Data Sheet](https://total-cdn-lmdb.afineo.io/tdsV2/TDS_TOTAL_AZOLLA-ZS-10_152_EN.pdf)**  
+**[Technical Data Sheet](https://total-cdn-lmdb.afineo.io/tdsV2/TDS_TOTAL_AZOLLA-ZS-100_150_EN.pdf)**  
 
 **Marketing Text:** Hydraulic systems operating in high temperature and pressure conditions.
 Bearings and miscellaneous devices.
@@ -40,7 +40,7 @@ Bearings and miscellaneous devices.
 **Description:** High protection against wear insuring maximum equipment life.
 Superior thermal stability avoiding formation of sludge even at high temperature.
 Very good oxidation stability ensuring a long service life of the fluid.
-Remarkable filterability even in the presence of water.  
+Remarkable filterability even in the presence of water.
 Excellent hydrolytic stability avoiding filter blocking.
 Excellent protection against rust and corrosion.
 Good anti-foam and air release properties by using silicon free components.
@@ -57,30 +57,6 @@ Reduced maintenance and operating costs.
 **Range:** AZOLLA  
 **Available Packaging:** Drum  
 **[Technical Data Sheet](https://total-cdn-lmdb.afineo.io/tdsV2/TDS_TOTAL_AZOLLA-ZS-68_164_EN.pdf)**  
-
-**Marketing Text:** Hydraulic systems operating in high temperature and pressure conditions.
-Bearings and miscellaneous devices.
-
-**Description:** High protection against wear insuring maximum equipment life.
-Superior thermal stability avoiding formation of sludge even at high temperature.
-Very good oxidation stability ensuring a long service life of the fluid.
-Remarkable filterability even in the presence of water.
-Excellent hydrolytic stability avoiding filter blocking.
-Excellent protection against rust and corrosion.
-Good anti-foam and air release properties by using silicon free components.
-Good demulsibility ensuring rapid water separation
-Reduced maintenance and operating costs.
-
----
-## [TotalEnergies AZOLLA ZS 32](https://lubricants.catalog.totalenergies.com/corporate/en_UK/157_azolla-zs-32)
-![TotalEnergies AZOLLA ZS 32](https://total-cdn-lmdb.afineo.io/PREVIEWS/visuels/HIGH/52000/52213_c0VTTWp4SkxvdjhKVk15WU5Odm5aUVBOaFUzMUwzZERJVzM2WTlheFc1bz0=.jpg?1662974178)
-
-**Market Segment:** Automotive Manufacturing, Mining  
-**Application:** Hydraulic Systems  
-**Viscosity:** ISO VG 32  
-**Range:** AZOLLA  
-**Available Packaging:** Drum  
-**[Technical Data Sheet](https://total-cdn-lmdb.afineo.io/tdsV2/TDS_TOTAL_AZOLLA-ZS-32_157_EN.pdf)**  
 
 **Marketing Text:** Hydraulic systems operating in high temperature and pressure conditions.
 Bearings and miscellaneous devices.
@@ -120,6 +96,30 @@ Good demulsibility ensuring rapid water separation
 Reduced maintenance and operating costs.
 
 ---
+## [TotalEnergies AZOLLA ZS 32](https://lubricants.catalog.totalenergies.com/corporate/en_UK/157_azolla-zs-32)
+![TotalEnergies AZOLLA ZS 32](https://total-cdn-lmdb.afineo.io/PREVIEWS/visuels/HIGH/52000/52213_c0VTTWp4SkxvdjhKVk15WU5Odm5aUVBOaFUzMUwzZERJVzM2WTlheFc1bz0=.jpg?1662974178)
+
+**Market Segment:** Automotive Manufacturing, Mining  
+**Application:** Hydraulic Systems  
+**Viscosity:** ISO VG 32  
+**Range:** AZOLLA  
+**Available Packaging:** Drum  
+**[Technical Data Sheet](https://total-cdn-lmdb.afineo.io/tdsV2/TDS_TOTAL_AZOLLA-ZS-32_157_EN.pdf)**  
+
+**Marketing Text:** Hydraulic systems operating in high temperature and pressure conditions.
+Bearings and miscellaneous devices.
+
+**Description:** High protection against wear insuring maximum equipment life.
+Superior thermal stability avoiding formation of sludge even at high temperature.
+Very good oxidation stability ensuring a long service life of the fluid.
+Remarkable filterability even in the presence of water.
+Excellent hydrolytic stability avoiding filter blocking.
+Excellent protection against rust and corrosion.
+Good anti-foam and air release properties by using silicon free components.
+Good demulsibility ensuring rapid water separation
+Reduced maintenance and operating costs.
+
+---
 ## [TotalEnergies BIOMULTIS EP 2](https://lubricants.catalog.totalenergies.com/corporate/en_UK/n1p_biomultis-ep-2)
 ![TotalEnergies BIOMULTIS EP 2](https://total-cdn-lmdb.afineo.io/PREVIEWS/visuels/HIGH/12000/12209_NEhYZTZNN3FkbGF5QU1uNTh3Nkd3dTM5aXNFUGEvenFmMDdtYWJUV3RJND0=.jpg?1553703480)
 
@@ -138,25 +138,6 @@ Forms a durable lubrication film with a good resistance to water and variation o
 Miscible with most other conventional soap greases.
 BIOMULTIS EP 2 does not contain lead, or other heavy metals considered harmful to human health and the environment.
 BIOMULTIS EP 2 is an ultimately biodegradable grease, with low toxicity to aquatic organisms and contains more than 50% of renewable raw materials.
-
----
-## [TotalEnergies CARTER EP 150](https://lubricants.catalog.totalenergies.com/corporate/en_UK/a04_carter-ep-150)
-![TotalEnergies CARTER EP 150](https://total-cdn-lmdb.afineo.io/PREVIEWS/visuels/HIGH/52000/52213_c0VTTWp4SkxvdjhKVk15WU5Odm5aUVBOaFUzMUwzZERJVzM2WTlheFc1bz0=.jpg?1662974178)
-
-**Market Segment:** Steel, Energy, Chemicals, Food processing, Textile, Automotive Manufacturing, Wood and Paper, Cement and Materials, Mining  
-**Application:** Closed Gears  
-**Viscosity:** ISO VG 150  
-**Range:** CARTER  
-**Available Packaging:** Drum  
-**[Technical Data Sheet](https://total-cdn-lmdb.afineo.io/tdsV2/TDS_TOTAL_CARTER-EP-150_A04_EN.pdf)**  
-
-**Marketing Text:** Industrial gears, bearings under high loads and high temperatures.
-
-**Description:** Excellent extreme-pressure and anti-wear properties.
-Good seal compatibility.
-Very good resistance to oil oxidation and degradation.
-Oustanding protection to rust and corrosion of copper alloys.
-Very good resistance to foaming and emulsion formation.
 
 ---
 ## [TotalEnergies CARTER EP 320](https://lubricants.catalog.totalenergies.com/corporate/en_UK/191_carter-ep-320)
@@ -197,6 +178,25 @@ Oustanding protection to rust and corrosion of copper alloys.
 Very good resistance to foaming and emulsion formation.
 
 ---
+## [TotalEnergies CARTER EP 150](https://lubricants.catalog.totalenergies.com/corporate/en_UK/a04_carter-ep-150)
+![TotalEnergies CARTER EP 150](https://total-cdn-lmdb.afineo.io/PREVIEWS/visuels/HIGH/52000/52213_c0VTTWp4SkxvdjhKVk15WU5Odm5aUVBOaFUzMUwzZERJVzM2WTlheFc1bz0=.jpg?1662974178)
+
+**Market Segment:** Steel, Energy, Chemicals, Food processing, Textile, Automotive Manufacturing, Wood and Paper, Cement and Materials, Mining  
+**Application:** Closed Gears  
+**Viscosity:** ISO VG 150  
+**Range:** CARTER  
+**Available Packaging:** Drum  
+**[Technical Data Sheet](https://total-cdn-lmdb.afineo.io/tdsV2/TDS_TOTAL_CARTER-EP-150_A04_EN.pdf)**  
+
+**Marketing Text:** Industrial gears, bearings under high loads and high temperatures.
+
+**Description:** Excellent extreme-pressure and anti-wear properties.
+Good seal compatibility.
+Very good resistance to oil oxidation and degradation.
+Oustanding protection to rust and corrosion of copper alloys.
+Very good resistance to foaming and emulsion formation.
+
+---
 ## [TotalEnergies CARTER EP 460](https://lubricants.catalog.totalenergies.com/corporate/en_UK/192_carter-ep-460)
 ![TotalEnergies CARTER EP 460](https://total-cdn-lmdb.afineo.io/PREVIEWS/visuels/HIGH/52000/52213_c0VTTWp4SkxvdjhKVk15WU5Odm5aUVBOaFUzMUwzZERJVzM2WTlheFc1bz0=.jpg?1662974178)
 
@@ -216,6 +216,27 @@ Oustanding protection to rust and corrosion of copper alloys.
 Very good resistance to foaming and emulsion formation.
 
 ---
+## [TotalEnergies CARTER SH 680](https://lubricants.catalog.totalenergies.com/corporate/en_UK/1jt_carter-sh-680)
+![TotalEnergies CARTER SH 680](https://total-cdn-lmdb.afineo.io/PREVIEWS/visuels/HIGH/52000/52213_c0VTTWp4SkxvdjhKVk15WU5Odm5aUVBOaFUzMUwzZERJVzM2WTlheFc1bz0=.jpg?1662974178)
+
+**Market Segment:** Steel, Energy, Chemicals, Food processing, Textile, Automotive Manufacturing, Wood and Paper, Cement and Materials, Mining  
+**Application:** Closed Gears  
+**Viscosity:** ISO VG 680  
+**Range:** CARTER  
+**Available Packaging:** Drum  
+**[Technical Data Sheet](https://total-cdn-lmdb.afineo.io/tdsV2/TDS_TOTAL_CARTER-SH-680_1JT_EN.pdf)**  
+
+**Marketing Text:** Gears subjected to very high loads and high temperatures in difficult environments.
+Gears for wind turbines.
+
+**Description:** Very high protection (high and low temperatures) from micropitting scuffing wear (GFT - class: high).
+Excellent extreme-pressure performance: protection against high loads.
+Very high natural viscosity index: (shear stable) and low friction coefficient.
+Very low pour point: operation at very low temperatures.
+Very good resistance to oxidation: operation at high temperatures, and lifetime increased by a factor of 2 to 4.
+Compatible with seals and metals containing copper.
+
+---
 ## [TotalEnergies CARTER SH 3200](https://lubricants.catalog.totalenergies.com/corporate/en_UK/vdn_carter-sh-3200)
 ![TotalEnergies CARTER SH 3200](https://total-cdn-lmdb.afineo.io/PREVIEWS/visuels/HIGH/52000/52213_c0VTTWp4SkxvdjhKVk15WU5Odm5aUVBOaFUzMUwzZERJVzM2WTlheFc1bz0=.jpg?1662974178)
 
@@ -231,30 +252,6 @@ Very good resistance to foaming and emulsion formation.
 **Description:** TOTAL CARTER SH has been developed for enclosed industrial gears to provide
 optimum gear protection against micopitting and bearing protection against scuffing
 under very severe conditions
-
----
-## [TotalEnergies CARTER SH 68](https://lubricants.catalog.totalenergies.com/corporate/en_UK/t62_carter-sh-68)
-![TotalEnergies CARTER SH 68](https://total-cdn-lmdb.afineo.io/PREVIEWS/visuels/HIGH/52000/52213_c0VTTWp4SkxvdjhKVk15WU5Odm5aUVBOaFUzMUwzZERJVzM2WTlheFc1bz0=.jpg?1662974178)
-
-**Market Segment:** Mining  
-**Application:** General application  
-**Viscosity:** ISO VG 68  
-**Range:** CARTER  
-**Available Packaging:** Drum  
-**[Technical Data Sheet](https://total-cdn-lmdb.afineo.io/tdsV2/TDS_TOTAL_CARTER-SH-68_T62_EN.pdf)**  
-
-**Marketing Text:** TOTAL CARTER SH 68 has been developed for enclosed industrial gears and bearings to
-provide optimum lubrication, protection anti wear and extreme pressure protection
-against scuffing under very severe conditions. For :
-- Bevel and spur gears
-- Worm gears
-- Heavily loaded bearings and gear couplings.
-
-**Description:** Excellent extreme-pressure performance: protection against high loads and micropitting.
-ï¬ Very high natural viscosity index (shear stable) and low friction coefficient providing  energy saving* until 4 % compared to mineral oil lubrication.
-ï¬ Very low pour point for very low temperatures services.
-ï¬ Very good oxidation stability, allowing very high temperature lifetimes of 2 to 4 times higher than mineral oils.
-ï¬ Compatible with seals, paints and copper alloys.
 
 ---
 ## [TotalEnergies CERAN AD PLUS](https://lubricants.catalog.totalenergies.com/corporate/en_UK/lpz_ceran-ad-plus)
@@ -286,7 +283,7 @@ CERAN AD PLUS does not contain lead, or other heavy metals considered harmful to
 **Application:** General application, Grease, Roller Bearings  
 **Viscosity:** NLGI 1-2  
 **Range:** CERAN  
-**Available Packaging:** Drum, Cartridge  
+**Available Packaging:** Cartridge, Drum  
 **[Technical Data Sheet](https://total-cdn-lmdb.afineo.io/tdsV2/TDS_TOTALEnergies_CERAN-XM-220_4KF_EN.pdf)**  
 
 **Marketing Text:** CERAN XM 220 is a premium, calcium sulfonate complex grease designed for extreme marine conditions. Its outstanding resistance to water, high loads, and elevated temperatures makes it the ideal solution for:
@@ -306,7 +303,7 @@ CERAN XM 220 does not contain lead, or other heavy metals considered harmful to 
 **Application:** Antifreeze and coolants  
 **Viscosity:** N/A  
 **Range:** AUTO SUPRA  
-**Available Packaging:** 5L, 1L, range  
+**Available Packaging:** 1L, 5L, range  
 **[Technical Data Sheet](https://total-cdn-lmdb.afineo.io/tdsV2/TDS_TOTALENERGIES_COOLELF-AUTO-SUPRA--37C_EKJ_EN.pdf)**  
 
 **Marketing Text:** Cooling liquid suitable for all cooling systems of combustion engines in cars, vans, trucks, buses, constructing machines and agricultural tractors.
@@ -362,6 +359,31 @@ The use of DACNIS allows real cuts in the operating costs of the compressed air 
 Extending the service life of the separating filter elements. The DACNIS have an anticlogging property that ensures the efficiency of the filters during a long period.
 
 ---
+## [TotalEnergies DACNIS SH 68](https://lubricants.catalog.totalenergies.com/corporate/en_UK/1ku_dacnis-sh-68)
+![TotalEnergies DACNIS SH 68](https://total-cdn-lmdb.afineo.io/PREVIEWS/visuels/HIGH/52000/52213_c0VTTWp4SkxvdjhKVk15WU5Odm5aUVBOaFUzMUwzZERJVzM2WTlheFc1bz0=.jpg?1662974178)
+
+**Market Segment:** Aviation, Steel, Metalworking, Energy, Chemicals, Food processing, Textile, Automotive Manufacturing, Wood and Paper, Cement and Materials, Mining  
+**Application:** Compressor  
+**Viscosity:** ISO VG 68  
+**Range:** DACNIS  
+**Available Packaging:** Drum  
+**[Technical Data Sheet](https://total-cdn-lmdb.afineo.io/tdsV2/TDS_TOTAL_DACNIS-SH-68_1KU_EN.pdf)**  
+
+**Marketing Text:** Rotary screw-type air compressors.
+
+**Description:** The properties of DACNIS SH:
+- avoids the carbon build up
+- allows a good oil/air and oil/condensates separation
+- protects the screws against wear and corrosion.
+The use of DACNIS SH allows real cuts in the operating costs of the compressed air production facility by:
+â¢ Optimising the compressor efficiency
+Extending the drain intervals. The possible achieved drain intervals can be:
+- from 4000 to 6000 hours for fixed compressors in standard use
+- up to 8000 hours with lubricant analysis monitoring.
+Extending the service life of the separating filter elements.
+The DACNIS SH have an anti-clogging property that ensures the efficiency of the filters during a long period (up to 8000 hours).
+
+---
 ## [TotalEnergies DACNIS SE 100](https://lubricants.catalog.totalenergies.com/corporate/en_UK/1kx_dacnis-se-100)
 ![TotalEnergies DACNIS SE 100](https://total-cdn-lmdb.afineo.io/PREVIEWS/visuels/HIGH/52000/52213_c0VTTWp4SkxvdjhKVk15WU5Odm5aUVBOaFUzMUwzZERJVzM2WTlheFc1bz0=.jpg?1662974178)
 
@@ -408,46 +430,6 @@ Extending the service life of the separating filter elements.
 The DACNIS SH have an anti-clogging property that ensures the efficiency of the filters during a long period (up to 8000 hours).
 
 ---
-## [TotalEnergies DACNIS SH 68](https://lubricants.catalog.totalenergies.com/corporate/en_UK/1ku_dacnis-sh-68)
-![TotalEnergies DACNIS SH 68](https://total-cdn-lmdb.afineo.io/PREVIEWS/visuels/HIGH/52000/52213_c0VTTWp4SkxvdjhKVk15WU5Odm5aUVBOaFUzMUwzZERJVzM2WTlheFc1bz0=.jpg?1662974178)
-
-**Market Segment:** Aviation, Steel, Metalworking, Energy, Chemicals, Food processing, Textile, Automotive Manufacturing, Wood and Paper, Cement and Materials, Mining  
-**Application:** Compressor  
-**Viscosity:** ISO VG 68  
-**Range:** DACNIS  
-**Available Packaging:** Drum  
-**[Technical Data Sheet](https://total-cdn-lmdb.afineo.io/tdsV2/TDS_TOTAL_DACNIS-SH-68_1KU_EN.pdf)**  
-
-**Marketing Text:** Rotary screw-type air compressors.
-
-**Description:** The properties of DACNIS SH:
-- avoids the carbon build up
-- allows a good oil/air and oil/condensates separation
-- protects the screws against wear and corrosion.
-The use of DACNIS SH allows real cuts in the operating costs of the compressed air production facility by:
-â¢ Optimising the compressor efficiency
-Extending the drain intervals. The possible achieved drain intervals can be:
-- from 4000 to 6000 hours for fixed compressors in standard use
-- up to 8000 hours with lubricant analysis monitoring.
-Extending the service life of the separating filter elements.
-The DACNIS SH have an anti-clogging property that ensures the efficiency of the filters during a long period (up to 8000 hours).
-
----
-## [TotalEnergies DYNATRANS ACX 10W-30](https://lubricants.catalog.totalenergies.com/corporate/en_UK/sth_dynatrans-acx-10w-30)
-![TotalEnergies DYNATRANS ACX 10W-30](https://total-cdn-lmdb.afineo.io/PREVIEWS/visuels/HIGH/51500/51673_UUdPcGdJYnU1RTl2d3NOWkpoTUprWWdnQUw0Y2F0K3BoK3hhc3JoSlorUT0=.jpg?1655211896)
-
-**Market Segment:** Construction Equipment and Mining  
-**Application:** UTTO  
-**Viscosity:** 10W-30  
-**Range:** DYNATRANS  
-**Available Packaging:** Drum  
-**[Technical Data Sheet](https://total-cdn-lmdb.afineo.io/tdsV2/TDS_TotalEnergies_-Dynatrans-ACX-10W-30-_STH_EN.pdf)**  
-
-**Marketing Text:** TOTAL DYNATRANS ACX 10W-30 is a specific lubricant  adapted to hydraulic systems and gearboxes (Powershift or mechanical) when the manufacturer recommends a fluid meeting CAT TO-4 or one of the above mentioned specifications.
-
-**Description:** TOTAL DYNATRANS ACX 10W-30 is recommended for all Mining, Earthmoving, Construction or Agricultural machinery when the ambient temperature is between -30Â°C and +40Â°C
-
----
 ## [TotalEnergies DYNATRANS ACX 30](https://lubricants.catalog.totalenergies.com/corporate/en_UK/fu1_dynatrans-acx-30)
 ![TotalEnergies DYNATRANS ACX 30](https://total-cdn-lmdb.afineo.io/PREVIEWS/visuels/HIGH/51500/51673_UUdPcGdJYnU1RTl2d3NOWkpoTUprWWdnQUw0Y2F0K3BoK3hhc3JoSlorUT0=.jpg?1655211896)
 
@@ -479,6 +461,21 @@ The DACNIS SH have an anti-clogging property that ensures the efficiency of the 
 Formulated with selected base oils associated to a recently developed chemistry, they provide to the end user, a better oxidation resistance at high temperature together with a drain interval extension
 
 ---
+## [TotalEnergies DYNATRANS ACX 10W-30](https://lubricants.catalog.totalenergies.com/corporate/en_UK/sth_dynatrans-acx-10w-30)
+![TotalEnergies DYNATRANS ACX 10W-30](https://total-cdn-lmdb.afineo.io/PREVIEWS/visuels/HIGH/51500/51673_UUdPcGdJYnU1RTl2d3NOWkpoTUprWWdnQUw0Y2F0K3BoK3hhc3JoSlorUT0=.jpg?1655211896)
+
+**Market Segment:** Construction Equipment and Mining  
+**Application:** UTTO  
+**Viscosity:** 10W-30  
+**Range:** DYNATRANS  
+**Available Packaging:** Drum  
+**[Technical Data Sheet](https://total-cdn-lmdb.afineo.io/tdsV2/TDS_TotalEnergies_-Dynatrans-ACX-10W-30-_STH_EN.pdf)**  
+
+**Marketing Text:** TOTAL DYNATRANS ACX 10W-30 is a specific lubricant  adapted to hydraulic systems and gearboxes (Powershift or mechanical) when the manufacturer recommends a fluid meeting CAT TO-4 or one of the above mentioned specifications.
+
+**Description:** TOTAL DYNATRANS ACX 10W-30 is recommended for all Mining, Earthmoving, Construction or Agricultural machinery when the ambient temperature is between -30Â°C and +40Â°C
+
+---
 ## [TotalEnergies DYNATRANS DA 85W-140](https://lubricants.catalog.totalenergies.com/corporate/en_UK/ocl_dynatrans-da-85w-140)
 ![TotalEnergies DYNATRANS DA 85W-140](https://total-cdn-lmdb.afineo.io/PREVIEWS/visuels/HIGH/51500/51673_UUdPcGdJYnU1RTl2d3NOWkpoTUprWWdnQUw0Y2F0K3BoK3hhc3JoSlorUT0=.jpg?1655211896)
 
@@ -498,21 +495,6 @@ Excellent compatibility with the disk friction materials.
 Excellent performance with respect to seals.
 
 ---
-## [TotalEnergies DYNATRANS MP](https://lubricants.catalog.totalenergies.com/corporate/en_UK/3vv_dynatrans-mp)
-![TotalEnergies DYNATRANS MP](https://total-cdn-lmdb.afineo.io/PREVIEWS/visuels/HIGH/51500/51668_UUdPcGdJYnU1RTl2d3NOWkpoTUprWHZRVTNUUDRBNkxkVHYyaWNFS0RLbz0=.jpg?1655211871)
-
-**Market Segment:** Construction Equipment and Mining, Agriculture and Motoculture (Gardening)  
-**Application:** UTTO  
-**Viscosity:** -  
-**Range:** DYNATRANS  
-**Available Packaging:** Drum  
-**[Technical Data Sheet](https://total-cdn-lmdb.afineo.io/tdsV2/TDS_TotalEnergies_Dynatrans-MP_3VV_EN.pdf)**  
-
-**Marketing Text:** Lubricant for transmissions with wet brakes of Agricultural & Public Works machinery.
-
-**Description:** Dynatrans MP is suitable for mechanical gearboxes, axles, even hypoÃ¯d type, gear reductors, angle gears and power take-off systems without any friction discs. This oil allows multiple applications allowing to rationalize the number of gear lubricants. It also allows very high level of extreme-pressure performances, ensuring the durability of the lubricated gears.
-
----
 ## [TotalEnergies DYNATRANS MPV](https://lubricants.catalog.totalenergies.com/corporate/en_UK/m7g_dynatrans-mpv)
 ![TotalEnergies DYNATRANS MPV](https://total-cdn-lmdb.afineo.io/PREVIEWS/visuels/HIGH/1000/1241_SW5wSFRJZ3kyS0pjSGtaTnR4YVNRQ1dlekJzSS83d2tOZzRlWW9DU2JJRT0=.jpg?1665577946)
 
@@ -528,6 +510,23 @@ Excellent performance with respect to seals.
 **Description:** Suitable for a wide range of agricultural and Public Works equipment thus allowing the stock of lubricants to be reduced.
 Excellent low temperature performance (protects friction brakes against sticking) and high temperature performance (protects against judder or slip).
 Very good extreme pressure and antiwear properties giving optimum protection of gears and hydraulic components.
+
+---
+## [TotalEnergies DYNATRANS MPX](https://lubricants.catalog.totalenergies.com/corporate/en_UK/fjo_dynatrans-mpx)
+![TotalEnergies DYNATRANS MPX](https://total-cdn-lmdb.afineo.io/PREVIEWS/visuels/HIGH/51500/51668_UUdPcGdJYnU1RTl2d3NOWkpoTUprWHZRVTNUUDRBNkxkVHYyaWNFS0RLbz0=.jpg?1655211871)
+
+**Market Segment:** Construction Equipment and Mining, Agriculture and Motoculture (Gardening)  
+**Application:** UTTO  
+**Viscosity:** -/-  
+**Range:** DYNATRANS  
+**Available Packaging:** Drum  
+**[Technical Data Sheet](https://total-cdn-lmdb.afineo.io/tdsV2/TDS_TotalEnergies_Dynatrans-MPX_FJO_EN.pdf)**  
+
+**Marketing Text:** Lubricant for transmissions with wet brakes of Agricultural & Public Works machinery.
+
+**Description:** Dynatrans MPX has been especially developed for transmissions with wet brakes requiring an API GL-4 lubricant with a (10W-30) or (80W) viscosity grade in Off-Road vehicles.
+This lubricant is also perfectly adapted to automatic transmissions, torque converters and hydrostatic transmissions and more generally to any transmissions requiring an UTTO (Universal Tractor Transmissions Oil). Dynatrans MPX is approved for multiple ZF transmissions, including CVT types, and is recommended for KUBOTA transmissions requiring the "UDT" approval.
+TOTAL DYNATRANS MPX is adapted to a wide range of agricultural and Public Works equipment and helps to reduce the stock and the number of lubricants
 
 ---
 ## [TotalEnergies EQUIVIS ZS 68](https://lubricants.catalog.totalenergies.com/corporate/en_UK/364_equivis-zs-68)
@@ -585,13 +584,65 @@ Finadet MP diluted at 10% with water is ideal for cleaning control rooms, trackl
 **Application:** ATF  
 **Viscosity:** -  
 **Range:** TRANSMISSION  
-**Available Packaging:** 20L, 1L, Drum  
+**Available Packaging:** 1L, 20L, Drum  
 **[Technical Data Sheet](https://total-cdn-lmdb.afineo.io/tdsV2/TDS_TotalEnergies_FLUIDMATIC-CVT-MV_9QN_EN.pdf)**  
 
 **Marketing Text:** Thanks to Fluidmatic CVT MV outstanding power transmission ratios and fuel economy capability, many manufacturers especially in Asia intend to equip their new vehicles with this kind of transmission.
 
 **Description:** Thanks to Fluidmatic CVT MV outstanding power transmission ratios and fuel economy capability, many manufacturers especially in Asia intend to equip their new vehicles with this kind of transmission.
 This lubricant is a high performance, continuously variable transmission fluid designed to meet the service fill used in many Asian, North American and European designed vehicles. This Multi-vehicle fluid has been developed to be used in all belt and chain CVTs. Thanks to this Multi-vehicle fluid, it provides smoother, consistent all-weather step-less shifting, and allaround lubrication protection of the transmission components to help extend transmission service life and provide a smooth driving experience. Highly recommended for refill of pulley-based continuously variable transmissions in Japanese and Korean designed vehicles where it emphasis on Anti Shudder Durability performance.
+
+---
+## [TotalEnergies FLUIDMATIC LV MV](https://lubricants.catalog.totalenergies.com/corporate/en_UK/tcs_fluidmatic-lv-mv)
+![TotalEnergies FLUIDMATIC LV MV](https://total-cdn-lmdb.afineo.io/PREVIEWS/visuels/HIGH/58000/58312_RTdHZGloRUlMZ0J2ckw5MjlQS3RmSUY3MTMxdUtoMkRXOUE3ZktNRFVFQT0=.jpg?1722848055)
+
+**Market Segment:** Cars  
+**Application:** ATF  
+**Viscosity:** -  
+**Range:** TRANSMISSION  
+**Available Packaging:** 1L, 20L, Drum  
+**[Technical Data Sheet](https://total-cdn-lmdb.afineo.io/tdsV2/TDS_TotalEnergies_FLUIDMATIC-LV-MV_TCS_EN.pdf)**  
+
+**Marketing Text:** Fluidmatic LV MV is an innovative automatic transmission fluid based on an advanced synthetic technology allowing very high performances. It offers fuel economies thanks to low viscosity.
+
+**Description:** Fluidmatic LV MV is an innovative automatic transmission fluid based on an advanced synthetic technology allowing very high performances. It offers fuel economies thanks to low viscosity.
+This lubricant has been developed to meet the needs of modern transmission where higher efficiency is required. It is a low viscosity formulation that meets the more demanded OEM specifications.
+Fluidmatic LV MV is recommended for use in the latest generation of high efficiency 6-speed automatic transmissions with longer fluid life capabilities and heavier load capacities.
+
+---
+## [TotalEnergies FLUIDMATIC IIIG](https://lubricants.catalog.totalenergies.com/corporate/en_UK/9t0_fluidmatic-iiig)
+![TotalEnergies FLUIDMATIC IIIG](https://total-cdn-lmdb.afineo.io/PREVIEWS/visuels/HIGH/52000/52213_c0VTTWp4SkxvdjhKVk15WU5Odm5aUVBOaFUzMUwzZERJVzM2WTlheFc1bz0=.jpg?1662974178)
+
+**Market Segment:** Trucks and Buses, Cars  
+**Application:** ATF  
+**Viscosity:** -  
+**Range:** TRANSMISSION  
+**Available Packaging:** Drum  
+**[Technical Data Sheet](https://total-cdn-lmdb.afineo.io/tdsV2/TDS_TOTAL_FLUIDMATIC-IIIG_9T0_EN.pdf)**  
+
+**Marketing Text:** Fluidmatic IIIG is an automatic transmission fluid that meets GM DexronÂ® IIIG and Ford MerconÂ® standards.
+
+**Description:** Fluidmatic IIIG is an automatic transmission fluid that meets GM DexronÂ® IIIG and Ford MerconÂ® standards.
+This lubricant is formulated with premium base stocks and carefully selected additives to meet the challenging demands of an automatic transmission environment. Fluidmatic IIIG is a well balanced fluid for heavy duties and passenger cars equipped with automatic transmissions thanks to friction modifiers, detergent dispersants, oxidation inhibitors, viscosity index improvers, corrosion inhibitors, and defoaming agents
+Fluidmatic IIIG is a high-quality friction-modified lubricant previously qualified by both General Motors and Ford.
+
+---
+## [TotalEnergies FLUIDMATIC XLD FE](https://lubricants.catalog.totalenergies.com/corporate/en_UK/tcr_fluidmatic-xld-fe)
+![TotalEnergies FLUIDMATIC XLD FE](https://total-cdn-lmdb.afineo.io/PREVIEWS/visuels/HIGH/58000/58313_RTdHZGloRUlMZ0J2ckw5MjlQS3RmTGY4b09uQUw4YnNWblJRYXYrSUNTMD0=.jpg?1722848105)
+
+**Market Segment:** Trucks and Buses, Cars  
+**Application:** ATF  
+**Viscosity:** -  
+**Range:** TRANSMISSION  
+**Available Packaging:** 1L, 20L, Drum  
+**[Technical Data Sheet](https://total-cdn-lmdb.afineo.io/tdsV2/TDS_TotalEnergies_FLUIDMATIC-XLD-FE_TCR_EN.pdf)**  
+
+**Marketing Text:** New generation automatic transmission fluid based on an advanced synthetic technology allowing extra-long drain and very high performance needed for the demanding requirements of modern heavy-duty automatic gearboxes.
+
+**Description:** New generation automatic transmission fluid based on an advanced synthetic technology allowing extra-long drain and very high performance needed for the demanding requirements of modern heavy-duty automatic gearboxes.
+Is particularly recommended for use on heavy duty automatic transmissions (found on buses, refuse trucks, utility vehicles etc.) manufactured by Voith and ZF requiring maximal drain intervals.
+Can be used in Asian step-automatic transmissions requiring strong anti-shudder durability, including following OEMS: Nissan (Matic D,J,K), Mazda (M-III, M-V), Honda (Z-1), Toyota (T-IV, JWS3309), Hyundai, Kia, Mitsubishi (SP-II / SP-III).
+And also, for the lubrication of materials used in Public Works or Quarries.
 
 ---
 ## [TotalEnergies FLUIDMATIC SYN T295](https://lubricants.catalog.totalenergies.com/corporate/en_UK/ujy_fluidmatic-syn-t295)
@@ -612,41 +663,6 @@ Transmission Fluid/Filter Change Recommendations from Allison.
 Specifically developed for Allison very high-performance heavy-duty automatic gearboxes, Fluidmatic SYN T295 is approved Allison TES 295.
 
 ---
-## [TotalEnergies FLUIDMATIC LV MV](https://lubricants.catalog.totalenergies.com/corporate/en_UK/tcs_fluidmatic-lv-mv)
-![TotalEnergies FLUIDMATIC LV MV](https://total-cdn-lmdb.afineo.io/PREVIEWS/visuels/HIGH/58000/58312_RTdHZGloRUlMZ0J2ckw5MjlQS3RmSUY3MTMxdUtoMkRXOUE3ZktNRFVFQT0=.jpg?1722848055)
-
-**Market Segment:** Cars  
-**Application:** ATF  
-**Viscosity:** -  
-**Range:** TRANSMISSION  
-**Available Packaging:** 20L, 1L, Drum  
-**[Technical Data Sheet](https://total-cdn-lmdb.afineo.io/tdsV2/TDS_TotalEnergies_FLUIDMATIC-LV-MV_TCS_EN.pdf)**  
-
-**Marketing Text:** Fluidmatic LV MV is an innovative automatic transmission fluid based on an advanced synthetic technology allowing very high performances. It offers fuel economies thanks to low viscosity.
-
-**Description:** Fluidmatic LV MV is an innovative automatic transmission fluid based on an advanced synthetic technology allowing very high performances. It offers fuel economies thanks to low viscosity.
-This lubricant has been developed to meet the needs of modern transmission where higher efficiency is required. It is a low viscosity formulation that meets the more demanded OEM specifications.
-Fluidmatic LV MV is recommended for use in the latest generation of high efficiency 6-speed automatic transmissions with longer fluid life capabilities and heavier load capacities.
-
----
-## [TotalEnergies FLUIDMATIC XLD FE](https://lubricants.catalog.totalenergies.com/corporate/en_UK/tcr_fluidmatic-xld-fe)
-![TotalEnergies FLUIDMATIC XLD FE](https://total-cdn-lmdb.afineo.io/PREVIEWS/visuels/HIGH/58000/58313_RTdHZGloRUlMZ0J2ckw5MjlQS3RmTGY4b09uQUw4YnNWblJRYXYrSUNTMD0=.jpg?1722848105)
-
-**Market Segment:** Trucks and Buses, Cars  
-**Application:** ATF  
-**Viscosity:** -  
-**Range:** TRANSMISSION  
-**Available Packaging:** 20L, 1L, Drum  
-**[Technical Data Sheet](https://total-cdn-lmdb.afineo.io/tdsV2/TDS_TotalEnergies_FLUIDMATIC-XLD-FE_TCR_EN.pdf)**  
-
-**Marketing Text:** New generation automatic transmission fluid based on an advanced synthetic technology allowing extra-long drain and very high performance needed for the demanding requirements of modern heavy-duty automatic gearboxes.
-
-**Description:** New generation automatic transmission fluid based on an advanced synthetic technology allowing extra-long drain and very high performance needed for the demanding requirements of modern heavy-duty automatic gearboxes.
-Is particularly recommended for use on heavy duty automatic transmissions (found on buses, refuse trucks, utility vehicles etc.) manufactured by Voith and ZF requiring maximal drain intervals.
-Can be used in Asian step-automatic transmissions requiring strong anti-shudder durability, including following OEMS: Nissan (Matic D,J,K), Mazda (M-III, M-V), Honda (Z-1), Toyota (T-IV, JWS3309), Hyundai, Kia, Mitsubishi (SP-II / SP-III).
-And also, for the lubrication of materials used in Public Works or Quarries.
-
----
 ## [TotalEnergies FLUIDMATIC DIII MV](https://lubricants.catalog.totalenergies.com/corporate/en_UK/tcl_fluidmatic-diii-mv)
 ![TotalEnergies FLUIDMATIC DIII MV](https://total-cdn-lmdb.afineo.io/PREVIEWS/visuels/HIGH/54000/54180_YTc5YUwvSUhxSU5nWW5la012YU9kL0cwNUdURG9jcnVLVVp3SWgySHg4QT0=.jpg?1686535826)
 
@@ -654,7 +670,7 @@ And also, for the lubrication of materials used in Public Works or Quarries.
 **Application:** ATF  
 **Viscosity:** -  
 **Range:** TRANSMISSION  
-**Available Packaging:** 5L, 1L, 0.5L, Drum  
+**Available Packaging:** 0.5L, 1L, 5L, Drum  
 **[Technical Data Sheet](https://total-cdn-lmdb.afineo.io/tdsV2/TDS_TotalEnergies_FLUIDMATIC-DIII-MV_TCL_EN.pdf)**  
 
 **Marketing Text:** Fluidmatic DIII MV is an automatic transmission fluid that meets GM DexronÂ® IIIG / IIIH and Ford MerconÂ® standards.
@@ -665,23 +681,6 @@ Fluidmatic DIII MV is a well-balanced fluid for heavy duties and passenger cars 
 Fluidmatic DIII MV is a high-quality friction-modified lubricant previously qualified by both General Motors et Ford.
 
 ---
-## [TotalEnergies FLUIDMATIC IIIG](https://lubricants.catalog.totalenergies.com/corporate/en_UK/9t0_fluidmatic-iiig)
-![TotalEnergies FLUIDMATIC IIIG](https://total-cdn-lmdb.afineo.io/PREVIEWS/visuels/HIGH/52000/52213_c0VTTWp4SkxvdjhKVk15WU5Odm5aUVBOaFUzMUwzZERJVzM2WTlheFc1bz0=.jpg?1662974178)
-
-**Market Segment:** Trucks and Buses, Cars  
-**Application:** ATF  
-**Viscosity:** -  
-**Range:** TRANSMISSION  
-**Available Packaging:** Drum  
-**[Technical Data Sheet](https://total-cdn-lmdb.afineo.io/tdsV2/TDS_TOTAL_FLUIDMATIC-IIIG_9T0_EN.pdf)**  
-
-**Marketing Text:** Fluidmatic IIIG is an automatic transmission fluid that meets GM DexronÂ® IIIG and Ford MerconÂ® standards.
-
-**Description:** Fluidmatic IIIG is an automatic transmission fluid that meets GM DexronÂ® IIIG and Ford MerconÂ® standards.
-This lubricant is formulated with premium base stocks and carefully selected additives to meet the challenging demands of an automatic transmission environment. Fluidmatic IIIG is a well balanced fluid for heavy duties and passenger cars equipped with automatic transmissions thanks to friction modifiers, detergent dispersants, oxidation inhibitors, viscosity index improvers, corrosion inhibitors, and defoaming agents
-Fluidmatic IIIG is a high-quality friction-modified lubricant previously qualified by both General Motors and Ford.
-
----
 ## [TotalEnergies GLACELF AUTO SUPRA](https://lubricants.catalog.totalenergies.com/corporate/en_UK/fdf_glacelf-auto-supra)
 ![TotalEnergies GLACELF AUTO SUPRA](https://total-cdn-lmdb.afineo.io/PREVIEWS/visuels/HIGH/58000/58258_RTdHZGloRUlMZ0J2ckw5MjlQS3RmR1BPYkszSGFlUHl2b21uUkhBdGVxdz0=.jpg?1722849044)
 
@@ -689,7 +688,7 @@ Fluidmatic IIIG is a high-quality friction-modified lubricant previously qualifi
 **Application:** Antifreeze and coolants  
 **Viscosity:** N/A  
 **Range:** AUTO SUPRA  
-**Available Packaging:** 20L, 1L  
+**Available Packaging:** 1L, 20L  
 **[Technical Data Sheet](https://total-cdn-lmdb.afineo.io/tdsV2/TDS_TOTALENERGIES_GLACELF-AUTO-SUPRA_FDF_EN.pdf)**  
 
 **Marketing Text:** Very long life antifreeze based on high purity monoethylene glycol and organic corrosion inhibitors. 
@@ -726,21 +725,6 @@ Excellent cold flow properties
 PCB-free
 
 ---
-## [TotalEnergies MOTOR OIL SAE 40](https://lubricants.catalog.totalenergies.com/corporate/en_UK/8rb_motor-oil-sae-40)
-![TotalEnergies MOTOR OIL SAE 40](https://total-cdn-lmdb.afineo.io/PREVIEWS/visuels/HIGH/52000/52213_c0VTTWp4SkxvdjhKVk15WU5Odm5aUVBOaFUzMUwzZERJVzM2WTlheFc1bz0=.jpg?1662974178)
-
-**Market Segment:** Trucks and Buses, Cars  
-**Application:** PCMO  
-**Viscosity:** SAE 40  
-**Range:** MOTOR OIL  
-**Available Packaging:** Drum  
-**[Technical Data Sheet](https://total-cdn-lmdb.afineo.io/tdsV2/TDS_TotalEnergies_Motor-Oil-SAE-40_8RB_EN.pdf)**  
-
-**Marketing Text:** withContainer
-
-**Description:** -
-
----
 ## [TotalEnergies MOTOR OIL SF SAE 40](https://lubricants.catalog.totalenergies.com/corporate/en_UK/tbm_motor-oil-sf-sae-40)
 ![TotalEnergies MOTOR OIL SF SAE 40](https://total-cdn-lmdb.afineo.io/PREVIEWS/visuels/HIGH/52000/52213_c0VTTWp4SkxvdjhKVk15WU5Odm5aUVBOaFUzMUwzZERJVzM2WTlheFc1bz0=.jpg?1662974178)
 
@@ -750,6 +734,21 @@ PCB-free
 **Range:** MOTOR OIL  
 **Available Packaging:** Drum  
 **[Technical Data Sheet](https://total-cdn-lmdb.afineo.io/tdsV2/TDS_TotalEnergies_Motor-Oil-SF-SAE-40_TBM_EN.pdf)**  
+
+**Marketing Text:** withContainer
+
+**Description:** -
+
+---
+## [TotalEnergies MOTOR OIL SAE 40](https://lubricants.catalog.totalenergies.com/corporate/en_UK/8rb_motor-oil-sae-40)
+![TotalEnergies MOTOR OIL SAE 40](https://total-cdn-lmdb.afineo.io/PREVIEWS/visuels/HIGH/52000/52213_c0VTTWp4SkxvdjhKVk15WU5Odm5aUVBOaFUzMUwzZERJVzM2WTlheFc1bz0=.jpg?1662974178)
+
+**Market Segment:** Trucks and Buses, Cars  
+**Application:** PCMO  
+**Viscosity:** SAE 40  
+**Range:** MOTOR OIL  
+**Available Packaging:** Drum  
+**[Technical Data Sheet](https://total-cdn-lmdb.afineo.io/tdsV2/TDS_TotalEnergies_Motor-Oil-SAE-40_8RB_EN.pdf)**  
 
 **Marketing Text:** withContainer
 
@@ -792,24 +791,23 @@ Miscible with most other conventional soap greases.
 MULTIS COMPLEX EP 2 does not contain lead, or other heavy metals considered harmful to human health and the environment.
 
 ---
-## [TotalEnergies MULTIS MS 2](https://lubricants.catalog.totalenergies.com/corporate/en_UK/633_multis-ms-2)
-![TotalEnergies MULTIS MS 2](https://total-cdn-lmdb.afineo.io/PREVIEWS/visuels/HIGH/52000/52213_c0VTTWp4SkxvdjhKVk15WU5Odm5aUVBOaFUzMUwzZERJVzM2WTlheFc1bz0=.jpg?1662974178)
+## [TotalEnergies MULTIS COMPLEX XHV2 MOLY](https://lubricants.catalog.totalenergies.com/corporate/en_UK/9mw_multis-complex-xhv2-moly)
+![TotalEnergies MULTIS COMPLEX XHV2 MOLY](https://total-cdn-lmdb.afineo.io/PREVIEWS/visuels/HIGH/52000/52213_c0VTTWp4SkxvdjhKVk15WU5Odm5aUVBOaFUzMUwzZERJVzM2WTlheFc1bz0=.jpg?1662974178)
 
-**Market Segment:** Aviation, Steel, Energy, Chemicals, Textile, Wood and Paper, Cement and Materials, Mining  
+**Market Segment:** Aviation, Steel, Metalworking, Energy, Chemicals, Food processing, Textile, Wood and Paper, Cement and Materials, Mining  
 **Application:** Protection, General application, Slideway, Roller Bearings  
 **Viscosity:** NLGI 2  
-**Range:** MULTIS  
+**Range:** MULTIS COMPLEX  
 **Available Packaging:** Drum  
-**[Technical Data Sheet](https://total-cdn-lmdb.afineo.io/tdsV2/TDS_TOTALEnergies_MULTIS-MS-2_633_EN.pdf)**  
+**[Technical Data Sheet](https://total-cdn-lmdb.afineo.io/tdsV2/TDS_TOTALEnergies_MULTIS-COMPLEX-XHV2-Moly_9MW_EN.pdf)**  
 
-**Marketing Text:** Extreme pressure multipurpose grease for applications under load, which may suffer shock and vibration.
+**Marketing Text:** Extreme pressure grease containing 3% MoS2.
+Specially recommended for extreme loads and high temperatures in the mining industry.
 
-**Description:** MULTIS MS 2 forms a durable lubrication film, resulting in reduction of maintenance and down-time costs.
-Miscible with most other conventional soap greases.
-Excellent mechanical stability avoiding ejection or loss of consistency during operation.
-Excellent adhesion to metal.
-Good thermal stability, leading to high resistance to temperature variations.
-MULTIS MS 2 does not contain lead, or other heavy metals considered harmful to human health and the environment.
+**Description:** MULTIS COMPLEX XHV 2 Moly meets the lubrication requirements for very different types of equipment.
+Miscible with most conventional soap greases (consult TOTAL Lubrifiants).
+Very good resistance to water, variations in temperatuire and pollution. Permits longer lubrication intervals.
+MULTIS COMPLEX XHV 2 Moly contains no lead or any other heavy metal deemed harmful to human health or environment..
 
 ---
 ## [TotalEnergies MULTIS EP 3](https://lubricants.catalog.totalenergies.com/corporate/en_UK/642_multis-ep-3)
@@ -833,40 +831,95 @@ Good thermal stability, leading to high resistance to temperature variations.
 MULTIS EP 3 does not contain lead, or other heavy metals considered harmful to human health and the environment.
 
 ---
-## [TotalEnergies MULTIS COMPLEX XHV2 MOLY](https://lubricants.catalog.totalenergies.com/corporate/en_UK/9mw_multis-complex-xhv2-moly)
-![TotalEnergies MULTIS COMPLEX XHV2 MOLY](https://total-cdn-lmdb.afineo.io/PREVIEWS/visuels/HIGH/52000/52213_c0VTTWp4SkxvdjhKVk15WU5Odm5aUVBOaFUzMUwzZERJVzM2WTlheFc1bz0=.jpg?1662974178)
+## [TotalEnergies MULTIS MS 2](https://lubricants.catalog.totalenergies.com/corporate/en_UK/633_multis-ms-2)
+![TotalEnergies MULTIS MS 2](https://total-cdn-lmdb.afineo.io/PREVIEWS/visuels/HIGH/52000/52213_c0VTTWp4SkxvdjhKVk15WU5Odm5aUVBOaFUzMUwzZERJVzM2WTlheFc1bz0=.jpg?1662974178)
 
-**Market Segment:** Aviation, Steel, Metalworking, Energy, Chemicals, Food processing, Textile, Wood and Paper, Cement and Materials, Mining  
+**Market Segment:** Aviation, Steel, Energy, Chemicals, Textile, Wood and Paper, Cement and Materials, Mining  
 **Application:** Protection, General application, Slideway, Roller Bearings  
 **Viscosity:** NLGI 2  
-**Range:** MULTIS COMPLEX  
+**Range:** MULTIS  
 **Available Packaging:** Drum  
-**[Technical Data Sheet](https://total-cdn-lmdb.afineo.io/tdsV2/TDS_TOTALEnergies_MULTIS-COMPLEX-XHV2-Moly_9MW_EN.pdf)**  
+**[Technical Data Sheet](https://total-cdn-lmdb.afineo.io/tdsV2/TDS_TOTALEnergies_MULTIS-MS-2_633_EN.pdf)**  
 
-**Marketing Text:** Extreme pressure grease containing 3% MoS2.
-Specially recommended for extreme loads and high temperatures in the mining industry.
+**Marketing Text:** Extreme pressure multipurpose grease for applications under load, which may suffer shock and vibration.
 
-**Description:** MULTIS COMPLEX XHV 2 Moly meets the lubrication requirements for very different types of equipment.
-Miscible with most conventional soap greases (consult TOTAL Lubrifiants).
-Very good resistance to water, variations in temperatuire and pollution. Permits longer lubrication intervals.
-MULTIS COMPLEX XHV 2 Moly contains no lead or any other heavy metal deemed harmful to human health or environment..
+**Description:** MULTIS MS 2 forms a durable lubrication film, resulting in reduction of maintenance and down-time costs.
+Miscible with most other conventional soap greases.
+Excellent mechanical stability avoiding ejection or loss of consistency during operation.
+Excellent adhesion to metal.
+Good thermal stability, leading to high resistance to temperature variations.
+MULTIS MS 2 does not contain lead, or other heavy metals considered harmful to human health and the environment.
 
 ---
-## [TotalEnergies NEPTUNA 2T SUPER SPORT](https://lubricants.catalog.totalenergies.com/corporate/en_UK/lj3_neptuna-2t-super-sport)
-![TotalEnergies NEPTUNA 2T SUPER SPORT](https://total-cdn-lmdb.afineo.io/PREVIEWS/visuels/HIGH/41500/41783_UmJ5THBWM0NRaFhIOXh6c2NHSC82SGEyNnhxQVI3b2xzVWRsRG5VWEhJWT0=.jpg?1665578173)
+## [TotalEnergies NEPTUNA 2T](https://lubricants.catalog.totalenergies.com/corporate/en_UK/a13_neptuna-2t)
+![TotalEnergies NEPTUNA 2T](https://total-cdn-lmdb.afineo.io/PREVIEWS/visuels/HIGH/41500/41784_UmJ5THBWM0NRaFhIOXh6c2NHSC82QWIzSDBZRjZLbWw2MVlHKy9EcldVcz0=.jpg?1589562106)
 
-**Market Segment:** Marine and Leisure Craft, Marine  
+**Market Segment:** Marine and Leisure Craft  
 **Application:** 2-Stroke Engine Oil  
 **Viscosity:** -  
 **Range:** NEPTUNA  
-**Available Packaging:** 5L, 2L, 1L, 0.5L, Drum, range  
-**[Technical Data Sheet](https://total-cdn-lmdb.afineo.io/tdsV2/TDS_TotalEnergies_Neptuna-2T-SUPER-SPORT_LJ3_EN.pdf)**  
+**Available Packaging:** 1L, Drum  
+**[Technical Data Sheet](https://total-cdn-lmdb.afineo.io/tdsV2/TDS_TotalEnergies_Neptuna-2T_A13_EN.pdf)**  
 
-**Marketing Text:** Synthetic technology lubricant for 2-stroke fast & medium speed gasoline engines of leisure boating.
+**Marketing Text:** Mineral lubricant for 2-stroke fast & medium speed gasoline engines of leisure boating.
 
-**Description:** It exhibits excellent lubrication guaranteeing reduced wear.
-Outstanding detergent property helps prevent the clogging of piston ports avoids spark plug fouling and extends engine lifespan.
-Its anti-rust and anti-corrosion properties protect engines during prolonged stop.
+**Description:** Neptuna 2T is a mineral lubricant adapted to outboard 2-stroke gasoline engines.
+Neptuna 2T is mainly recommended for older equipment, requiring an NMMA TC-W technical level.
+
+---
+## [TotalEnergies PNEUMA 150](https://lubricants.catalog.totalenergies.com/corporate/en_UK/d16_pneuma-150)
+![TotalEnergies PNEUMA 150](https://total-cdn-lmdb.afineo.io/PREVIEWS/visuels/HIGH/52000/52213_c0VTTWp4SkxvdjhKVk15WU5Odm5aUVBOaFUzMUwzZERJVzM2WTlheFc1bz0=.jpg?1662974178)
+
+**Market Segment:** Aviation, Steel, Metalworking, Energy, Chemicals, Food processing, Textile, Automotive Manufacturing, Wood and Paper, Cement and Materials, Mining  
+**Application:** Pneumatic Systems  
+**Viscosity:** ISO VG 150  
+**Range:** PNEUMA  
+**Available Packaging:** Drum  
+**[Technical Data Sheet](https://total-cdn-lmdb.afineo.io/tdsV2/TDS_TOTAL_PNEUMA-150_D16_EN.pdf)**  
+
+**Marketing Text:** Pneumatic tools: pneumatic shock engines, line
+Lubricators or pulverisers for hammer drills.
+
+**Description:** High impact strenght due to the extreme pressure additivation preventing the equipment wear.
+Adhesive and emulsifiable properties to drain increase to tools lifetime water off and maintain continuous oil film.
+Antirust to protect the equipments and increase their lifetime.
+High tackiness reducing oil mist pollution and oil consumption.
+
+---
+## [TotalEnergies PRESLIA 68](https://lubricants.catalog.totalenergies.com/corporate/en_UK/694_preslia-68)
+![TotalEnergies PRESLIA 68](https://total-cdn-lmdb.afineo.io/PREVIEWS/visuels/HIGH/52000/52213_c0VTTWp4SkxvdjhKVk15WU5Odm5aUVBOaFUzMUwzZERJVzM2WTlheFc1bz0=.jpg?1662974178)
+
+**Market Segment:** Energy  
+**Application:** Turbine  
+**Viscosity:** ISO VG 68  
+**Range:** PRESLIA  
+**Available Packaging:** Drum  
+**[Technical Data Sheet](https://total-cdn-lmdb.afineo.io/tdsV2/TDS_TOTAL_PRESLIA-68_694_EN.pdf)**  
+
+**Marketing Text:** Mineral turbine oil for hydro and steam turbines
+
+**Description:** Select base stocks delivering extended service life
+Excellent antiwear and extreme pressure properties allowing for use in both ungeared and geared turbines
+Outstanding rust and corrosion protection
+Very good stability and filterability in the presence of water
+
+---
+## [TotalEnergies PRESLIA 32](https://lubricants.catalog.totalenergies.com/corporate/en_UK/692_preslia-32)
+![TotalEnergies PRESLIA 32](https://total-cdn-lmdb.afineo.io/PREVIEWS/visuels/HIGH/52000/52213_c0VTTWp4SkxvdjhKVk15WU5Odm5aUVBOaFUzMUwzZERJVzM2WTlheFc1bz0=.jpg?1662974178)
+
+**Market Segment:** Energy  
+**Application:** Turbine  
+**Viscosity:** ISO VG 32  
+**Range:** PRESLIA  
+**Available Packaging:** Drum  
+**[Technical Data Sheet](https://total-cdn-lmdb.afineo.io/tdsV2/TDS_TOTAL_PRESLIA-32_692_EN.pdf)**  
+
+**Marketing Text:** Mineral turbine oil for hydro, steam, gas turbines as well as centrifugal compressors
+
+**Description:** Select base stocks delivering extended service life
+Excellent antiwear and extreme pressure properties allowing for use in both ungeared and geared turbines
+Outstanding rust and corrosion protection
+Very good stability and filterability in the presence of water
 
 ---
 ## [TotalEnergies PNEUMA 100](https://lubricants.catalog.totalenergies.com/corporate/en_UK/688_pneuma-100)
@@ -906,61 +959,6 @@ Outstanding rust and corrosion protection
 Very good stability and filterability in the presence of water
 
 ---
-## [TotalEnergies PRESLIA 32](https://lubricants.catalog.totalenergies.com/corporate/en_UK/692_preslia-32)
-![TotalEnergies PRESLIA 32](https://total-cdn-lmdb.afineo.io/PREVIEWS/visuels/HIGH/52000/52213_c0VTTWp4SkxvdjhKVk15WU5Odm5aUVBOaFUzMUwzZERJVzM2WTlheFc1bz0=.jpg?1662974178)
-
-**Market Segment:** Energy  
-**Application:** Turbine  
-**Viscosity:** ISO VG 32  
-**Range:** PRESLIA  
-**Available Packaging:** Drum  
-**[Technical Data Sheet](https://total-cdn-lmdb.afineo.io/tdsV2/TDS_TOTAL_PRESLIA-32_692_EN.pdf)**  
-
-**Marketing Text:** Mineral turbine oil for hydro, steam, gas turbines as well as centrifugal compressors
-
-**Description:** Select base stocks delivering extended service life
-Excellent antiwear and extreme pressure properties allowing for use in both ungeared and geared turbines
-Outstanding rust and corrosion protection
-Very good stability and filterability in the presence of water
-
----
-## [TotalEnergies PRESLIA 68](https://lubricants.catalog.totalenergies.com/corporate/en_UK/694_preslia-68)
-![TotalEnergies PRESLIA 68](https://total-cdn-lmdb.afineo.io/PREVIEWS/visuels/HIGH/52000/52213_c0VTTWp4SkxvdjhKVk15WU5Odm5aUVBOaFUzMUwzZERJVzM2WTlheFc1bz0=.jpg?1662974178)
-
-**Market Segment:** Energy  
-**Application:** Turbine  
-**Viscosity:** ISO VG 68  
-**Range:** PRESLIA  
-**Available Packaging:** Drum  
-**[Technical Data Sheet](https://total-cdn-lmdb.afineo.io/tdsV2/TDS_TOTAL_PRESLIA-68_694_EN.pdf)**  
-
-**Marketing Text:** Mineral turbine oil for hydro and steam turbines
-
-**Description:** Select base stocks delivering extended service life
-Excellent antiwear and extreme pressure properties allowing for use in both ungeared and geared turbines
-Outstanding rust and corrosion protection
-Very good stability and filterability in the presence of water
-
----
-## [TotalEnergies PNEUMA 150](https://lubricants.catalog.totalenergies.com/corporate/en_UK/d16_pneuma-150)
-![TotalEnergies PNEUMA 150](https://total-cdn-lmdb.afineo.io/PREVIEWS/visuels/HIGH/52000/52213_c0VTTWp4SkxvdjhKVk15WU5Odm5aUVBOaFUzMUwzZERJVzM2WTlheFc1bz0=.jpg?1662974178)
-
-**Market Segment:** Aviation, Steel, Metalworking, Energy, Chemicals, Food processing, Textile, Automotive Manufacturing, Wood and Paper, Cement and Materials, Mining  
-**Application:** Pneumatic Systems  
-**Viscosity:** ISO VG 150  
-**Range:** PNEUMA  
-**Available Packaging:** Drum  
-**[Technical Data Sheet](https://total-cdn-lmdb.afineo.io/tdsV2/TDS_TOTAL_PNEUMA-150_D16_EN.pdf)**  
-
-**Marketing Text:** Pneumatic tools: pneumatic shock engines, line
-Lubricators or pulverisers for hammer drills.
-
-**Description:** High impact strenght due to the extreme pressure additivation preventing the equipment wear.
-Adhesive and emulsifiable properties to drain increase to tools lifetime water off and maintain continuous oil film.
-Antirust to protect the equipments and increase their lifetime.
-High tackiness reducing oil mist pollution and oil consumption.
-
----
 ## [TotalEnergies PROSYLVA 2T Z](https://lubricants.catalog.totalenergies.com/corporate/en_UK/jga_prosylva-2t-z)
 ![TotalEnergies PROSYLVA 2T Z](https://total-cdn-lmdb.afineo.io/PREVIEWS/visuels/HIGH/41500/41777_UmJ5THBWM0NRaFhIOXh6c2NHSC82QjMzQkRlMFNtczF5WHJOWURaOG1NQT0=.jpg?1665578186)
 
@@ -968,7 +966,7 @@ High tackiness reducing oil mist pollution and oil consumption.
 **Application:** 2-Stroke Engine Oil  
 **Viscosity:** -  
 **Range:** PROSYLVA  
-**Available Packaging:** 2L, 1L, Drum  
+**Available Packaging:** 1L, 2L, Drum  
 **[Technical Data Sheet](https://total-cdn-lmdb.afineo.io/tdsV2/TDS_TotalEnergies_Prosylva-2T-Z_JGA_EN.pdf)**  
 
 **Marketing Text:** Mineral oil designed for 2-stroke engines used in mechanized farming.
@@ -989,7 +987,7 @@ Its anti-rust and anti-corrosion properties protect the engine from moisture dam
 **Application:** PCMO  
 **Viscosity:** 20W-50  
 **Range:** QUARTZ  
-**Available Packaging:** 4L, 1L, Drum  
+**Available Packaging:** 1L, 4L, Drum  
 **[Technical Data Sheet](https://total-cdn-lmdb.afineo.io/tdsV2/TDS_TotalEnergies_Quartz-3000-SG-20W-50_8V8_EN.pdf)**  
 
 **Marketing Text:** Mineral technology engine oils designed for old gasoline and diesel passenger car engines.
@@ -1010,7 +1008,7 @@ Reduced drain interval.
 **Application:** PCMO  
 **Viscosity:** 20W-50  
 **Range:** QUARTZ  
-**Available Packaging:** 5L, 4L, 1L, Drum  
+**Available Packaging:** 1L, 4L, 5L, Drum  
 **[Technical Data Sheet](https://total-cdn-lmdb.afineo.io/tdsV2/TDS_TotalEnergies_Quartz-5000-20W-50_977_EN.pdf)**  
 
 **Marketing Text:** Engine oil suitable for use in gasoline and Diesel engines (passenger cars and light industrial vehicles).
@@ -1037,7 +1035,7 @@ This motor oil has a high viscosity index and excellent viscosity stability.
 **Application:** PCMO  
 **Viscosity:** 15W-40  
 **Range:** QUARTZ  
-**Available Packaging:** 5L, 1L, Drum  
+**Available Packaging:** 1L, 5L, Drum  
 **[Technical Data Sheet](https://total-cdn-lmdb.afineo.io/tdsV2/TDS_TotalEnergies_Quartz-4X4-15W-40_OPY_EN.pdf)**  
 
 **Marketing Text:** Very high performance synthetic lubricant for diesel and gasoline engines
@@ -1055,7 +1053,7 @@ This motor oil has a high viscosity index and excellent viscosity stability.
 **Application:** PCMO  
 **Viscosity:** 15W-50  
 **Range:** QUARTZ  
-**Available Packaging:** 4L, 1L, Drum  
+**Available Packaging:** 1L, 4L, Drum  
 **[Technical Data Sheet](https://total-cdn-lmdb.afineo.io/tdsV2/TDS_TotalEnergies_Quartz-7000-15W-50_DKZ_EN.pdf)**  
 
 **Marketing Text:** âSynthetic technology engine oil for gasoline and Diesel engines.This motor oil is particularly suited to turbocharged and multi-valve engines, and suitable for normal driving conditions. Ensures long term wear protection of engine parts and increases engine life.
@@ -1070,7 +1068,7 @@ This motor oil has a high viscosity index and excellent viscosity stability.
 **Application:** PCMO  
 **Viscosity:** 10W-40  
 **Range:** QUARTZ  
-**Available Packaging:** 20L, 5L, 4L, 2L, 1L, Drum  
+**Available Packaging:** 1L, 20L, 2L, 4L, 5L, Drum  
 **[Technical Data Sheet](https://total-cdn-lmdb.afineo.io/tdsV2/TDS_TotalEnergies_Quartz-7000-10W-40_DFG_EN.pdf)**  
 
 **Marketing Text:** Synthetic engine oil for gasoline and Diesel engines perfectly adapted to vehicles equipped with catalysts and using unleaded fuel, liquefied petroleum gas, and also bio-diesel.
@@ -1091,7 +1089,7 @@ Long-term wear protection of engine parts (distribution, ring, plunger and liner
 **Application:** PCMO  
 **Viscosity:** 5W-40  
 **Range:** QUARTZ  
-**Available Packaging:** 20L, 5L, 4L, 1L, Drum  
+**Available Packaging:** 1L, 20L, 4L, 5L, Drum  
 **[Technical Data Sheet](https://total-cdn-lmdb.afineo.io/tdsV2/TDS_TotalEnergies_Quartz-9000-5W-40_714_EN.pdf)**  
 
 **Marketing Text:** Synthetic technology engine oil for gasoline and Diesel passengerâs cars engines, particularly suitable for turbo compressed, multi-valve and direct injection diesel engines.
@@ -1109,23 +1107,23 @@ Easier cold starts: its excellent fluidity is perfectly adapted for cold startin
 Fluidity: Its exceptional fluidity reduces friction and therefore creates significant fuel savings and reduces CO2 emissions.
 
 ---
-## [TotalEnergies QUARTZ INEO MC3 5W-30](https://lubricants.catalog.totalenergies.com/corporate/en_UK/lky_quartz-ineo-mc3-5w-30)
-![TotalEnergies QUARTZ INEO MC3 5W-30](https://total-cdn-lmdb.afineo.io/PREVIEWS/visuels/HIGH/58000/58265_RTdHZGloRUlMZ0J2ckw5MjlQS3RmQjhtK1hWRTRWV2prc2loQmxuc0NLbz0=.jpg?1722611978)
+## [TotalEnergies QUARTZ INEO MC3 5W-30 (FR)](https://lubricants.catalog.totalenergies.com/corporate/en_UK/tue_quartz-ineo-mc3-5w-30-fr)
+![TotalEnergies QUARTZ INEO MC3 5W-30 (FR)](https://total-cdn-lmdb.afineo.io/PREVIEWS/visuels/HIGH/41500/41669_UmJ5THBWM0NRaFhIOXh6c2NHSC82UGFQK01tQ0FPaEViNGRySmN0a3hyVT0=.jpg?1588865986)
 
 **Market Segment:** Cars  
 **Application:** PCMO  
 **Viscosity:** 5W-30  
 **Range:** QUARTZ  
-**Available Packaging:** 1L, 20L, 5L, Drum  
-**[Technical Data Sheet](https://total-cdn-lmdb.afineo.io/tdsV2/TDS_TotalEnergies_Quartz-Ineo-MC3-5W-30_LKY_EN.pdf)**  
+**Available Packaging:** 5L, 1L, Drum  
+**[Technical Data Sheet](https://total-cdn-lmdb.afineo.io/tdsV2/TDS_TotalEnergies_Quartz-Ineo-MC3-5W-30_TUE_FR.pdf)**  
 
-**Marketing Text:** Synthetic engine oil specially formulated to meet the technical requirements of vehicles manufactured by BMW, Mercedes-Benz, Volkswagen and Hyundai Kia. Particularly well suited to modern multi-valve engines equipped with turbochargers and direct injection. 
+**Marketing Text:** Advanced synthetic technology engine oil specially formulated to meet the technical requirements of vehicles manufactured by BMW, Mercedes-Benz, Volkswagen and Hyundai Kia. Particularly well suited to modern multi-valve engines equipped with turbochargers and direct injection. 
 
 Its Low SAPS technology makes it the lubricant of choice for optimal operation of the latest-engine generation equipped with anti-pollutant devices.
 
 This engine oil is suitable for the most severe conditions of use (sports driving, repeated start-ups, city and motorway driving). Its special formulation resists the most extreme variations in operating temperature.
 
-**Description:** Ensures optimal functioning of three-way catalytic converters and particulate filters, which lower emissions of NOx, CO2, CO and particles and ensure compliance with performance levels announced by manufacturers and Euro V environmental standards. 
+**Description:** Ensures optimal functioning of three-way catalytic converters and particulate filters, which lower emissions of NOx, CO2, CO and particles and ensure compliance with performance levels announced by manufacturers and Euro V environmental standards.
 
 Extends the service life of post-treatment systems by preventing DPFs and three-way catalytic converters from clogging and filling.
 
@@ -1134,19 +1132,19 @@ Excellent resistance to temperature variations guarantees the longevity of engin
 Satisfies the most demanding manufacturer service plans by permitting extra-long oil change intervals.
 
 ---
-## [TotalEnergies RUBIA SX 40](https://lubricants.catalog.totalenergies.com/corporate/en_UK/g6e_rubia-sx-40)
-![TotalEnergies RUBIA SX 40](https://total-cdn-lmdb.afineo.io/PREVIEWS/visuels/HIGH/51500/51673_UUdPcGdJYnU1RTl2d3NOWkpoTUprWWdnQUw0Y2F0K3BoK3hhc3JoSlorUT0=.jpg?1655211896)
+## [TotalEnergies RUBIA OPTIMA 1100 15W-40](https://lubricants.catalog.totalenergies.com/corporate/en_UK/fqc_rubia-optima-1100-15w-40)
+![TotalEnergies RUBIA OPTIMA 1100 15W-40](https://total-cdn-lmdb.afineo.io/PREVIEWS/visuels/HIGH/52000/52433_c0VTTWp4SkxvdjhKVk15WU5Odm5aYVRjbnkxU0RCcnRtY1RJQ09xa01XUT0=.jpg?1665578302)
 
-**Market Segment:** Construction Equipment and Mining  
+**Market Segment:** Trucks and Buses  
 **Application:** HDMO  
-**Viscosity:** SAE 40  
-**Range:** RUBIA  
-**Available Packaging:** Drum  
-**[Technical Data Sheet](https://total-cdn-lmdb.afineo.io/tdsV2/TDS_TotalEnergies_Rubia-SX-40_G6E_EN.pdf)**  
+**Viscosity:** 15W-40  
+**Range:** RUBIA OPTIMA  
+**Available Packaging:** 20L, 18L, 5L, Drum  
+**[Technical Data Sheet](https://total-cdn-lmdb.afineo.io/tdsV2/TDS_TotalEnergies_Rubia-Optima-1100-15W-40_FQC_EN.pdf)**  
 
-**Marketing Text:** Single grade mineral lubricants, suitable for hydraulic circuits, engines and gearboxes of trucks, agricultural equipment,  earthmoving or quarries machinery.
+**Marketing Text:** Mineral lubricant for diesel engines, suitable for use in on road applications, based onthe latest CK-4 specification.
 
-**Description:** TOTAL RUBIA SX formulations exhibit good thermal stability ensuring efficient lubrication in normal working conditions, without any deposits or varnishes on Hydraulic valves, gears or hot engine parts. Thanks to the high quality of its components, TOTAL RUBIA SX series represent a very cost effective choice without compromising on the technical performances.
+**Description:** TOTAL RUBIA OPTIMA 1100 15W-40 is developed for the newest North American on-road diesel engines and suitable for existing diesel engines due to its backwards compatibility down to CJ-4.With its "low-SAPS" (low sulphated ash, phosphorus and sulphur) technology, TOTAL RUBIA OPTIMA 1100 15W-40 protects diesel engines equipped with post-treatment systems such as diesel particulate filters (DPFs).TOTAL RUBIA OPTIMA 1100 15W-40 enables coverage of a fleet of mixed brands, with a minimal number of products.
 
 ---
 ## [TotalEnergies RUBIA SX 10W](https://lubricants.catalog.totalenergies.com/corporate/en_UK/g6b_rubia-sx-10w)
@@ -1164,21 +1162,19 @@ Satisfies the most demanding manufacturer service plans by permitting extra-long
 **Description:** Mono grade mineral lubricant, suitable for hydraulic circuits and gearboxes of trucks, agricultural equipment, earthmoving or quarries machinery
 
 ---
-## [TotalEnergies RUBIA WORKS 1000 15W-40](https://lubricants.catalog.totalenergies.com/corporate/en_UK/qw3_rubia-works-1000-15w-40)
-![TotalEnergies RUBIA WORKS 1000 15W-40](https://total-cdn-lmdb.afineo.io/PREVIEWS/visuels/HIGH/1000/1272_SW5wSFRJZ3kyS0pjSGtaTnR4YVNRTkV3VlFhdWQ0RzEyK0ZHeFc3SVNNVT0=.jpg?1665578316)
+## [TotalEnergies RUBIA SX 40](https://lubricants.catalog.totalenergies.com/corporate/en_UK/g6e_rubia-sx-40)
+![TotalEnergies RUBIA SX 40](https://total-cdn-lmdb.afineo.io/PREVIEWS/visuels/HIGH/51500/51673_UUdPcGdJYnU1RTl2d3NOWkpoTUprWWdnQUw0Y2F0K3BoK3hhc3JoSlorUT0=.jpg?1655211896)
 
 **Market Segment:** Construction Equipment and Mining  
 **Application:** HDMO  
-**Viscosity:** 15W-40  
-**Range:** RUBIA WORKS  
-**Available Packaging:** 20L, 5L  
-**[Technical Data Sheet](https://total-cdn-lmdb.afineo.io/tdsV2/TDS_TotalEnergies_Rubia-Works-1000-15W-40_QW3_EN.pdf)**  
+**Viscosity:** SAE 40  
+**Range:** RUBIA  
+**Available Packaging:** Drum  
+**[Technical Data Sheet](https://total-cdn-lmdb.afineo.io/tdsV2/TDS_TotalEnergies_Rubia-SX-40_G6E_EN.pdf)**  
 
-**Marketing Text:** Very high performance, multi-grade engine oil dedicated to engines of Earthmoving, Construction or Mining machinery from worldwide origins.
+**Marketing Text:** Single grade mineral lubricants, suitable for hydraulic circuits, engines and gearboxes of trucks, agricultural equipment,  earthmoving or quarries machinery.
 
-**Description:** High thermal stability ensuring a very good lubrication of hot engine pieces, especially during severe and long working periods.
-Reinforced dispersivity, detergency and anti-wear powers for resisting against all attacks occurring to the engine during a long oil drain interval : dust, soots, water, gazole, combustion acid, etcâ¦
-Suitable in all engine brands and types of old or recent technology.
+**Description:** TOTAL RUBIA SX formulations exhibit good thermal stability ensuring efficient lubrication in normal working conditions, without any deposits or varnishes on Hydraulic valves, gears or hot engine parts. Thanks to the high quality of its components, TOTAL RUBIA SX series represent a very cost effective choice without compromising on the technical performances.
 
 ---
 ## [TotalEnergies RUBIA TIR 8600 10W-40](https://lubricants.catalog.totalenergies.com/corporate/en_UK/06x_rubia-tir-8600-10w-40)
@@ -1208,7 +1204,7 @@ It exhibits a very high T.B.N level (Total base Number)  (16 mgKOH/g) to neutral
 **Application:** HDMO  
 **Viscosity:** 15W-40  
 **Range:** RUBIA TIR  
-**Available Packaging:** 5L, 1L, Drum  
+**Available Packaging:** 1L, 5L, Drum  
 **[Technical Data Sheet](https://total-cdn-lmdb.afineo.io/tdsV2/TDS_TotalEnergies_Rubia-TIR-7400-15W-40_13T_EN.pdf)**  
 
 **Marketing Text:** Mineral lubricant suitable for on-road diesel engines recommended to Euro 3, and previous engines of most European and American manufacturers.
@@ -1217,6 +1213,23 @@ It exhibits a very high T.B.N level (Total base Number)  (16 mgKOH/g) to neutral
 
 Outstanding detergent, dispersant and anti-wear properties keep the engine clean and enable efficient control of
 soot, sludge and piston deposits.
+
+---
+## [TotalEnergies RUBIA WORKS 1000 15W-40](https://lubricants.catalog.totalenergies.com/corporate/en_UK/qw3_rubia-works-1000-15w-40)
+![TotalEnergies RUBIA WORKS 1000 15W-40](https://total-cdn-lmdb.afineo.io/PREVIEWS/visuels/HIGH/1000/1272_SW5wSFRJZ3kyS0pjSGtaTnR4YVNRTkV3VlFhdWQ0RzEyK0ZHeFc3SVNNVT0=.jpg?1665578316)
+
+**Market Segment:** Construction Equipment and Mining  
+**Application:** HDMO  
+**Viscosity:** 15W-40  
+**Range:** RUBIA WORKS  
+**Available Packaging:** 20L, 5L  
+**[Technical Data Sheet](https://total-cdn-lmdb.afineo.io/tdsV2/TDS_TotalEnergies_Rubia-Works-1000-15W-40_QW3_EN.pdf)**  
+
+**Marketing Text:** Very high performance, multi-grade engine oil dedicated to engines of Earthmoving, Construction or Mining machinery from worldwide origins.
+
+**Description:** High thermal stability ensuring a very good lubrication of hot engine pieces, especially during severe and long working periods.
+Reinforced dispersivity, detergency and anti-wear powers for resisting against all attacks occurring to the engine during a long oil drain interval : dust, soots, water, gazole, combustion acid, etcâ¦
+Suitable in all engine brands and types of old or recent technology.
 
 ---
 ## [TotalEnergies SERIOLA 32](https://lubricants.catalog.totalenergies.com/corporate/en_UK/kse_seriola-32)
@@ -1298,20 +1311,20 @@ TRANSMISSION TM 80W-90 is specially recommended for ZF and MAN hypoid gears, wit
 interval.
 
 ---
-## [TotalEnergies TRANSTEC 5 80W-90](https://lubricants.catalog.totalenergies.com/corporate/en_UK/d9m_transtec-5-80w-90)
-![TotalEnergies TRANSTEC 5 80W-90](https://total-cdn-lmdb.afineo.io/PREVIEWS/visuels/HIGH/54500/54589_b09tNUNja2d0SWR6cElvbmhvaHQvNDhDL1hBUXhWbjZKY0pieG0xNC9ocz0=.jpg?1690162033)
+## [TotalEnergies TRAXIUM AXLE 7 80W-90](https://lubricants.catalog.totalenergies.com/corporate/en_UK/ts1_traxium-axle-7-80w-90)
+![TotalEnergies TRAXIUM AXLE 7 80W-90](https://total-cdn-lmdb.afineo.io/PREVIEWS/visuels/HIGH/40500/40903_cm9ZM1BkMGRyNWVPWTNqbi9Nb0lNeTVMOWpSVHBEbEEwVENURDhBTUVzdz0=.jpg?1683709003)
 
 **Market Segment:** Trucks and Buses, Cars  
 **Application:** MTF  
 **Viscosity:** 80W-90  
 **Range:** TRANSMISSION  
-**Available Packaging:** 0.5L, Drum  
-**[Technical Data Sheet](https://total-cdn-lmdb.afineo.io/tdsV2/TDS_TotalEnergies_TRANSTEC-5-80W-90_D9M_EN.pdf)**  
+**Available Packaging:** 20L, 5L, 1L, Drum  
+**[Technical Data Sheet](https://total-cdn-lmdb.afineo.io/tdsV2/TDS_TotalEnergies_TRAXIUM-AXLE-7-80W-90_TS1_EN.pdf)**  
 
-**Marketing Text:** withContainer
+**Marketing Text:** Traxium axle 7 80W-90 is extreme pressure mineral oil for the lubrication of highly loaded gears (axles, final drives, transfer cases, planetary gearboxes) when an API GL-5 level of performance is required.
 
-**Description:** TRANSTEC 5 is specifically designed for the lubrication of all gear boxes and axles requiring an API GL-5 level 
-and a viscosity of SAE 80W-90.
+**Description:** Traxium axle 7 80W-90 is extreme pressure mineral oil for the lubrication of highly loaded gears (axles, final drives, transfer cases, planetary gearboxes) when an API GL-5 level of performance is required.
+Traxium axle 7 80W-90 is specially recommended for ZF and MAN hypoid gears, with standard drain interval.
 
 ---
 ## [TotalEnergies TRANSTEC 5 85W-140](https://lubricants.catalog.totalenergies.com/corporate/en_UK/df7_transtec-5-85w-140)
@@ -1328,5 +1341,54 @@ and a viscosity of SAE 80W-90.
 
 **Description:** TRANSTEC 5 is specifically designed for the lubrication of all gear boxes and axles requiring an API GL-5 level 
 and a viscosity of SAE 75W-90 / 80W-90 / 85W-140.
+
+---
+## [TotalEnergies TRANSTEC 5 80W-90](https://lubricants.catalog.totalenergies.com/corporate/en_UK/d9m_transtec-5-80w-90)
+![TotalEnergies TRANSTEC 5 80W-90](https://total-cdn-lmdb.afineo.io/PREVIEWS/visuels/HIGH/54500/54589_b09tNUNja2d0SWR6cElvbmhvaHQvNDhDL1hBUXhWbjZKY0pieG0xNC9ocz0=.jpg?1690162033)
+
+**Market Segment:** Trucks and Buses, Cars  
+**Application:** MTF  
+**Viscosity:** 80W-90  
+**Range:** TRANSMISSION  
+**Available Packaging:** 0.5L, Drum  
+**[Technical Data Sheet](https://total-cdn-lmdb.afineo.io/tdsV2/TDS_TotalEnergies_TRANSTEC-5-80W-90_D9M_EN.pdf)**  
+
+**Marketing Text:** withContainer
+
+**Description:** TRANSTEC 5 is specifically designed for the lubrication of all gear boxes and axles requiring an API GL-5 level 
+and a viscosity of SAE 80W-90.
+
+---
+## [TotalEnergies TRAXIUM AXLE 7 85W-140](https://lubricants.catalog.totalenergies.com/corporate/en_UK/ts2_traxium-axle-7-85w-140)
+![TotalEnergies TRAXIUM AXLE 7 85W-140](https://total-cdn-lmdb.afineo.io/PREVIEWS/visuels/HIGH/40500/40899_cm9ZM1BkMGRyNWVPWTNqbi9Nb0lNNHk2M003eFN2Z3VETzM2K0x5QVd2ND0=.jpg?1683709006)
+
+**Market Segment:** Trucks and Buses  
+**Application:** MTF  
+**Viscosity:** 85W-140  
+**Range:** TRANSMISSION  
+**Available Packaging:** 5L, Drum  
+**[Technical Data Sheet](https://total-cdn-lmdb.afineo.io/tdsV2/TDS_TotalEnergies_TRAXIUM-AXLE-7-85W-140_TS2_EN.pdf)**  
+
+**Marketing Text:** Traxium axle 7 85W-140 is a high performance oil developed for axles, highly loaded gears and hypoid axles with double or single reduction requiring API GL-5.
+
+**Description:** Traxium axle 7 85W-140 is a high performance oil developed for axles, highly loaded gears and hypoid axles with double or single reduction requiring API GL-5.
+Traxium axle 7 85W-140 is particularly adapted for the lubrication ZF manual transmission with drain interval based on OEM recommendations.
+
+---
+## [TotalEnergies TRAXIUM DUAL 9 FE 75W-90](https://lubricants.catalog.totalenergies.com/corporate/en_UK/tsb_traxium-dual-9-fe-75w-90)
+![TotalEnergies TRAXIUM DUAL 9 FE 75W-90](https://total-cdn-lmdb.afineo.io/PREVIEWS/visuels/HIGH/40500/40900_cm9ZM1BkMGRyNWVPWTNqbi9Nb0lNNVA1TENBdWdseDRnd0wzK0UyVjRZMD0=.jpg?1683709015)
+
+**Market Segment:** Trucks and Buses, Cars  
+**Application:** MTF  
+**Viscosity:** 75W-90  
+**Range:** TRANSMISSION  
+**Available Packaging:** 1L, Drum  
+**[Technical Data Sheet](https://total-cdn-lmdb.afineo.io/tdsV2/TDS_TotalEnergies_Traxium-Dual-9-FE-75W-90_TSB_EN.pdf)**  
+
+**Marketing Text:** Traxium dual 9 FE 75W-90 is high performance synthetic oil developed for synchronized or non- synchronized manual gearboxes, axles and reduction gears requiring API GL-4, GL-5, MT-1 or MIL-PRF-2105E and MIL-L 2105 D.
+
+**Description:** Traxium dual 9 FE 75W-90 is high performance synthetic oil developed for synchronized or non- synchronized manual gearboxes, axles and reduction gears requiring API GL-4, GL-5, MT-1 or MIL-PRF-2105E and MIL-L 2105 D.
+Traxium dual 9 FE 75W-90 is a synthetic lubricant of extremely high performance developed based on the T.D.L. (Drive Line Total) concept which is suitable for manual gearboxes and axles subjected to severe conditions of use.
+Traxium dual 9 FE 75W-90 suits particularly the lubrication of the gears hypoid and axles of most manufacturers such as Mack, MAN, DAF, IVECO, MERCEDES, VOLVO, RENAULT, MACK with extended drain intervals up.
 
 ---

@@ -27,11 +27,11 @@
               "inStock": true,
               "featured": true,
               "packSizes": [
-                "20L",
-                "5L",
-                "4L",
-                "2L",
                 "1L",
+                "20L",
+                "2L",
+                "4L",
+                "5L",
                 "Drum"
               ],
               "applications": [
@@ -62,8 +62,8 @@
               "inStock": true,
               "featured": false,
               "packSizes": [
-                "4L",
                 "1L",
+                "4L",
                 "Drum"
               ],
               "applications": [
@@ -96,10 +96,10 @@
               "inStock": true,
               "featured": true,
               "packSizes": [
-                "20L",
-                "5L",
-                "4L",
                 "1L",
+                "20L",
+                "4L",
+                "5L",
                 "Drum"
               ],
               "applications": [
@@ -134,13 +134,12 @@
                 "VW 504.00/507.00"
               ],
               "image": "products/passenger-vehicles/premier-synthetic/quartz-ineo-mc3-5w30/main.png",
-              "datasheet": "https://total-cdn-lmdb.afineo.io/tdsV2/TDS_TotalEnergies_Quartz-Ineo-MC3-5W-30_LKY_EN.pdf",
+              "datasheet": "https://total-cdn-lmdb.afineo.io/tdsV2/TDS_TotalEnergies_Quartz-Ineo-MC3-5W-30_TUE_FR.pdf",
               "inStock": true,
               "featured": true,
               "packSizes": [
-                "1L",
-                "20L",
                 "5L",
+                "1L",
                 "Drum"
               ],
               "applications": [
@@ -183,8 +182,8 @@
               ],
               "range": "QUARTZ",
               "packSizes": [
-                "4L",
                 "1L",
+                "4L",
                 "Drum"
               ],
               "marketSegments": [
@@ -210,9 +209,9 @@
               ],
               "range": "QUARTZ",
               "packSizes": [
-                "5L",
-                "4L",
                 "1L",
+                "4L",
+                "5L",
                 "Drum"
               ],
               "marketSegments": [
@@ -245,8 +244,8 @@
               ],
               "range": "QUARTZ",
               "packSizes": [
-                "5L",
                 "1L",
+                "5L",
                 "Drum"
               ],
               "marketSegments": [
@@ -263,7 +262,7 @@
             {
               "id": "motor-oil-sae-40",
               "name": "MOTOR OIL SAE 40",
-              "description": "-",
+              "description": "",
               "viscosity": "SAE 40",
               "specifications": [
                 "API CD"
@@ -289,7 +288,7 @@
             {
               "id": "motor-oil-sf-sae-40",
               "name": "MOTOR OIL SF SAE 40",
-              "description": "-",
+              "description": "",
               "viscosity": "SAE 40",
               "specifications": [
                 "API SF"
@@ -345,8 +344,8 @@
               "inStock": true,
               "featured": true,
               "packSizes": [
-                "5L",
                 "1L",
+                "5L",
                 "Drum"
               ],
               "applications": [
@@ -579,15 +578,27 @@
             {
               "id": "trax-axle-7-85w140",
               "name": "TRAX. AXLE 7 85W140",
-              "description": "High-performance axle oil for heavy trucks",
-              "viscosity": "85W140",
+              "description": "Traxium axle 7 85W-140 is a high performance oil developed for axles, highly loaded gears and hypoid axles with double or single reduction requiring API GL-5. Traxium axle 7 85W-140 is particularly adapted for the lubrication ZF manual transmission with drain interval based on OEM recommendations.",
+              "viscosity": "85W-140",
               "specifications": [
                 "API GL-5"
               ],
               "image": "products/heavy-vehicles/truck-differential-oil/trax-axle-7-85w140/main.png",
-              "datasheet": "products/heavy-vehicles/truck-differential-oil/trax-axle-7-85w140/datasheet.pdf",
+              "datasheet": "https://total-cdn-lmdb.afineo.io/tdsV2/TDS_TotalEnergies_TRAXIUM-AXLE-7-85W-140_TS2_EN.pdf",
               "inStock": true,
-              "featured": false
+              "featured": false,
+              "range": "TRANSMISSION",
+              "packSizes": [
+                "5L",
+                "Drum"
+              ],
+              "applications": [
+                "MTF",
+                "Trucks and Buses"
+              ],
+              "marketSegments": [
+                "Trucks and Buses"
+              ]
             }
           ]
         }
@@ -714,7 +725,7 @@
             {
               "id": "dynatrans-mpx",
               "name": "DYNATRANS MPX",
-              "description": "Lubricant for transmissions with wet brakes of Agricultural & Public Works machinery. Dynatrans MPX has been especially developed for transmissions with wet brakes requiring an API GL-4 lubricant with a (10W-30) or (80W) viscosity grade in Off-Road vehicles. This lubricant is also perfectly adapted to automatic transmissions, torque converters and hydrostatic transmissions and more generally to any transmissions requiring an UTTO (Universal Tractor Transmissions Oil). Dynatrans MPX is approved for multiple ZF transmissions, including CVT types, and is recommended for KUBOTA transmissions requiring the \"UDT\" approval. TOTAL DYNATRANS MPX is adapted to a wide range of agricultural and Public Works equipment and helps to reduce the stock and the number of lubricants",
+              "description": "Dynatrans MPX has been especially developed for transmissions with wet brakes requiring an API GL-4 lubricant with a (10W-30) or (80W) viscosity grade in Off-Road vehicles. This lubricant is also perfectly adapted to automatic transmissions, torque converters and hydrostatic transmissions and more generally to any transmissions requiring an UTTO (Universal Tractor Transmissions Oil). Dynatrans MPX is approved for multiple ZF transmissions, including CVT types, and is recommended for KUBOTA transmissions requiring the \"UDT\" approval. TOTAL DYNATRANS MPX is adapted to a wide range of agricultural and Public Works equipment and helps to reduce the stock and the number of lubricants",
               "viscosity": "-/-",
               "specifications": [
                 "API GL-4",
@@ -726,8 +737,7 @@
               "inStock": true,
               "featured": false,
               "packSizes": [
-                "20L",
-                "208L"
+                "Drum"
               ],
               "applications": [
                 "Modern tractors",
@@ -736,6 +746,11 @@
                 "Wet brakes",
                 "High-performance equipment",
                 "UTTO",
+                "Construction Equipment and Mining",
+                "Agriculture and Motoculture (Gardening)"
+              ],
+              "range": "DYNATRANS",
+              "marketSegments": [
                 "Construction Equipment and Mining",
                 "Agriculture and Motoculture (Gardening)"
               ]
@@ -770,8 +785,8 @@
               "inStock": true,
               "featured": true,
               "packSizes": [
-                "20L",
                 "1L",
+                "20L",
                 "Drum"
               ],
               "applications": [
@@ -802,9 +817,9 @@
               "inStock": true,
               "featured": false,
               "packSizes": [
-                "5L",
-                "1L",
                 "0.5L",
+                "1L",
+                "5L",
                 "Drum"
               ],
               "applications": [
@@ -866,8 +881,8 @@
               "inStock": true,
               "featured": true,
               "packSizes": [
-                "20L",
                 "1L",
+                "20L",
                 "Drum"
               ],
               "applications": [
@@ -926,8 +941,8 @@
               "inStock": true,
               "featured": false,
               "packSizes": [
-                "20L",
                 "1L",
+                "20L",
                 "Drum"
               ],
               "applications": [
@@ -1063,25 +1078,34 @@
             {
               "id": "trax-axle-7-80w90",
               "name": "TRAX. AXLE 7 80W90",
-              "description": "High-performance axle oil for heavy-duty applications. Superior EP protection for differentials and final drives.",
-              "viscosity": "80W90",
+              "description": "Traxium axle 7 80W-90 is extreme pressure mineral oil for the lubrication of highly loaded gears (axles, final drives, transfer cases, planetary gearboxes) when an API GL-5 level of performance is required. Traxium axle 7 80W-90 is specially recommended for ZF and MAN hypoid gears, with standard drain interval.",
+              "viscosity": "80W-90",
               "specifications": [
                 "API GL-5"
               ],
               "image": "products/gear-transmission/manual-gear-axle-oil/trax-axle-7-80w90/main.png",
-              "datasheet": "products/gear-transmission/manual-gear-axle-oil/trax-axle-7-80w90/datasheet.pdf",
+              "datasheet": "https://total-cdn-lmdb.afineo.io/tdsV2/TDS_TotalEnergies_TRAXIUM-AXLE-7-80W-90_TS1_EN.pdf",
               "inStock": true,
               "featured": false,
               "packSizes": [
-                "1L",
                 "20L",
-                "208L"
+                "5L",
+                "1L",
+                "Drum"
               ],
               "applications": [
                 "Differentials",
                 "Final drives",
                 "Axles",
-                "Heavy-duty applications"
+                "Heavy-duty applications",
+                "MTF",
+                "Trucks and Buses",
+                "Cars"
+              ],
+              "range": "TRANSMISSION",
+              "marketSegments": [
+                "Trucks and Buses",
+                "Cars"
               ]
             }
           ]
@@ -1126,27 +1150,34 @@
             {
               "id": "trax-dual-9-fe-75w90",
               "name": "TRAX. DUAL 9 FE 75W90",
-              "description": "Fuel-efficient synthetic gear oil. Low friction formula improves fuel economy while providing excellent protection.",
-              "viscosity": "75W90",
+              "description": "Traxium dual 9 FE 75W-90 is high performance synthetic oil developed for synchronized or non- synchronized manual gearboxes, axles and reduction gears requiring API GL-4, GL-5, MT-1 or MIL-PRF-2105E and MIL-L 2105 D. Traxium dual 9 FE 75W-90 is a synthetic lubricant of extremely high performance developed based on the T.D.L. (Drive Line Total) concept which is suitable for manual gearboxes and axles subjected to severe conditions of use. Traxium dual 9 FE 75W-90 suits particularly the lubrication of the gears hypoid and axles of most manufacturers such as Mack, MAN, DAF, IVECO, MERCEDES, VOLVO, RENAULT, MACK with extended drain intervals up.",
+              "viscosity": "75W-90",
               "specifications": [
                 "API GL-4",
                 "API GL-5",
                 "Fuel Economy"
               ],
               "image": "products/gear-transmission/synthetic-gear-oil/trax-dual-9-fe-75w90/main.png",
-              "datasheet": "products/gear-transmission/synthetic-gear-oil/trax-dual-9-fe-75w90/datasheet.pdf",
+              "datasheet": "https://total-cdn-lmdb.afineo.io/tdsV2/TDS_TotalEnergies_Traxium-Dual-9-FE-75W-90_TSB_EN.pdf",
               "inStock": true,
               "featured": true,
               "packSizes": [
                 "1L",
-                "20L",
-                "208L"
+                "Drum"
               ],
               "applications": [
                 "Fuel-efficient vehicles",
                 "Manual transmissions",
                 "Differentials",
-                "Modern drivetrains"
+                "Modern drivetrains",
+                "MTF",
+                "Trucks and Buses",
+                "Cars"
+              ],
+              "range": "TRANSMISSION",
+              "marketSegments": [
+                "Trucks and Buses",
+                "Cars"
               ]
             }
           ]
@@ -1248,8 +1279,8 @@
               "inStock": true,
               "featured": true,
               "packSizes": [
-                "2L",
                 "1L",
+                "2L",
                 "Drum"
               ],
               "applications": [
@@ -1376,7 +1407,7 @@
             {
               "id": "azolla-zs-100",
               "name": "AZOLLA ZS 100",
-              "description": "Hydraulic systems operating in high temperature and pressure conditions. Bearings and miscellaneous devices. High protection against wear insuring maximum equipment life. Superior thermal stability avoiding formation of sludge even at high temperature. Very good oxidation stability ensuring a long service life of the fluid. Remarkable filterability even in the presence of water. Excellent hydrolytic stability avoiding filter blocking. Excellent protection against rust and corrosion. Good anti-foam and air release properties by using silicon free components. Good demulsibility ensuring rapid water separation Reduced maintenance and operating costs.",
+              "description": "High protection against wear insuring maximum equipment life. Superior thermal stability avoiding formation of sludge even at high temperature. Very good oxidation stability ensuring a long service life of the fluid. Remarkable filterability even in the presence of water. Excellent hydrolytic stability avoiding filter blocking. Excellent protection against rust and corrosion. Good anti-foam and air release properties by using silicon free components. Good demulsibility ensuring rapid water separation Reduced maintenance and operating costs.",
               "viscosity": "ISO VG 100",
               "specifications": [
                 "ISO 6743-4 HM",
@@ -1387,9 +1418,7 @@
               "inStock": true,
               "featured": false,
               "packSizes": [
-                "20L",
-                "208L",
-                "1000L IBC"
+                "Drum"
               ],
               "applications": [
                 "Heavy-duty hydraulics",
@@ -1397,6 +1426,11 @@
                 "Large presses",
                 "Steel mills",
                 "Hydraulic Systems",
+                "Automotive Manufacturing",
+                "Mining"
+              ],
+              "range": "AZOLLA",
+              "marketSegments": [
                 "Automotive Manufacturing",
                 "Mining"
               ]
@@ -1669,7 +1703,7 @@
             {
               "id": "carter-sh-680",
               "name": "CARTER SH 680",
-              "description": "Gears subjected to very high loads and high temperatures in difficult environments. Gears for wind turbines. Very high protection (high and low temperatures) from micropitting scuffing wear (GFT - class: high). Excellent extreme-pressure performance: protection against high loads. Very high natural viscosity index: (shear stable) and low friction coefficient. Very low pour point: operation at very low temperatures. Very good resistance to oxidation: operation at high temperatures, and lifetime increased by a factor of 2 to 4. Compatible with seals and metals containing copper.",
+              "description": "Very high protection (high and low temperatures) from micropitting scuffing wear (GFT - class: high). Excellent extreme-pressure performance: protection against high loads. Very high natural viscosity index: (shear stable) and low friction coefficient. Very low pour point: operation at very low temperatures. Very good resistance to oxidation: operation at high temperatures, and lifetime increased by a factor of 2 to 4. Compatible with seals and metals containing copper.",
               "viscosity": "ISO VG 680",
               "specifications": [
                 "ISO 12925-1 CKC",
@@ -1681,8 +1715,7 @@
               "inStock": true,
               "featured": false,
               "packSizes": [
-                "20L",
-                "208L"
+                "Drum"
               ],
               "applications": [
                 "Very high-temperature gearboxes",
@@ -1690,6 +1723,18 @@
                 "Dryers",
                 "Extreme conditions",
                 "Closed Gears",
+                "Steel",
+                "Energy",
+                "Chemicals",
+                "Food processing",
+                "Textile",
+                "Automotive Manufacturing",
+                "Wood and Paper",
+                "Cement and Materials",
+                "Mining"
+              ],
+              "range": "CARTER",
+              "marketSegments": [
                 "Steel",
                 "Energy",
                 "Chemicals",
@@ -2600,8 +2645,8 @@
               "inStock": true,
               "featured": true,
               "packSizes": [
-                "Drum",
-                "Cartridge"
+                "Cartridge",
+                "Drum"
               ],
               "applications": [
                 "High-temperature bearings",
@@ -2787,8 +2832,8 @@
               "inStock": true,
               "featured": true,
               "packSizes": [
-                "5L",
                 "1L",
+                "5L",
                 "range"
               ],
               "applications": [
@@ -2826,8 +2871,8 @@
               "inStock": true,
               "featured": true,
               "packSizes": [
-                "20L",
-                "1L"
+                "1L",
+                "20L"
               ],
               "applications": [
                 "All vehicle types",
