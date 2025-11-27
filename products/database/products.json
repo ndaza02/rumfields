@@ -14,8 +14,8 @@
             {
               "id": "quartz-7000-10w40",
               "name": "QUARTZ 7000 10W40",
-              "description": "High-performance semi-synthetic engine oil providing excellent protection for modern gasoline and diesel engines. Ensures optimal engine cleanliness and wear protection under all driving conditions.",
-              "viscosity": "10W40",
+              "description": "Its base oils and additives, provides a specific resistance to oxidation. Ensures good engine cleanliness , reducing particle accumulation in the motor via efficient dispersant power. Long-term wear protection of engine parts (distribution, ring, plunger and liner) increasing engine life.",
+              "viscosity": "10W-40",
               "specifications": [
                 "API SN",
                 "ACEA A3/B4",
@@ -23,27 +23,35 @@
                 "VW 502.00/505.00"
               ],
               "image": "products/passenger-vehicles/synthetic-semi-synthetic/quartz-7000-10w40/main.png",
-              "datasheet": "products/passenger-vehicles/synthetic-semi-synthetic/quartz-7000-10w40/datasheet.pdf",
+              "datasheet": "https://total-cdn-lmdb.afineo.io/tdsV2/TDS_TotalEnergies_Quartz-7000-10W-40_DFG_EN.pdf",
               "inStock": true,
               "featured": true,
               "packSizes": [
-                "1L",
-                "4L",
-                "5L",
                 "20L",
-                "208L"
+                "5L",
+                "4L",
+                "2L",
+                "1L",
+                "Drum"
               ],
               "applications": [
+                "PCMO",
+                "Cars",
                 "Gasoline engines",
                 "Diesel engines",
                 "Turbocharged engines",
                 "City & highway driving"
-              ]
+              ],
+              "range": "QUARTZ",
+              "marketSegments": [
+                "Cars"
+              ],
+              "primaryApplication": "PCMO"
             },
             {
               "id": "quartz-7000-15w50",
               "name": "QUARTZ 7000 15W50",
-              "description": "âSynthetic technology engine oil for gasoline and Diesel engines.This motor oil is particularly suited to turbocharged and multi-valve engines, and suitable for normal driving conditions. Ensures long term wear protection of engine parts and increases engine life. Satisfies the most demanding manufacturers standards, while guaranteeing perfect and constant quality. Its high viscosity helps the product to combat wear in high-temperature conditions. Ensures good engine cleanliness by draining engine particules and dust to the oil filter.",
+              "description": "Satisfies the most demanding manufacturers standards, while guaranteeing perfect and constant quality. Its high viscosity helps the product to combat wear in high-temperature conditions. Ensures good engine cleanliness by draining engine particules and dust to the oil filter.",
               "viscosity": "15W-50",
               "specifications": [
                 "API SN",
@@ -54,11 +62,9 @@
               "inStock": true,
               "featured": false,
               "packSizes": [
-                "1L",
                 "4L",
-                "5L",
-                "20L",
-                "208L"
+                "1L",
+                "Drum"
               ],
               "applications": [
                 "Gasoline engines",
@@ -67,12 +73,16 @@
                 "Highway driving",
                 "PCMO",
                 "Cars"
+              ],
+              "range": "QUARTZ",
+              "marketSegments": [
+                "Cars"
               ]
             },
             {
               "id": "quartz-9000-5w40",
               "name": "QUARTZ 9000 5W40",
-              "description": "Synthetic technology engine oil for gasoline and Diesel passengerâs cars engines, particularly suitable for turbo compressed, multi-valve and direct injection diesel engines. Antiwear protection: this synthetic engine oil ensures optimum engine longevity with its antiwear properties that protect the engineâs most sensitive parts.",
+              "description": "Antiwear protection: this synthetic engine oil ensures optimum engine longevity with its antiwear properties that protect the engine's most sensitive parts. Oxidation resistance: this lubricant allows extra long drain intervals. Engine protection, cleanliness and performance: This oil contains detergent and dispersive additives that keep the engine clean and thus preserve its power. Easier cold starts: its excellent fluidity is perfectly adapted for cold starting in extreme weather conditions and ensures a good protection of mechanical parts at high temperature. Fluidity: Its exceptional fluidity reduces friction and therefore creates significant fuel savings and reduces CO2 emissions.",
               "viscosity": "5W-40",
               "specifications": [
                 "API SN/CF",
@@ -86,11 +96,11 @@
               "inStock": true,
               "featured": true,
               "packSizes": [
-                "1L",
-                "4L",
-                "5L",
                 "20L",
-                "208L"
+                "5L",
+                "4L",
+                "1L",
+                "Drum"
               ],
               "applications": [
                 "High-performance engines",
@@ -98,6 +108,10 @@
                 "Extended drain intervals",
                 "Severe driving conditions",
                 "PCMO",
+                "Cars"
+              ],
+              "range": "QUARTZ",
+              "marketSegments": [
                 "Cars"
               ]
             }
@@ -111,8 +125,8 @@
             {
               "id": "quartz-ineo-mc3-5w30",
               "name": "QUARTZ INEO MC3 5W30",
-              "description": "Premium synthetic oil specially formulated for Mercedes-Benz vehicles. Low SAPS technology protects catalytic converters and particulate filters while delivering exceptional engine performance.",
-              "viscosity": "5W30",
+              "description": "Ensures optimal functioning of three-way catalytic converters and particulate filters, which lower emissions of NOx, CO2, CO and particles and ensure compliance with performance levels announced by manufacturers and Euro V environmental standards. Extends the service life of post-treatment systems by preventing DPFs and three-way catalytic converters from clogging and filling. Excellent resistance to temperature variations guarantees the longevity of engine parts and optimal performance level under all circumstances. Satisfies the most demanding manufacturer service plans by permitting extra-long oil change intervals.",
+              "viscosity": "5W-30",
               "specifications": [
                 "MB 229.51",
                 "ACEA C3",
@@ -120,21 +134,27 @@
                 "VW 504.00/507.00"
               ],
               "image": "products/passenger-vehicles/premier-synthetic/quartz-ineo-mc3-5w30/main.png",
-              "datasheet": "products/passenger-vehicles/premier-synthetic/quartz-ineo-mc3-5w30/datasheet.pdf",
+              "datasheet": "https://total-cdn-lmdb.afineo.io/tdsV2/TDS_TotalEnergies_Quartz-Ineo-MC3-5W-30_LKY_EN.pdf",
               "inStock": true,
               "featured": true,
               "packSizes": [
                 "1L",
-                "5L",
                 "20L",
-                "208L"
+                "5L",
+                "Drum"
               ],
               "applications": [
                 "Mercedes-Benz",
                 "BMW",
                 "VW/Audi",
                 "Modern diesel engines with DPF",
-                "Low emission vehicles"
+                "Low emission vehicles",
+                "PCMO",
+                "Cars"
+              ],
+              "range": "QUARTZ",
+              "marketSegments": [
+                "Cars"
               ]
             }
           ]
@@ -147,7 +167,7 @@
             {
               "id": "quartz-3000-sg-20w50",
               "name": "QUARTZ 3000 SG 20W50",
-              "description": "Mineral technology engine oils designed for old gasoline and diesel passenger car engines. Contains detergent and dispersant additives for engines to operate under normal conditions.",
+              "description": "Contains detergent and dispersant additives for engines to operate under normal conditions. To be used with earlier-generation of vehicles and engines. Reduced drain interval.",
               "viscosity": "20W-50",
               "specifications": [
                 "API SG",
@@ -160,12 +180,21 @@
               "applications": [
                 "PCMO",
                 "Cars"
+              ],
+              "range": "QUARTZ",
+              "packSizes": [
+                "4L",
+                "1L",
+                "Drum"
+              ],
+              "marketSegments": [
+                "Cars"
               ]
             },
             {
               "id": "quartz-5000-20w50",
               "name": "QUARTZ 5000 20W50",
-              "description": "Engine oil suitable for use in gasoline and Diesel engines (passenger cars and light industrial vehicles). Satisfies rigorous manufacturers standards, while guaranteeing perfect and constant quality.",
+              "description": "Satisfies rigorous manufacturers standards, while guaranteeing perfect and constant quality. Thanks to very good antioxidant, antirust, antifoaming properties, this motor oil provides a specific resistance to oxidation. Ensures good engine cleanliness thanks to very high antiwear and anticorrosion properties. This motor oil has a high viscosity index and excellent viscosity stability.",
               "viscosity": "20W-50",
               "specifications": [
                 "API SL",
@@ -177,6 +206,16 @@
               "featured": false,
               "applications": [
                 "PCMO",
+                "Cars"
+              ],
+              "range": "QUARTZ",
+              "packSizes": [
+                "5L",
+                "4L",
+                "1L",
+                "Drum"
+              ],
+              "marketSegments": [
                 "Cars"
               ]
             }
@@ -190,7 +229,7 @@
             {
               "id": "quartz-4x4-15w40",
               "name": "QUARTZ 4X4 15W40",
-              "description": "Very high performance synthetic lubricant for diesel and gasoline engines â¢ Quartz 4x4 optimizes engine performance in short gear ratio and gives the driver more driving comfort. â¢ Long-lasting wear protection for sensitive engine components. â¢ Ensures good engine cleanliness â¢ Extends engine life (extended oil change intervals)",
+              "description": "- Quartz 4x4 optimizes engine performance in short gear ratio and gives the driver more driving comfort. - Long-lasting wear protection for sensitive engine components. - Ensures good engine cleanliness - Extends engine life (extended oil change intervals)",
               "viscosity": "15W-40",
               "specifications": [
                 "API SN",
@@ -202,6 +241,15 @@
               "featured": false,
               "applications": [
                 "PCMO",
+                "Cars"
+              ],
+              "range": "QUARTZ",
+              "packSizes": [
+                "5L",
+                "1L",
+                "Drum"
+              ],
+              "marketSegments": [
                 "Cars"
               ]
             }
@@ -215,7 +263,7 @@
             {
               "id": "motor-oil-sae-40",
               "name": "MOTOR OIL SAE 40",
-              "description": "withContainer -",
+              "description": "-",
               "viscosity": "SAE 40",
               "specifications": [
                 "API CD"
@@ -228,12 +276,20 @@
                 "PCMO",
                 "Trucks and Buses",
                 "Cars"
+              ],
+              "range": "MOTOR OIL",
+              "packSizes": [
+                "Drum"
+              ],
+              "marketSegments": [
+                "Trucks and Buses",
+                "Cars"
               ]
             },
             {
               "id": "motor-oil-sf-sae-40",
               "name": "MOTOR OIL SF SAE 40",
-              "description": "withContainer -",
+              "description": "-",
               "viscosity": "SAE 40",
               "specifications": [
                 "API SF"
@@ -244,6 +300,14 @@
               "featured": false,
               "applications": [
                 "PCMO",
+                "Trucks and Buses",
+                "Cars"
+              ],
+              "range": "MOTOR OIL",
+              "packSizes": [
+                "Drum"
+              ],
+              "marketSegments": [
                 "Trucks and Buses",
                 "Cars"
               ]
@@ -266,7 +330,7 @@
             {
               "id": "rubia-tir-7400-15w40",
               "name": "RUBIA TIR 7400 15W40",
-              "description": "Mineral lubricant suitable for on-road diesel engines recommended to Euro 3, and previous engines of most European and American manufacturers. It is also adapted to Euro 5 and previous engines of some manufacturers with appropriate oil drain intervals.",
+              "description": "It is also adapted to Euro 5 and previous engines of some manufacturers with appropriate oil drain intervals. Outstanding detergent, dispersant and anti-wear properties keep the engine clean and enable efficient control of soot, sludge and piston deposits.",
               "viscosity": "15W-40",
               "specifications": [
                 "API CI-4",
@@ -281,9 +345,9 @@
               "inStock": true,
               "featured": true,
               "packSizes": [
-                "20L",
-                "208L",
-                "1000L IBC"
+                "5L",
+                "1L",
+                "Drum"
               ],
               "applications": [
                 "Long-haul trucks",
@@ -291,6 +355,10 @@
                 "Mixed fleet operations",
                 "On-highway transport",
                 "HDMO",
+                "Trucks and Buses"
+              ],
+              "range": "RUBIA TIR",
+              "marketSegments": [
                 "Trucks and Buses"
               ]
             }
@@ -304,7 +372,7 @@
             {
               "id": "rubia-tir-8600-10w40",
               "name": "RUBIA TIR 8600 10W40",
-              "description": "High-performance synthetic technology diesel-engine oil, used in on-road heavy-duty applications. This high-performance motor oil is approved by Scania for its last generation of Euro 6 engines with long oil drain intervals defined by the manufacturer.",
+              "description": "This high-performance motor oil is approved by Scania for its last generation of Euro 6 engines with long oil drain intervals defined by the manufacturer. Also recommended by most manufacturers, such as IVECO, for Euro 5 (and previous) engine models. It exhibits a very high T.B.N level (Total base Number) (16 mgKOH/g) to neutralize acid compounds and prevent their corrosive attack.",
               "viscosity": "10W-40",
               "specifications": [
                 "API CJ-4",
@@ -320,8 +388,8 @@
               "featured": true,
               "packSizes": [
                 "20L",
-                "208L",
-                "1000L IBC"
+                "5L",
+                "Drum"
               ],
               "applications": [
                 "Modern Euro 5/6 engines",
@@ -330,6 +398,10 @@
                 "Fuel economy",
                 "Low emission engines",
                 "HDMO",
+                "Trucks and Buses"
+              ],
+              "range": "RUBIA TIR",
+              "marketSegments": [
                 "Trucks and Buses"
               ]
             }
@@ -364,7 +436,7 @@
             {
               "id": "rubia-works-1000-15w40",
               "name": "RUBIA WORKS 1000 15W40",
-              "description": "Very high performance, multi-grade engine oil dedicated to engines of Earthmoving, Construction or Mining machinery from worldwide origins. High thermal stability ensuring a very good lubrication of hot engine pieces, especially during severe and long working periods. Reinforced dispersivity, detergency and anti-wear powers for resisting against all attacks occurring to the engine during a long oil drain interval : dust, soots, water, gazole, combustion acid, etcâ¦ Suitable in all engine brands and types of old or recent technology.",
+              "description": "High thermal stability ensuring a very good lubrication of hot engine pieces, especially during severe and long working periods. Reinforced dispersivity, detergency and anti-wear powers for resisting against all attacks occurring to the engine during a long oil drain interval : dust, soots, water, gazole, combustion acid, etc... Suitable in all engine brands and types of old or recent technology.",
               "viscosity": "15W-40",
               "specifications": [
                 "API CK-4",
@@ -376,6 +448,14 @@
               "featured": false,
               "applications": [
                 "HDMO",
+                "Construction Equipment and Mining"
+              ],
+              "range": "RUBIA WORKS",
+              "packSizes": [
+                "20L",
+                "5L"
+              ],
+              "marketSegments": [
                 "Construction Equipment and Mining"
               ]
             }
@@ -389,7 +469,7 @@
             {
               "id": "rubia-sx-10w",
               "name": "RUBIA SX 10W",
-              "description": "withContainer Mono grade mineral lubricant, suitable for hydraulic circuits and gearboxes of trucks, agricultural equipment, earthmoving or quarries machinery",
+              "description": "Mono grade mineral lubricant, suitable for hydraulic circuits and gearboxes of trucks, agricultural equipment, earthmoving or quarries machinery",
               "viscosity": "SAE 10W",
               "specifications": [
                 "API CD",
@@ -402,12 +482,20 @@
               "applications": [
                 "HDMO",
                 "Construction Equipment and Mining"
+              ],
+              "range": "RUBIA",
+              "packSizes": [
+                "5L",
+                "Drum"
+              ],
+              "marketSegments": [
+                "Construction Equipment and Mining"
               ]
             },
             {
               "id": "rubia-sx-40",
               "name": "RUBIA SX 40",
-              "description": "Single grade mineral lubricants, suitable for hydraulic circuits, engines and gearboxes of trucks, agricultural equipment, earthmoving or quarries machinery. TOTAL RUBIA SX formulations exhibit good thermal stability ensuring efficient lubrication in normal working conditions, without any deposits or varnishes on Hydraulic valves, gears or hot engine parts. Thanks to the high quality of its components, TOTAL RUBIA SX series represent a very cost effective choice without compromising on the technical performances.",
+              "description": "TOTAL RUBIA SX formulations exhibit good thermal stability ensuring efficient lubrication in normal working conditions, without any deposits or varnishes on Hydraulic valves, gears or hot engine parts. Thanks to the high quality of its components, TOTAL RUBIA SX series represent a very cost effective choice without compromising on the technical performances.",
               "viscosity": "SAE 40",
               "specifications": [
                 "API CD",
@@ -419,6 +507,13 @@
               "featured": false,
               "applications": [
                 "HDMO",
+                "Construction Equipment and Mining"
+              ],
+              "range": "RUBIA",
+              "packSizes": [
+                "Drum"
+              ],
+              "marketSegments": [
                 "Construction Equipment and Mining"
               ]
             }
@@ -432,7 +527,7 @@
             {
               "id": "dynatrans-da-85w140",
               "name": "DYNATRANS DA 85W140",
-              "description": "Very high performance lubricants for axles and differentials equipped with limited slip discs self-locking systems. Guarantees the high cleanliness of the limited slip disks installed in the axle. Prevents noise and vibration under intensive use. Thanks to its Extreme Pressure additives it provides maximum protection of very highly loaded gears and gears subject to shocks. Excellent compatibility with the disk friction materials. Excellent performance with respect to seals.",
+              "description": "Guarantees the high cleanliness of the limited slip disks installed in the axle. Prevents noise and vibration under intensive use. Thanks to its Extreme Pressure additives it provides maximum protection of very highly loaded gears and gears subject to shocks. Excellent compatibility with the disk friction materials. Excellent performance with respect to seals.",
               "viscosity": "85W-140",
               "specifications": [
                 "API GL-5"
@@ -444,12 +539,19 @@
               "applications": [
                 "UTTO",
                 "Construction Equipment and Mining"
+              ],
+              "range": "-",
+              "packSizes": [
+                "Drum"
+              ],
+              "marketSegments": [
+                "Construction Equipment and Mining"
               ]
             },
             {
               "id": "transtec-5-85w140",
               "name": "TRANSTEC 5 85W140",
-              "description": "withContainer TRANSTEC 5 is specifically designed for the lubrication of all gear boxes and axles requiring an API GL-5 level and a viscosity of SAE 75W-90 / 80W-90 / 85W-140.",
+              "description": "TRANSTEC 5 is specifically designed for the lubrication of all gear boxes and axles requiring an API GL-5 level and a viscosity of SAE 75W-90 / 80W-90 / 85W-140.",
               "viscosity": "85W-140",
               "specifications": [
                 "API GL-5",
@@ -461,6 +563,15 @@
               "featured": false,
               "applications": [
                 "MTF",
+                "Trucks and Buses",
+                "Cars"
+              ],
+              "range": "TRANSMISSION",
+              "packSizes": [
+                "0.5L",
+                "Drum"
+              ],
+              "marketSegments": [
                 "Trucks and Buses",
                 "Cars"
               ]
@@ -496,7 +607,7 @@
             {
               "id": "tractagri-hdx-15w40",
               "name": "TRACTAGRI HDX 15W40",
-              "description": "Mineral oil for naturally aspirated & turbocharged engines used in Agricultural machinery Tractagri HDX 15W-40 has high thermal stability ensuring efficient lubrication of hot engine pieces during severe and long working periods, especially in summer. Its excellent oxidation resistance guarantees proper lubrication during the oil life, particularly in recent engines with longer oil drain intervals.",
+              "description": "Tractagri HDX 15W-40 has high thermal stability ensuring efficient lubrication of hot engine pieces during severe and long working periods, especially in summer. Its excellent oxidation resistance guarantees proper lubrication during the oil life, particularly in recent engines with longer oil drain intervals.",
               "viscosity": "15W-40",
               "specifications": [
                 "API CI-4",
@@ -508,8 +619,7 @@
               "featured": true,
               "packSizes": [
                 "5L",
-                "20L",
-                "208L"
+                "Drum"
               ],
               "applications": [
                 "Agricultural tractors",
@@ -517,6 +627,10 @@
                 "Diesel engines",
                 "Heavy-duty applications",
                 "HDMO",
+                "Agriculture and Motoculture (Gardening)"
+              ],
+              "range": "TRACTAGRI",
+              "marketSegments": [
                 "Agriculture and Motoculture (Gardening)"
               ]
             }
@@ -530,7 +644,7 @@
             {
               "id": "multagri-ms-15w40",
               "name": "MULTAGRI MS 15W40",
-              "description": "Super Tractor Oil Universal for diesel engines & transmissions of Agricultural machinery. Motor oil designed for turbocharged or naturally-aspirated Diesel engines. This lubricant is also adapted to mechanical transmissions, gearboxes, reduction drives, bevel gears requiring API GL-4 / MIL-L-2105 SAE 80W-90 performance. Lubricant recommended for mechanical transmissions fitted with oil bath brakes, hydraulic lift and assistance circuits, power take-offs and multidisc clutches operating in oil, and hydrostatic steering systems.",
+              "description": "Motor oil designed for turbocharged or naturally-aspirated Diesel engines. This lubricant is also adapted to mechanical transmissions, gearboxes, reduction drives, bevel gears requiring API GL-4 / MIL-L-2105 SAE 80W-90 performance. Lubricant recommended for mechanical transmissions fitted with oil bath brakes, hydraulic lift and assistance circuits, power take-offs and multidisc clutches operating in oil, and hydrostatic steering systems.",
               "viscosity": "15W-40",
               "specifications": [
                 "API GL-4",
@@ -541,8 +655,7 @@
               "inStock": true,
               "featured": true,
               "packSizes": [
-                "20L",
-                "208L"
+                "Drum"
               ],
               "applications": [
                 "Engine lubrication",
@@ -551,6 +664,10 @@
                 "Wet brakes",
                 "All-in-one solution",
                 "STOU",
+                "Agriculture and Motoculture (Gardening)"
+              ],
+              "range": "MULTAGRI",
+              "marketSegments": [
                 "Agriculture and Motoculture (Gardening)"
               ]
             }
@@ -564,7 +681,7 @@
             {
               "id": "dynatrans-mpv",
               "name": "DYNATRANS MPV",
-              "description": "Lubricant for transmissions with wet brakes of Agricultural & Public Works machinery. Suitable for a wide range of agricultural and Public Works equipment thus allowing the stock of lubricants to be reduced. Excellent low temperature performance (protects friction brakes against sticking) and high temperature performance (protects against judder or slip). Very good extreme pressure and antiwear properties giving optimum protection of gears and hydraulic components.",
+              "description": "Suitable for a wide range of agricultural and Public Works equipment thus allowing the stock of lubricants to be reduced. Excellent low temperature performance (protects friction brakes against sticking) and high temperature performance (protects against judder or slip). Very good extreme pressure and antiwear properties giving optimum protection of gears and hydraulic components.",
               "viscosity": "-/-",
               "specifications": [
                 "API GL-4",
@@ -576,8 +693,8 @@
               "inStock": true,
               "featured": false,
               "packSizes": [
-                "20L",
-                "208L"
+                "5L",
+                "Drum"
               ],
               "applications": [
                 "Tractor transmissions",
@@ -585,6 +702,11 @@
                 "Wet brakes",
                 "Power take-off",
                 "UTTO",
+                "Construction Equipment and Mining",
+                "Agriculture and Motoculture (Gardening)"
+              ],
+              "range": "DYNATRANS",
+              "marketSegments": [
                 "Construction Equipment and Mining",
                 "Agriculture and Motoculture (Gardening)"
               ]
@@ -636,7 +758,7 @@
             {
               "id": "fluidmatic-cvt-mv",
               "name": "FLUIDMATIC CVT MV",
-              "description": "Thanks to Fluidmatic CVT MV outstanding power transmission ratios and fuel economy capability, many manufacturers especially in Asia intend to equip their new vehicles with this kind of transmission. Thanks to Fluidmatic CVT MV outstanding power transmission ratios and fuel economy capability, many manufacturers especially in Asia intend to equip their new vehicles with this kind of transmission. This lubricant is a high performance, continuously variable transmission fluid designed to meet the service fill used in many Asian, North American and European designed vehicles. This Multi-vehicle fluid has been developed to be used in all belt and chain CVTs. Thanks to this Multi-vehicle fluid, it provides smoother, consistent all-weather step-less shifting, and allaround lubrication protection of the transmission components to help extend transmission service life and provide a smooth driving experience. Highly recommended for refill of pulley-based continuously variable transmissions in Japanese and Korean designed vehicles where it emphasis on Anti Shudder Durability performance.",
+              "description": "Thanks to Fluidmatic CVT MV outstanding power transmission ratios and fuel economy capability, many manufacturers especially in Asia intend to equip their new vehicles with this kind of transmission. This lubricant is a high performance, continuously variable transmission fluid designed to meet the service fill used in many Asian, North American and European designed vehicles. This Multi-vehicle fluid has been developed to be used in all belt and chain CVTs. Thanks to this Multi-vehicle fluid, it provides smoother, consistent all-weather step-less shifting, and allaround lubrication protection of the transmission components to help extend transmission service life and provide a smooth driving experience. Highly recommended for refill of pulley-based continuously variable transmissions in Japanese and Korean designed vehicles where it emphasis on Anti Shudder Durability performance.",
               "viscosity": "-",
               "specifications": [
                 "MB 236.20",
@@ -648,9 +770,9 @@
               "inStock": true,
               "featured": true,
               "packSizes": [
-                "1L",
                 "20L",
-                "208L"
+                "1L",
+                "Drum"
               ],
               "applications": [
                 "CVT transmissions",
@@ -659,12 +781,16 @@
                 "Smooth shifting",
                 "ATF",
                 "Cars"
+              ],
+              "range": "TRANSMISSION",
+              "marketSegments": [
+                "Cars"
               ]
             },
             {
               "id": "fluidmatic-diii-mv",
               "name": "FLUIDMATIC DIII MV",
-              "description": "Fluidmatic DIII MV is an automatic transmission fluid that meets GM Dexron® IIIG / IIIH and Ford Mercon® standards. Fluidmatic DIII MV is an automatic transmission fluid that meets GM Dexron® IIIG / IIIH and Ford Mercon® standards. This lubricant is formulated with premium base stocks and carefully selected additives to meet the challenging demands of an automatic transmission environment. Fluidmatic DIII MV is a well-balanced fluid for heavy duties and passenger cars equipped with automatic transmissions thanks to friction modifiers, detergent dispersants, oxidation inhibitors, viscosity index improvers, corrosion inhibitors, and defoaming agents. Fluidmatic DIII MV is a high-quality friction-modified lubricant previously qualified by both General Motors et Ford.",
+              "description": "Fluidmatic DIII MV is an automatic transmission fluid that meets GM Dexron® IIIG / IIIH and Ford Mercon® standards. This lubricant is formulated with premium base stocks and carefully selected additives to meet the challenging demands of an automatic transmission environment. Fluidmatic DIII MV is a well-balanced fluid for heavy duties and passenger cars equipped with automatic transmissions thanks to friction modifiers, detergent dispersants, oxidation inhibitors, viscosity index improvers, corrosion inhibitors, and defoaming agents. Fluidmatic DIII MV is a high-quality friction-modified lubricant previously qualified by both General Motors et Ford.",
               "viscosity": "-",
               "specifications": [
                 "Dexron III",
@@ -676,9 +802,10 @@
               "inStock": true,
               "featured": false,
               "packSizes": [
+                "5L",
                 "1L",
-                "20L",
-                "208L"
+                "0.5L",
+                "Drum"
               ],
               "applications": [
                 "Automatic transmissions",
@@ -687,12 +814,17 @@
                 "ATF",
                 "Trucks and Buses",
                 "Cars"
+              ],
+              "range": "TRANSMISSION",
+              "marketSegments": [
+                "Trucks and Buses",
+                "Cars"
               ]
             },
             {
               "id": "fluidmatic-iiig",
               "name": "FLUIDMATIC IIIG",
-              "description": "Fluidmatic IIIG is an automatic transmission fluid that meets GM Dexron® IIIG and Ford Mercon® standards. Fluidmatic IIIG is an automatic transmission fluid that meets GM Dexron® IIIG and Ford Mercon® standards. This lubricant is formulated with premium base stocks and carefully selected additives to meet the challenging demands of an automatic transmission environment. Fluidmatic IIIG is a well balanced fluid for heavy duties and passenger cars equipped with automatic transmissions thanks to friction modifiers, detergent dispersants, oxidation inhibitors, viscosity index improvers, corrosion inhibitors, and defoaming agents Fluidmatic IIIG is a high-quality friction-modified lubricant previously qualified by both General Motors and Ford.",
+              "description": "Fluidmatic IIIG is an automatic transmission fluid that meets GM Dexron® IIIG and Ford Mercon® standards. This lubricant is formulated with premium base stocks and carefully selected additives to meet the challenging demands of an automatic transmission environment. Fluidmatic IIIG is a well balanced fluid for heavy duties and passenger cars equipped with automatic transmissions thanks to friction modifiers, detergent dispersants, oxidation inhibitors, viscosity index improvers, corrosion inhibitors, and defoaming agents Fluidmatic IIIG is a high-quality friction-modified lubricant previously qualified by both General Motors and Ford.",
               "viscosity": "-",
               "specifications": [
                 "Dexron IIG",
@@ -703,9 +835,7 @@
               "inStock": true,
               "featured": false,
               "packSizes": [
-                "1L",
-                "20L",
-                "208L"
+                "Drum"
               ],
               "applications": [
                 "Older automatic transmissions",
@@ -714,12 +844,17 @@
                 "ATF",
                 "Trucks and Buses",
                 "Cars"
+              ],
+              "range": "TRANSMISSION",
+              "marketSegments": [
+                "Trucks and Buses",
+                "Cars"
               ]
             },
             {
               "id": "fluidmatic-lv-mv",
               "name": "FLUIDMATIC LV MV",
-              "description": "Fluidmatic LV MV is an innovative automatic transmission fluid based on an advanced synthetic technology allowing very high performances. It offers fuel economies thanks to low viscosity. Fluidmatic LV MV is an innovative automatic transmission fluid based on an advanced synthetic technology allowing very high performances. It offers fuel economies thanks to low viscosity. This lubricant has been developed to meet the needs of modern transmission where higher efficiency is required. It is a low viscosity formulation that meets the more demanded OEM specifications. Fluidmatic LV MV is recommended for use in the latest generation of high efficiency 6-speed automatic transmissions with longer fluid life capabilities and heavier load capacities.",
+              "description": "Fluidmatic LV MV is an innovative automatic transmission fluid based on an advanced synthetic technology allowing very high performances. It offers fuel economies thanks to low viscosity. This lubricant has been developed to meet the needs of modern transmission where higher efficiency is required. It is a low viscosity formulation that meets the more demanded OEM specifications. Fluidmatic LV MV is recommended for use in the latest generation of high efficiency 6-speed automatic transmissions with longer fluid life capabilities and heavier load capacities.",
               "viscosity": "-",
               "specifications": [
                 "Dexron VI",
@@ -731,9 +866,9 @@
               "inStock": true,
               "featured": true,
               "packSizes": [
-                "1L",
                 "20L",
-                "208L"
+                "1L",
+                "Drum"
               ],
               "applications": [
                 "Modern 6+ speed transmissions",
@@ -741,12 +876,16 @@
                 "Low temperature performance",
                 "ATF",
                 "Cars"
+              ],
+              "range": "TRANSMISSION",
+              "marketSegments": [
+                "Cars"
               ]
             },
             {
               "id": "fluidmatic-syn-t295",
               "name": "FLUIDMATIC SYN T295",
-              "description": "Fluidmatic SYN T295 is a high-performance transmission fluid with extended oil-drain interval up to 150 000 miles under sever conditions or 300 000 miles under normal conditions, for specific conditions please refer to the Transmission Fluid/Filter Change Recommendations from Allison. Fluidmatic SYN T295 is a high-performance transmission fluid with extended oil-drain interval up to 150 000 miles under sever conditions or 300 000 miles under normal conditions, for specific conditions please refer to the Transmission Fluid/Filter Change Recommendations from Allison. Specifically developed for Allison very high-performance heavy-duty automatic gearboxes, Fluidmatic SYN T295 is approved Allison TES 295.",
+              "description": "Fluidmatic SYN T295 is a high-performance transmission fluid with extended oil-drain interval up to 150 000 miles under sever conditions or 300 000 miles under normal conditions, for specific conditions please refer to the Transmission Fluid/Filter Change Recommendations from Allison. Specifically developed for Allison very high-performance heavy-duty automatic gearboxes, Fluidmatic SYN T295 is approved Allison TES 295.",
               "viscosity": "-",
               "specifications": [
                 "ZF TE-ML 14B",
@@ -758,9 +897,7 @@
               "inStock": true,
               "featured": true,
               "packSizes": [
-                "1L",
-                "20L",
-                "208L"
+                "Drum"
               ],
               "applications": [
                 "ZF transmissions",
@@ -768,12 +905,16 @@
                 "Extended drain intervals",
                 "ATF",
                 "Trucks and Buses"
+              ],
+              "range": "TRANSMISSION",
+              "marketSegments": [
+                "Trucks and Buses"
               ]
             },
             {
               "id": "fluidmatic-xld-fe",
               "name": "FLUIDMATIC XLD FE",
-              "description": "New generation automatic transmission fluid based on an advanced synthetic technology allowing extra-long drain and very high performance needed for the demanding requirements of modern heavy-duty automatic gearboxes. New generation automatic transmission fluid based on an advanced synthetic technology allowing extra-long drain and very high performance needed for the demanding requirements of modern heavy-duty automatic gearboxes. Is particularly recommended for use on heavy duty automatic transmissions (found on buses, refuse trucks, utility vehicles etc.) manufactured by Voith and ZF requiring maximal drain intervals. Can be used in Asian step-automatic transmissions requiring strong anti-shudder durability, including following OEMS: Nissan (Matic D,J,K), Mazda (M-III, M-V), Honda (Z-1), Toyota (T-IV, JWS3309), Hyundai, Kia, Mitsubishi (SP-II / SP-III). And also, for the lubrication of materials used in Public Works or Quarries.",
+              "description": "New generation automatic transmission fluid based on an advanced synthetic technology allowing extra-long drain and very high performance needed for the demanding requirements of modern heavy-duty automatic gearboxes. Is particularly recommended for use on heavy duty automatic transmissions (found on buses, refuse trucks, utility vehicles etc.) manufactured by Voith and ZF requiring maximal drain intervals. Can be used in Asian step-automatic transmissions requiring strong anti-shudder durability, including following OEMS: Nissan (Matic D,J,K), Mazda (M-III, M-V), Honda (Z-1), Toyota (T-IV, JWS3309), Hyundai, Kia, Mitsubishi (SP-II / SP-III). And also, for the lubrication of materials used in Public Works or Quarries.",
               "viscosity": "-",
               "specifications": [
                 "Dexron VI",
@@ -785,15 +926,20 @@
               "inStock": true,
               "featured": false,
               "packSizes": [
-                "1L",
                 "20L",
-                "208L"
+                "1L",
+                "Drum"
               ],
               "applications": [
                 "Fuel-efficient transmissions",
                 "Modern vehicles",
                 "6+ speed automatics",
                 "ATF",
+                "Trucks and Buses",
+                "Cars"
+              ],
+              "range": "TRANSMISSION",
+              "marketSegments": [
                 "Trucks and Buses",
                 "Cars"
               ]
@@ -833,7 +979,7 @@
             {
               "id": "transmission-tm-80w90",
               "name": "TRANSMISSION TM 80W90",
-              "description": "withContainer TRANSMISSION TM 80W-90 is extreme pressure mineral oil for the lubrication of highly loaded gears (axles, final drives, transfer cases, planetary gearboxes) when an API GL-5 level of performance is required. TRANSMISSION TM 80W-90 is specially recommended for ZF and MAN hypoid gears, with standard drain interval.",
+              "description": "TRANSMISSION TM 80W-90 is extreme pressure mineral oil for the lubrication of highly loaded gears (axles, final drives, transfer cases, planetary gearboxes) when an API GL-5 level of performance is required. TRANSMISSION TM 80W-90 is specially recommended for ZF and MAN hypoid gears, with standard drain interval.",
               "viscosity": "80W-90",
               "specifications": [
                 "API GL-4"
@@ -843,15 +989,18 @@
               "inStock": true,
               "featured": false,
               "packSizes": [
-                "1L",
-                "20L",
-                "208L"
+                "Drum"
               ],
               "applications": [
                 "Manual gearboxes",
                 "Synchronized transmissions",
                 "Light-duty applications",
                 "MTF",
+                "Trucks and Buses",
+                "Cars"
+              ],
+              "range": "TRANSMISSION",
+              "marketSegments": [
                 "Trucks and Buses",
                 "Cars"
               ]
@@ -882,7 +1031,7 @@
             {
               "id": "transtec-5-80w90",
               "name": "TRANSTEC 5 80W90",
-              "description": "withContainer TRANSTEC 5 is specifically designed for the lubrication of all gear boxes and axles requiring an API GL-5 level and a viscosity of SAE 80W-90.",
+              "description": "TRANSTEC 5 is specifically designed for the lubrication of all gear boxes and axles requiring an API GL-5 level and a viscosity of SAE 80W-90.",
               "viscosity": "80W-90",
               "specifications": [
                 "API GL-5",
@@ -893,9 +1042,8 @@
               "inStock": true,
               "featured": true,
               "packSizes": [
-                "1L",
-                "20L",
-                "208L"
+                "0.5L",
+                "Drum"
               ],
               "applications": [
                 "Manual transmissions",
@@ -903,6 +1051,11 @@
                 "Hypoid gears",
                 "Heavy-duty applications",
                 "MTF",
+                "Trucks and Buses",
+                "Cars"
+              ],
+              "range": "TRANSMISSION",
+              "marketSegments": [
                 "Trucks and Buses",
                 "Cars"
               ]
@@ -941,7 +1094,7 @@
             {
               "id": "transtec-4-75w90",
               "name": "TRANSTEC 4 75W90",
-              "description": "TRANSTEC 4 is extreme-pressure lubricant for the lubrication of loaded gears for which an API GL-4 level of performance is required. TRANSTEC 4 is extreme-pressure lubricant for the lubrication of loaded gears for which an API GL-4 level of performance is required. TRANSTEC 4 is suitable for all manual transmissions, transaxles, transfer boxes and steering gears in automotive and agricultural equipment which require API GL-4 level of performance.",
+              "description": "TRANSTEC 4 is extreme-pressure lubricant for the lubrication of loaded gears for which an API GL-4 level of performance is required. TRANSTEC 4 is suitable for all manual transmissions, transaxles, transfer boxes and steering gears in automotive and agricultural equipment which require API GL-4 level of performance.",
               "viscosity": "75W-90",
               "specifications": [
                 "API GL-4",
@@ -952,9 +1105,8 @@
               "inStock": true,
               "featured": true,
               "packSizes": [
-                "1L",
-                "20L",
-                "208L"
+                "0.5L",
+                "Drum"
               ],
               "applications": [
                 "Manual transmissions",
@@ -962,6 +1114,11 @@
                 "Extreme temperatures",
                 "High-performance vehicles",
                 "MTF",
+                "Trucks and Buses",
+                "Cars"
+              ],
+              "range": "TRANSMISSION",
+              "marketSegments": [
                 "Trucks and Buses",
                 "Cars"
               ]
@@ -1043,52 +1200,69 @@
             {
               "id": "neptuna-2t-super-sport",
               "name": "NEPTUNA 2T SUPER SPORT",
-              "description": "High-performance 2-stroke oil for outboard motors and marine applications. Excellent lubrication and minimal smoke formation.",
-              "viscosity": "2T",
+              "description": "It exhibits excellent lubrication guaranteeing reduced wear. Outstanding detergent property helps prevent the clogging of piston ports avoids spark plug fouling and extends engine lifespan. Its anti-rust and anti-corrosion properties protect engines during prolonged stop.",
+              "viscosity": "-",
               "specifications": [
                 "NMMA TC-W3",
                 "API TC"
               ],
               "image": "products/motorcycle-small-engine/2-stroke-oil/neptuna-2t-super-sport/main.png",
-              "datasheet": "products/motorcycle-small-engine/2-stroke-oil/neptuna-2t-super-sport/datasheet.pdf",
+              "datasheet": "https://total-cdn-lmdb.afineo.io/tdsV2/TDS_TotalEnergies_Neptuna-2T-SUPER-SPORT_LJ3_EN.pdf",
               "inStock": true,
               "featured": true,
               "packSizes": [
-                "1L",
                 "5L",
-                "20L"
+                "2L",
+                "1L",
+                "0.5L",
+                "Drum",
+                "range"
               ],
               "applications": [
                 "Outboard motors",
                 "Marine engines",
                 "Water-cooled 2-stroke",
-                "Boats"
+                "Boats",
+                "2-Stroke Engine Oil",
+                "Marine and Leisure Craft",
+                "Marine"
+              ],
+              "range": "NEPTUNA",
+              "marketSegments": [
+                "Marine and Leisure Craft",
+                "Marine"
               ]
             },
             {
               "id": "prosylva-2tz",
               "name": "PROSYLVA 2TZ",
-              "description": "Premium 2-stroke oil for chainsaws and forestry equipment. Low smoke, biodegradable formula protects the environment.",
-              "viscosity": "2T",
+              "description": "Prosylva 2T Z offers outstanding thermal stability, ensuring efficient lubrication of hot engine pieces. This engine oil is miscible with gasoline and produces a homogeneous and stable mixture. Its red color allows to distinguish mixture already containing oil, and to avoid using pure gasoline in the engine. Its exceptional oil film resistance when hot guarantees good engines operation and no performance losses. Prosylva 2T Z has good ability to complete combustion, ensuring exhaust deposits and smoke reduction. Its low ash content (0.04%) avoids spark plug fouling and piston deposits. Its anti-rust and anti-corrosion properties protect the engine from moisture damages.",
+              "viscosity": "-",
               "specifications": [
                 "JASO FD",
                 "ISO-L-EGD",
                 "Biodegradable"
               ],
               "image": "products/motorcycle-small-engine/2-stroke-oil/prosylva-2tz/main.png",
-              "datasheet": "products/motorcycle-small-engine/2-stroke-oil/prosylva-2tz/datasheet.pdf",
+              "datasheet": "https://total-cdn-lmdb.afineo.io/tdsV2/TDS_TotalEnergies_Prosylva-2T-Z_JGA_EN.pdf",
               "inStock": true,
               "featured": true,
               "packSizes": [
+                "2L",
                 "1L",
-                "5L",
-                "20L"
+                "Drum"
               ],
               "applications": [
                 "Chainsaws",
                 "Brush cutters",
                 "Forestry equipment",
-                "Garden machinery"
+                "Garden machinery",
+                "2-Stroke Engine Oil",
+                "Agriculture and Motoculture (Gardening)"
+              ],
+              "range": "PROSYLVA",
+              "marketSegments": [
+                "Agriculture and Motoculture (Gardening)"
               ]
             }
           ]
@@ -1109,7 +1283,7 @@
             {
               "id": "azolla-zs-32",
               "name": "AZOLLA ZS 32",
-              "description": "Hydraulic systems operating in high temperature and pressure conditions. Bearings and miscellaneous devices. High protection against wear insuring maximum equipment life. Superior thermal stability avoiding formation of sludge even at high temperature. Very good oxidation stability ensuring a long service life of the fluid. Remarkable filterability even in the presence of water. Excellent hydrolytic stability avoiding filter blocking. Excellent protection against rust and corrosion. Good anti-foam and air release properties by using silicon free components. Good demulsibility ensuring rapid water separation Reduced maintenance and operating costs.",
+              "description": "High protection against wear insuring maximum equipment life. Superior thermal stability avoiding formation of sludge even at high temperature. Very good oxidation stability ensuring a long service life of the fluid. Remarkable filterability even in the presence of water. Excellent hydrolytic stability avoiding filter blocking. Excellent protection against rust and corrosion. Good anti-foam and air release properties by using silicon free components. Good demulsibility ensuring rapid water separation Reduced maintenance and operating costs.",
               "viscosity": "ISO VG 32",
               "specifications": [
                 "ISO 6743-4 HM",
@@ -1120,9 +1294,7 @@
               "inStock": true,
               "featured": true,
               "packSizes": [
-                "20L",
-                "208L",
-                "1000L IBC"
+                "Drum"
               ],
               "applications": [
                 "Industrial hydraulics",
@@ -1132,12 +1304,17 @@
                 "Hydraulic Systems",
                 "Automotive Manufacturing",
                 "Mining"
+              ],
+              "range": "AZOLLA",
+              "marketSegments": [
+                "Automotive Manufacturing",
+                "Mining"
               ]
             },
             {
               "id": "azolla-zs-46",
               "name": "AZOLLA ZS 46",
-              "description": "Hydraulic systems operating in high temperature and pressure conditions. Bearings and miscellaneous devices. High protection against wear insuring maximum equipment life. Superior thermal stability avoiding formation of sludge even at high temperature. Very good oxidation stability ensuring a long service life of the fluid. Remarkable filterability even in the presence of water. Excellent hydrolytic stability avoiding filter blocking. Excellent protection against rust and corrosion. Good anti-foam and air release properties by using silicon free components. Good demulsibility ensuring rapid water separation Reduced maintenance and operating costs.",
+              "description": "High protection against wear insuring maximum equipment life. Superior thermal stability avoiding formation of sludge even at high temperature. Very good oxidation stability ensuring a long service life of the fluid. Remarkable filterability even in the presence of water. Excellent hydrolytic stability avoiding filter blocking. Excellent protection against rust and corrosion. Good anti-foam and air release properties by using silicon free components. Good demulsibility ensuring rapid water separation Reduced maintenance and operating costs.",
               "viscosity": "ISO VG 46",
               "specifications": [
                 "ISO 6743-4 HM",
@@ -1148,9 +1325,7 @@
               "inStock": true,
               "featured": true,
               "packSizes": [
-                "20L",
-                "208L",
-                "1000L IBC"
+                "Drum"
               ],
               "applications": [
                 "Industrial hydraulics",
@@ -1160,12 +1335,17 @@
                 "Hydraulic Systems",
                 "Automotive Manufacturing",
                 "Mining"
+              ],
+              "range": "AZOLLA",
+              "marketSegments": [
+                "Automotive Manufacturing",
+                "Mining"
               ]
             },
             {
               "id": "azolla-zs-68",
               "name": "AZOLLA ZS 68",
-              "description": "Hydraulic systems operating in high temperature and pressure conditions. Bearings and miscellaneous devices. High protection against wear insuring maximum equipment life. Superior thermal stability avoiding formation of sludge even at high temperature. Very good oxidation stability ensuring a long service life of the fluid. Remarkable filterability even in the presence of water. Excellent hydrolytic stability avoiding filter blocking. Excellent protection against rust and corrosion. Good anti-foam and air release properties by using silicon free components. Good demulsibility ensuring rapid water separation Reduced maintenance and operating costs.",
+              "description": "High protection against wear insuring maximum equipment life. Superior thermal stability avoiding formation of sludge even at high temperature. Very good oxidation stability ensuring a long service life of the fluid. Remarkable filterability even in the presence of water. Excellent hydrolytic stability avoiding filter blocking. Excellent protection against rust and corrosion. Good anti-foam and air release properties by using silicon free components. Good demulsibility ensuring rapid water separation Reduced maintenance and operating costs.",
               "viscosity": "ISO VG 68",
               "specifications": [
                 "ISO 6743-4 HM",
@@ -1176,9 +1356,7 @@
               "inStock": true,
               "featured": false,
               "packSizes": [
-                "20L",
-                "208L",
-                "1000L IBC"
+                "Drum"
               ],
               "applications": [
                 "High-pressure hydraulics",
@@ -1186,6 +1364,11 @@
                 "Outdoor machinery",
                 "Construction equipment",
                 "Hydraulic Systems",
+                "Automotive Manufacturing",
+                "Mining"
+              ],
+              "range": "AZOLLA",
+              "marketSegments": [
                 "Automotive Manufacturing",
                 "Mining"
               ]
@@ -1228,7 +1411,7 @@
             {
               "id": "equivis-zs-68",
               "name": "EQUIVIS ZS 68",
-              "description": "Hydraulic systems operating outdoors. Very high viscosity index Good shear stability. Superior thermal stability avoiding the formation of sludge even at high temperature. Very good oxidation stability ensuring a long service life of the fluid. High protection against wear insuring maximum equipment life. Excellent hydrolytic stability avoiding filter blocking. Remarkable filterability even in the presence of water. Excellent protection against rust and corrosion. Good anti-foam and air release properties by using silicon free components. Very low pour point. Good demulsibility ensuring rapid water separation.",
+              "description": "Very high viscosity index Good shear stability. Superior thermal stability avoiding the formation of sludge even at high temperature. Very good oxidation stability ensuring a long service life of the fluid. High protection against wear insuring maximum equipment life. Excellent hydrolytic stability avoiding filter blocking. Remarkable filterability even in the presence of water. Excellent protection against rust and corrosion. Good anti-foam and air release properties by using silicon free components. Very low pour point. Good demulsibility ensuring rapid water separation.",
               "viscosity": "ISO VG 68",
               "specifications": [
                 "ISO 6743-4 HM",
@@ -1240,9 +1423,7 @@
               "inStock": true,
               "featured": true,
               "packSizes": [
-                "20L",
-                "208L",
-                "1000L IBC"
+                "Drum"
               ],
               "applications": [
                 "Sensitive hydraulic systems",
@@ -1250,6 +1431,13 @@
                 "Environmentally sensitive areas",
                 "High-performance equipment",
                 "Hydraulic Systems",
+                "Automotive Manufacturing",
+                "Cement and Materials",
+                "Mining",
+                "Agriculture and Motoculture (Gardening)"
+              ],
+              "range": "EQUIVIS",
+              "marketSegments": [
                 "Automotive Manufacturing",
                 "Cement and Materials",
                 "Mining",
@@ -1266,7 +1454,7 @@
             {
               "id": "carter-ep-150",
               "name": "CARTER EP 150",
-              "description": "Industrial gears, bearings under high loads and high temperatures. Excellent extreme-pressure and anti-wear properties. Good seal compatibility. Very good resistance to oil oxidation and degradation. Oustanding protection to rust and corrosion of copper alloys. Very good resistance to foaming and emulsion formation.",
+              "description": "Excellent extreme-pressure and anti-wear properties. Good seal compatibility. Very good resistance to oil oxidation and degradation. Oustanding protection to rust and corrosion of copper alloys. Very good resistance to foaming and emulsion formation.",
               "viscosity": "ISO VG 150",
               "specifications": [
                 "ISO 12925-1 CKC",
@@ -1277,9 +1465,7 @@
               "inStock": true,
               "featured": false,
               "packSizes": [
-                "20L",
-                "208L",
-                "1000L IBC"
+                "Drum"
               ],
               "applications": [
                 "Industrial gearboxes",
@@ -1296,12 +1482,24 @@
                 "Wood and Paper",
                 "Cement and Materials",
                 "Mining"
+              ],
+              "range": "CARTER",
+              "marketSegments": [
+                "Steel",
+                "Energy",
+                "Chemicals",
+                "Food processing",
+                "Textile",
+                "Automotive Manufacturing",
+                "Wood and Paper",
+                "Cement and Materials",
+                "Mining"
               ]
             },
             {
               "id": "carter-ep-220",
               "name": "CARTER EP 220",
-              "description": "Industrial gears, bearings under high loads and high temperatures. Excellent extreme-pressure and anti-wear properties. Good seal compatibility. Very good resistance to oil oxidation and degradation. Oustanding protection to rust and corrosion of copper alloys. Very good resistance to foaming and emulsion formation.",
+              "description": "Excellent extreme-pressure and anti-wear properties. Good seal compatibility. Very good resistance to oil oxidation and degradation. Oustanding protection to rust and corrosion of copper alloys. Very good resistance to foaming and emulsion formation.",
               "viscosity": "ISO VG 220",
               "specifications": [
                 "ISO 12925-1 CKC",
@@ -1312,9 +1510,7 @@
               "inStock": true,
               "featured": true,
               "packSizes": [
-                "20L",
-                "208L",
-                "1000L IBC"
+                "Drum"
               ],
               "applications": [
                 "Heavy-duty gearboxes",
@@ -1331,12 +1527,24 @@
                 "Wood and Paper",
                 "Cement and Materials",
                 "Mining"
+              ],
+              "range": "CARTER",
+              "marketSegments": [
+                "Steel",
+                "Energy",
+                "Chemicals",
+                "Food processing",
+                "Textile",
+                "Automotive Manufacturing",
+                "Wood and Paper",
+                "Cement and Materials",
+                "Mining"
               ]
             },
             {
               "id": "carter-ep-320",
               "name": "CARTER EP 320",
-              "description": "Industrial gears, bearings under high loads and high temperatures. Excellent extreme-pressure and anti-wear properties. Good seal compatibility. Very good resistance to oil oxidation and degradation. Oustanding protection to rust and corrosion of copper alloys. Very good resistance to foaming and emulsion formation.",
+              "description": "Excellent extreme-pressure and anti-wear properties. Good seal compatibility. Very good resistance to oil oxidation and degradation. Oustanding protection to rust and corrosion of copper alloys. Very good resistance to foaming and emulsion formation.",
               "viscosity": "ISO VG 320",
               "specifications": [
                 "ISO 12925-1 CKC",
@@ -1347,9 +1555,7 @@
               "inStock": true,
               "featured": false,
               "packSizes": [
-                "20L",
-                "208L",
-                "1000L IBC"
+                "Drum"
               ],
               "applications": [
                 "Extreme load gearboxes",
@@ -1366,12 +1572,24 @@
                 "Wood and Paper",
                 "Cement and Materials",
                 "Mining"
+              ],
+              "range": "CARTER",
+              "marketSegments": [
+                "Steel",
+                "Energy",
+                "Chemicals",
+                "Food processing",
+                "Textile",
+                "Automotive Manufacturing",
+                "Wood and Paper",
+                "Cement and Materials",
+                "Mining"
               ]
             },
             {
               "id": "carter-ep-460",
               "name": "CARTER EP 460",
-              "description": "Industrial gears, bearings under high loads and high temperatures. Excellent extreme-pressure and anti-wear properties. Good seal compatibility. Very good resistance to oil oxidation and degradation. Oustanding protection to rust and corrosion of copper alloys. Very good resistance to foaming and emulsion formation.",
+              "description": "Excellent extreme-pressure and anti-wear properties. Good seal compatibility. Very good resistance to oil oxidation and degradation. Oustanding protection to rust and corrosion of copper alloys. Very good resistance to foaming and emulsion formation.",
               "viscosity": "ISO VG 460",
               "specifications": [
                 "ISO 12925-1 CKC",
@@ -1382,9 +1600,7 @@
               "inStock": true,
               "featured": false,
               "packSizes": [
-                "20L",
-                "208L",
-                "1000L IBC"
+                "Drum"
               ],
               "applications": [
                 "Ultra heavy-duty gearboxes",
@@ -1392,6 +1608,18 @@
                 "Slow-speed heavy loads",
                 "Quarry equipment",
                 "Closed Gears",
+                "Steel",
+                "Energy",
+                "Chemicals",
+                "Food processing",
+                "Textile",
+                "Automotive Manufacturing",
+                "Wood and Paper",
+                "Cement and Materials",
+                "Mining"
+              ],
+              "range": "CARTER",
+              "marketSegments": [
                 "Steel",
                 "Energy",
                 "Chemicals",
@@ -1508,7 +1736,7 @@
             {
               "id": "dacnis-68",
               "name": "DACNIS 68",
-              "description": "Rotary and reciprocating air compressors. The properties of DACNIS : - avoid the carbon build up - allow a good oil/air and oil/condensates separation - protect components against wear and corrosion. The use of DACNIS allows real cuts in the operating costs of the compressed air production facility by optimising the compressor efficiency. Extending the service life of the separating filter elements. The DACNIS have an anticlogging property that ensures the efficiency of the filters during a long period.",
+              "description": "The properties of DACNIS : - avoid the carbon build up - allow a good oil/air and oil/condensates separation - protect components against wear and corrosion. The use of DACNIS allows real cuts in the operating costs of the compressed air production facility by optimising the compressor efficiency. Extending the service life of the separating filter elements. The DACNIS have an anticlogging property that ensures the efficiency of the filters during a long period.",
               "viscosity": "ISO VG 68",
               "specifications": [
                 "ISO 6743-3 DAB",
@@ -1519,9 +1747,7 @@
               "inStock": true,
               "featured": true,
               "packSizes": [
-                "20L",
-                "208L",
-                "1000L IBC"
+                "Drum"
               ],
               "applications": [
                 "Rotary compressors",
@@ -1541,12 +1767,27 @@
                 "Wood and Paper",
                 "Cement and Materials",
                 "Mining"
+              ],
+              "range": "DACNIS",
+              "marketSegments": [
+                "Aviation",
+                "Steel",
+                "Metalworking",
+                "Energy",
+                "Chemicals",
+                "Food processing",
+                "Marine",
+                "Textile",
+                "Automotive Manufacturing",
+                "Wood and Paper",
+                "Cement and Materials",
+                "Mining"
               ]
             },
             {
               "id": "dacnis-100",
               "name": "DACNIS 100",
-              "description": "Rotary and reciprocating air compressors. The properties of DACNIS : - avoid the carbon build up - allow a good oil/air and oil/condensates separation - protect components against wear and corrosion. The use of DACNIS allows real cuts in the operating costs of the compressed air production facility by optimising the compressor efficiency. Extending the service life of the separating filter elements. The DACNIS have an anticlogging property that ensures the efficiency of the filters during a long period.",
+              "description": "The properties of DACNIS : - avoid the carbon build up - allow a good oil/air and oil/condensates separation - protect components against wear and corrosion. The use of DACNIS allows real cuts in the operating costs of the compressed air production facility by optimising the compressor efficiency. Extending the service life of the separating filter elements. The DACNIS have an anticlogging property that ensures the efficiency of the filters during a long period.",
               "viscosity": "ISO VG 100",
               "specifications": [
                 "ISO 6743-3 DAB",
@@ -1557,9 +1798,7 @@
               "inStock": true,
               "featured": false,
               "packSizes": [
-                "20L",
-                "208L",
-                "1000L IBC"
+                "Drum"
               ],
               "applications": [
                 "High-temperature compressors",
@@ -1577,12 +1816,26 @@
                 "Wood and Paper",
                 "Cement and Materials",
                 "Mining"
+              ],
+              "range": "DACNIS",
+              "marketSegments": [
+                "Aviation",
+                "Steel",
+                "Metalworking",
+                "Energy",
+                "Chemicals",
+                "Food processing",
+                "Textile",
+                "Automotive Manufacturing",
+                "Wood and Paper",
+                "Cement and Materials",
+                "Mining"
               ]
             },
             {
               "id": "dacnis-se-100",
               "name": "DACNIS SE 100",
-              "description": "High-pressure reciprocating air compressors, rotary compressors and turbocompressors. Excellent thermal stability of the lubricant under high temperature conditions. Low foaming tendency for turbocompressor applications. Low volatility. Low vanish and carbon deposits. Protection against rust and corrosion. Compressor start up by - 20°C. Operating conditions at discharge temperature up to 250°C and discharge pressure up to 200 bars.",
+              "description": "Excellent thermal stability of the lubricant under high temperature conditions. Low foaming tendency for turbocompressor applications. Low volatility. Low vanish and carbon deposits. Protection against rust and corrosion. Compressor start up by - 20°C. Operating conditions at discharge temperature up to 250°C and discharge pressure up to 200 bars.",
               "viscosity": "ISO VG 100",
               "specifications": [
                 "ISO 6743-3 DAG",
@@ -1593,8 +1846,7 @@
               "inStock": true,
               "featured": true,
               "packSizes": [
-                "20L",
-                "208L"
+                "Drum"
               ],
               "applications": [
                 "High-temperature compressors",
@@ -1613,12 +1865,26 @@
                 "Wood and Paper",
                 "Cement and Materials",
                 "Mining"
+              ],
+              "range": "DACNIS",
+              "marketSegments": [
+                "Aviation",
+                "Steel",
+                "Metalworking",
+                "Energy",
+                "Chemicals",
+                "Food processing",
+                "Textile",
+                "Automotive Manufacturing",
+                "Wood and Paper",
+                "Cement and Materials",
+                "Mining"
               ]
             },
             {
               "id": "dacnis-sh-46",
               "name": "DACNIS SH 46",
-              "description": "Rotary screw-type air compressors. The properties of DACNIS SH: - avoids the carbon build up - allows a good oil/air and oil/condensates separation - protects the screws against wear and corrosion. The use of DACNIS SH allows real cuts in the operating costs of the compressed air production facility by: â¢ Optimising the compressor efficiency Extending the drain intervals. The possible achieved drain intervals can be: - from 4000 to 6000 hours for fixed compressors in standard use - up to 8000 hours with lubricant analysis monitoring. Extending the service life of the separating filter elements. The DACNIS SH have an anti-clogging property that ensures the efficiency of the filters during a long period (up to 8000 hours).",
+              "description": "The properties of DACNIS SH: - avoids the carbon build up - allows a good oil/air and oil/condensates separation - protects the screws against wear and corrosion. The use of DACNIS SH allows real cuts in the operating costs of the compressed air production facility by: - Optimising the compressor efficiency Extending the drain intervals. The possible achieved drain intervals can be: - from 4000 to 6000 hours for fixed compressors in standard use - up to 8000 hours with lubricant analysis monitoring. Extending the service life of the separating filter elements. The DACNIS SH have an anti-clogging property that ensures the efficiency of the filters during a long period (up to 8000 hours).",
               "viscosity": "ISO VG 46",
               "specifications": [
                 "ISO 6743-3 DAH",
@@ -1629,8 +1895,7 @@
               "inStock": true,
               "featured": true,
               "packSizes": [
-                "20L",
-                "208L"
+                "Drum"
               ],
               "applications": [
                 "Screw compressors",
@@ -1649,12 +1914,26 @@
                 "Wood and Paper",
                 "Cement and Materials",
                 "Mining"
+              ],
+              "range": "DACNIS",
+              "marketSegments": [
+                "Aviation",
+                "Steel",
+                "Metalworking",
+                "Energy",
+                "Chemicals",
+                "Food processing",
+                "Textile",
+                "Automotive Manufacturing",
+                "Wood and Paper",
+                "Cement and Materials",
+                "Mining"
               ]
             },
             {
               "id": "dacnis-sh-68",
               "name": "DACNIS SH 68",
-              "description": "Rotary screw-type air compressors. The properties of DACNIS SH: - avoids the carbon build up - allows a good oil/air and oil/condensates separation - protects the screws against wear and corrosion. The use of DACNIS SH allows real cuts in the operating costs of the compressed air production facility by: â¢ Optimising the compressor efficiency Extending the drain intervals. The possible achieved drain intervals can be: - from 4000 to 6000 hours for fixed compressors in standard use - up to 8000 hours with lubricant analysis monitoring. Extending the service life of the separating filter elements. The DACNIS SH have an anti-clogging property that ensures the efficiency of the filters during a long period (up to 8000 hours).",
+              "description": "The properties of DACNIS SH: - avoids the carbon build up - allows a good oil/air and oil/condensates separation - protects the screws against wear and corrosion. The use of DACNIS SH allows real cuts in the operating costs of the compressed air production facility by: - Optimising the compressor efficiency Extending the drain intervals. The possible achieved drain intervals can be: - from 4000 to 6000 hours for fixed compressors in standard use - up to 8000 hours with lubricant analysis monitoring. Extending the service life of the separating filter elements. The DACNIS SH have an anti-clogging property that ensures the efficiency of the filters during a long period (up to 8000 hours).",
               "viscosity": "ISO VG 68",
               "specifications": [
                 "ISO 6743-3 DAH",
@@ -1665,8 +1944,7 @@
               "inStock": true,
               "featured": false,
               "packSizes": [
-                "20L",
-                "208L"
+                "Drum"
               ],
               "applications": [
                 "Rotary screw compressors",
@@ -1674,6 +1952,20 @@
                 "Extended service",
                 "Industrial applications",
                 "Compressor",
+                "Aviation",
+                "Steel",
+                "Metalworking",
+                "Energy",
+                "Chemicals",
+                "Food processing",
+                "Textile",
+                "Automotive Manufacturing",
+                "Wood and Paper",
+                "Cement and Materials",
+                "Mining"
+              ],
+              "range": "DACNIS",
+              "marketSegments": [
                 "Aviation",
                 "Steel",
                 "Metalworking",
@@ -1726,7 +2018,7 @@
             {
               "id": "dynatrans-acx-30",
               "name": "DYNATRANS ACX 30",
-              "description": "High performance lubricant specially developped to be used in Powershift gearboxes of Mining, Earthmoving and Construction machinery. Excellent anti-wear and anticorrosion properties, increasing the durability of the lubricated organs TOTAL DYNATRANS ACX 30 should be used in replacement of CATERPILLAR HYDO Advanced 30, with a drain interval extension up to 3000 working hours and more, within regular oil analysis.",
+              "description": "Excellent anti-wear and anticorrosion properties, increasing the durability of the lubricated organs TOTAL DYNATRANS ACX 30 should be used in replacement of CATERPILLAR HYDO Advanced 30, with a drain interval extension up to 3000 working hours and more, within regular oil analysis.",
               "viscosity": "SAE 30",
               "specifications": [
                 "Caterpillar TO-4",
@@ -1738,9 +2030,7 @@
               "inStock": true,
               "featured": false,
               "packSizes": [
-                "20L",
-                "208L",
-                "1000L IBC"
+                "Drum"
               ],
               "applications": [
                 "Earth-moving equipment",
@@ -1750,12 +2040,16 @@
                 "Torque converters",
                 "UTTO",
                 "Construction Equipment and Mining"
+              ],
+              "range": "DYNATRANS",
+              "marketSegments": [
+                "Construction Equipment and Mining"
               ]
             },
             {
               "id": "dynatrans-acx-50",
               "name": "DYNATRANS ACX 50",
-              "description": "High performance lubricant specially developped for axles and final drives of Mining, Earthmoving and Construction machinery âExcellent anti-wear and anticorrosion properties, increasing the durability of the lubricated aggregates / components. Formulated with selected base oils associated to a recently developed chemistry, they provide to the end user, a better oxidation resistance at high temperature together with a drain interval extension",
+              "description": "Excellent anti-wear and anticorrosion properties, increasing the durability of the lubricated aggregates / components. Formulated with selected base oils associated to a recently developed chemistry, they provide to the end user, a better oxidation resistance at high temperature together with a drain interval extension",
               "viscosity": "SAE 50",
               "specifications": [
                 "Caterpillar TO-4",
@@ -1767,9 +2061,7 @@
               "inStock": true,
               "featured": false,
               "packSizes": [
-                "20L",
-                "208L",
-                "1000L IBC"
+                "Drum"
               ],
               "applications": [
                 "Hot climate operations",
@@ -1777,6 +2069,11 @@
                 "Mining",
                 "Construction",
                 "UTTO",
+                "Trucks and Buses",
+                "Construction Equipment and Mining"
+              ],
+              "range": "DYNATRANS",
+              "marketSegments": [
                 "Trucks and Buses",
                 "Construction Equipment and Mining"
               ]
@@ -1791,7 +2088,7 @@
             {
               "id": "preslia-32",
               "name": "PRESLIA 32",
-              "description": "Mineral turbine oil for hydro, steam, gas turbines as well as centrifugal compressors Select base stocks delivering extended service life Excellent antiwear and extreme pressure properties allowing for use in both ungeared and geared turbines Outstanding rust and corrosion protection Very good stability and filterability in the presence of water",
+              "description": "Select base stocks delivering extended service life Excellent antiwear and extreme pressure properties allowing for use in both ungeared and geared turbines Outstanding rust and corrosion protection Very good stability and filterability in the presence of water",
               "viscosity": "ISO VG 32",
               "specifications": [
                 "ISO 8068 L-TSA",
@@ -1803,9 +2100,7 @@
               "inStock": true,
               "featured": true,
               "packSizes": [
-                "20L",
-                "208L",
-                "1000L IBC"
+                "Drum"
               ],
               "applications": [
                 "Steam turbines",
@@ -1814,12 +2109,16 @@
                 "Industrial turbines",
                 "Turbine",
                 "Energy"
+              ],
+              "range": "PRESLIA",
+              "marketSegments": [
+                "Energy"
               ]
             },
             {
               "id": "preslia-46",
               "name": "PRESLIA 46",
-              "description": "Mineral turbine oil for hydro, steam, gas turbines as well as centrifugal compressors Select base stocks delivering extended service life Excellent antiwear and extreme pressure properties allowing for use in both ungeared and geared turbines Outstanding rust and corrosion protection Very good stability and filterability in the presence of water",
+              "description": "Select base stocks delivering extended service life Excellent antiwear and extreme pressure properties allowing for use in both ungeared and geared turbines Outstanding rust and corrosion protection Very good stability and filterability in the presence of water",
               "viscosity": "ISO VG 46",
               "specifications": [
                 "ISO 8068 L-TSA",
@@ -1831,9 +2130,7 @@
               "inStock": true,
               "featured": false,
               "packSizes": [
-                "20L",
-                "208L",
-                "1000L IBC"
+                "Drum"
               ],
               "applications": [
                 "Steam turbines",
@@ -1842,12 +2139,16 @@
                 "Power plants",
                 "Turbine",
                 "Energy"
+              ],
+              "range": "PRESLIA",
+              "marketSegments": [
+                "Energy"
               ]
             },
             {
               "id": "preslia-68",
               "name": "PRESLIA 68",
-              "description": "Mineral turbine oil for hydro and steam turbines Select base stocks delivering extended service life Excellent antiwear and extreme pressure properties allowing for use in both ungeared and geared turbines Outstanding rust and corrosion protection Very good stability and filterability in the presence of water",
+              "description": "Select base stocks delivering extended service life Excellent antiwear and extreme pressure properties allowing for use in both ungeared and geared turbines Outstanding rust and corrosion protection Very good stability and filterability in the presence of water",
               "viscosity": "ISO VG 68",
               "specifications": [
                 "ISO 8068 L-TSA",
@@ -1858,15 +2159,17 @@
               "inStock": true,
               "featured": false,
               "packSizes": [
-                "20L",
-                "208L",
-                "1000L IBC"
+                "Drum"
               ],
               "applications": [
                 "Large steam turbines",
                 "Industrial turbines",
                 "High-load applications",
                 "Turbine",
+                "Energy"
+              ],
+              "range": "PRESLIA",
+              "marketSegments": [
                 "Energy"
               ]
             }
@@ -1880,7 +2183,7 @@
             {
               "id": "pneuma-100",
               "name": "PNEUMA 100",
-              "description": "Pneumatic tools: pneumatic shock engines, line Lubricators or pulverisers for hammer drills. High impact strenght due to the extreme pressure additivation preventing the equipment wear. Adhesive and emulsifiable properties to drain increase to tools lifetime water off and maintain continuous oil film. Antirust to protect the equipments and increase their lifetime. High tackiness reducing oil mist pollution and oil consumption.",
+              "description": "High impact strenght due to the extreme pressure additivation preventing the equipment wear. Adhesive and emulsifiable properties to drain increase to tools lifetime water off and maintain continuous oil film. Antirust to protect the equipments and increase their lifetime. High tackiness reducing oil mist pollution and oil consumption.",
               "viscosity": "ISO VG 100",
               "specifications": [
                 "ISO 6743-3 L-AN"
@@ -1890,8 +2193,7 @@
               "inStock": true,
               "featured": true,
               "packSizes": [
-                "20L",
-                "208L"
+                "Drum"
               ],
               "applications": [
                 "Rock drills",
@@ -1910,12 +2212,26 @@
                 "Automotive Manufacturing",
                 "Wood and Paper",
                 "Cement and Materials"
+              ],
+              "range": "PNEUMA",
+              "marketSegments": [
+                "Aviation",
+                "Steel",
+                "Metalworking",
+                "Energy",
+                "Chemicals",
+                "Food processing",
+                "Textile",
+                "Automotive Manufacturing",
+                "Wood and Paper",
+                "Cement and Materials",
+                "Mining"
               ]
             },
             {
               "id": "pneuma-150",
               "name": "PNEUMA 150",
-              "description": "Pneumatic tools: pneumatic shock engines, line Lubricators or pulverisers for hammer drills. High impact strenght due to the extreme pressure additivation preventing the equipment wear. Adhesive and emulsifiable properties to drain increase to tools lifetime water off and maintain continuous oil film. Antirust to protect the equipments and increase their lifetime. High tackiness reducing oil mist pollution and oil consumption.",
+              "description": "High impact strenght due to the extreme pressure additivation preventing the equipment wear. Adhesive and emulsifiable properties to drain increase to tools lifetime water off and maintain continuous oil film. Antirust to protect the equipments and increase their lifetime. High tackiness reducing oil mist pollution and oil consumption.",
               "viscosity": "ISO VG 150",
               "specifications": [
                 "ISO 6743-3 L-AN"
@@ -1925,8 +2241,7 @@
               "inStock": true,
               "featured": false,
               "packSizes": [
-                "20L",
-                "208L"
+                "Drum"
               ],
               "applications": [
                 "Heavy rock drills",
@@ -1934,6 +2249,20 @@
                 "Wet drilling",
                 "Severe conditions",
                 "Pneumatic Systems",
+                "Aviation",
+                "Steel",
+                "Metalworking",
+                "Energy",
+                "Chemicals",
+                "Food processing",
+                "Textile",
+                "Automotive Manufacturing",
+                "Wood and Paper",
+                "Cement and Materials",
+                "Mining"
+              ],
+              "range": "PNEUMA",
+              "marketSegments": [
                 "Aviation",
                 "Steel",
                 "Metalworking",
@@ -1957,7 +2286,7 @@
             {
               "id": "seriola-32",
               "name": "SERIOLA 32",
-              "description": "Closed circuits without air contact. SERIOLA 32 is recommended for heat transfer installations using thermal fluid circulation, in open and closed circuits. ï¬ SERIOLA 32 issuitable for heating and temperature control in all industries, and particularly for following manufacturing processes: â Steam production â Paper Industry â Timber Industry â Textile Industry â Oil & Gas",
+              "description": "SERIOLA 32 is recommended for heat transfer installations using thermal fluid circulation, in open and closed circuits. SERIOLA 32 issuitable for heating and temperature control in all industries, and particularly for following manufacturing processes: -> Steam production -> Paper Industry -> Timber Industry -> Textile Industry -> Oil & Gas SERIOLA 32 is formulated from selected base oils, of the following properties: - very high thermal stability. - very high flash point. - high viscosity index",
               "viscosity": "30",
               "specifications": [
                 "ISO 6743-12 L-QB"
@@ -1967,8 +2296,7 @@
               "inStock": true,
               "featured": true,
               "packSizes": [
-                "20L",
-                "208L"
+                "Drum"
               ],
               "applications": [
                 "Heat transfer systems",
@@ -1976,6 +2304,15 @@
                 "Manufacturing",
                 "Chemical industry",
                 "Heat transfer",
+                "Energy",
+                "Chemicals",
+                "Food processing",
+                "Textile",
+                "Wood and Paper",
+                "Mining"
+              ],
+              "range": "SERIOLA",
+              "marketSegments": [
                 "Energy",
                 "Chemicals",
                 "Food processing",
@@ -1994,7 +2331,7 @@
             {
               "id": "isovoltine-ii",
               "name": "ISOVOLTINE II",
-              "description": "Naphthenic mineral transformer oil compliant with IEC 60296, Uninhibted Outstanding insulating power Low-viscosity oil for effective cooling and heat transfer HIgh oxidation resistance Excellent cold flow properties PCB-free",
+              "description": "Outstanding insulating power Low-viscosity oil for effective cooling and heat transfer HIgh oxidation resistance Excellent cold flow properties PCB-free",
               "viscosity": "N/A",
               "specifications": [
                 "IEC 60296",
@@ -2005,8 +2342,7 @@
               "inStock": true,
               "featured": true,
               "packSizes": [
-                "208L",
-                "1000L IBC"
+                "Drum"
               ],
               "applications": [
                 "Power transformers",
@@ -2014,6 +2350,10 @@
                 "Electrical insulation",
                 "Switchgear",
                 "Transformer",
+                "Energy"
+              ],
+              "range": "ISOVOLTINE",
+              "marketSegments": [
                 "Energy"
               ]
             }
@@ -2093,7 +2433,7 @@
             {
               "id": "multis-ep-3",
               "name": "MULTIS EP 3",
-              "description": "Multipurpose grease for lubrication of all applications under load. Because of its true Multi Purpose character MULTIS EP 3 may replace a wide range of greases, allowing stock rationalization and simplification of maintenance. Forms a durable lubrication film, resulting in reduction of maintenance and down-time costs. Miscible with most other conventional soap greases. Excellent mechanical stability avoiding ejection or loss of consistency during operation. Excellent adhesion to metal. Good thermal stability, leading to high resistance to temperature variations. MULTIS EP 3 does not contain lead, or other heavy metals considered harmful to human health and the environment.",
+              "description": "Because of its true Multi Purpose character MULTIS EP 3 may replace a wide range of greases, allowing stock rationalization and simplification of maintenance. Forms a durable lubrication film, resulting in reduction of maintenance and down-time costs. Miscible with most other conventional soap greases. Excellent mechanical stability avoiding ejection or loss of consistency during operation. Excellent adhesion to metal. Good thermal stability, leading to high resistance to temperature variations. MULTIS EP 3 does not contain lead, or other heavy metals considered harmful to human health and the environment.",
               "viscosity": "NLGI 3",
               "specifications": [
                 "ISO 6743-9 L-XCCEB 3",
@@ -2104,10 +2444,7 @@
               "inStock": true,
               "featured": false,
               "packSizes": [
-                "400g",
-                "5kg",
-                "18kg",
-                "180kg"
+                "Drum"
               ],
               "applications": [
                 "Heavy-duty bearings",
@@ -2118,6 +2455,17 @@
                 "General application",
                 "Slideway",
                 "Roller Bearings",
+                "Aviation",
+                "Steel",
+                "Energy",
+                "Chemicals",
+                "Textile",
+                "Wood and Paper",
+                "Cement and Materials",
+                "Mining"
+              ],
+              "range": "MULTIS",
+              "marketSegments": [
                 "Aviation",
                 "Steel",
                 "Energy",
@@ -2138,7 +2486,7 @@
             {
               "id": "multis-complex-xhv2-moly",
               "name": "MULTIS COMPLEX XHV2 MOLY",
-              "description": "Extreme pressure grease containing 3% MoS2. Specially recommended for extreme loads and high temperatures in the mining industry. MULTIS COMPLEX XHV 2 Moly meets the lubrication requirements for very different types of equipment. Miscible with most conventional soap greases (consult TOTAL Lubrifiants). Very good resistance to water, variations in temperatuire and pollution. Permits longer lubrication intervals. MULTIS COMPLEX XHV 2 Moly contains no lead or any other heavy metal deemed harmful to human health or environment..",
+              "description": "MULTIS COMPLEX XHV 2 Moly meets the lubrication requirements for very different types of equipment. Miscible with most conventional soap greases (consult TOTAL Lubrifiants). Very good resistance to water, variations in temperatuire and pollution. Permits longer lubrication intervals. MULTIS COMPLEX XHV 2 Moly contains no lead or any other heavy metal deemed harmful to human health or environment..",
               "viscosity": "NLGI 2",
               "specifications": [
                 "ISO 6743-9 L-XCEEB 2",
@@ -2149,10 +2497,7 @@
               "inStock": true,
               "featured": true,
               "packSizes": [
-                "400g",
-                "5kg",
-                "18kg",
-                "180kg"
+                "Drum"
               ],
               "applications": [
                 "Construction equipment",
@@ -2174,12 +2519,25 @@
                 "Wood and Paper",
                 "Cement and Materials",
                 "Mining"
+              ],
+              "range": "MULTIS COMPLEX",
+              "marketSegments": [
+                "Aviation",
+                "Steel",
+                "Metalworking",
+                "Energy",
+                "Chemicals",
+                "Food processing",
+                "Textile",
+                "Wood and Paper",
+                "Cement and Materials",
+                "Mining"
               ]
             },
             {
               "id": "multis-ms-2",
               "name": "MULTIS MS 2",
-              "description": "Extreme pressure multipurpose grease for applications under load, which may suffer shock and vibration. MULTIS MS 2 forms a durable lubrication film, resulting in reduction of maintenance and down-time costs. Miscible with most other conventional soap greases. Excellent mechanical stability avoiding ejection or loss of consistency during operation. Excellent adhesion to metal. Good thermal stability, leading to high resistance to temperature variations. MULTIS MS 2 does not contain lead, or other heavy metals considered harmful to human health and the environment.",
+              "description": "MULTIS MS 2 forms a durable lubrication film, resulting in reduction of maintenance and down-time costs. Miscible with most other conventional soap greases. Excellent mechanical stability avoiding ejection or loss of consistency during operation. Excellent adhesion to metal. Good thermal stability, leading to high resistance to temperature variations. MULTIS MS 2 does not contain lead, or other heavy metals considered harmful to human health and the environment.",
               "viscosity": "NLGI 2",
               "specifications": [
                 "ISO 6743-9 L-XBCEB 2"
@@ -2189,10 +2547,7 @@
               "inStock": true,
               "featured": false,
               "packSizes": [
-                "400g",
-                "5kg",
-                "18kg",
-                "180kg"
+                "Drum"
               ],
               "applications": [
                 "Construction machinery",
@@ -2203,6 +2558,17 @@
                 "General application",
                 "Slideway",
                 "Roller Bearings",
+                "Aviation",
+                "Steel",
+                "Energy",
+                "Chemicals",
+                "Textile",
+                "Wood and Paper",
+                "Cement and Materials",
+                "Mining"
+              ],
+              "range": "MULTIS",
+              "marketSegments": [
                 "Aviation",
                 "Steel",
                 "Energy",
@@ -2223,7 +2589,7 @@
             {
               "id": "ceran-xm-220",
               "name": "CERAN XM 220",
-              "description": "CERAN XM 220 is a premium, calcium sulfonate complex grease designed for extreme marine conditions. Its outstanding resistance to water, high loads, and elevated temperatures makes it the ideal solution for: The NEW GENERATION of calcium sulfonate complex soap developed by TOTAL Lubrifiants allows CERAN XM 220 to work well in bearings even if rotation speeds are high. CERAN XM 220 presents outstanding performances even at high nDm where the NEW GENERATION keeps all benefits in terms of corrosion protection, bearings lifetime, high loads and thermal resistance. Excellent anti-oxidation and anti-corrosion properties thanks to the excellent behaviour of the calcium sulfonates, also in the presence of sea water. The NEW GENERATION of calcium sulfonate complex soap allows to keep outstanding CERAN XM 220 performances even in case of high speed applications where normally polyurea or lithium complex greases are requested. CERAN XM 220 does not contain lead, or other heavy metals considered harmful to human health and the environment.",
+              "description": "The NEW GENERATION of calcium sulfonate complex soap developed by TOTAL Lubrifiants allows CERAN XM 220 to work well in bearings even if rotation speeds are high. CERAN XM 220 presents outstanding performances even at high nDm where the NEW GENERATION keeps all benefits in terms of corrosion protection, bearings lifetime, high loads and thermal resistance. Excellent anti-oxidation and anti-corrosion properties thanks to the excellent behaviour of the calcium sulfonates, also in the presence of sea water. The NEW GENERATION of calcium sulfonate complex soap allows to keep outstanding CERAN XM 220 performances even in case of high speed applications where normally polyurea or lithium complex greases are requested. CERAN XM 220 does not contain lead, or other heavy metals considered harmful to human health and the environment.",
               "viscosity": "NLGI 1-2",
               "specifications": [
                 "ISO 6743-9 L-XDDHB 2",
@@ -2234,9 +2600,8 @@
               "inStock": true,
               "featured": true,
               "packSizes": [
-                "400g",
-                "5kg",
-                "18kg"
+                "Drum",
+                "Cartridge"
               ],
               "applications": [
                 "High-temperature bearings",
@@ -2249,12 +2614,17 @@
                 "Roller Bearings",
                 "Steel",
                 "Mining"
+              ],
+              "range": "CERAN",
+              "marketSegments": [
+                "Steel",
+                "Mining"
               ]
             },
             {
               "id": "multis-complex-ep-2",
               "name": "MULTIS COMPLEX EP 2",
-              "description": "Extreme pressure multipurpose greases, high speeds. For wheel bearings, ball bearings, roller bearings, plain bearings, sealsâ¦ Thanks to its sophisticated formulation MULTIS COMPLEX EP 2 meets a wide variety of requirements. Its range of applications is extensive, allowing stock rationalization and simplification of maintenance.. Fulfills the requirements of most automotive Original Equipment Manufacturers. Forms a lubricating film which is durable, and resistant to humidity, temperature variations and pollution, and hence reduces maintenance and costs. Miscible with most other conventional soap greases. MULTIS COMPLEX EP 2 does not contain lead, or other heavy metals considered harmful to human health and the environment.",
+              "description": "Thanks to its sophisticated formulation MULTIS COMPLEX EP 2 meets a wide variety of requirements. Its range of applications is extensive, allowing stock rationalization and simplification of maintenance.. Fulfills the requirements of most automotive Original Equipment Manufacturers. Forms a lubricating film which is durable, and resistant to humidity, temperature variations and pollution, and hence reduces maintenance and costs. Miscible with most other conventional soap greases. MULTIS COMPLEX EP 2 does not contain lead, or other heavy metals considered harmful to human health and the environment.",
               "viscosity": "NLGI 2",
               "specifications": [
                 "ISO 6743-9 L-XCEEB 2",
@@ -2265,10 +2635,7 @@
               "inStock": true,
               "featured": false,
               "packSizes": [
-                "400g",
-                "5kg",
-                "18kg",
-                "180kg"
+                "Drum"
               ],
               "applications": [
                 "Industrial bearings",
@@ -2279,6 +2646,16 @@
                 "General application",
                 "Slideway",
                 "Roller Bearings",
+                "Steel",
+                "Energy",
+                "Chemicals",
+                "Textile",
+                "Wood and Paper",
+                "Cement and Materials",
+                "Mining"
+              ],
+              "range": "MULTIS COMPLEX",
+              "marketSegments": [
                 "Steel",
                 "Energy",
                 "Chemicals",
@@ -2298,7 +2675,7 @@
             {
               "id": "altis-em-2",
               "name": "ALTIS EM 2",
-              "description": "Grease for high temperatures and high speeds. Typically used in electric engine bearings. Allows long re-lubrication intervals. Very good stability in application and in storage. Can be easily pumped and injected. Very good adhesion to metals. Excellent antirust and anticorrosion properties. Excellent thermal stability linked with excellent reversibility. ALTIS EM 2 does not contain lead, or other heavy metals considered harmful to human health and the environment.",
+              "description": "Allows long re-lubrication intervals. Very good stability in application and in storage. Can be easily pumped and injected. Very good adhesion to metals. Excellent antirust and anticorrosion properties. Excellent thermal stability linked with excellent reversibility. ALTIS EM 2 does not contain lead, or other heavy metals considered harmful to human health and the environment.",
               "viscosity": "-",
               "specifications": [
                 "ISO 6743-9 L-XBFHB 2",
@@ -2309,8 +2686,7 @@
               "inStock": true,
               "featured": true,
               "packSizes": [
-                "400g",
-                "5kg"
+                "Drum"
               ],
               "applications": [
                 "Electric motors",
@@ -2331,12 +2707,26 @@
                 "Wood and Paper",
                 "Cement and Materials",
                 "Mining"
+              ],
+              "range": "ALTIS",
+              "marketSegments": [
+                "Aviation",
+                "Steel",
+                "Metalworking",
+                "Energy",
+                "Chemicals",
+                "Food processing",
+                "Textile",
+                "Automotive Manufacturing",
+                "Wood and Paper",
+                "Cement and Materials",
+                "Mining"
               ]
             },
             {
               "id": "ceran-ad-plus",
               "name": "CERAN AD PLUS",
-              "description": "Highly adhesive, extreme pressure grease adapted to severe conditions. For metal cables, rails, winches, capstans, open gears and chains. Recommended in cement plants, mines, quarries, offshore. Excellent thermal and mechanical stability. Adapted for a wide range of temperatures Remarkable load resistance thanks to its naturally high extreme pressure and anti-wear properties. Excellent adhesion on ropes, open gears, metallic pieces in general. Extraordinary water resistance, no significant loss of consistency is observed even with high amounts of water entering the grease. Excellent anti-oxidation and anti-corrosion properties thanks to the very nature of the calcium sulfonates, also in the presence of sea water. CERAN AD PLUS does not contain lead, or other heavy metals considered harmful to human health and the environment.",
+              "description": "Excellent thermal and mechanical stability. Adapted for a wide range of temperatures Remarkable load resistance thanks to its naturally high extreme pressure and anti-wear properties. Excellent adhesion on ropes, open gears, metallic pieces in general. Extraordinary water resistance, no significant loss of consistency is observed even with high amounts of water entering the grease. Excellent anti-oxidation and anti-corrosion properties thanks to the very nature of the calcium sulfonates, also in the presence of sea water. CERAN AD PLUS does not contain lead, or other heavy metals considered harmful to human health and the environment.",
               "viscosity": "NLGI 0-1",
               "specifications": [
                 "ISO 6743-9 L-XBCHB 2",
@@ -2347,9 +2737,7 @@
               "inStock": true,
               "featured": false,
               "packSizes": [
-                "5kg",
-                "18kg",
-                "180kg"
+                "Drum"
               ],
               "applications": [
                 "Open gears",
@@ -2360,6 +2748,11 @@
                 "Chain",
                 "Grease",
                 "Cable",
+                "Steel",
+                "Mining"
+              ],
+              "range": "CERAN",
+              "marketSegments": [
                 "Steel",
                 "Mining"
               ]
@@ -2382,7 +2775,7 @@
             {
               "id": "coolelf-auto-supra-minus37",
               "name": "COOLELF AUTO SUPRA-37°C",
-              "description": "Cooling liquid suitable for all cooling systems of combustion engines in cars, vans, trucks, buses, constructing machines and agricultural tractors. Excellent protection against corrosion, erosion, and cavitation, for aluminium water pumps. Heat transfer remains optimised: fully organic additives allow avoiding any formation of deposits and leave surfaces clean. The additives in COOLELF AUTO SUPRA -37°C give to the coolant: Chemical neutrality (pH 7-8.5). A reserve of alkalinity to neutralise the acids resulting from the combustion gases. Resistance to foaming (mainly instability of the foam that might form). Compatibility with hard water (maximum 40°F). No silicates, phosphates, chromates, nitrites or boron contains. COOLELF AUTO SUPRA -37°C is inert to elastomeric seals and paints.",
+              "description": "Excellent protection against corrosion, erosion, and cavitation, for aluminium water pumps. Heat transfer remains optimised: fully organic additives allow avoiding any formation of deposits and leave surfaces clean. The additives in COOLELF AUTO SUPRA -37°C give to the coolant: Chemical neutrality (pH 7-8.5). A reserve of alkalinity to neutralise the acids resulting from the combustion gases. Resistance to foaming (mainly instability of the foam that might form). Compatibility with hard water (maximum 40°F). No silicates, phosphates, chromates, nitrites or boron contains. COOLELF AUTO SUPRA -37°C is inert to elastomeric seals and paints.",
               "viscosity": "N/A",
               "specifications": [
                 "ASTM D3306",
@@ -2394,10 +2787,9 @@
               "inStock": true,
               "featured": true,
               "packSizes": [
-                "1L",
                 "5L",
-                "20L",
-                "208L"
+                "1L",
+                "range"
               ],
               "applications": [
                 "Passenger vehicles",
@@ -2410,12 +2802,19 @@
                 "Construction Equipment and Mining",
                 "Cars",
                 "Agriculture and Motoculture (Gardening)"
+              ],
+              "range": "AUTO SUPRA",
+              "marketSegments": [
+                "Trucks and Buses",
+                "Construction Equipment and Mining",
+                "Cars",
+                "Agriculture and Motoculture (Gardening)"
               ]
             },
             {
               "id": "glacelf-auto-supra",
               "name": "GLACELF AUTO SUPRA",
-              "description": "Very long life antifreeze based on high purity monoethylene glycol and organic corrosion inhibitors. Excellent protection against corrosion, erosion, and cavitation, for aluminium water pumps. Heat transfer remains optimised: fully organic additives allow avoiding any formation of deposits and leave surfaces clean. The additives give to the coolant: Chemical neutrality (pH 7-8.5). A reserve of alkalinity to neutralise the acids resulting from the combustion gases. Resistance to foaming (mainly instability of the foam that might form). Compatibility with hard water (maximum 40°F). GLACELF AUTO SUPRA contains no silicates, phosphates, chromates, nitrites or boron. The coolant fluids obtained by diluting GLACELF AUTO SUPRA are also inert to elastomeric seals and paints.",
+              "description": "Excellent protection against corrosion, erosion, and cavitation, for aluminium water pumps. Heat transfer remains optimised: fully organic additives allow avoiding any formation of deposits and leave surfaces clean. The additives give to the coolant: Chemical neutrality (pH 7-8.5). A reserve of alkalinity to neutralise the acids resulting from the combustion gases. Resistance to foaming (mainly instability of the foam that might form). Compatibility with hard water (maximum 40°F). GLACELF AUTO SUPRA contains no silicates, phosphates, chromates, nitrites or boron. The coolant fluids obtained by diluting GLACELF AUTO SUPRA are also inert to elastomeric seals and paints.",
               "viscosity": "N/A",
               "specifications": [
                 "ASTM D3306",
@@ -2427,10 +2826,8 @@
               "inStock": true,
               "featured": true,
               "packSizes": [
-                "1L",
-                "5L",
                 "20L",
-                "208L"
+                "1L"
               ],
               "applications": [
                 "All vehicle types",
@@ -2439,6 +2836,13 @@
                 "Cast iron engines",
                 "Long service life",
                 "Antifreeze and coolants",
+                "Trucks and Buses",
+                "Construction Equipment and Mining",
+                "Cars",
+                "Agriculture and Motoculture (Gardening)"
+              ],
+              "range": "AUTO SUPRA",
+              "marketSegments": [
                 "Trucks and Buses",
                 "Construction Equipment and Mining",
                 "Cars",
@@ -2455,7 +2859,7 @@
             {
               "id": "finadet-mp",
               "name": "FINADET MP",
-              "description": "Finadet MP is a non-flash highly concentrated neutral cleaning compound specifically formulated for removal of soils encountered in the mining, automotive and industrial engineering markets. Finadet MP can be used by following methods : â Steam and Pressure Cleaning : 20% Finadet MP mixed with water makes an excellent steam cleaner and pressure gun solution. â Soak and Spray Brush : 50% Finadet MP with water is suitable for soak, spray and brush applications. â Mechanical Scrubbing Equipment : Finadet MP can be used at 5% to 10% for floor cleaning, dependant on degree of soiling. â Interior Surface : Finadet MP diluted at 10% with water is ideal for cleaning control rooms, trackless mining, earth moving equipment and motor vehicle interiors (including vinyl). Clean with cloth or sponge, soaked in Uniclean solution and then wipe off with a damp cloth.",
+              "description": "Finadet MP can be used by following methods : - Steam and Pressure Cleaning : 20% Finadet MP mixed with water makes an excellent steam cleaner and pressure gun solution. - Soak and Spray Brush : 50% Finadet MP with water is suitable for soak, spray and brush applications. - Mechanical Scrubbing Equipment : Finadet MP can be used at 5% to 10% for floor cleaning, dependant on degree of soiling. - Interior Surface : Finadet MP diluted at 10% with water is ideal for cleaning control rooms, trackless mining, earth moving equipment and motor vehicle interiors (including vinyl). Clean with cloth or sponge, soaked in Uniclean solution and then wipe off with a damp cloth.",
               "viscosity": "-",
               "specifications": [
                 "Industrial cleaner"
@@ -2465,9 +2869,7 @@
               "inStock": true,
               "featured": false,
               "packSizes": [
-                "5L",
-                "20L",
-                "208L"
+                "Drum"
               ],
               "applications": [
                 "Engine cleaning",
@@ -2476,6 +2878,12 @@
                 "Workshop cleaning",
                 "Industrial degreasing",
                 "Degreaser / Detergent / Solvent",
+                "Metalworking",
+                "Automotive Manufacturing",
+                "Mining"
+              ],
+              "range": "FINADET",
+              "marketSegments": [
                 "Metalworking",
                 "Automotive Manufacturing",
                 "Mining"

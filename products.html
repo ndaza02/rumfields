@@ -1554,6 +1554,19 @@
                         <p style="font-size: 1.1rem; line-height: 1.8; color: #333;">${product.description}</p>
                     </div>
                 </div>
+                ${ (product.marketSegments && product.marketSegments.length) || (product.applications && product.applications.length) || product.range || (product.packSizes && product.packSizes.length) || product.datasheet ? `
+                    <div style="margin-bottom: 1.5rem;">
+                        <h3 style="color: var(--text-dark); margin-bottom: 0.5rem;">Product Overview</h3>
+                        <p style="color: #333; line-height: 1.6;">
+                            ${product.marketSegments && product.marketSegments.length ? `<strong>Market Segment:</strong> ${product.marketSegments.join(', ')}<br>` : ''}
+                            ${product.applications && product.applications.length ? `<strong>Application:</strong> ${product.applications[0]}<br>` : ''}
+                            ${product.viscosity ? `<strong>Viscosity:</strong> ${product.viscosity}<br>` : ''}
+                            ${product.range ? `<strong>Range:</strong> ${product.range}<br>` : ''}
+                            ${product.packSizes && product.packSizes.length ? `<strong>Available Packaging:</strong> ${product.packSizes.join(', ')}<br>` : ''}
+                            ${product.datasheet ? `<strong>Technical Data Sheet:</strong> <a href="${product.datasheet}" target="_blank" rel="noopener noreferrer">View PDF</a>` : ''}
+                        </p>
+                    </div>
+                ` : ''}
                 
                 ${product.viscosity ? `
                     <div style="margin-bottom: 1.5rem;">
@@ -1616,7 +1629,7 @@
                         font-weight: 600;
                         cursor: pointer;
                     ">Request Quote</button>
-                    <button onclick="alert('Datasheet download coming soon')" style="
+                    <button onclick="downloadDatasheet('${product.datasheet || ''}')" style="
                         flex: 1;
                         padding: 1rem;
                         background: var(--primary-color);

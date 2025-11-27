@@ -14,6 +14,7 @@ def normalize_name(name: str) -> str:
     name = name.strip()
     name = name.replace("\u00ae", "")  # drop registered symbol if present
     name = re.sub(r"^totalenergies\s+", "", name, flags=re.IGNORECASE)
+    name = re.sub(r"\s*\([^)]*\)", "", name)
     name = name.lower()
     name = re.sub(r"[^a-z0-9]+", "", name)
     return name
@@ -26,8 +27,17 @@ def clean_text(text: str) -> str:
     # Fix common encoding issues
     replacements = {
         "Â": "",
-        "ï·": "",
-        "\u2022": "-",
+        "ï\u0002·": "",
+        "â": "'",
+        "â": "'",
+        "â": "-",
+        "â": "-",
+        "â¢": "-",
+        "â": "->",
+        "ï¬": "",
+        "â": "",
+        "â¦": "...",
+        "â": "-",
     }
     for bad, good in replacements.items():
         text = text.replace(bad, good)
@@ -51,7 +61,9 @@ def parse_markdown(md_path: Path):
         lines = f.readlines()
 
     current = None
+    marketing_lines = []
     desc_lines = []
+    in_marketing = False
     in_desc = False
 
     for raw in lines:
@@ -63,6 +75,8 @@ def parse_markdown(md_path: Path):
             if current is not None:
                 current_desc = clean_text(" ".join(desc_lines))
                 current["description"] = current_desc
+                if marketing_lines:
+                    current["marketing_text"] = clean_text(" ".join(marketing_lines))
                 norm = normalize_name(current["display_name"])
                 products[norm] = current
 
@@ -81,8 +95,12 @@ def parse_markdown(md_path: Path):
                 "tds_url": "",
                 "applications": [],
                 "market_segments": [],
+                "range": "",
+                "available_packaging": [],
             }
+            marketing_lines = []
             desc_lines = []
+            in_marketing = False
             in_desc = False
             continue
 
@@ -121,31 +139,57 @@ def parse_markdown(md_path: Path):
                 current["market_segments"].extend(parts)
             continue
 
+        if s.startswith("**Range:**"):
+            value = s.split("**Range:**", 1)[1].strip()
+            value = clean_text(value)
+            current["range"] = value
+            continue
+
+        if s.startswith("**Available Packaging:**"):
+            value = s.split("**Available Packaging:**", 1)[1].strip()
+            value = clean_text(value)
+            if value:
+                parts = [p.strip() for p in value.split(",") if p.strip()]
+                current["available_packaging"] = parts
+            continue
+
         # Description / Marketing text blocks
         if s.startswith("**Marketing Text:**"):
-            in_desc = True
+            in_marketing = True
+            in_desc = False
             after = s.split("**Marketing Text:**", 1)[1].strip()
             if after:
-                desc_lines.append(after)
+                marketing_lines.append(after)
             continue
 
         if s.startswith("**Description:**"):
             in_desc = True
+            in_marketing = False
             after = s.split("**Description:**", 1)[1].strip()
             if after:
                 desc_lines.append(after)
             continue
 
+        if in_marketing:
+            if s.startswith("**") or s.startswith("---"):
+                in_marketing = False
+            else:
+                if s:
+                    marketing_lines.append(s)
+
         if in_desc:
-            if not s or s.startswith("**") or s.startswith("---"):
+            if s.startswith("**") or s.startswith("---"):
                 in_desc = False
             else:
-                desc_lines.append(s)
+                if s:
+                    desc_lines.append(s)
 
     # Flush final block
     if current is not None:
         current_desc = clean_text(" ".join(desc_lines))
         current["description"] = current_desc
+        if marketing_lines:
+            current["marketing_text"] = clean_text(" ".join(marketing_lines))
         norm = normalize_name(current["display_name"])
         products[norm] = current
 
@@ -175,8 +219,24 @@ def update_products_json(json_path: Path, md_map: dict):
 
                 # Update description
                 desc = md_entry.get("description")
-                if desc:
-                    prod["description"] = desc
+                if desc is not None:
+                    desc_clean = str(desc).strip()
+                    # Treat a lone dash '-' from markdown as a placeholder (no real description)
+                    if desc_clean and desc_clean != "-":
+                        prod["description"] = desc_clean
+                    elif desc_clean == "-":
+                        # If JSON currently holds just '-', clear it to empty so we don't show '-'
+                        existing_desc = str(prod.get("description") or "").strip()
+                        if existing_desc == "-":
+                            prod["description"] = ""
+
+                range_name = md_entry.get("range")
+                if range_name:
+                    prod["range"] = range_name
+
+                packs = md_entry.get("available_packaging")
+                if packs:
+                    prod["packSizes"] = packs
 
                 # Merge applications and market segments into applications array
                 md_apps = md_entry.get("applications") or []
@@ -195,6 +255,10 @@ def update_products_json(json_path: Path, md_map: dict):
                         seen.add(item_clean)
                         new_apps.append(item_clean)
                     prod["applications"] = new_apps
+
+                market_segments = md_entry.get("market_segments") or []
+                if market_segments:
+                    prod["marketSegments"] = market_segments
 
                 # Update datasheet to official TDS URL if present
                 tds = md_entry.get("tds_url")
