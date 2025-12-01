@@ -1766,35 +1766,42 @@ END OF OLD ABOUT SECTION STYLES - ALL COMMENTED OUT */
 }
 
 .industry-card[data-industry="marine"] .industry-image {
-    background: url('assets/images/industries/marine.jpg');
+    background: url('assets/images/industries/marine-industry.webp');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .industry-card[data-industry="power"] .industry-image {
-    background: url('assets/images/industries/power-generation.jpg');
+    background: url('assets/images/industries/power-generation.webp');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .industry-card[data-industry="mining"] .industry-image {
-    background: url('assets/images/industries/mining.jpg');
+    background: url('assets/images/industries/mining.webp');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .industry-card[data-industry="cement"] .industry-image {
-    background: url('assets/images/industries/cement.jpg');
+    background: url('assets/images/industries/cement.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.industry-card[data-industry="agriculture"] .industry-image {
+    background: url('assets/images/industries/agriculture.webp');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .industry-card[data-industry="sugar"] .industry-image {
-    background: url('assets/images/industries/sugar-milling.jpg');
+    background: url('assets/images/industries/sugar-milling.webp');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -1802,14 +1809,14 @@ END OF OLD ABOUT SECTION STYLES - ALL COMMENTED OUT */
 
 /* New industry backgrounds */
 .industry-card[data-industry="on-road"] .industry-image {
-    background: url('assets/images/industries/on-road-transport.jpg');
+    background: url('assets/images/industries/on-road-transport.webp');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .industry-card[data-industry="rail"] .industry-image {
-    background: url('assets/images/industries/rail-transport.jpg');
+    background: url('assets/images/industries/rail-transport.webp');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
